@@ -71,6 +71,7 @@
 		<type fullname="Mirror.NetworkManager" preserve="nothing"/>
 		<type fullname="Mirror.NetworkManagerHUD" preserve="nothing"/>
 		<type fullname="Mirror.NetworkStartPosition" preserve="nothing"/>
+		<type fullname="Mirror.TelepathyTransport" preserve="nothing"/>
 		<type fullname="kcp2k.KcpTransport" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="SteamVR">

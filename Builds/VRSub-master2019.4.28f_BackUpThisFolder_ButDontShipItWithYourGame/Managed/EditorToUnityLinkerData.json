@@ -663,6 +663,13 @@
         {
             "managedAssemblyName": "Mirror.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Mirror.TelepathyTransport",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Mirror.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "kcp2k.KcpTransport",
             "moduleName": "",
             "usedInScenes": []
