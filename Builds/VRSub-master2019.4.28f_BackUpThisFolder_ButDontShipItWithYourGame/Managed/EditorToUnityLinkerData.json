@@ -668,13 +668,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Mirror.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "kcp2k.KcpTransport",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "SteamVR.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Valve.VR.InteractionSystem.BodyCollider",

@@ -18,6 +18,17 @@
 #include "codegen/il2cpp-codegen.h"
 #include "il2cpp-object-internals.h"
 
+template <typename R, typename T1, typename T2, typename T3>
+struct VirtFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct VirtFuncInvoker5
 {
@@ -29,15 +40,15 @@ struct VirtFuncInvoker5
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct VirtFuncInvoker3
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+struct VirtFuncInvoker6
 {
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
 
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2>
@@ -82,17 +93,6 @@ struct VirtFuncInvoker1
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-struct VirtFuncInvoker6
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
@@ -160,6 +160,18 @@ struct VirtFuncInvoker8
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, p7, p8, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3>
+struct GenericVirtFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct GenericVirtFuncInvoker5
 {
@@ -172,16 +184,16 @@ struct GenericVirtFuncInvoker5
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct GenericVirtFuncInvoker3
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+struct GenericVirtFuncInvoker6
 {
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
 
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
 	{
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2>
@@ -230,18 +242,6 @@ struct GenericVirtFuncInvoker1
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-struct GenericVirtFuncInvoker6
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
@@ -315,6 +315,17 @@ struct GenericVirtFuncInvoker8
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, p7, p8, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3>
+struct InterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct InterfaceFuncInvoker5
 {
@@ -326,15 +337,15 @@ struct InterfaceFuncInvoker5
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct InterfaceFuncInvoker3
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+struct InterfaceFuncInvoker6
 {
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
 
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2>
@@ -379,17 +390,6 @@ struct InterfaceFuncInvoker1
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-struct InterfaceFuncInvoker6
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
@@ -457,6 +457,18 @@ struct InterfaceFuncInvoker8
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, p7, p8, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3>
+struct GenericInterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct GenericInterfaceFuncInvoker5
 {
@@ -469,16 +481,16 @@ struct GenericInterfaceFuncInvoker5
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct GenericInterfaceFuncInvoker3
+template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
+struct GenericInterfaceFuncInvoker6
 {
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
 
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
 	{
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2>
@@ -527,18 +539,6 @@ struct GenericInterfaceFuncInvoker1
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
 		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
-struct GenericInterfaceFuncInvoker6
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, T5, T6, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5, T6 p6)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
@@ -633,8 +633,18 @@ struct String_t;
 struct StringBuilder_t;
 // System.Void
 struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
-// Valve.VR.EVRScreenshotType[]
-struct EVRScreenshotTypeU5BU5D_tC8F460E0D0A02F917046E720D8584E72DBEA8ADC;
+// Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo
+struct _GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA;
+// Valve.VR.IVRInput/_GetPoseActionDataForNextFrame
+struct _GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592;
+// Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow
+struct _GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931;
+// Valve.VR.IVRInput/_GetSkeletalActionData
+struct _GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615;
+// Valve.VR.IVRInput/_GetSkeletalBoneData
+struct _GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6;
+// Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed
+struct _GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6;
 // Valve.VR.IVRInput/_GetSkeletalReferenceTransforms
 struct _GetSkeletalReferenceTransforms_t389D7C3A88063A2108EE1C283E8585C877D5201F;
 // Valve.VR.IVRInput/_GetSkeletalSummaryData
@@ -879,24 +889,6 @@ struct _LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3;
 struct _LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461;
 // Valve.VR.IVRRenderModels/_RenderModelHasComponent
 struct _RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B;
-// Valve.VR.IVRResources/_GetResourceFullPath
-struct _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F;
-// Valve.VR.IVRResources/_LoadSharedResource
-struct _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D;
-// Valve.VR.IVRScreenshots/_GetScreenshotPropertyFilename
-struct _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A;
-// Valve.VR.IVRScreenshots/_GetScreenshotPropertyType
-struct _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A;
-// Valve.VR.IVRScreenshots/_HookScreenshot
-struct _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759;
-// Valve.VR.IVRScreenshots/_RequestScreenshot
-struct _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B;
-// Valve.VR.IVRScreenshots/_SubmitScreenshot
-struct _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78;
-// Valve.VR.IVRScreenshots/_TakeStereoScreenshot
-struct _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE;
-// Valve.VR.IVRScreenshots/_UpdateScreenshotProgress
-struct _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47;
 // Valve.VR.VRActiveActionSet_t[]
 struct VRActiveActionSet_tU5BU5D_t4162E1B98E7B94378D002CF803F922464C21867D;
 // Valve.VR.VRBoneTransform_t[]
@@ -912,6 +904,7 @@ IL2CPP_EXTERN_C RuntimeClass* EVRNotificationStyle_t14B893CF7C70A892C2FBE22D2A9B
 IL2CPP_EXTERN_C RuntimeClass* EVRNotificationType_t6404F394C36F345CE24D84E171F0A97123FE9D3B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVROverlayError_t5414552BDE14275BEE48023D725BF7ED6D4F8352_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRRenderModelError_tCC02426D3251ED2E594CC53A420CBE8AB91DBAA7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRSkeletalReferencePose_t73388CDE446B767A79DEA4854DF95068BB2BB71A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRSkeletalTrackingLevel_t8DB0D25E26DEB70E27D898139F5F812062706D2D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRSkeletalTransformSpace_t1AADDF1D14B44EF3471DEC638167692B06EBF6AD_il2cpp_TypeInfo_var;
@@ -919,6 +912,9 @@ IL2CPP_EXTERN_C RuntimeClass* EVRSummaryType_t7571B18C4451E18D0143B9CF2710B53087
 IL2CPP_EXTERN_C RuntimeClass* HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HmdRect2_t_tC0CF60B113DDE96D95436793196802D8E6DB0FB2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotificationBitmap_t_t09A683B8AF17505BFBCB5D48989722025A7E0F03_il2cpp_TypeInfo_var;
@@ -997,14 +993,10 @@ IL2CPP_EXTERN_C RuntimeClass* _GetRenderModelErrorNameFromEnum_tB5BD5DC7B0341AAF
 IL2CPP_EXTERN_C RuntimeClass* _GetRenderModelName_t15AEA343E6539629AE38D80321352EC2A6EAC594_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetRenderModelOriginalPath_t2C45F42AD6421AC58B8F0A4756C2762DD1FAF6A8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetRenderModelThumbnailURL_t00AD9FD48E15463CE6A74D05177FCB02C62AD153_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetTransformForOverlayCoordinates_t0A9AD0B5CF0057DBA8C96CCF7B17D4CFC17DAE7E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _HandleToString_t6BB785C4B156411CA7372887B9A068CA769FF0A9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _HideKeyboard_tA3BA2F5314D6EF837BE5602C0996FE105B60D7CB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _HideOverlay_t6F75CC1C7D88A5A65B566B9C324656E5769A7964_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _IsActiveDashboardOverlay_t10B60AA20A2343BAF9B58809A4FC3C467580CB14_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _IsDashboardVisible_t8E728FCB37F142576985B2B61397F684C072BE51_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _IsHoverTargetOverlay_tF507338A1F2336A5BC85ED70937DD59765A5F254_il2cpp_TypeInfo_var;
@@ -1012,7 +1004,6 @@ IL2CPP_EXTERN_C RuntimeClass* _IsOverlayVisible_t93754E0C0712167318583787129008C
 IL2CPP_EXTERN_C RuntimeClass* _IsViewingPermitted_t0D275846CF8EF25874CEA811396D6D6C11FF896A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _LoadIntoTextureD3D11_Async_tC30B8B0D4E6756A6E08F7627C36B90CF6B8E154C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _PollNextOverlayEvent_t32909C42216D2BD4A68CFD43F5E35402CF1F4003_il2cpp_TypeInfo_var;
@@ -1023,7 +1014,6 @@ IL2CPP_EXTERN_C RuntimeClass* _ReleaseNativeOverlayHandle_t16FD879D6FFDBC72867F3
 IL2CPP_EXTERN_C RuntimeClass* _ReleaseOverlayView_t1EEA62617D8C017E37C4CF40F8369DD9040BC50A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _RemoveNotification_t6ECABA823B9036B12ED27A9080939DC4D539FB4D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _SetDashboardOverlaySceneProcess_t6F7C050221DB770F870B87040870D42320CA4A21_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _SetKeyboardPositionForOverlay_tB2AE485F7684238692154173A8B1064B15529746_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _SetKeyboardTransformAbsolute_tD77530DE1C2345C384A65D10173C51A8F169D069_il2cpp_TypeInfo_var;
@@ -1057,11 +1047,8 @@ IL2CPP_EXTERN_C RuntimeClass* _ShowKeyboard_t0F7AD050C7A1F4937E231929182D9696513
 IL2CPP_EXTERN_C RuntimeClass* _ShowMessageOverlay_t11D5382DE94CBD1CA6174FD073B394F3B8CD9E56_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ShowOverlay_t64507E4E1B17E95FC806D232871BACA5D16BF1AF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _StringToHandle_t046759C6B9F3C1195B2280ACC8AEFCB875A65BF2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _TrackedDeviceToPropertyContainer_t8EF262E50B38326F6CB4C7895C1E7013339AFDE2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _TriggerLaserMouseHapticVibration_t111B932760E983D9850C3D4161537A0F4FAC8575_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _WritePathBatch_tC7522DCE96A661C7D21142014F5A57FB590314B4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _WritePropertyBatch_t1666DD3F84E2E969B2B4A6A885E34B64B64B6497_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C const uint32_t IVRNotifications_t2FCEB25F13419F19FB9A0AF52217006D33EB1FBF_com_FromNativeMethodDefinition_MetadataUsageId;
@@ -1076,10 +1063,6 @@ IL2CPP_EXTERN_C const uint32_t IVRProperties_t2FA7208FBF8B7ACBC787F10937EBDB2858
 IL2CPP_EXTERN_C const uint32_t IVRProperties_t2FA7208FBF8B7ACBC787F10937EBDB2858886715_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62_com_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t IVRResources_t5D670A350665A7358445F76C1390C64912711C97_com_FromNativeMethodDefinition_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t IVRResources_t5D670A350665A7358445F76C1390C64912711C97_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_com_FromNativeMethodDefinition_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _AcquireOverlayView_BeginInvoke_mD9CBA0DE667B1CFC76917E9641FF252DF57C0972_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _ClearOverlayCursorPositionOverride_BeginInvoke_mE5CC64CC555A1E240FB7752C3F6218DB799FA4BC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _ClearOverlayTexture_BeginInvoke_m0C57191DFAA8E737BC1E352CEF2FCB6C80F974E3_MetadataUsageId;
@@ -1100,6 +1083,7 @@ IL2CPP_EXTERN_C const uint32_t _GetComponentStateForDevicePath_BeginInvoke_mF1D0
 IL2CPP_EXTERN_C const uint32_t _GetComponentState_BeginInvoke_m5F41416628933F038DD8E488A3CCEA8BF7ED63C6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetDashboardOverlaySceneProcess_BeginInvoke_m0EC46F71E97F93EDAC6101ECFAE69C774389FA6E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetKeyboardText_BeginInvoke_mE607F6BCD40ADA76BC8DDDC2B85D90D7DC19E42B_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _GetOriginTrackedDeviceInfo_BeginInvoke_m51D50F72BB579668386F733063F896D7B03329E0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetOverlayAlpha_BeginInvoke_m6A4EA6640345D01DA59CD8F1B31A463A9D833AE5_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetOverlayColor_BeginInvoke_m9D858989A3D0E2CA38DBF10175E80E3AF2789B4B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetOverlayCurvature_BeginInvoke_m77B57D476BB9F577F7C178BBBC4E67B425D5040C_MetadataUsageId;
@@ -1125,12 +1109,16 @@ IL2CPP_EXTERN_C const uint32_t _GetOverlayTransformTrackedDeviceComponent_BeginI
 IL2CPP_EXTERN_C const uint32_t _GetOverlayTransformTrackedDeviceRelative_BeginInvoke_m8B12001111D347C16B1CBE29DBB76D50F7878C67_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetOverlayTransformType_BeginInvoke_m1BB0830D47868BB4897BBF62A63FE1F1C724B59A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetOverlayWidthInMeters_BeginInvoke_m61B487390EE06B0C710CC3E62FEA937F4653EB2A_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _GetPoseActionDataForNextFrame_BeginInvoke_m2BC9E0FFAA8DB1B81693C2400851184D60DDBAC7_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _GetPoseActionDataRelativeToNow_BeginInvoke_m9523357F1A4E142DA0231B11F40B02256FA10ECA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetPropErrorNameFromEnum_BeginInvoke_mB481973588F08C9852B7162E9872EA23F36CC1F0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetRenderModelErrorNameFromEnum_BeginInvoke_mC3C5B5F66D3DA8B50B812CC8374272D4C49CBA05_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetRenderModelName_BeginInvoke_m7EC24C14D9C19C1F2330C4853E37909AD092EED3_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetRenderModelOriginalPath_BeginInvoke_m77395CE36EE8D853E44D43B5298D1F3184B2648D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetRenderModelThumbnailURL_BeginInvoke_m255932F997F702F19EA37BDAD882A3BF62B3A320_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetResourceFullPath_BeginInvoke_mA0E941EBA042402142A1819AF42EFB7FA1365928_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _GetSkeletalActionData_BeginInvoke_mA600425ADA2CC65F203604DBCC3DDF5283947B15_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _GetSkeletalBoneDataCompressed_BeginInvoke_m19E86E6C7AD42F4A3F07A1FDAD734F40ADB016E0_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _GetSkeletalBoneData_BeginInvoke_mE74523338829F98D7EB981FC697C8CDF4900C3B6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetSkeletalReferenceTransforms_BeginInvoke_mDCBE9A4983D324D65EAB33954408E6DC71BA3034_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetSkeletalSummaryData_BeginInvoke_m52C57480F4654E86FD6AE0F10E50A8BA868F038B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetSkeletalTrackingLevel_BeginInvoke_mDE9338690038D8B5F1A328B898099FCB381D28F4_MetadataUsageId;
@@ -1142,10 +1130,6 @@ IL2CPP_EXTERN_C const uint32_t _IsHoverTargetOverlay_BeginInvoke_mEB5BA966DF94FF
 IL2CPP_EXTERN_C const uint32_t _IsOverlayVisible_BeginInvoke_m5999A107583C980AC5641D798495EF69ECE1AFB4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _IsViewingPermitted_BeginInvoke_m6B92347984EC37B99EE51BACFBAA4E93BBA4EE16_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _LoadIntoTextureD3D11_Async_BeginInvoke_mEA007EDF4E5A2F466EBE5B34C8BFFF9711565ADE_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _LoadRenderModel_Async_BeginInvoke_m941B184724539D7FB111326812FCFB7012E81EBF_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _LoadSharedResource_BeginInvoke_mA4CEB63B8953616AD932874F683FA0BC31959742_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _LoadTextureD3D11_Async_BeginInvoke_m5DCD35D2894343A5642E5EE6803F23C1652C2FF8_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _LoadTexture_Async_BeginInvoke_m618FEA7CA767A41F559C1B3C91F612D0469456C8_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _OpenBindingUI_BeginInvoke_m9F7C2AECF86479D6035771857897253BC748FAC7_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _PollNextOverlayEvent_BeginInvoke_m08952287C916B96843D99861E709AB1B4B378FD9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _PostOverlayEvent_BeginInvoke_mC96774100353A22CA2C2117CC4D4BB5107E746B6_MetadataUsageId;
@@ -1154,7 +1138,6 @@ IL2CPP_EXTERN_C const uint32_t _ReadPropertyBatch_BeginInvoke_m2A0DA0770FAAF3F3D
 IL2CPP_EXTERN_C const uint32_t _ReleaseNativeOverlayHandle_BeginInvoke_m52097E9630B36139C3F7E04D37BB109EB0983297_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _ReleaseOverlayView_BeginInvoke_mE2DC7DC01D3FD9B3D4E8E3169A26D004D4A728BE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _RemoveNotification_BeginInvoke_mF5685E8A4CAA142A6595AAC8CF7E33A11A28C8A7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _RenderModelHasComponent_BeginInvoke_mBB37CC1B6E7BE67E1C9F569A148C8B90DE04720A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _SetActionManifestPath_BeginInvoke_mF3CCB54545D9EDA62AC2C81ADB19CFBE3A6F5533_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _SetDashboardOverlaySceneProcess_BeginInvoke_m5E50BBDDA88C76797CBA8D4565B2862A88DC34A5_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _SetDominantHand_BeginInvoke_mA73C6AE5CDCD410D50A7DB423775C9AA58891304_MetadataUsageId;
@@ -3374,154 +3357,1341 @@ struct IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62_marshaled_com
 	Il2CppMethodPointer ___GetRenderModelErrorNameFromEnum_18;
 };
 
-// Valve.VR.IVRResources
-struct IVRResources_t5D670A350665A7358445F76C1390C64912711C97 
+// Valve.VR.InputOriginInfo_t
+struct InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 
 {
 public:
-	// Valve.VR.IVRResources/_LoadSharedResource Valve.VR.IVRResources::LoadSharedResource
-	_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * ___LoadSharedResource_0;
-	// Valve.VR.IVRResources/_GetResourceFullPath Valve.VR.IVRResources::GetResourceFullPath
-	_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * ___GetResourceFullPath_1;
+	// System.UInt64 Valve.VR.InputOriginInfo_t::devicePath
+	uint64_t ___devicePath_0;
+	// System.UInt32 Valve.VR.InputOriginInfo_t::trackedDeviceIndex
+	uint32_t ___trackedDeviceIndex_1;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName0
+	uint8_t ___rchRenderModelComponentName0_2;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName1
+	uint8_t ___rchRenderModelComponentName1_3;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName2
+	uint8_t ___rchRenderModelComponentName2_4;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName3
+	uint8_t ___rchRenderModelComponentName3_5;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName4
+	uint8_t ___rchRenderModelComponentName4_6;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName5
+	uint8_t ___rchRenderModelComponentName5_7;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName6
+	uint8_t ___rchRenderModelComponentName6_8;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName7
+	uint8_t ___rchRenderModelComponentName7_9;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName8
+	uint8_t ___rchRenderModelComponentName8_10;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName9
+	uint8_t ___rchRenderModelComponentName9_11;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName10
+	uint8_t ___rchRenderModelComponentName10_12;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName11
+	uint8_t ___rchRenderModelComponentName11_13;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName12
+	uint8_t ___rchRenderModelComponentName12_14;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName13
+	uint8_t ___rchRenderModelComponentName13_15;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName14
+	uint8_t ___rchRenderModelComponentName14_16;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName15
+	uint8_t ___rchRenderModelComponentName15_17;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName16
+	uint8_t ___rchRenderModelComponentName16_18;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName17
+	uint8_t ___rchRenderModelComponentName17_19;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName18
+	uint8_t ___rchRenderModelComponentName18_20;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName19
+	uint8_t ___rchRenderModelComponentName19_21;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName20
+	uint8_t ___rchRenderModelComponentName20_22;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName21
+	uint8_t ___rchRenderModelComponentName21_23;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName22
+	uint8_t ___rchRenderModelComponentName22_24;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName23
+	uint8_t ___rchRenderModelComponentName23_25;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName24
+	uint8_t ___rchRenderModelComponentName24_26;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName25
+	uint8_t ___rchRenderModelComponentName25_27;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName26
+	uint8_t ___rchRenderModelComponentName26_28;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName27
+	uint8_t ___rchRenderModelComponentName27_29;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName28
+	uint8_t ___rchRenderModelComponentName28_30;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName29
+	uint8_t ___rchRenderModelComponentName29_31;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName30
+	uint8_t ___rchRenderModelComponentName30_32;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName31
+	uint8_t ___rchRenderModelComponentName31_33;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName32
+	uint8_t ___rchRenderModelComponentName32_34;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName33
+	uint8_t ___rchRenderModelComponentName33_35;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName34
+	uint8_t ___rchRenderModelComponentName34_36;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName35
+	uint8_t ___rchRenderModelComponentName35_37;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName36
+	uint8_t ___rchRenderModelComponentName36_38;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName37
+	uint8_t ___rchRenderModelComponentName37_39;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName38
+	uint8_t ___rchRenderModelComponentName38_40;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName39
+	uint8_t ___rchRenderModelComponentName39_41;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName40
+	uint8_t ___rchRenderModelComponentName40_42;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName41
+	uint8_t ___rchRenderModelComponentName41_43;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName42
+	uint8_t ___rchRenderModelComponentName42_44;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName43
+	uint8_t ___rchRenderModelComponentName43_45;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName44
+	uint8_t ___rchRenderModelComponentName44_46;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName45
+	uint8_t ___rchRenderModelComponentName45_47;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName46
+	uint8_t ___rchRenderModelComponentName46_48;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName47
+	uint8_t ___rchRenderModelComponentName47_49;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName48
+	uint8_t ___rchRenderModelComponentName48_50;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName49
+	uint8_t ___rchRenderModelComponentName49_51;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName50
+	uint8_t ___rchRenderModelComponentName50_52;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName51
+	uint8_t ___rchRenderModelComponentName51_53;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName52
+	uint8_t ___rchRenderModelComponentName52_54;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName53
+	uint8_t ___rchRenderModelComponentName53_55;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName54
+	uint8_t ___rchRenderModelComponentName54_56;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName55
+	uint8_t ___rchRenderModelComponentName55_57;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName56
+	uint8_t ___rchRenderModelComponentName56_58;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName57
+	uint8_t ___rchRenderModelComponentName57_59;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName58
+	uint8_t ___rchRenderModelComponentName58_60;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName59
+	uint8_t ___rchRenderModelComponentName59_61;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName60
+	uint8_t ___rchRenderModelComponentName60_62;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName61
+	uint8_t ___rchRenderModelComponentName61_63;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName62
+	uint8_t ___rchRenderModelComponentName62_64;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName63
+	uint8_t ___rchRenderModelComponentName63_65;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName64
+	uint8_t ___rchRenderModelComponentName64_66;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName65
+	uint8_t ___rchRenderModelComponentName65_67;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName66
+	uint8_t ___rchRenderModelComponentName66_68;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName67
+	uint8_t ___rchRenderModelComponentName67_69;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName68
+	uint8_t ___rchRenderModelComponentName68_70;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName69
+	uint8_t ___rchRenderModelComponentName69_71;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName70
+	uint8_t ___rchRenderModelComponentName70_72;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName71
+	uint8_t ___rchRenderModelComponentName71_73;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName72
+	uint8_t ___rchRenderModelComponentName72_74;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName73
+	uint8_t ___rchRenderModelComponentName73_75;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName74
+	uint8_t ___rchRenderModelComponentName74_76;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName75
+	uint8_t ___rchRenderModelComponentName75_77;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName76
+	uint8_t ___rchRenderModelComponentName76_78;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName77
+	uint8_t ___rchRenderModelComponentName77_79;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName78
+	uint8_t ___rchRenderModelComponentName78_80;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName79
+	uint8_t ___rchRenderModelComponentName79_81;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName80
+	uint8_t ___rchRenderModelComponentName80_82;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName81
+	uint8_t ___rchRenderModelComponentName81_83;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName82
+	uint8_t ___rchRenderModelComponentName82_84;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName83
+	uint8_t ___rchRenderModelComponentName83_85;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName84
+	uint8_t ___rchRenderModelComponentName84_86;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName85
+	uint8_t ___rchRenderModelComponentName85_87;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName86
+	uint8_t ___rchRenderModelComponentName86_88;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName87
+	uint8_t ___rchRenderModelComponentName87_89;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName88
+	uint8_t ___rchRenderModelComponentName88_90;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName89
+	uint8_t ___rchRenderModelComponentName89_91;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName90
+	uint8_t ___rchRenderModelComponentName90_92;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName91
+	uint8_t ___rchRenderModelComponentName91_93;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName92
+	uint8_t ___rchRenderModelComponentName92_94;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName93
+	uint8_t ___rchRenderModelComponentName93_95;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName94
+	uint8_t ___rchRenderModelComponentName94_96;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName95
+	uint8_t ___rchRenderModelComponentName95_97;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName96
+	uint8_t ___rchRenderModelComponentName96_98;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName97
+	uint8_t ___rchRenderModelComponentName97_99;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName98
+	uint8_t ___rchRenderModelComponentName98_100;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName99
+	uint8_t ___rchRenderModelComponentName99_101;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName100
+	uint8_t ___rchRenderModelComponentName100_102;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName101
+	uint8_t ___rchRenderModelComponentName101_103;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName102
+	uint8_t ___rchRenderModelComponentName102_104;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName103
+	uint8_t ___rchRenderModelComponentName103_105;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName104
+	uint8_t ___rchRenderModelComponentName104_106;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName105
+	uint8_t ___rchRenderModelComponentName105_107;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName106
+	uint8_t ___rchRenderModelComponentName106_108;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName107
+	uint8_t ___rchRenderModelComponentName107_109;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName108
+	uint8_t ___rchRenderModelComponentName108_110;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName109
+	uint8_t ___rchRenderModelComponentName109_111;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName110
+	uint8_t ___rchRenderModelComponentName110_112;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName111
+	uint8_t ___rchRenderModelComponentName111_113;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName112
+	uint8_t ___rchRenderModelComponentName112_114;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName113
+	uint8_t ___rchRenderModelComponentName113_115;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName114
+	uint8_t ___rchRenderModelComponentName114_116;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName115
+	uint8_t ___rchRenderModelComponentName115_117;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName116
+	uint8_t ___rchRenderModelComponentName116_118;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName117
+	uint8_t ___rchRenderModelComponentName117_119;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName118
+	uint8_t ___rchRenderModelComponentName118_120;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName119
+	uint8_t ___rchRenderModelComponentName119_121;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName120
+	uint8_t ___rchRenderModelComponentName120_122;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName121
+	uint8_t ___rchRenderModelComponentName121_123;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName122
+	uint8_t ___rchRenderModelComponentName122_124;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName123
+	uint8_t ___rchRenderModelComponentName123_125;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName124
+	uint8_t ___rchRenderModelComponentName124_126;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName125
+	uint8_t ___rchRenderModelComponentName125_127;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName126
+	uint8_t ___rchRenderModelComponentName126_128;
+	// System.Byte Valve.VR.InputOriginInfo_t::rchRenderModelComponentName127
+	uint8_t ___rchRenderModelComponentName127_129;
 
 public:
-	inline static int32_t get_offset_of_LoadSharedResource_0() { return static_cast<int32_t>(offsetof(IVRResources_t5D670A350665A7358445F76C1390C64912711C97, ___LoadSharedResource_0)); }
-	inline _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * get_LoadSharedResource_0() const { return ___LoadSharedResource_0; }
-	inline _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D ** get_address_of_LoadSharedResource_0() { return &___LoadSharedResource_0; }
-	inline void set_LoadSharedResource_0(_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * value)
+	inline static int32_t get_offset_of_devicePath_0() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___devicePath_0)); }
+	inline uint64_t get_devicePath_0() const { return ___devicePath_0; }
+	inline uint64_t* get_address_of_devicePath_0() { return &___devicePath_0; }
+	inline void set_devicePath_0(uint64_t value)
 	{
-		___LoadSharedResource_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___LoadSharedResource_0), (void*)value);
+		___devicePath_0 = value;
 	}
 
-	inline static int32_t get_offset_of_GetResourceFullPath_1() { return static_cast<int32_t>(offsetof(IVRResources_t5D670A350665A7358445F76C1390C64912711C97, ___GetResourceFullPath_1)); }
-	inline _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * get_GetResourceFullPath_1() const { return ___GetResourceFullPath_1; }
-	inline _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F ** get_address_of_GetResourceFullPath_1() { return &___GetResourceFullPath_1; }
-	inline void set_GetResourceFullPath_1(_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * value)
+	inline static int32_t get_offset_of_trackedDeviceIndex_1() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___trackedDeviceIndex_1)); }
+	inline uint32_t get_trackedDeviceIndex_1() const { return ___trackedDeviceIndex_1; }
+	inline uint32_t* get_address_of_trackedDeviceIndex_1() { return &___trackedDeviceIndex_1; }
+	inline void set_trackedDeviceIndex_1(uint32_t value)
 	{
-		___GetResourceFullPath_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___GetResourceFullPath_1), (void*)value);
+		___trackedDeviceIndex_1 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName0_2() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName0_2)); }
+	inline uint8_t get_rchRenderModelComponentName0_2() const { return ___rchRenderModelComponentName0_2; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName0_2() { return &___rchRenderModelComponentName0_2; }
+	inline void set_rchRenderModelComponentName0_2(uint8_t value)
+	{
+		___rchRenderModelComponentName0_2 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName1_3() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName1_3)); }
+	inline uint8_t get_rchRenderModelComponentName1_3() const { return ___rchRenderModelComponentName1_3; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName1_3() { return &___rchRenderModelComponentName1_3; }
+	inline void set_rchRenderModelComponentName1_3(uint8_t value)
+	{
+		___rchRenderModelComponentName1_3 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName2_4() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName2_4)); }
+	inline uint8_t get_rchRenderModelComponentName2_4() const { return ___rchRenderModelComponentName2_4; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName2_4() { return &___rchRenderModelComponentName2_4; }
+	inline void set_rchRenderModelComponentName2_4(uint8_t value)
+	{
+		___rchRenderModelComponentName2_4 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName3_5() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName3_5)); }
+	inline uint8_t get_rchRenderModelComponentName3_5() const { return ___rchRenderModelComponentName3_5; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName3_5() { return &___rchRenderModelComponentName3_5; }
+	inline void set_rchRenderModelComponentName3_5(uint8_t value)
+	{
+		___rchRenderModelComponentName3_5 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName4_6() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName4_6)); }
+	inline uint8_t get_rchRenderModelComponentName4_6() const { return ___rchRenderModelComponentName4_6; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName4_6() { return &___rchRenderModelComponentName4_6; }
+	inline void set_rchRenderModelComponentName4_6(uint8_t value)
+	{
+		___rchRenderModelComponentName4_6 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName5_7() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName5_7)); }
+	inline uint8_t get_rchRenderModelComponentName5_7() const { return ___rchRenderModelComponentName5_7; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName5_7() { return &___rchRenderModelComponentName5_7; }
+	inline void set_rchRenderModelComponentName5_7(uint8_t value)
+	{
+		___rchRenderModelComponentName5_7 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName6_8() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName6_8)); }
+	inline uint8_t get_rchRenderModelComponentName6_8() const { return ___rchRenderModelComponentName6_8; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName6_8() { return &___rchRenderModelComponentName6_8; }
+	inline void set_rchRenderModelComponentName6_8(uint8_t value)
+	{
+		___rchRenderModelComponentName6_8 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName7_9() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName7_9)); }
+	inline uint8_t get_rchRenderModelComponentName7_9() const { return ___rchRenderModelComponentName7_9; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName7_9() { return &___rchRenderModelComponentName7_9; }
+	inline void set_rchRenderModelComponentName7_9(uint8_t value)
+	{
+		___rchRenderModelComponentName7_9 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName8_10() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName8_10)); }
+	inline uint8_t get_rchRenderModelComponentName8_10() const { return ___rchRenderModelComponentName8_10; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName8_10() { return &___rchRenderModelComponentName8_10; }
+	inline void set_rchRenderModelComponentName8_10(uint8_t value)
+	{
+		___rchRenderModelComponentName8_10 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName9_11() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName9_11)); }
+	inline uint8_t get_rchRenderModelComponentName9_11() const { return ___rchRenderModelComponentName9_11; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName9_11() { return &___rchRenderModelComponentName9_11; }
+	inline void set_rchRenderModelComponentName9_11(uint8_t value)
+	{
+		___rchRenderModelComponentName9_11 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName10_12() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName10_12)); }
+	inline uint8_t get_rchRenderModelComponentName10_12() const { return ___rchRenderModelComponentName10_12; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName10_12() { return &___rchRenderModelComponentName10_12; }
+	inline void set_rchRenderModelComponentName10_12(uint8_t value)
+	{
+		___rchRenderModelComponentName10_12 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName11_13() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName11_13)); }
+	inline uint8_t get_rchRenderModelComponentName11_13() const { return ___rchRenderModelComponentName11_13; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName11_13() { return &___rchRenderModelComponentName11_13; }
+	inline void set_rchRenderModelComponentName11_13(uint8_t value)
+	{
+		___rchRenderModelComponentName11_13 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName12_14() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName12_14)); }
+	inline uint8_t get_rchRenderModelComponentName12_14() const { return ___rchRenderModelComponentName12_14; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName12_14() { return &___rchRenderModelComponentName12_14; }
+	inline void set_rchRenderModelComponentName12_14(uint8_t value)
+	{
+		___rchRenderModelComponentName12_14 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName13_15() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName13_15)); }
+	inline uint8_t get_rchRenderModelComponentName13_15() const { return ___rchRenderModelComponentName13_15; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName13_15() { return &___rchRenderModelComponentName13_15; }
+	inline void set_rchRenderModelComponentName13_15(uint8_t value)
+	{
+		___rchRenderModelComponentName13_15 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName14_16() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName14_16)); }
+	inline uint8_t get_rchRenderModelComponentName14_16() const { return ___rchRenderModelComponentName14_16; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName14_16() { return &___rchRenderModelComponentName14_16; }
+	inline void set_rchRenderModelComponentName14_16(uint8_t value)
+	{
+		___rchRenderModelComponentName14_16 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName15_17() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName15_17)); }
+	inline uint8_t get_rchRenderModelComponentName15_17() const { return ___rchRenderModelComponentName15_17; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName15_17() { return &___rchRenderModelComponentName15_17; }
+	inline void set_rchRenderModelComponentName15_17(uint8_t value)
+	{
+		___rchRenderModelComponentName15_17 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName16_18() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName16_18)); }
+	inline uint8_t get_rchRenderModelComponentName16_18() const { return ___rchRenderModelComponentName16_18; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName16_18() { return &___rchRenderModelComponentName16_18; }
+	inline void set_rchRenderModelComponentName16_18(uint8_t value)
+	{
+		___rchRenderModelComponentName16_18 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName17_19() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName17_19)); }
+	inline uint8_t get_rchRenderModelComponentName17_19() const { return ___rchRenderModelComponentName17_19; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName17_19() { return &___rchRenderModelComponentName17_19; }
+	inline void set_rchRenderModelComponentName17_19(uint8_t value)
+	{
+		___rchRenderModelComponentName17_19 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName18_20() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName18_20)); }
+	inline uint8_t get_rchRenderModelComponentName18_20() const { return ___rchRenderModelComponentName18_20; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName18_20() { return &___rchRenderModelComponentName18_20; }
+	inline void set_rchRenderModelComponentName18_20(uint8_t value)
+	{
+		___rchRenderModelComponentName18_20 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName19_21() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName19_21)); }
+	inline uint8_t get_rchRenderModelComponentName19_21() const { return ___rchRenderModelComponentName19_21; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName19_21() { return &___rchRenderModelComponentName19_21; }
+	inline void set_rchRenderModelComponentName19_21(uint8_t value)
+	{
+		___rchRenderModelComponentName19_21 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName20_22() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName20_22)); }
+	inline uint8_t get_rchRenderModelComponentName20_22() const { return ___rchRenderModelComponentName20_22; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName20_22() { return &___rchRenderModelComponentName20_22; }
+	inline void set_rchRenderModelComponentName20_22(uint8_t value)
+	{
+		___rchRenderModelComponentName20_22 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName21_23() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName21_23)); }
+	inline uint8_t get_rchRenderModelComponentName21_23() const { return ___rchRenderModelComponentName21_23; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName21_23() { return &___rchRenderModelComponentName21_23; }
+	inline void set_rchRenderModelComponentName21_23(uint8_t value)
+	{
+		___rchRenderModelComponentName21_23 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName22_24() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName22_24)); }
+	inline uint8_t get_rchRenderModelComponentName22_24() const { return ___rchRenderModelComponentName22_24; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName22_24() { return &___rchRenderModelComponentName22_24; }
+	inline void set_rchRenderModelComponentName22_24(uint8_t value)
+	{
+		___rchRenderModelComponentName22_24 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName23_25() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName23_25)); }
+	inline uint8_t get_rchRenderModelComponentName23_25() const { return ___rchRenderModelComponentName23_25; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName23_25() { return &___rchRenderModelComponentName23_25; }
+	inline void set_rchRenderModelComponentName23_25(uint8_t value)
+	{
+		___rchRenderModelComponentName23_25 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName24_26() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName24_26)); }
+	inline uint8_t get_rchRenderModelComponentName24_26() const { return ___rchRenderModelComponentName24_26; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName24_26() { return &___rchRenderModelComponentName24_26; }
+	inline void set_rchRenderModelComponentName24_26(uint8_t value)
+	{
+		___rchRenderModelComponentName24_26 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName25_27() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName25_27)); }
+	inline uint8_t get_rchRenderModelComponentName25_27() const { return ___rchRenderModelComponentName25_27; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName25_27() { return &___rchRenderModelComponentName25_27; }
+	inline void set_rchRenderModelComponentName25_27(uint8_t value)
+	{
+		___rchRenderModelComponentName25_27 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName26_28() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName26_28)); }
+	inline uint8_t get_rchRenderModelComponentName26_28() const { return ___rchRenderModelComponentName26_28; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName26_28() { return &___rchRenderModelComponentName26_28; }
+	inline void set_rchRenderModelComponentName26_28(uint8_t value)
+	{
+		___rchRenderModelComponentName26_28 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName27_29() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName27_29)); }
+	inline uint8_t get_rchRenderModelComponentName27_29() const { return ___rchRenderModelComponentName27_29; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName27_29() { return &___rchRenderModelComponentName27_29; }
+	inline void set_rchRenderModelComponentName27_29(uint8_t value)
+	{
+		___rchRenderModelComponentName27_29 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName28_30() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName28_30)); }
+	inline uint8_t get_rchRenderModelComponentName28_30() const { return ___rchRenderModelComponentName28_30; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName28_30() { return &___rchRenderModelComponentName28_30; }
+	inline void set_rchRenderModelComponentName28_30(uint8_t value)
+	{
+		___rchRenderModelComponentName28_30 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName29_31() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName29_31)); }
+	inline uint8_t get_rchRenderModelComponentName29_31() const { return ___rchRenderModelComponentName29_31; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName29_31() { return &___rchRenderModelComponentName29_31; }
+	inline void set_rchRenderModelComponentName29_31(uint8_t value)
+	{
+		___rchRenderModelComponentName29_31 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName30_32() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName30_32)); }
+	inline uint8_t get_rchRenderModelComponentName30_32() const { return ___rchRenderModelComponentName30_32; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName30_32() { return &___rchRenderModelComponentName30_32; }
+	inline void set_rchRenderModelComponentName30_32(uint8_t value)
+	{
+		___rchRenderModelComponentName30_32 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName31_33() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName31_33)); }
+	inline uint8_t get_rchRenderModelComponentName31_33() const { return ___rchRenderModelComponentName31_33; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName31_33() { return &___rchRenderModelComponentName31_33; }
+	inline void set_rchRenderModelComponentName31_33(uint8_t value)
+	{
+		___rchRenderModelComponentName31_33 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName32_34() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName32_34)); }
+	inline uint8_t get_rchRenderModelComponentName32_34() const { return ___rchRenderModelComponentName32_34; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName32_34() { return &___rchRenderModelComponentName32_34; }
+	inline void set_rchRenderModelComponentName32_34(uint8_t value)
+	{
+		___rchRenderModelComponentName32_34 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName33_35() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName33_35)); }
+	inline uint8_t get_rchRenderModelComponentName33_35() const { return ___rchRenderModelComponentName33_35; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName33_35() { return &___rchRenderModelComponentName33_35; }
+	inline void set_rchRenderModelComponentName33_35(uint8_t value)
+	{
+		___rchRenderModelComponentName33_35 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName34_36() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName34_36)); }
+	inline uint8_t get_rchRenderModelComponentName34_36() const { return ___rchRenderModelComponentName34_36; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName34_36() { return &___rchRenderModelComponentName34_36; }
+	inline void set_rchRenderModelComponentName34_36(uint8_t value)
+	{
+		___rchRenderModelComponentName34_36 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName35_37() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName35_37)); }
+	inline uint8_t get_rchRenderModelComponentName35_37() const { return ___rchRenderModelComponentName35_37; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName35_37() { return &___rchRenderModelComponentName35_37; }
+	inline void set_rchRenderModelComponentName35_37(uint8_t value)
+	{
+		___rchRenderModelComponentName35_37 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName36_38() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName36_38)); }
+	inline uint8_t get_rchRenderModelComponentName36_38() const { return ___rchRenderModelComponentName36_38; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName36_38() { return &___rchRenderModelComponentName36_38; }
+	inline void set_rchRenderModelComponentName36_38(uint8_t value)
+	{
+		___rchRenderModelComponentName36_38 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName37_39() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName37_39)); }
+	inline uint8_t get_rchRenderModelComponentName37_39() const { return ___rchRenderModelComponentName37_39; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName37_39() { return &___rchRenderModelComponentName37_39; }
+	inline void set_rchRenderModelComponentName37_39(uint8_t value)
+	{
+		___rchRenderModelComponentName37_39 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName38_40() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName38_40)); }
+	inline uint8_t get_rchRenderModelComponentName38_40() const { return ___rchRenderModelComponentName38_40; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName38_40() { return &___rchRenderModelComponentName38_40; }
+	inline void set_rchRenderModelComponentName38_40(uint8_t value)
+	{
+		___rchRenderModelComponentName38_40 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName39_41() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName39_41)); }
+	inline uint8_t get_rchRenderModelComponentName39_41() const { return ___rchRenderModelComponentName39_41; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName39_41() { return &___rchRenderModelComponentName39_41; }
+	inline void set_rchRenderModelComponentName39_41(uint8_t value)
+	{
+		___rchRenderModelComponentName39_41 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName40_42() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName40_42)); }
+	inline uint8_t get_rchRenderModelComponentName40_42() const { return ___rchRenderModelComponentName40_42; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName40_42() { return &___rchRenderModelComponentName40_42; }
+	inline void set_rchRenderModelComponentName40_42(uint8_t value)
+	{
+		___rchRenderModelComponentName40_42 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName41_43() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName41_43)); }
+	inline uint8_t get_rchRenderModelComponentName41_43() const { return ___rchRenderModelComponentName41_43; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName41_43() { return &___rchRenderModelComponentName41_43; }
+	inline void set_rchRenderModelComponentName41_43(uint8_t value)
+	{
+		___rchRenderModelComponentName41_43 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName42_44() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName42_44)); }
+	inline uint8_t get_rchRenderModelComponentName42_44() const { return ___rchRenderModelComponentName42_44; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName42_44() { return &___rchRenderModelComponentName42_44; }
+	inline void set_rchRenderModelComponentName42_44(uint8_t value)
+	{
+		___rchRenderModelComponentName42_44 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName43_45() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName43_45)); }
+	inline uint8_t get_rchRenderModelComponentName43_45() const { return ___rchRenderModelComponentName43_45; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName43_45() { return &___rchRenderModelComponentName43_45; }
+	inline void set_rchRenderModelComponentName43_45(uint8_t value)
+	{
+		___rchRenderModelComponentName43_45 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName44_46() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName44_46)); }
+	inline uint8_t get_rchRenderModelComponentName44_46() const { return ___rchRenderModelComponentName44_46; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName44_46() { return &___rchRenderModelComponentName44_46; }
+	inline void set_rchRenderModelComponentName44_46(uint8_t value)
+	{
+		___rchRenderModelComponentName44_46 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName45_47() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName45_47)); }
+	inline uint8_t get_rchRenderModelComponentName45_47() const { return ___rchRenderModelComponentName45_47; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName45_47() { return &___rchRenderModelComponentName45_47; }
+	inline void set_rchRenderModelComponentName45_47(uint8_t value)
+	{
+		___rchRenderModelComponentName45_47 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName46_48() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName46_48)); }
+	inline uint8_t get_rchRenderModelComponentName46_48() const { return ___rchRenderModelComponentName46_48; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName46_48() { return &___rchRenderModelComponentName46_48; }
+	inline void set_rchRenderModelComponentName46_48(uint8_t value)
+	{
+		___rchRenderModelComponentName46_48 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName47_49() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName47_49)); }
+	inline uint8_t get_rchRenderModelComponentName47_49() const { return ___rchRenderModelComponentName47_49; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName47_49() { return &___rchRenderModelComponentName47_49; }
+	inline void set_rchRenderModelComponentName47_49(uint8_t value)
+	{
+		___rchRenderModelComponentName47_49 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName48_50() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName48_50)); }
+	inline uint8_t get_rchRenderModelComponentName48_50() const { return ___rchRenderModelComponentName48_50; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName48_50() { return &___rchRenderModelComponentName48_50; }
+	inline void set_rchRenderModelComponentName48_50(uint8_t value)
+	{
+		___rchRenderModelComponentName48_50 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName49_51() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName49_51)); }
+	inline uint8_t get_rchRenderModelComponentName49_51() const { return ___rchRenderModelComponentName49_51; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName49_51() { return &___rchRenderModelComponentName49_51; }
+	inline void set_rchRenderModelComponentName49_51(uint8_t value)
+	{
+		___rchRenderModelComponentName49_51 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName50_52() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName50_52)); }
+	inline uint8_t get_rchRenderModelComponentName50_52() const { return ___rchRenderModelComponentName50_52; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName50_52() { return &___rchRenderModelComponentName50_52; }
+	inline void set_rchRenderModelComponentName50_52(uint8_t value)
+	{
+		___rchRenderModelComponentName50_52 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName51_53() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName51_53)); }
+	inline uint8_t get_rchRenderModelComponentName51_53() const { return ___rchRenderModelComponentName51_53; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName51_53() { return &___rchRenderModelComponentName51_53; }
+	inline void set_rchRenderModelComponentName51_53(uint8_t value)
+	{
+		___rchRenderModelComponentName51_53 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName52_54() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName52_54)); }
+	inline uint8_t get_rchRenderModelComponentName52_54() const { return ___rchRenderModelComponentName52_54; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName52_54() { return &___rchRenderModelComponentName52_54; }
+	inline void set_rchRenderModelComponentName52_54(uint8_t value)
+	{
+		___rchRenderModelComponentName52_54 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName53_55() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName53_55)); }
+	inline uint8_t get_rchRenderModelComponentName53_55() const { return ___rchRenderModelComponentName53_55; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName53_55() { return &___rchRenderModelComponentName53_55; }
+	inline void set_rchRenderModelComponentName53_55(uint8_t value)
+	{
+		___rchRenderModelComponentName53_55 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName54_56() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName54_56)); }
+	inline uint8_t get_rchRenderModelComponentName54_56() const { return ___rchRenderModelComponentName54_56; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName54_56() { return &___rchRenderModelComponentName54_56; }
+	inline void set_rchRenderModelComponentName54_56(uint8_t value)
+	{
+		___rchRenderModelComponentName54_56 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName55_57() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName55_57)); }
+	inline uint8_t get_rchRenderModelComponentName55_57() const { return ___rchRenderModelComponentName55_57; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName55_57() { return &___rchRenderModelComponentName55_57; }
+	inline void set_rchRenderModelComponentName55_57(uint8_t value)
+	{
+		___rchRenderModelComponentName55_57 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName56_58() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName56_58)); }
+	inline uint8_t get_rchRenderModelComponentName56_58() const { return ___rchRenderModelComponentName56_58; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName56_58() { return &___rchRenderModelComponentName56_58; }
+	inline void set_rchRenderModelComponentName56_58(uint8_t value)
+	{
+		___rchRenderModelComponentName56_58 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName57_59() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName57_59)); }
+	inline uint8_t get_rchRenderModelComponentName57_59() const { return ___rchRenderModelComponentName57_59; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName57_59() { return &___rchRenderModelComponentName57_59; }
+	inline void set_rchRenderModelComponentName57_59(uint8_t value)
+	{
+		___rchRenderModelComponentName57_59 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName58_60() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName58_60)); }
+	inline uint8_t get_rchRenderModelComponentName58_60() const { return ___rchRenderModelComponentName58_60; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName58_60() { return &___rchRenderModelComponentName58_60; }
+	inline void set_rchRenderModelComponentName58_60(uint8_t value)
+	{
+		___rchRenderModelComponentName58_60 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName59_61() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName59_61)); }
+	inline uint8_t get_rchRenderModelComponentName59_61() const { return ___rchRenderModelComponentName59_61; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName59_61() { return &___rchRenderModelComponentName59_61; }
+	inline void set_rchRenderModelComponentName59_61(uint8_t value)
+	{
+		___rchRenderModelComponentName59_61 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName60_62() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName60_62)); }
+	inline uint8_t get_rchRenderModelComponentName60_62() const { return ___rchRenderModelComponentName60_62; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName60_62() { return &___rchRenderModelComponentName60_62; }
+	inline void set_rchRenderModelComponentName60_62(uint8_t value)
+	{
+		___rchRenderModelComponentName60_62 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName61_63() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName61_63)); }
+	inline uint8_t get_rchRenderModelComponentName61_63() const { return ___rchRenderModelComponentName61_63; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName61_63() { return &___rchRenderModelComponentName61_63; }
+	inline void set_rchRenderModelComponentName61_63(uint8_t value)
+	{
+		___rchRenderModelComponentName61_63 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName62_64() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName62_64)); }
+	inline uint8_t get_rchRenderModelComponentName62_64() const { return ___rchRenderModelComponentName62_64; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName62_64() { return &___rchRenderModelComponentName62_64; }
+	inline void set_rchRenderModelComponentName62_64(uint8_t value)
+	{
+		___rchRenderModelComponentName62_64 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName63_65() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName63_65)); }
+	inline uint8_t get_rchRenderModelComponentName63_65() const { return ___rchRenderModelComponentName63_65; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName63_65() { return &___rchRenderModelComponentName63_65; }
+	inline void set_rchRenderModelComponentName63_65(uint8_t value)
+	{
+		___rchRenderModelComponentName63_65 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName64_66() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName64_66)); }
+	inline uint8_t get_rchRenderModelComponentName64_66() const { return ___rchRenderModelComponentName64_66; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName64_66() { return &___rchRenderModelComponentName64_66; }
+	inline void set_rchRenderModelComponentName64_66(uint8_t value)
+	{
+		___rchRenderModelComponentName64_66 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName65_67() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName65_67)); }
+	inline uint8_t get_rchRenderModelComponentName65_67() const { return ___rchRenderModelComponentName65_67; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName65_67() { return &___rchRenderModelComponentName65_67; }
+	inline void set_rchRenderModelComponentName65_67(uint8_t value)
+	{
+		___rchRenderModelComponentName65_67 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName66_68() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName66_68)); }
+	inline uint8_t get_rchRenderModelComponentName66_68() const { return ___rchRenderModelComponentName66_68; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName66_68() { return &___rchRenderModelComponentName66_68; }
+	inline void set_rchRenderModelComponentName66_68(uint8_t value)
+	{
+		___rchRenderModelComponentName66_68 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName67_69() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName67_69)); }
+	inline uint8_t get_rchRenderModelComponentName67_69() const { return ___rchRenderModelComponentName67_69; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName67_69() { return &___rchRenderModelComponentName67_69; }
+	inline void set_rchRenderModelComponentName67_69(uint8_t value)
+	{
+		___rchRenderModelComponentName67_69 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName68_70() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName68_70)); }
+	inline uint8_t get_rchRenderModelComponentName68_70() const { return ___rchRenderModelComponentName68_70; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName68_70() { return &___rchRenderModelComponentName68_70; }
+	inline void set_rchRenderModelComponentName68_70(uint8_t value)
+	{
+		___rchRenderModelComponentName68_70 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName69_71() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName69_71)); }
+	inline uint8_t get_rchRenderModelComponentName69_71() const { return ___rchRenderModelComponentName69_71; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName69_71() { return &___rchRenderModelComponentName69_71; }
+	inline void set_rchRenderModelComponentName69_71(uint8_t value)
+	{
+		___rchRenderModelComponentName69_71 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName70_72() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName70_72)); }
+	inline uint8_t get_rchRenderModelComponentName70_72() const { return ___rchRenderModelComponentName70_72; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName70_72() { return &___rchRenderModelComponentName70_72; }
+	inline void set_rchRenderModelComponentName70_72(uint8_t value)
+	{
+		___rchRenderModelComponentName70_72 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName71_73() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName71_73)); }
+	inline uint8_t get_rchRenderModelComponentName71_73() const { return ___rchRenderModelComponentName71_73; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName71_73() { return &___rchRenderModelComponentName71_73; }
+	inline void set_rchRenderModelComponentName71_73(uint8_t value)
+	{
+		___rchRenderModelComponentName71_73 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName72_74() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName72_74)); }
+	inline uint8_t get_rchRenderModelComponentName72_74() const { return ___rchRenderModelComponentName72_74; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName72_74() { return &___rchRenderModelComponentName72_74; }
+	inline void set_rchRenderModelComponentName72_74(uint8_t value)
+	{
+		___rchRenderModelComponentName72_74 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName73_75() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName73_75)); }
+	inline uint8_t get_rchRenderModelComponentName73_75() const { return ___rchRenderModelComponentName73_75; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName73_75() { return &___rchRenderModelComponentName73_75; }
+	inline void set_rchRenderModelComponentName73_75(uint8_t value)
+	{
+		___rchRenderModelComponentName73_75 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName74_76() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName74_76)); }
+	inline uint8_t get_rchRenderModelComponentName74_76() const { return ___rchRenderModelComponentName74_76; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName74_76() { return &___rchRenderModelComponentName74_76; }
+	inline void set_rchRenderModelComponentName74_76(uint8_t value)
+	{
+		___rchRenderModelComponentName74_76 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName75_77() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName75_77)); }
+	inline uint8_t get_rchRenderModelComponentName75_77() const { return ___rchRenderModelComponentName75_77; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName75_77() { return &___rchRenderModelComponentName75_77; }
+	inline void set_rchRenderModelComponentName75_77(uint8_t value)
+	{
+		___rchRenderModelComponentName75_77 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName76_78() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName76_78)); }
+	inline uint8_t get_rchRenderModelComponentName76_78() const { return ___rchRenderModelComponentName76_78; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName76_78() { return &___rchRenderModelComponentName76_78; }
+	inline void set_rchRenderModelComponentName76_78(uint8_t value)
+	{
+		___rchRenderModelComponentName76_78 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName77_79() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName77_79)); }
+	inline uint8_t get_rchRenderModelComponentName77_79() const { return ___rchRenderModelComponentName77_79; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName77_79() { return &___rchRenderModelComponentName77_79; }
+	inline void set_rchRenderModelComponentName77_79(uint8_t value)
+	{
+		___rchRenderModelComponentName77_79 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName78_80() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName78_80)); }
+	inline uint8_t get_rchRenderModelComponentName78_80() const { return ___rchRenderModelComponentName78_80; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName78_80() { return &___rchRenderModelComponentName78_80; }
+	inline void set_rchRenderModelComponentName78_80(uint8_t value)
+	{
+		___rchRenderModelComponentName78_80 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName79_81() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName79_81)); }
+	inline uint8_t get_rchRenderModelComponentName79_81() const { return ___rchRenderModelComponentName79_81; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName79_81() { return &___rchRenderModelComponentName79_81; }
+	inline void set_rchRenderModelComponentName79_81(uint8_t value)
+	{
+		___rchRenderModelComponentName79_81 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName80_82() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName80_82)); }
+	inline uint8_t get_rchRenderModelComponentName80_82() const { return ___rchRenderModelComponentName80_82; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName80_82() { return &___rchRenderModelComponentName80_82; }
+	inline void set_rchRenderModelComponentName80_82(uint8_t value)
+	{
+		___rchRenderModelComponentName80_82 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName81_83() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName81_83)); }
+	inline uint8_t get_rchRenderModelComponentName81_83() const { return ___rchRenderModelComponentName81_83; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName81_83() { return &___rchRenderModelComponentName81_83; }
+	inline void set_rchRenderModelComponentName81_83(uint8_t value)
+	{
+		___rchRenderModelComponentName81_83 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName82_84() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName82_84)); }
+	inline uint8_t get_rchRenderModelComponentName82_84() const { return ___rchRenderModelComponentName82_84; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName82_84() { return &___rchRenderModelComponentName82_84; }
+	inline void set_rchRenderModelComponentName82_84(uint8_t value)
+	{
+		___rchRenderModelComponentName82_84 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName83_85() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName83_85)); }
+	inline uint8_t get_rchRenderModelComponentName83_85() const { return ___rchRenderModelComponentName83_85; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName83_85() { return &___rchRenderModelComponentName83_85; }
+	inline void set_rchRenderModelComponentName83_85(uint8_t value)
+	{
+		___rchRenderModelComponentName83_85 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName84_86() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName84_86)); }
+	inline uint8_t get_rchRenderModelComponentName84_86() const { return ___rchRenderModelComponentName84_86; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName84_86() { return &___rchRenderModelComponentName84_86; }
+	inline void set_rchRenderModelComponentName84_86(uint8_t value)
+	{
+		___rchRenderModelComponentName84_86 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName85_87() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName85_87)); }
+	inline uint8_t get_rchRenderModelComponentName85_87() const { return ___rchRenderModelComponentName85_87; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName85_87() { return &___rchRenderModelComponentName85_87; }
+	inline void set_rchRenderModelComponentName85_87(uint8_t value)
+	{
+		___rchRenderModelComponentName85_87 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName86_88() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName86_88)); }
+	inline uint8_t get_rchRenderModelComponentName86_88() const { return ___rchRenderModelComponentName86_88; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName86_88() { return &___rchRenderModelComponentName86_88; }
+	inline void set_rchRenderModelComponentName86_88(uint8_t value)
+	{
+		___rchRenderModelComponentName86_88 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName87_89() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName87_89)); }
+	inline uint8_t get_rchRenderModelComponentName87_89() const { return ___rchRenderModelComponentName87_89; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName87_89() { return &___rchRenderModelComponentName87_89; }
+	inline void set_rchRenderModelComponentName87_89(uint8_t value)
+	{
+		___rchRenderModelComponentName87_89 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName88_90() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName88_90)); }
+	inline uint8_t get_rchRenderModelComponentName88_90() const { return ___rchRenderModelComponentName88_90; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName88_90() { return &___rchRenderModelComponentName88_90; }
+	inline void set_rchRenderModelComponentName88_90(uint8_t value)
+	{
+		___rchRenderModelComponentName88_90 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName89_91() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName89_91)); }
+	inline uint8_t get_rchRenderModelComponentName89_91() const { return ___rchRenderModelComponentName89_91; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName89_91() { return &___rchRenderModelComponentName89_91; }
+	inline void set_rchRenderModelComponentName89_91(uint8_t value)
+	{
+		___rchRenderModelComponentName89_91 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName90_92() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName90_92)); }
+	inline uint8_t get_rchRenderModelComponentName90_92() const { return ___rchRenderModelComponentName90_92; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName90_92() { return &___rchRenderModelComponentName90_92; }
+	inline void set_rchRenderModelComponentName90_92(uint8_t value)
+	{
+		___rchRenderModelComponentName90_92 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName91_93() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName91_93)); }
+	inline uint8_t get_rchRenderModelComponentName91_93() const { return ___rchRenderModelComponentName91_93; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName91_93() { return &___rchRenderModelComponentName91_93; }
+	inline void set_rchRenderModelComponentName91_93(uint8_t value)
+	{
+		___rchRenderModelComponentName91_93 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName92_94() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName92_94)); }
+	inline uint8_t get_rchRenderModelComponentName92_94() const { return ___rchRenderModelComponentName92_94; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName92_94() { return &___rchRenderModelComponentName92_94; }
+	inline void set_rchRenderModelComponentName92_94(uint8_t value)
+	{
+		___rchRenderModelComponentName92_94 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName93_95() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName93_95)); }
+	inline uint8_t get_rchRenderModelComponentName93_95() const { return ___rchRenderModelComponentName93_95; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName93_95() { return &___rchRenderModelComponentName93_95; }
+	inline void set_rchRenderModelComponentName93_95(uint8_t value)
+	{
+		___rchRenderModelComponentName93_95 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName94_96() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName94_96)); }
+	inline uint8_t get_rchRenderModelComponentName94_96() const { return ___rchRenderModelComponentName94_96; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName94_96() { return &___rchRenderModelComponentName94_96; }
+	inline void set_rchRenderModelComponentName94_96(uint8_t value)
+	{
+		___rchRenderModelComponentName94_96 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName95_97() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName95_97)); }
+	inline uint8_t get_rchRenderModelComponentName95_97() const { return ___rchRenderModelComponentName95_97; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName95_97() { return &___rchRenderModelComponentName95_97; }
+	inline void set_rchRenderModelComponentName95_97(uint8_t value)
+	{
+		___rchRenderModelComponentName95_97 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName96_98() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName96_98)); }
+	inline uint8_t get_rchRenderModelComponentName96_98() const { return ___rchRenderModelComponentName96_98; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName96_98() { return &___rchRenderModelComponentName96_98; }
+	inline void set_rchRenderModelComponentName96_98(uint8_t value)
+	{
+		___rchRenderModelComponentName96_98 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName97_99() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName97_99)); }
+	inline uint8_t get_rchRenderModelComponentName97_99() const { return ___rchRenderModelComponentName97_99; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName97_99() { return &___rchRenderModelComponentName97_99; }
+	inline void set_rchRenderModelComponentName97_99(uint8_t value)
+	{
+		___rchRenderModelComponentName97_99 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName98_100() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName98_100)); }
+	inline uint8_t get_rchRenderModelComponentName98_100() const { return ___rchRenderModelComponentName98_100; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName98_100() { return &___rchRenderModelComponentName98_100; }
+	inline void set_rchRenderModelComponentName98_100(uint8_t value)
+	{
+		___rchRenderModelComponentName98_100 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName99_101() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName99_101)); }
+	inline uint8_t get_rchRenderModelComponentName99_101() const { return ___rchRenderModelComponentName99_101; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName99_101() { return &___rchRenderModelComponentName99_101; }
+	inline void set_rchRenderModelComponentName99_101(uint8_t value)
+	{
+		___rchRenderModelComponentName99_101 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName100_102() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName100_102)); }
+	inline uint8_t get_rchRenderModelComponentName100_102() const { return ___rchRenderModelComponentName100_102; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName100_102() { return &___rchRenderModelComponentName100_102; }
+	inline void set_rchRenderModelComponentName100_102(uint8_t value)
+	{
+		___rchRenderModelComponentName100_102 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName101_103() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName101_103)); }
+	inline uint8_t get_rchRenderModelComponentName101_103() const { return ___rchRenderModelComponentName101_103; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName101_103() { return &___rchRenderModelComponentName101_103; }
+	inline void set_rchRenderModelComponentName101_103(uint8_t value)
+	{
+		___rchRenderModelComponentName101_103 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName102_104() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName102_104)); }
+	inline uint8_t get_rchRenderModelComponentName102_104() const { return ___rchRenderModelComponentName102_104; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName102_104() { return &___rchRenderModelComponentName102_104; }
+	inline void set_rchRenderModelComponentName102_104(uint8_t value)
+	{
+		___rchRenderModelComponentName102_104 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName103_105() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName103_105)); }
+	inline uint8_t get_rchRenderModelComponentName103_105() const { return ___rchRenderModelComponentName103_105; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName103_105() { return &___rchRenderModelComponentName103_105; }
+	inline void set_rchRenderModelComponentName103_105(uint8_t value)
+	{
+		___rchRenderModelComponentName103_105 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName104_106() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName104_106)); }
+	inline uint8_t get_rchRenderModelComponentName104_106() const { return ___rchRenderModelComponentName104_106; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName104_106() { return &___rchRenderModelComponentName104_106; }
+	inline void set_rchRenderModelComponentName104_106(uint8_t value)
+	{
+		___rchRenderModelComponentName104_106 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName105_107() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName105_107)); }
+	inline uint8_t get_rchRenderModelComponentName105_107() const { return ___rchRenderModelComponentName105_107; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName105_107() { return &___rchRenderModelComponentName105_107; }
+	inline void set_rchRenderModelComponentName105_107(uint8_t value)
+	{
+		___rchRenderModelComponentName105_107 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName106_108() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName106_108)); }
+	inline uint8_t get_rchRenderModelComponentName106_108() const { return ___rchRenderModelComponentName106_108; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName106_108() { return &___rchRenderModelComponentName106_108; }
+	inline void set_rchRenderModelComponentName106_108(uint8_t value)
+	{
+		___rchRenderModelComponentName106_108 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName107_109() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName107_109)); }
+	inline uint8_t get_rchRenderModelComponentName107_109() const { return ___rchRenderModelComponentName107_109; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName107_109() { return &___rchRenderModelComponentName107_109; }
+	inline void set_rchRenderModelComponentName107_109(uint8_t value)
+	{
+		___rchRenderModelComponentName107_109 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName108_110() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName108_110)); }
+	inline uint8_t get_rchRenderModelComponentName108_110() const { return ___rchRenderModelComponentName108_110; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName108_110() { return &___rchRenderModelComponentName108_110; }
+	inline void set_rchRenderModelComponentName108_110(uint8_t value)
+	{
+		___rchRenderModelComponentName108_110 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName109_111() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName109_111)); }
+	inline uint8_t get_rchRenderModelComponentName109_111() const { return ___rchRenderModelComponentName109_111; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName109_111() { return &___rchRenderModelComponentName109_111; }
+	inline void set_rchRenderModelComponentName109_111(uint8_t value)
+	{
+		___rchRenderModelComponentName109_111 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName110_112() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName110_112)); }
+	inline uint8_t get_rchRenderModelComponentName110_112() const { return ___rchRenderModelComponentName110_112; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName110_112() { return &___rchRenderModelComponentName110_112; }
+	inline void set_rchRenderModelComponentName110_112(uint8_t value)
+	{
+		___rchRenderModelComponentName110_112 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName111_113() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName111_113)); }
+	inline uint8_t get_rchRenderModelComponentName111_113() const { return ___rchRenderModelComponentName111_113; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName111_113() { return &___rchRenderModelComponentName111_113; }
+	inline void set_rchRenderModelComponentName111_113(uint8_t value)
+	{
+		___rchRenderModelComponentName111_113 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName112_114() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName112_114)); }
+	inline uint8_t get_rchRenderModelComponentName112_114() const { return ___rchRenderModelComponentName112_114; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName112_114() { return &___rchRenderModelComponentName112_114; }
+	inline void set_rchRenderModelComponentName112_114(uint8_t value)
+	{
+		___rchRenderModelComponentName112_114 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName113_115() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName113_115)); }
+	inline uint8_t get_rchRenderModelComponentName113_115() const { return ___rchRenderModelComponentName113_115; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName113_115() { return &___rchRenderModelComponentName113_115; }
+	inline void set_rchRenderModelComponentName113_115(uint8_t value)
+	{
+		___rchRenderModelComponentName113_115 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName114_116() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName114_116)); }
+	inline uint8_t get_rchRenderModelComponentName114_116() const { return ___rchRenderModelComponentName114_116; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName114_116() { return &___rchRenderModelComponentName114_116; }
+	inline void set_rchRenderModelComponentName114_116(uint8_t value)
+	{
+		___rchRenderModelComponentName114_116 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName115_117() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName115_117)); }
+	inline uint8_t get_rchRenderModelComponentName115_117() const { return ___rchRenderModelComponentName115_117; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName115_117() { return &___rchRenderModelComponentName115_117; }
+	inline void set_rchRenderModelComponentName115_117(uint8_t value)
+	{
+		___rchRenderModelComponentName115_117 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName116_118() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName116_118)); }
+	inline uint8_t get_rchRenderModelComponentName116_118() const { return ___rchRenderModelComponentName116_118; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName116_118() { return &___rchRenderModelComponentName116_118; }
+	inline void set_rchRenderModelComponentName116_118(uint8_t value)
+	{
+		___rchRenderModelComponentName116_118 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName117_119() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName117_119)); }
+	inline uint8_t get_rchRenderModelComponentName117_119() const { return ___rchRenderModelComponentName117_119; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName117_119() { return &___rchRenderModelComponentName117_119; }
+	inline void set_rchRenderModelComponentName117_119(uint8_t value)
+	{
+		___rchRenderModelComponentName117_119 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName118_120() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName118_120)); }
+	inline uint8_t get_rchRenderModelComponentName118_120() const { return ___rchRenderModelComponentName118_120; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName118_120() { return &___rchRenderModelComponentName118_120; }
+	inline void set_rchRenderModelComponentName118_120(uint8_t value)
+	{
+		___rchRenderModelComponentName118_120 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName119_121() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName119_121)); }
+	inline uint8_t get_rchRenderModelComponentName119_121() const { return ___rchRenderModelComponentName119_121; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName119_121() { return &___rchRenderModelComponentName119_121; }
+	inline void set_rchRenderModelComponentName119_121(uint8_t value)
+	{
+		___rchRenderModelComponentName119_121 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName120_122() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName120_122)); }
+	inline uint8_t get_rchRenderModelComponentName120_122() const { return ___rchRenderModelComponentName120_122; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName120_122() { return &___rchRenderModelComponentName120_122; }
+	inline void set_rchRenderModelComponentName120_122(uint8_t value)
+	{
+		___rchRenderModelComponentName120_122 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName121_123() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName121_123)); }
+	inline uint8_t get_rchRenderModelComponentName121_123() const { return ___rchRenderModelComponentName121_123; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName121_123() { return &___rchRenderModelComponentName121_123; }
+	inline void set_rchRenderModelComponentName121_123(uint8_t value)
+	{
+		___rchRenderModelComponentName121_123 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName122_124() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName122_124)); }
+	inline uint8_t get_rchRenderModelComponentName122_124() const { return ___rchRenderModelComponentName122_124; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName122_124() { return &___rchRenderModelComponentName122_124; }
+	inline void set_rchRenderModelComponentName122_124(uint8_t value)
+	{
+		___rchRenderModelComponentName122_124 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName123_125() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName123_125)); }
+	inline uint8_t get_rchRenderModelComponentName123_125() const { return ___rchRenderModelComponentName123_125; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName123_125() { return &___rchRenderModelComponentName123_125; }
+	inline void set_rchRenderModelComponentName123_125(uint8_t value)
+	{
+		___rchRenderModelComponentName123_125 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName124_126() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName124_126)); }
+	inline uint8_t get_rchRenderModelComponentName124_126() const { return ___rchRenderModelComponentName124_126; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName124_126() { return &___rchRenderModelComponentName124_126; }
+	inline void set_rchRenderModelComponentName124_126(uint8_t value)
+	{
+		___rchRenderModelComponentName124_126 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName125_127() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName125_127)); }
+	inline uint8_t get_rchRenderModelComponentName125_127() const { return ___rchRenderModelComponentName125_127; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName125_127() { return &___rchRenderModelComponentName125_127; }
+	inline void set_rchRenderModelComponentName125_127(uint8_t value)
+	{
+		___rchRenderModelComponentName125_127 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName126_128() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName126_128)); }
+	inline uint8_t get_rchRenderModelComponentName126_128() const { return ___rchRenderModelComponentName126_128; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName126_128() { return &___rchRenderModelComponentName126_128; }
+	inline void set_rchRenderModelComponentName126_128(uint8_t value)
+	{
+		___rchRenderModelComponentName126_128 = value;
+	}
+
+	inline static int32_t get_offset_of_rchRenderModelComponentName127_129() { return static_cast<int32_t>(offsetof(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7, ___rchRenderModelComponentName127_129)); }
+	inline uint8_t get_rchRenderModelComponentName127_129() const { return ___rchRenderModelComponentName127_129; }
+	inline uint8_t* get_address_of_rchRenderModelComponentName127_129() { return &___rchRenderModelComponentName127_129; }
+	inline void set_rchRenderModelComponentName127_129(uint8_t value)
+	{
+		___rchRenderModelComponentName127_129 = value;
 	}
 };
 
-// Native definition for P/Invoke marshalling of Valve.VR.IVRResources
-struct IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_pinvoke
-{
-	Il2CppMethodPointer ___LoadSharedResource_0;
-	Il2CppMethodPointer ___GetResourceFullPath_1;
-};
-// Native definition for COM marshalling of Valve.VR.IVRResources
-struct IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_com
-{
-	Il2CppMethodPointer ___LoadSharedResource_0;
-	Il2CppMethodPointer ___GetResourceFullPath_1;
-};
 
-// Valve.VR.IVRScreenshots
-struct IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0 
+// Valve.VR.InputSkeletalActionData_t
+struct InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 
 {
 public:
-	// Valve.VR.IVRScreenshots/_RequestScreenshot Valve.VR.IVRScreenshots::RequestScreenshot
-	_RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B * ___RequestScreenshot_0;
-	// Valve.VR.IVRScreenshots/_HookScreenshot Valve.VR.IVRScreenshots::HookScreenshot
-	_HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759 * ___HookScreenshot_1;
-	// Valve.VR.IVRScreenshots/_GetScreenshotPropertyType Valve.VR.IVRScreenshots::GetScreenshotPropertyType
-	_GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A * ___GetScreenshotPropertyType_2;
-	// Valve.VR.IVRScreenshots/_GetScreenshotPropertyFilename Valve.VR.IVRScreenshots::GetScreenshotPropertyFilename
-	_GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A * ___GetScreenshotPropertyFilename_3;
-	// Valve.VR.IVRScreenshots/_UpdateScreenshotProgress Valve.VR.IVRScreenshots::UpdateScreenshotProgress
-	_UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47 * ___UpdateScreenshotProgress_4;
-	// Valve.VR.IVRScreenshots/_TakeStereoScreenshot Valve.VR.IVRScreenshots::TakeStereoScreenshot
-	_TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE * ___TakeStereoScreenshot_5;
-	// Valve.VR.IVRScreenshots/_SubmitScreenshot Valve.VR.IVRScreenshots::SubmitScreenshot
-	_SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78 * ___SubmitScreenshot_6;
+	// System.Boolean Valve.VR.InputSkeletalActionData_t::bActive
+	bool ___bActive_0;
+	// System.UInt64 Valve.VR.InputSkeletalActionData_t::activeOrigin
+	uint64_t ___activeOrigin_1;
 
 public:
-	inline static int32_t get_offset_of_RequestScreenshot_0() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___RequestScreenshot_0)); }
-	inline _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B * get_RequestScreenshot_0() const { return ___RequestScreenshot_0; }
-	inline _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B ** get_address_of_RequestScreenshot_0() { return &___RequestScreenshot_0; }
-	inline void set_RequestScreenshot_0(_RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B * value)
+	inline static int32_t get_offset_of_bActive_0() { return static_cast<int32_t>(offsetof(InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26, ___bActive_0)); }
+	inline bool get_bActive_0() const { return ___bActive_0; }
+	inline bool* get_address_of_bActive_0() { return &___bActive_0; }
+	inline void set_bActive_0(bool value)
 	{
-		___RequestScreenshot_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___RequestScreenshot_0), (void*)value);
+		___bActive_0 = value;
 	}
 
-	inline static int32_t get_offset_of_HookScreenshot_1() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___HookScreenshot_1)); }
-	inline _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759 * get_HookScreenshot_1() const { return ___HookScreenshot_1; }
-	inline _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759 ** get_address_of_HookScreenshot_1() { return &___HookScreenshot_1; }
-	inline void set_HookScreenshot_1(_HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759 * value)
+	inline static int32_t get_offset_of_activeOrigin_1() { return static_cast<int32_t>(offsetof(InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26, ___activeOrigin_1)); }
+	inline uint64_t get_activeOrigin_1() const { return ___activeOrigin_1; }
+	inline uint64_t* get_address_of_activeOrigin_1() { return &___activeOrigin_1; }
+	inline void set_activeOrigin_1(uint64_t value)
 	{
-		___HookScreenshot_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___HookScreenshot_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_GetScreenshotPropertyType_2() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___GetScreenshotPropertyType_2)); }
-	inline _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A * get_GetScreenshotPropertyType_2() const { return ___GetScreenshotPropertyType_2; }
-	inline _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A ** get_address_of_GetScreenshotPropertyType_2() { return &___GetScreenshotPropertyType_2; }
-	inline void set_GetScreenshotPropertyType_2(_GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A * value)
-	{
-		___GetScreenshotPropertyType_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___GetScreenshotPropertyType_2), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_GetScreenshotPropertyFilename_3() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___GetScreenshotPropertyFilename_3)); }
-	inline _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A * get_GetScreenshotPropertyFilename_3() const { return ___GetScreenshotPropertyFilename_3; }
-	inline _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A ** get_address_of_GetScreenshotPropertyFilename_3() { return &___GetScreenshotPropertyFilename_3; }
-	inline void set_GetScreenshotPropertyFilename_3(_GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A * value)
-	{
-		___GetScreenshotPropertyFilename_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___GetScreenshotPropertyFilename_3), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_UpdateScreenshotProgress_4() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___UpdateScreenshotProgress_4)); }
-	inline _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47 * get_UpdateScreenshotProgress_4() const { return ___UpdateScreenshotProgress_4; }
-	inline _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47 ** get_address_of_UpdateScreenshotProgress_4() { return &___UpdateScreenshotProgress_4; }
-	inline void set_UpdateScreenshotProgress_4(_UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47 * value)
-	{
-		___UpdateScreenshotProgress_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___UpdateScreenshotProgress_4), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_TakeStereoScreenshot_5() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___TakeStereoScreenshot_5)); }
-	inline _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE * get_TakeStereoScreenshot_5() const { return ___TakeStereoScreenshot_5; }
-	inline _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE ** get_address_of_TakeStereoScreenshot_5() { return &___TakeStereoScreenshot_5; }
-	inline void set_TakeStereoScreenshot_5(_TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE * value)
-	{
-		___TakeStereoScreenshot_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___TakeStereoScreenshot_5), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_SubmitScreenshot_6() { return static_cast<int32_t>(offsetof(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0, ___SubmitScreenshot_6)); }
-	inline _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78 * get_SubmitScreenshot_6() const { return ___SubmitScreenshot_6; }
-	inline _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78 ** get_address_of_SubmitScreenshot_6() { return &___SubmitScreenshot_6; }
-	inline void set_SubmitScreenshot_6(_SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78 * value)
-	{
-		___SubmitScreenshot_6 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___SubmitScreenshot_6), (void*)value);
+		___activeOrigin_1 = value;
 	}
 };
 
-// Native definition for P/Invoke marshalling of Valve.VR.IVRScreenshots
-struct IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_pinvoke
-{
-	Il2CppMethodPointer ___RequestScreenshot_0;
-	Il2CppMethodPointer ___HookScreenshot_1;
-	Il2CppMethodPointer ___GetScreenshotPropertyType_2;
-	Il2CppMethodPointer ___GetScreenshotPropertyFilename_3;
-	Il2CppMethodPointer ___UpdateScreenshotProgress_4;
-	Il2CppMethodPointer ___TakeStereoScreenshot_5;
-	Il2CppMethodPointer ___SubmitScreenshot_6;
-};
-// Native definition for COM marshalling of Valve.VR.IVRScreenshots
-struct IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_com
-{
-	Il2CppMethodPointer ___RequestScreenshot_0;
-	Il2CppMethodPointer ___HookScreenshot_1;
-	Il2CppMethodPointer ___GetScreenshotPropertyType_2;
-	Il2CppMethodPointer ___GetScreenshotPropertyFilename_3;
-	Il2CppMethodPointer ___UpdateScreenshotProgress_4;
-	Il2CppMethodPointer ___TakeStereoScreenshot_5;
-	Il2CppMethodPointer ___SubmitScreenshot_6;
-};
 
 // Valve.VR.IntersectionMaskCircle_t
 struct IntersectionMaskCircle_t_t0552656149F11ECBAE9AF68E7F0D4EC729B3137F 
@@ -5111,6 +6281,24 @@ public:
 };
 
 
+// Valve.VR.ETrackingResult
+struct ETrackingResult_tEF8D233780E244B87AFAECDB107A82C77C666E9D 
+{
+public:
+	// System.Int32 Valve.VR.ETrackingResult::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ETrackingResult_tEF8D233780E244B87AFAECDB107A82C77C666E9D, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // Valve.VR.ETrackingUniverseOrigin
 struct ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469 
 {
@@ -5255,51 +6443,15 @@ public:
 };
 
 
-// Valve.VR.EVRScreenshotError
-struct EVRScreenshotError_t95F7604FA5A441A1F3EC32667317630ED007C347 
+// Valve.VR.EVRSkeletalMotionRange
+struct EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2 
 {
 public:
-	// System.Int32 Valve.VR.EVRScreenshotError::value__
+	// System.Int32 Valve.VR.EVRSkeletalMotionRange::value__
 	int32_t ___value___2;
 
 public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(EVRScreenshotError_t95F7604FA5A441A1F3EC32667317630ED007C347, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-
-// Valve.VR.EVRScreenshotPropertyFilenames
-struct EVRScreenshotPropertyFilenames_tF7211B8C7EA99007CB54FEBC26CA3850AF4438AA 
-{
-public:
-	// System.Int32 Valve.VR.EVRScreenshotPropertyFilenames::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(EVRScreenshotPropertyFilenames_tF7211B8C7EA99007CB54FEBC26CA3850AF4438AA, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-
-// Valve.VR.EVRScreenshotType
-struct EVRScreenshotType_t65CBECD0CFEE75DFEA780EA565BDB5CC3A471C08 
-{
-public:
-	// System.Int32 Valve.VR.EVRScreenshotType::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(EVRScreenshotType_t65CBECD0CFEE75DFEA780EA565BDB5CC3A471C08, ___value___2)); }
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -6159,6 +7311,74 @@ public:
 };
 
 
+// Valve.VR.TrackedDevicePose_t
+struct TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 
+{
+public:
+	// Valve.VR.HmdMatrix34_t Valve.VR.TrackedDevicePose_t::mDeviceToAbsoluteTracking
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  ___mDeviceToAbsoluteTracking_0;
+	// Valve.VR.HmdVector3_t Valve.VR.TrackedDevicePose_t::vVelocity
+	HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3  ___vVelocity_1;
+	// Valve.VR.HmdVector3_t Valve.VR.TrackedDevicePose_t::vAngularVelocity
+	HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3  ___vAngularVelocity_2;
+	// Valve.VR.ETrackingResult Valve.VR.TrackedDevicePose_t::eTrackingResult
+	int32_t ___eTrackingResult_3;
+	// System.Boolean Valve.VR.TrackedDevicePose_t::bPoseIsValid
+	bool ___bPoseIsValid_4;
+	// System.Boolean Valve.VR.TrackedDevicePose_t::bDeviceIsConnected
+	bool ___bDeviceIsConnected_5;
+
+public:
+	inline static int32_t get_offset_of_mDeviceToAbsoluteTracking_0() { return static_cast<int32_t>(offsetof(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383, ___mDeviceToAbsoluteTracking_0)); }
+	inline HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  get_mDeviceToAbsoluteTracking_0() const { return ___mDeviceToAbsoluteTracking_0; }
+	inline HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * get_address_of_mDeviceToAbsoluteTracking_0() { return &___mDeviceToAbsoluteTracking_0; }
+	inline void set_mDeviceToAbsoluteTracking_0(HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  value)
+	{
+		___mDeviceToAbsoluteTracking_0 = value;
+	}
+
+	inline static int32_t get_offset_of_vVelocity_1() { return static_cast<int32_t>(offsetof(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383, ___vVelocity_1)); }
+	inline HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3  get_vVelocity_1() const { return ___vVelocity_1; }
+	inline HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3 * get_address_of_vVelocity_1() { return &___vVelocity_1; }
+	inline void set_vVelocity_1(HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3  value)
+	{
+		___vVelocity_1 = value;
+	}
+
+	inline static int32_t get_offset_of_vAngularVelocity_2() { return static_cast<int32_t>(offsetof(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383, ___vAngularVelocity_2)); }
+	inline HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3  get_vAngularVelocity_2() const { return ___vAngularVelocity_2; }
+	inline HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3 * get_address_of_vAngularVelocity_2() { return &___vAngularVelocity_2; }
+	inline void set_vAngularVelocity_2(HmdVector3_t_tEFA290D649DE2E28E5863ED6F09C667A0492FCF3  value)
+	{
+		___vAngularVelocity_2 = value;
+	}
+
+	inline static int32_t get_offset_of_eTrackingResult_3() { return static_cast<int32_t>(offsetof(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383, ___eTrackingResult_3)); }
+	inline int32_t get_eTrackingResult_3() const { return ___eTrackingResult_3; }
+	inline int32_t* get_address_of_eTrackingResult_3() { return &___eTrackingResult_3; }
+	inline void set_eTrackingResult_3(int32_t value)
+	{
+		___eTrackingResult_3 = value;
+	}
+
+	inline static int32_t get_offset_of_bPoseIsValid_4() { return static_cast<int32_t>(offsetof(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383, ___bPoseIsValid_4)); }
+	inline bool get_bPoseIsValid_4() const { return ___bPoseIsValid_4; }
+	inline bool* get_address_of_bPoseIsValid_4() { return &___bPoseIsValid_4; }
+	inline void set_bPoseIsValid_4(bool value)
+	{
+		___bPoseIsValid_4 = value;
+	}
+
+	inline static int32_t get_offset_of_bDeviceIsConnected_5() { return static_cast<int32_t>(offsetof(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383, ___bDeviceIsConnected_5)); }
+	inline bool get_bDeviceIsConnected_5() const { return ___bDeviceIsConnected_5; }
+	inline bool* get_address_of_bDeviceIsConnected_5() { return &___bDeviceIsConnected_5; }
+	inline void set_bDeviceIsConnected_5(bool value)
+	{
+		___bDeviceIsConnected_5 = value;
+	}
+};
+
+
 // Valve.VR.VREvent_HDCPError_t
 struct VREvent_HDCPError_t_t9FFC816A909E44EA3DCDDD94D8FDA13B528EE5EA 
 {
@@ -6319,6 +7539,42 @@ public:
 
 // System.AsyncCallback
 struct AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo
+struct _GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRInput/_GetSkeletalActionData
+struct _GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRInput/_GetSkeletalBoneData
+struct _GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed
+struct _GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6  : public MulticastDelegate_t
 {
 public:
 
@@ -7388,84 +8644,41 @@ public:
 };
 
 
-// Valve.VR.IVRResources/_GetResourceFullPath
-struct _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F  : public MulticastDelegate_t
+// Valve.VR.InputPoseActionData_t
+struct InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 
 {
 public:
+	// System.Boolean Valve.VR.InputPoseActionData_t::bActive
+	bool ___bActive_0;
+	// System.UInt64 Valve.VR.InputPoseActionData_t::activeOrigin
+	uint64_t ___activeOrigin_1;
+	// Valve.VR.TrackedDevicePose_t Valve.VR.InputPoseActionData_t::pose
+	TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383  ___pose_2;
 
 public:
-};
+	inline static int32_t get_offset_of_bActive_0() { return static_cast<int32_t>(offsetof(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111, ___bActive_0)); }
+	inline bool get_bActive_0() const { return ___bActive_0; }
+	inline bool* get_address_of_bActive_0() { return &___bActive_0; }
+	inline void set_bActive_0(bool value)
+	{
+		___bActive_0 = value;
+	}
 
+	inline static int32_t get_offset_of_activeOrigin_1() { return static_cast<int32_t>(offsetof(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111, ___activeOrigin_1)); }
+	inline uint64_t get_activeOrigin_1() const { return ___activeOrigin_1; }
+	inline uint64_t* get_address_of_activeOrigin_1() { return &___activeOrigin_1; }
+	inline void set_activeOrigin_1(uint64_t value)
+	{
+		___activeOrigin_1 = value;
+	}
 
-// Valve.VR.IVRResources/_LoadSharedResource
-struct _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_GetScreenshotPropertyFilename
-struct _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_GetScreenshotPropertyType
-struct _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_HookScreenshot
-struct _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_RequestScreenshot
-struct _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_SubmitScreenshot
-struct _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_TakeStereoScreenshot
-struct _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
-
-// Valve.VR.IVRScreenshots/_UpdateScreenshotProgress
-struct _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47  : public MulticastDelegate_t
-{
-public:
-
-public:
+	inline static int32_t get_offset_of_pose_2() { return static_cast<int32_t>(offsetof(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111, ___pose_2)); }
+	inline TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383  get_pose_2() const { return ___pose_2; }
+	inline TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * get_address_of_pose_2() { return &___pose_2; }
+	inline void set_pose_2(TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383  value)
+	{
+		___pose_2 = value;
+	}
 };
 
 
@@ -8069,6 +9282,24 @@ public:
 };
 
 
+// Valve.VR.IVRInput/_GetPoseActionDataForNextFrame
+struct _GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow
+struct _GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // Valve.VR.IVROverlayView/_AcquireOverlayView
 struct _AcquireOverlayView_t13DB1661A20A56D4C8162257F637416D928C8D5F  : public MulticastDelegate_t
 {
@@ -8155,41 +9386,6 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Valve.VR.VRBoneTransform_t[]
-struct VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  m_Items[1];
-
-public:
-	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC * GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC * GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  value)
-	{
-		m_Items[index] = value;
-	}
-};
 // System.Delegate[]
 struct DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86  : public RuntimeArray
 {
@@ -8225,6 +9421,41 @@ public:
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// Valve.VR.VRBoneTransform_t[]
+struct VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  m_Items[1];
+
+public:
+	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC  value)
+	{
+		m_Items[index] = value;
 	}
 };
 // Valve.VR.VRActiveActionSet_t[]
@@ -8265,6 +9496,787 @@ public:
 
 
 
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetOriginTrackedDeviceInfo__ctor_m1CE7550EE2DC5300B40EDBE7EFBCE6E9E3ED39F4 (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::Invoke(System.UInt64,Valve.VR.InputOriginInfo_t&,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetOriginTrackedDeviceInfo_Invoke_mFD9F2323420944B0EF5C55A8B4B8A5B253A2A4BE (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___origin0, ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(targetMethod, targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(targetMethod, targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
+					else
+						result = VirtFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___origin0) - 1), ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::BeginInvoke(System.UInt64,Valve.VR.InputOriginInfo_t&,System.UInt32,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetOriginTrackedDeviceInfo_BeginInvoke_m51D50F72BB579668386F733063F896D7B03329E0 (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_GetOriginTrackedDeviceInfo_BeginInvoke_m51D50F72BB579668386F733063F896D7B03329E0_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___origin0);
+	__d_args[1] = Box(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7_il2cpp_TypeInfo_var, &*___pOriginInfo1);
+	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unOriginInfoSize2);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::EndInvoke(Valve.VR.InputOriginInfo_t&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetOriginTrackedDeviceInfo_EndInvoke_m7EAC25B0B80A783FF16CA18C28383346636183FE (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pOriginInfo0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetPoseActionDataForNextFrame__ctor_mB58915FBE3C78789F7EFB47F2C5BBDD0A82D2CD0 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::Invoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataForNextFrame_Invoke_m5B31DC3ADD784072B4EDC435CC9539B939086C41 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 5)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
+					else
+						result = GenericVirtFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
+					else
+						result = VirtFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::BeginInvoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetPoseActionDataForNextFrame_BeginInvoke_m2BC9E0FFAA8DB1B81693C2400851184D60DDBAC7 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_GetPoseActionDataForNextFrame_BeginInvoke_m2BC9E0FFAA8DB1B81693C2400851184D60DDBAC7_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[6] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
+	__d_args[1] = Box(ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469_il2cpp_TypeInfo_var, &___eOrigin1);
+	__d_args[2] = Box(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111_il2cpp_TypeInfo_var, &*___pActionData2);
+	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unActionDataSize3);
+	__d_args[4] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulRestrictToDevice4);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::EndInvoke(Valve.VR.InputPoseActionData_t&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataForNextFrame_EndInvoke_mF8B5CD65C968AAF6242C186895C9889D3B1DD7D1 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pActionData0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetPoseActionDataRelativeToNow__ctor_mE5FCD16C96FAA91EA3836568F615805EE89D15D0 (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::Invoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,System.Single,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataRelativeToNow_Invoke_m4C86F99B52EF1E3A3721DC9B1B7D972DD484D825 (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 6)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
+					else
+						result = GenericVirtFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
+					else
+						result = VirtFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::BeginInvoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,System.Single,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetPoseActionDataRelativeToNow_BeginInvoke_m9523357F1A4E142DA0231B11F40B02256FA10ECA (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback6, RuntimeObject * ___object7, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_GetPoseActionDataRelativeToNow_BeginInvoke_m9523357F1A4E142DA0231B11F40B02256FA10ECA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[7] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
+	__d_args[1] = Box(ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469_il2cpp_TypeInfo_var, &___eOrigin1);
+	__d_args[2] = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &___fPredictedSecondsFromNow2);
+	__d_args[3] = Box(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111_il2cpp_TypeInfo_var, &*___pActionData3);
+	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unActionDataSize4);
+	__d_args[5] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulRestrictToDevice5);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback6, (RuntimeObject*)___object7);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::EndInvoke(Valve.VR.InputPoseActionData_t&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataRelativeToNow_EndInvoke_m3E8E0751753FA3B63BB4CE116E912612BEA9D0CB (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pActionData0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___action0, ___pActionData1, ___unActionDataSize2);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRInput/_GetSkeletalActionData::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetSkeletalActionData__ctor_mF5314C087C8F02C3D6E82E67B3BD1E41C7F09183 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalActionData::Invoke(System.UInt64,Valve.VR.InputSkeletalActionData_t&,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalActionData_Invoke_mFD7322A817129E2621EA9DC59B1064AA4E095405 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___pActionData1, ___unActionDataSize2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___pActionData1, ___unActionDataSize2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
+					else
+						result = VirtFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___pActionData1, ___unActionDataSize2, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___pActionData1, ___unActionDataSize2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRInput/_GetSkeletalActionData::BeginInvoke(System.UInt64,Valve.VR.InputSkeletalActionData_t&,System.UInt32,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetSkeletalActionData_BeginInvoke_mA600425ADA2CC65F203604DBCC3DDF5283947B15 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_GetSkeletalActionData_BeginInvoke_mA600425ADA2CC65F203604DBCC3DDF5283947B15_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
+	__d_args[1] = Box(InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26_il2cpp_TypeInfo_var, &*___pActionData1);
+	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unActionDataSize2);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalActionData::EndInvoke(Valve.VR.InputSkeletalActionData_t&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalActionData_EndInvoke_m57A28532EE35F98B899C3F3556C33971AE1B2EDB (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pActionData0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, uint32_t ___unTransformArrayCount4, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, int32_t, VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC *, uint32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Marshaling of parameter '___pTransformArray3' to native representation
+	VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC * ____pTransformArray3_marshaled = NULL;
+	if (___pTransformArray3 != NULL)
+	{
+		____pTransformArray3_marshaled = reinterpret_cast<VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC *>((___pTransformArray3)->GetAddressAtUnchecked(0));
+	}
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eTransformSpace1, ___eMotionRange2, ____pTransformArray3_marshaled, ___unTransformArrayCount4);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRInput/_GetSkeletalBoneData::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetSkeletalBoneData__ctor_m7BE5624BDF093699816B86276551A7ADD702685C (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneData::Invoke(System.UInt64,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.EVRSkeletalMotionRange,Valve.VR.VRBoneTransform_t[],System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneData_Invoke_m70FD6C22451096AA6418061DE1C3E47196D93B7F (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, uint32_t ___unTransformArrayCount4, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 5)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
+					else
+						result = GenericVirtFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
+					else
+						result = VirtFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRInput/_GetSkeletalBoneData::BeginInvoke(System.UInt64,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.EVRSkeletalMotionRange,Valve.VR.VRBoneTransform_t[],System.UInt32,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetSkeletalBoneData_BeginInvoke_mE74523338829F98D7EB981FC697C8CDF4900C3B6 (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, uint32_t ___unTransformArrayCount4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_GetSkeletalBoneData_BeginInvoke_mE74523338829F98D7EB981FC697C8CDF4900C3B6_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[6] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
+	__d_args[1] = Box(EVRSkeletalTransformSpace_t1AADDF1D14B44EF3471DEC638167692B06EBF6AD_il2cpp_TypeInfo_var, &___eTransformSpace1);
+	__d_args[2] = Box(EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2_il2cpp_TypeInfo_var, &___eMotionRange2);
+	__d_args[3] = ___pTransformArray3;
+	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unTransformArrayCount4);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneData::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneData_EndInvoke_m312176F18F066798A871A7713595A75F0E95E209 (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, intptr_t, uint32_t, uint32_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetSkeletalBoneDataCompressed__ctor_m7C88E75432C040506A1D20BBB79E24837E999F41 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::Invoke(System.UInt64,Valve.VR.EVRSkeletalMotionRange,System.IntPtr,System.UInt32,System.UInt32&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneDataCompressed_Invoke_mCB15672D176C6C7C7983330E6F69FAA02F783D87 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 5)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(targetMethod, targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
+					else
+						result = GenericVirtFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(targetMethod, targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
+					else
+						result = VirtFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::BeginInvoke(System.UInt64,Valve.VR.EVRSkeletalMotionRange,System.IntPtr,System.UInt32,System.UInt32&,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetSkeletalBoneDataCompressed_BeginInvoke_m19E86E6C7AD42F4A3F07A1FDAD734F40ADB016E0 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_GetSkeletalBoneDataCompressed_BeginInvoke_m19E86E6C7AD42F4A3F07A1FDAD734F40ADB016E0_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[6] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
+	__d_args[1] = Box(EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2_il2cpp_TypeInfo_var, &___eMotionRange1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pvCompressedData2);
+	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unCompressedSize3);
+	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &*___punRequiredCompressedSize4);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
+}
+// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::EndInvoke(System.UInt32&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneDataCompressed_EndInvoke_m03F2C7C769F86462D22332920E50EB5BBB1C1E0D (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint32_t* ___punRequiredCompressedSize0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___punRequiredCompressedSize0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -23985,902 +25997,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadIntoTextureD3D11_Async_EndInvoke
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E (_LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E * __this, intptr_t ___pchRenderModelName0, intptr_t* ___ppRenderModel1, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, intptr_t*);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___pchRenderModelName0, ___ppRenderModel1);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRRenderModels/_LoadRenderModel_Async::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _LoadRenderModel_Async__ctor_m9EA75500144338EE48B74FA47038C136FAAC1860 (_LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRRenderModelError Valve.VR.IVRRenderModels/_LoadRenderModel_Async::Invoke(System.IntPtr,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadRenderModel_Async_Invoke_mFEE7C5EF97C282AC731B50035DCDF5759DEE8737 (_LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E * __this, intptr_t ___pchRenderModelName0, intptr_t* ___ppRenderModel1, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pchRenderModelName0, ___ppRenderModel1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchRenderModelName0, ___ppRenderModel1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___pchRenderModelName0, ___ppRenderModel1);
-					else
-						result = GenericVirtFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___pchRenderModelName0, ___ppRenderModel1);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchRenderModelName0, ___ppRenderModel1);
-					else
-						result = VirtFuncInvoker2< int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchRenderModelName0, ___ppRenderModel1);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchRenderModelName0) - 1), ___ppRenderModel1, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchRenderModelName0, ___ppRenderModel1, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRRenderModels/_LoadRenderModel_Async::BeginInvoke(System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _LoadRenderModel_Async_BeginInvoke_m941B184724539D7FB111326812FCFB7012E81EBF (_LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E * __this, intptr_t ___pchRenderModelName0, intptr_t* ___ppRenderModel1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_LoadRenderModel_Async_BeginInvoke_m941B184724539D7FB111326812FCFB7012E81EBF_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchRenderModelName0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppRenderModel1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// Valve.VR.EVRRenderModelError Valve.VR.IVRRenderModels/_LoadRenderModel_Async::EndInvoke(System.IntPtr&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadRenderModel_Async_EndInvoke_m4B46FD76A949193A6DD045620F87F6B9B6DBD7A2 (_LoadRenderModel_Async_tCE84D9BB0A4DC740ACF3ECBC56164D990019588E * __this, intptr_t* ___ppRenderModel0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___ppRenderModel0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3 (_LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3 * __this, int32_t ___textureId0, intptr_t ___pD3D11Device1, intptr_t* ___ppD3D11Texture2D2, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(int32_t, intptr_t, intptr_t*);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRRenderModels/_LoadTextureD3D11_Async::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _LoadTextureD3D11_Async__ctor_m3F5183475A30FDE377A6CA088FABA595AF93C420 (_LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRRenderModelError Valve.VR.IVRRenderModels/_LoadTextureD3D11_Async::Invoke(System.Int32,System.IntPtr,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadTextureD3D11_Async_Invoke_m76D74F9705980C9EC95BB813CE98DD75588C6195 (_LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3 * __this, int32_t ___textureId0, intptr_t ___pD3D11Device1, intptr_t* ___ppD3D11Texture2D2, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 3)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (int32_t, intptr_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, int32_t, intptr_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker3< int32_t, int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2);
-					else
-						result = GenericVirtFuncInvoker3< int32_t, int32_t, intptr_t, intptr_t* >::Invoke(targetMethod, targetThis, ___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker3< int32_t, int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2);
-					else
-						result = VirtFuncInvoker3< int32_t, int32_t, intptr_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, intptr_t*, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___textureId0) - 1), ___pD3D11Device1, ___ppD3D11Texture2D2, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, int32_t, intptr_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___textureId0, ___pD3D11Device1, ___ppD3D11Texture2D2, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRRenderModels/_LoadTextureD3D11_Async::BeginInvoke(System.Int32,System.IntPtr,System.IntPtr&,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _LoadTextureD3D11_Async_BeginInvoke_m5DCD35D2894343A5642E5EE6803F23C1652C2FF8 (_LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3 * __this, int32_t ___textureId0, intptr_t ___pD3D11Device1, intptr_t* ___ppD3D11Texture2D2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_LoadTextureD3D11_Async_BeginInvoke_m5DCD35D2894343A5642E5EE6803F23C1652C2FF8_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[4] = {0};
-	__d_args[0] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___textureId0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pD3D11Device1);
-	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppD3D11Texture2D2);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
-}
-// Valve.VR.EVRRenderModelError Valve.VR.IVRRenderModels/_LoadTextureD3D11_Async::EndInvoke(System.IntPtr&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadTextureD3D11_Async_EndInvoke_mADDA29026BBCE19CED0CBFA6F1BFA5FDE91475C7 (_LoadTextureD3D11_Async_t083246EA37C58F7A450F2F498C36D2A36765FFB3 * __this, intptr_t* ___ppD3D11Texture2D0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___ppD3D11Texture2D0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461 (_LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461 * __this, int32_t ___textureId0, intptr_t* ___ppTexture1, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(int32_t, intptr_t*);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___textureId0, ___ppTexture1);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRRenderModels/_LoadTexture_Async::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _LoadTexture_Async__ctor_mF0BE48DF775883A293DECFF6AEFA56FA6CC5E496 (_LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRRenderModelError Valve.VR.IVRRenderModels/_LoadTexture_Async::Invoke(System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadTexture_Async_Invoke_m9F256F73347775431DFA1B17B20EC0F0CCF7E9E2 (_LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461 * __this, int32_t ___textureId0, intptr_t* ___ppTexture1, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (int32_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___textureId0, ___ppTexture1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, int32_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___textureId0, ___ppTexture1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< int32_t, int32_t, intptr_t* >::Invoke(targetMethod, targetThis, ___textureId0, ___ppTexture1);
-					else
-						result = GenericVirtFuncInvoker2< int32_t, int32_t, intptr_t* >::Invoke(targetMethod, targetThis, ___textureId0, ___ppTexture1);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< int32_t, int32_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___textureId0, ___ppTexture1);
-					else
-						result = VirtFuncInvoker2< int32_t, int32_t, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___textureId0, ___ppTexture1);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t*, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___textureId0) - 1), ___ppTexture1, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, int32_t, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___textureId0, ___ppTexture1, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRRenderModels/_LoadTexture_Async::BeginInvoke(System.Int32,System.IntPtr&,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _LoadTexture_Async_BeginInvoke_m618FEA7CA767A41F559C1B3C91F612D0469456C8 (_LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461 * __this, int32_t ___textureId0, intptr_t* ___ppTexture1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_LoadTexture_Async_BeginInvoke_m618FEA7CA767A41F559C1B3C91F612D0469456C8_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &___textureId0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppTexture1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// Valve.VR.EVRRenderModelError Valve.VR.IVRRenderModels/_LoadTexture_Async::EndInvoke(System.IntPtr&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _LoadTexture_Async_EndInvoke_mA26101B310AB7CBA8228481F87E18C02F359206A (_LoadTexture_Async_tA63CF00C91D27749A23711AAB7F3F72629B39461 * __this, intptr_t* ___ppTexture0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___ppTexture0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  bool DelegatePInvokeWrapper__RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B (_RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B * __this, intptr_t ___pchRenderModelName0, intptr_t ___pchComponentName1, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, intptr_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___pchRenderModelName0, ___pchComponentName1);
-
-	return static_cast<bool>(returnValue);
-}
-// System.Void Valve.VR.IVRRenderModels/_RenderModelHasComponent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _RenderModelHasComponent__ctor_mC3414A8AC98E451F1D296FD4590D1AE23A05D310 (_RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.Boolean Valve.VR.IVRRenderModels/_RenderModelHasComponent::Invoke(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool _RenderModelHasComponent_Invoke_m1BF04DC50F7BACC116546AF62CD8B253A806A47C (_RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B * __this, intptr_t ___pchRenderModelName0, intptr_t ___pchComponentName1, const RuntimeMethod* method)
-{
-	bool result = false;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef bool (*FunctionPointerType) (intptr_t, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pchRenderModelName0, ___pchComponentName1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef bool (*FunctionPointerType) (void*, intptr_t, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchRenderModelName0, ___pchComponentName1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< bool, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___pchRenderModelName0, ___pchComponentName1);
-					else
-						result = GenericVirtFuncInvoker2< bool, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___pchRenderModelName0, ___pchComponentName1);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< bool, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchRenderModelName0, ___pchComponentName1);
-					else
-						result = VirtFuncInvoker2< bool, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchRenderModelName0, ___pchComponentName1);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef bool (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchRenderModelName0) - 1), ___pchComponentName1, targetMethod);
-				}
-				typedef bool (*FunctionPointerType) (void*, intptr_t, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchRenderModelName0, ___pchComponentName1, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRRenderModels/_RenderModelHasComponent::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _RenderModelHasComponent_BeginInvoke_mBB37CC1B6E7BE67E1C9F569A148C8B90DE04720A (_RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B * __this, intptr_t ___pchRenderModelName0, intptr_t ___pchComponentName1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_RenderModelHasComponent_BeginInvoke_mBB37CC1B6E7BE67E1C9F569A148C8B90DE04720A_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchRenderModelName0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchComponentName1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// System.Boolean Valve.VR.IVRRenderModels/_RenderModelHasComponent::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool _RenderModelHasComponent_EndInvoke_m1195F974EF0A98574E687A66C5E550B93469D9AA (_RenderModelHasComponent_tB8C9529AB53BA3599F73FC2E37888D7B76E7C15B * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(bool*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Conversion methods for marshalling of: Valve.VR.IVRResources
-IL2CPP_EXTERN_C void IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshal_pinvoke(const IVRResources_t5D670A350665A7358445F76C1390C64912711C97& unmarshaled, IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_pinvoke& marshaled)
-{
-	marshaled.___LoadSharedResource_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_LoadSharedResource_0()));
-	marshaled.___GetResourceFullPath_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_GetResourceFullPath_1()));
-}
-IL2CPP_EXTERN_C void IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshal_pinvoke_back(const IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_pinvoke& marshaled, IVRResources_t5D670A350665A7358445F76C1390C64912711C97& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVRResources_t5D670A350665A7358445F76C1390C64912711C97_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.set_LoadSharedResource_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D>(marshaled.___LoadSharedResource_0, _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D_il2cpp_TypeInfo_var));
-	unmarshaled.set_GetResourceFullPath_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F>(marshaled.___GetResourceFullPath_1, _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F_il2cpp_TypeInfo_var));
-}
-// Conversion method for clean up from marshalling of: Valve.VR.IVRResources
-IL2CPP_EXTERN_C void IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshal_pinvoke_cleanup(IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: Valve.VR.IVRResources
-IL2CPP_EXTERN_C void IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshal_com(const IVRResources_t5D670A350665A7358445F76C1390C64912711C97& unmarshaled, IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_com& marshaled)
-{
-	marshaled.___LoadSharedResource_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_LoadSharedResource_0()));
-	marshaled.___GetResourceFullPath_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_GetResourceFullPath_1()));
-}
-IL2CPP_EXTERN_C void IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshal_com_back(const IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_com& marshaled, IVRResources_t5D670A350665A7358445F76C1390C64912711C97& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVRResources_t5D670A350665A7358445F76C1390C64912711C97_com_FromNativeMethodDefinition_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.set_LoadSharedResource_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D>(marshaled.___LoadSharedResource_0, _LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D_il2cpp_TypeInfo_var));
-	unmarshaled.set_GetResourceFullPath_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F>(marshaled.___GetResourceFullPath_1, _GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F_il2cpp_TypeInfo_var));
-}
-// Conversion method for clean up from marshalling of: Valve.VR.IVRResources
-IL2CPP_EXTERN_C void IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshal_com_cleanup(IVRResources_t5D670A350665A7358445F76C1390C64912711C97_marshaled_com& marshaled)
-{
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  uint32_t DelegatePInvokeWrapper__GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F (_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * __this, intptr_t ___pchResourceName0, intptr_t ___pchResourceTypeDirectory1, StringBuilder_t * ___pchPathBuffer2, uint32_t ___unBufferLen3, const RuntimeMethod* method)
-{
-	typedef uint32_t (STDCALL *PInvokeFunc)(intptr_t, intptr_t, char*, uint32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Marshaling of parameter '___pchPathBuffer2' to native representation
-	char* ____pchPathBuffer2_marshaled = NULL;
-	____pchPathBuffer2_marshaled = il2cpp_codegen_marshal_string_builder(___pchPathBuffer2);
-
-	// Native function invocation
-	uint32_t returnValue = il2cppPInvokeFunc(___pchResourceName0, ___pchResourceTypeDirectory1, ____pchPathBuffer2_marshaled, ___unBufferLen3);
-
-	// Marshaling of parameter '___pchPathBuffer2' back from native representation
-	il2cpp_codegen_marshal_string_builder_result(___pchPathBuffer2, ____pchPathBuffer2_marshaled);
-
-	// Marshaling cleanup of parameter '___pchPathBuffer2' native representation
-	il2cpp_codegen_marshal_free(____pchPathBuffer2_marshaled);
-	____pchPathBuffer2_marshaled = NULL;
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRResources/_GetResourceFullPath::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetResourceFullPath__ctor_mB5EEB8B8FE40B34A93043864C551BEB7FB0A7366 (_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.UInt32 Valve.VR.IVRResources/_GetResourceFullPath::Invoke(System.IntPtr,System.IntPtr,System.Text.StringBuilder,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t _GetResourceFullPath_Invoke_m15AF8B0BF9860A56EF115172DE0DDCD0510D5A2A (_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * __this, intptr_t ___pchResourceName0, intptr_t ___pchResourceTypeDirectory1, StringBuilder_t * ___pchPathBuffer2, uint32_t ___unBufferLen3, const RuntimeMethod* method)
-{
-	uint32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 4)
-			{
-				// open
-				typedef uint32_t (*FunctionPointerType) (intptr_t, intptr_t, StringBuilder_t *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef uint32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, StringBuilder_t *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker4< uint32_t, intptr_t, intptr_t, StringBuilder_t *, uint32_t >::Invoke(targetMethod, targetThis, ___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3);
-					else
-						result = GenericVirtFuncInvoker4< uint32_t, intptr_t, intptr_t, StringBuilder_t *, uint32_t >::Invoke(targetMethod, targetThis, ___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker4< uint32_t, intptr_t, intptr_t, StringBuilder_t *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3);
-					else
-						result = VirtFuncInvoker4< uint32_t, intptr_t, intptr_t, StringBuilder_t *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef uint32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, StringBuilder_t *, uint32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchResourceName0) - 1), ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3, targetMethod);
-				}
-				typedef uint32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, StringBuilder_t *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchResourceName0, ___pchResourceTypeDirectory1, ___pchPathBuffer2, ___unBufferLen3, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRResources/_GetResourceFullPath::BeginInvoke(System.IntPtr,System.IntPtr,System.Text.StringBuilder,System.UInt32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetResourceFullPath_BeginInvoke_mA0E941EBA042402142A1819AF42EFB7FA1365928 (_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * __this, intptr_t ___pchResourceName0, intptr_t ___pchResourceTypeDirectory1, StringBuilder_t * ___pchPathBuffer2, uint32_t ___unBufferLen3, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback4, RuntimeObject * ___object5, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetResourceFullPath_BeginInvoke_mA0E941EBA042402142A1819AF42EFB7FA1365928_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[5] = {0};
-	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchResourceName0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchResourceTypeDirectory1);
-	__d_args[2] = ___pchPathBuffer2;
-	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBufferLen3);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback4, (RuntimeObject*)___object5);
-}
-// System.UInt32 Valve.VR.IVRResources/_GetResourceFullPath::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t _GetResourceFullPath_EndInvoke_m4DECF79AF93F7F5E3EA80528308EDD2A55164E89 (_GetResourceFullPath_tBA86A24A792C44FD483581EBA289BF4E93A5DE0F * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(uint32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  uint32_t DelegatePInvokeWrapper__LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D (_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * __this, intptr_t ___pchResourceName0, String_t* ___pchBuffer1, uint32_t ___unBufferLen2, const RuntimeMethod* method)
-{
-	typedef uint32_t (STDCALL *PInvokeFunc)(intptr_t, char*, uint32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Marshaling of parameter '___pchBuffer1' to native representation
-	char* ____pchBuffer1_marshaled = NULL;
-	____pchBuffer1_marshaled = il2cpp_codegen_marshal_string(___pchBuffer1);
-
-	// Native function invocation
-	uint32_t returnValue = il2cppPInvokeFunc(___pchResourceName0, ____pchBuffer1_marshaled, ___unBufferLen2);
-
-	// Marshaling cleanup of parameter '___pchBuffer1' native representation
-	il2cpp_codegen_marshal_free(____pchBuffer1_marshaled);
-	____pchBuffer1_marshaled = NULL;
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRResources/_LoadSharedResource::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _LoadSharedResource__ctor_m885D5F9601B6A46CD185D21098B3FF3C4619F3D1 (_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// System.UInt32 Valve.VR.IVRResources/_LoadSharedResource::Invoke(System.IntPtr,System.String,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t _LoadSharedResource_Invoke_m32528F7EB1FE319BC1680F28AB8DD9C1CC56D7D7 (_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * __this, intptr_t ___pchResourceName0, String_t* ___pchBuffer1, uint32_t ___unBufferLen2, const RuntimeMethod* method)
-{
-	uint32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 3)
-			{
-				// open
-				typedef uint32_t (*FunctionPointerType) (intptr_t, String_t*, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pchResourceName0, ___pchBuffer1, ___unBufferLen2, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef uint32_t (*FunctionPointerType) (void*, intptr_t, String_t*, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchResourceName0, ___pchBuffer1, ___unBufferLen2, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker3< uint32_t, intptr_t, String_t*, uint32_t >::Invoke(targetMethod, targetThis, ___pchResourceName0, ___pchBuffer1, ___unBufferLen2);
-					else
-						result = GenericVirtFuncInvoker3< uint32_t, intptr_t, String_t*, uint32_t >::Invoke(targetMethod, targetThis, ___pchResourceName0, ___pchBuffer1, ___unBufferLen2);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker3< uint32_t, intptr_t, String_t*, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchResourceName0, ___pchBuffer1, ___unBufferLen2);
-					else
-						result = VirtFuncInvoker3< uint32_t, intptr_t, String_t*, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchResourceName0, ___pchBuffer1, ___unBufferLen2);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef uint32_t (*FunctionPointerType) (RuntimeObject*, String_t*, uint32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchResourceName0) - 1), ___pchBuffer1, ___unBufferLen2, targetMethod);
-				}
-				typedef uint32_t (*FunctionPointerType) (void*, intptr_t, String_t*, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchResourceName0, ___pchBuffer1, ___unBufferLen2, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRResources/_LoadSharedResource::BeginInvoke(System.IntPtr,System.String,System.UInt32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _LoadSharedResource_BeginInvoke_mA4CEB63B8953616AD932874F683FA0BC31959742 (_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * __this, intptr_t ___pchResourceName0, String_t* ___pchBuffer1, uint32_t ___unBufferLen2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_LoadSharedResource_BeginInvoke_mA4CEB63B8953616AD932874F683FA0BC31959742_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[4] = {0};
-	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchResourceName0);
-	__d_args[1] = ___pchBuffer1;
-	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBufferLen2);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
-}
-// System.UInt32 Valve.VR.IVRResources/_LoadSharedResource::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t _LoadSharedResource_EndInvoke_m06B03CFB56E9F6BEA11AEA667493E89C3AEF9D74 (_LoadSharedResource_t912F6AE07ABE38F093FC7459864D71C534B3894D * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(uint32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Conversion methods for marshalling of: Valve.VR.IVRScreenshots
-IL2CPP_EXTERN_C void IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshal_pinvoke(const IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0& unmarshaled, IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_pinvoke& marshaled)
-{
-	marshaled.___RequestScreenshot_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_RequestScreenshot_0()));
-	marshaled.___HookScreenshot_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_HookScreenshot_1()));
-	marshaled.___GetScreenshotPropertyType_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_GetScreenshotPropertyType_2()));
-	marshaled.___GetScreenshotPropertyFilename_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_GetScreenshotPropertyFilename_3()));
-	marshaled.___UpdateScreenshotProgress_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_UpdateScreenshotProgress_4()));
-	marshaled.___TakeStereoScreenshot_5 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TakeStereoScreenshot_5()));
-	marshaled.___SubmitScreenshot_6 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_SubmitScreenshot_6()));
-}
-IL2CPP_EXTERN_C void IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshal_pinvoke_back(const IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_pinvoke& marshaled, IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.set_RequestScreenshot_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B>(marshaled.___RequestScreenshot_0, _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B_il2cpp_TypeInfo_var));
-	unmarshaled.set_HookScreenshot_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759>(marshaled.___HookScreenshot_1, _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759_il2cpp_TypeInfo_var));
-	unmarshaled.set_GetScreenshotPropertyType_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A>(marshaled.___GetScreenshotPropertyType_2, _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A_il2cpp_TypeInfo_var));
-	unmarshaled.set_GetScreenshotPropertyFilename_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A>(marshaled.___GetScreenshotPropertyFilename_3, _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A_il2cpp_TypeInfo_var));
-	unmarshaled.set_UpdateScreenshotProgress_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47>(marshaled.___UpdateScreenshotProgress_4, _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47_il2cpp_TypeInfo_var));
-	unmarshaled.set_TakeStereoScreenshot_5(il2cpp_codegen_marshal_function_ptr_to_delegate<_TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE>(marshaled.___TakeStereoScreenshot_5, _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE_il2cpp_TypeInfo_var));
-	unmarshaled.set_SubmitScreenshot_6(il2cpp_codegen_marshal_function_ptr_to_delegate<_SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78>(marshaled.___SubmitScreenshot_6, _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78_il2cpp_TypeInfo_var));
-}
-// Conversion method for clean up from marshalling of: Valve.VR.IVRScreenshots
-IL2CPP_EXTERN_C void IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshal_pinvoke_cleanup(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: Valve.VR.IVRScreenshots
-IL2CPP_EXTERN_C void IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshal_com(const IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0& unmarshaled, IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_com& marshaled)
-{
-	marshaled.___RequestScreenshot_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_RequestScreenshot_0()));
-	marshaled.___HookScreenshot_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_HookScreenshot_1()));
-	marshaled.___GetScreenshotPropertyType_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_GetScreenshotPropertyType_2()));
-	marshaled.___GetScreenshotPropertyFilename_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_GetScreenshotPropertyFilename_3()));
-	marshaled.___UpdateScreenshotProgress_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_UpdateScreenshotProgress_4()));
-	marshaled.___TakeStereoScreenshot_5 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_TakeStereoScreenshot_5()));
-	marshaled.___SubmitScreenshot_6 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_SubmitScreenshot_6()));
-}
-IL2CPP_EXTERN_C void IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshal_com_back(const IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_com& marshaled, IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_com_FromNativeMethodDefinition_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.set_RequestScreenshot_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B>(marshaled.___RequestScreenshot_0, _RequestScreenshot_tF527CEFDD16D882AE1DE41DCD7F0CE365CF3EB1B_il2cpp_TypeInfo_var));
-	unmarshaled.set_HookScreenshot_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759>(marshaled.___HookScreenshot_1, _HookScreenshot_t645057CDFB6807DEEEBF87E559C61D0D3D4CD759_il2cpp_TypeInfo_var));
-	unmarshaled.set_GetScreenshotPropertyType_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A>(marshaled.___GetScreenshotPropertyType_2, _GetScreenshotPropertyType_t3DD265405E2E5C3D79A2D310C477223782EEE09A_il2cpp_TypeInfo_var));
-	unmarshaled.set_GetScreenshotPropertyFilename_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A>(marshaled.___GetScreenshotPropertyFilename_3, _GetScreenshotPropertyFilename_tD0E8C68981830E3EBFBBF2F2B0A133A69E320C9A_il2cpp_TypeInfo_var));
-	unmarshaled.set_UpdateScreenshotProgress_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47>(marshaled.___UpdateScreenshotProgress_4, _UpdateScreenshotProgress_tB9317293AA20DCAE3808F40918CD71E554459A47_il2cpp_TypeInfo_var));
-	unmarshaled.set_TakeStereoScreenshot_5(il2cpp_codegen_marshal_function_ptr_to_delegate<_TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE>(marshaled.___TakeStereoScreenshot_5, _TakeStereoScreenshot_tD904150E15F1ED9B26B2FA4FD895333B80DE29BE_il2cpp_TypeInfo_var));
-	unmarshaled.set_SubmitScreenshot_6(il2cpp_codegen_marshal_function_ptr_to_delegate<_SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78>(marshaled.___SubmitScreenshot_6, _SubmitScreenshot_tF92A2C07D10D0A8383181D35D7EF93DFA882BC78_il2cpp_TypeInfo_var));
-}
-// Conversion method for clean up from marshalling of: Valve.VR.IVRScreenshots
-IL2CPP_EXTERN_C void IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshal_com_cleanup(IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0_marshaled_com& marshaled)
-{
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

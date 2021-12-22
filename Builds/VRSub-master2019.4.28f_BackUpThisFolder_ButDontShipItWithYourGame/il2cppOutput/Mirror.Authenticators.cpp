@@ -1167,12 +1167,12 @@ public:
 	int32_t ___U3CU3E1__state_0;
 	// System.Object Mirror.Authenticators.BasicAuthenticator/<DelayedDisconnect>d__8::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// System.Single Mirror.Authenticators.BasicAuthenticator/<DelayedDisconnect>d__8::waitTime
-	float ___waitTime_2;
-	// Mirror.Authenticators.BasicAuthenticator Mirror.Authenticators.BasicAuthenticator/<DelayedDisconnect>d__8::<>4__this
-	BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * ___U3CU3E4__this_3;
 	// Mirror.NetworkConnection Mirror.Authenticators.BasicAuthenticator/<DelayedDisconnect>d__8::conn
-	NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * ___conn_4;
+	NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * ___conn_2;
+	// System.Single Mirror.Authenticators.BasicAuthenticator/<DelayedDisconnect>d__8::waitTime
+	float ___waitTime_3;
+	// Mirror.Authenticators.BasicAuthenticator Mirror.Authenticators.BasicAuthenticator/<DelayedDisconnect>d__8::<>4__this
+	BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * ___U3CU3E4__this_4;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___U3CU3E1__state_0)); }
@@ -1192,30 +1192,30 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_waitTime_2() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___waitTime_2)); }
-	inline float get_waitTime_2() const { return ___waitTime_2; }
-	inline float* get_address_of_waitTime_2() { return &___waitTime_2; }
-	inline void set_waitTime_2(float value)
+	inline static int32_t get_offset_of_conn_2() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___conn_2)); }
+	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * get_conn_2() const { return ___conn_2; }
+	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 ** get_address_of_conn_2() { return &___conn_2; }
+	inline void set_conn_2(NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * value)
 	{
-		___waitTime_2 = value;
+		___conn_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___conn_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___U3CU3E4__this_3)); }
-	inline BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * get_U3CU3E4__this_3() const { return ___U3CU3E4__this_3; }
-	inline BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE ** get_address_of_U3CU3E4__this_3() { return &___U3CU3E4__this_3; }
-	inline void set_U3CU3E4__this_3(BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * value)
+	inline static int32_t get_offset_of_waitTime_3() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___waitTime_3)); }
+	inline float get_waitTime_3() const { return ___waitTime_3; }
+	inline float* get_address_of_waitTime_3() { return &___waitTime_3; }
+	inline void set_waitTime_3(float value)
 	{
-		___U3CU3E4__this_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_3), (void*)value);
+		___waitTime_3 = value;
 	}
 
-	inline static int32_t get_offset_of_conn_4() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___conn_4)); }
-	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * get_conn_4() const { return ___conn_4; }
-	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 ** get_address_of_conn_4() { return &___conn_4; }
-	inline void set_conn_4(NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * value)
+	inline static int32_t get_offset_of_U3CU3E4__this_4() { return static_cast<int32_t>(offsetof(U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256, ___U3CU3E4__this_4)); }
+	inline BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * get_U3CU3E4__this_4() const { return ___U3CU3E4__this_4; }
+	inline BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE ** get_address_of_U3CU3E4__this_4() { return &___U3CU3E4__this_4; }
+	inline void set_U3CU3E4__this_4(BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * value)
 	{
-		___conn_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___conn_4), (void*)value);
+		___U3CU3E4__this_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_4), (void*)value);
 	}
 };
 
@@ -1228,10 +1228,10 @@ public:
 	int32_t ___U3CU3E1__state_0;
 	// System.Object Mirror.Authenticators.TimeoutAuthenticator/<BeginAuthentication>d__9::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// Mirror.Authenticators.TimeoutAuthenticator Mirror.Authenticators.TimeoutAuthenticator/<BeginAuthentication>d__9::<>4__this
-	TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * ___U3CU3E4__this_2;
 	// Mirror.NetworkConnection Mirror.Authenticators.TimeoutAuthenticator/<BeginAuthentication>d__9::conn
-	NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * ___conn_3;
+	NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * ___conn_2;
+	// Mirror.Authenticators.TimeoutAuthenticator Mirror.Authenticators.TimeoutAuthenticator/<BeginAuthentication>d__9::<>4__this
+	TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * ___U3CU3E4__this_3;
 
 public:
 	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F, ___U3CU3E1__state_0)); }
@@ -1251,22 +1251,22 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E2__current_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F, ___U3CU3E4__this_2)); }
-	inline TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
-	inline TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
-	inline void set_U3CU3E4__this_2(TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * value)
+	inline static int32_t get_offset_of_conn_2() { return static_cast<int32_t>(offsetof(U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F, ___conn_2)); }
+	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * get_conn_2() const { return ___conn_2; }
+	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 ** get_address_of_conn_2() { return &___conn_2; }
+	inline void set_conn_2(NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * value)
 	{
-		___U3CU3E4__this_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_2), (void*)value);
+		___conn_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___conn_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_conn_3() { return static_cast<int32_t>(offsetof(U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F, ___conn_3)); }
-	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * get_conn_3() const { return ___conn_3; }
-	inline NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 ** get_address_of_conn_3() { return &___conn_3; }
-	inline void set_conn_3(NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * value)
+	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F, ___U3CU3E4__this_3)); }
+	inline TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * get_U3CU3E4__this_3() const { return ___U3CU3E4__this_3; }
+	inline TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C ** get_address_of_U3CU3E4__this_3() { return &___U3CU3E4__this_3; }
+	inline void set_U3CU3E4__this_3(TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * value)
 	{
-		___conn_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___conn_3), (void*)value);
+		___U3CU3E4__this_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_3), (void*)value);
 	}
 };
 
@@ -11022,12 +11022,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicAuthenticator_OnAuthRequestMessage_
 		il2cpp_codegen_initialize_method (BasicAuthenticator_OnAuthRequestMessage_mBE25075FBF36BCC1003863F369899979D1215C98_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  V_0;
-	memset((&V_0), 0, sizeof(V_0));
+	bool V_0 = false;
 	AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t G_B3_0 = 0;
 	{
 		// if (msg.authUsername == username && msg.authPassword == password)
 		AuthRequestMessage_t90628CFB9670E2716CE9AEFA523A337A7998E905  L_0 = ___msg1;
@@ -11036,7 +11038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicAuthenticator_OnAuthRequestMessage_
 		bool L_3 = String_op_Equality_m139F0E4195AE2F856019E63B241F36F016997FCE(L_1, L_2, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_0055;
+			goto IL_0027;
 		}
 	}
 	{
@@ -11044,9 +11046,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicAuthenticator_OnAuthRequestMessage_
 		String_t* L_5 = L_4.get_authPassword_1();
 		String_t* L_6 = __this->get_password_7();
 		bool L_7 = String_op_Equality_m139F0E4195AE2F856019E63B241F36F016997FCE(L_5, L_6, /*hidden argument*/NULL);
-		if (!L_7)
+		G_B3_0 = ((int32_t)(L_7));
+		goto IL_0028;
+	}
+
+IL_0027:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0028:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_8 = V_0;
+		if (!L_8)
 		{
-			goto IL_0055;
+			goto IL_0060;
 		}
 	}
 	{
@@ -11055,48 +11070,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicAuthenticator_OnAuthRequestMessage_
 		//     code = 100,
 		//     message = "Success"
 		// };
-		il2cpp_codegen_initobj((&V_1), sizeof(AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3 ));
-		(&V_1)->set_code_0((uint8_t)((int32_t)100));
-		(&V_1)->set_message_1(_stringLiteral42A8F651D79FD005EEAC0612DF6442B983A01184);
-		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_8 = V_1;
-		V_0 = L_8;
+		il2cpp_codegen_initobj((&V_2), sizeof(AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3 ));
+		(&V_2)->set_code_0((uint8_t)((int32_t)100));
+		(&V_2)->set_message_1(_stringLiteral42A8F651D79FD005EEAC0612DF6442B983A01184);
+		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_9 = V_2;
+		V_1 = L_9;
 		// conn.Send(authResponseMessage);
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_9 = ___conn0;
-		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_10 = V_0;
-		NullCheck(L_9);
-		NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0(L_9, L_10, 0, /*hidden argument*/NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0_RuntimeMethod_var);
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_10 = ___conn0;
+		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_11 = V_1;
+		NullCheck(L_10);
+		NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0(L_10, L_11, 0, /*hidden argument*/NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0_RuntimeMethod_var);
 		// ServerAccept(conn);
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_11 = ___conn0;
-		NetworkAuthenticator_ServerAccept_m705BBB0BF25CEE4AFB771C56402D0F33277E9A4B(__this, L_11, /*hidden argument*/NULL);
-		// }
-		return;
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_12 = ___conn0;
+		NetworkAuthenticator_ServerAccept_m705BBB0BF25CEE4AFB771C56402D0F33277E9A4B(__this, L_12, /*hidden argument*/NULL);
+		goto IL_00a7;
 	}
 
-IL_0055:
+IL_0060:
 	{
 		// AuthResponseMessage authResponseMessage = new AuthResponseMessage
 		// {
 		//     code = 200,
 		//     message = "Invalid Credentials"
 		// };
-		il2cpp_codegen_initobj((&V_1), sizeof(AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3 ));
-		(&V_1)->set_code_0((uint8_t)((int32_t)200));
-		(&V_1)->set_message_1(_stringLiteral3EEBB38327CD8BBB45A632C28A42F5208A399629);
-		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_12 = V_1;
-		V_2 = L_12;
+		il2cpp_codegen_initobj((&V_2), sizeof(AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3 ));
+		(&V_2)->set_code_0((uint8_t)((int32_t)200));
+		(&V_2)->set_message_1(_stringLiteral3EEBB38327CD8BBB45A632C28A42F5208A399629);
+		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_13 = V_2;
+		V_3 = L_13;
 		// conn.Send(authResponseMessage);
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_13 = ___conn0;
-		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_14 = V_2;
-		NullCheck(L_13);
-		NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0(L_13, L_14, 0, /*hidden argument*/NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0_RuntimeMethod_var);
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_14 = ___conn0;
+		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_15 = V_3;
+		NullCheck(L_14);
+		NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0(L_14, L_15, 0, /*hidden argument*/NetworkConnection_Send_TisAuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3_m3EB79BB9991D427D4EC5FD09D9ED3708F4F47BC0_RuntimeMethod_var);
 		// conn.isAuthenticated = false;
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_15 = ___conn0;
-		NullCheck(L_15);
-		L_15->set_isAuthenticated_3((bool)0);
-		// StartCoroutine(DelayedDisconnect(conn, 1));
 		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_16 = ___conn0;
-		RuntimeObject* L_17 = BasicAuthenticator_DelayedDisconnect_m4E58DEB18928238BA472C41576AC964CA9332BF2(__this, L_16, (1.0f), /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_17, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		L_16->set_isAuthenticated_3((bool)0);
+		// StartCoroutine(DelayedDisconnect(conn, 1));
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_17 = ___conn0;
+		RuntimeObject* L_18 = BasicAuthenticator_DelayedDisconnect_m4E58DEB18928238BA472C41576AC964CA9332BF2(__this, L_17, (1.0f), /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_18, /*hidden argument*/NULL);
+	}
+
+IL_00a7:
+	{
 		// }
 		return;
 	}
@@ -11115,15 +11133,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BasicAuthenticator_DelayedDisc
 		U3CDelayedDisconnectU3Ed__8__ctor_mFFE5D055CF13C65982308AE63B170A991FDCD1C6(L_0, 0, /*hidden argument*/NULL);
 		U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256 * L_1 = L_0;
 		NullCheck(L_1);
-		L_1->set_U3CU3E4__this_3(__this);
+		L_1->set_U3CU3E4__this_4(__this);
 		U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256 * L_2 = L_1;
 		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_3 = ___conn0;
 		NullCheck(L_2);
-		L_2->set_conn_4(L_3);
+		L_2->set_conn_2(L_3);
 		U3CDelayedDisconnectU3Ed__8_t13EA06D90A3803D533D1694101FA5419C06CA256 * L_4 = L_2;
 		float L_5 = ___waitTime1;
 		NullCheck(L_4);
-		L_4->set_waitTime_2(L_5);
+		L_4->set_waitTime_3(L_5);
 		return L_4;
 	}
 }
@@ -11208,32 +11226,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasicAuthenticator_OnAuthResponseMessage
 		il2cpp_codegen_initialize_method (BasicAuthenticator_OnAuthResponseMessage_mB89414DF27F82D1D20A8A3521B21CA094D62218E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// if (msg.code == 100)
 		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_0 = ___msg0;
 		uint8_t L_1 = L_0.get_code_0();
-		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)100)))))
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)((int32_t)100)))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0011;
+			goto IL_001a;
 		}
 	}
 	{
 		// ClientAccept();
 		NetworkAuthenticator_ClientAccept_mBD004719CCF08C3843FED3B13316277517899009(__this, /*hidden argument*/NULL);
-		// }
-		return;
+		goto IL_0039;
 	}
 
-IL_0011:
+IL_001a:
 	{
 		// Debug.LogError($"Authentication Response: {msg.message}");
-		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_2 = ___msg0;
-		String_t* L_3 = L_2.get_message_1();
-		String_t* L_4 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteralBB5EA3016445205A412037153C2EF6B08FBC6520, L_3, /*hidden argument*/NULL);
+		AuthResponseMessage_tE4A34CA11B156A2459D7CD1B3ADCBDA777416EC3  L_3 = ___msg0;
+		String_t* L_4 = L_3.get_message_1();
+		String_t* L_5 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteralBB5EA3016445205A412037153C2EF6B08FBC6520, L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
-		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_4, /*hidden argument*/NULL);
+		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_5, /*hidden argument*/NULL);
 		// ClientReject();
 		NetworkAuthenticator_ClientReject_m6B45AF50FA76863954A892411E7AD9212B53ED3D(__this, /*hidden argument*/NULL);
+	}
+
+IL_0039:
+	{
 		// }
 		return;
 	}
@@ -11281,49 +11305,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDelayedDisconnectU3Ed__8_MoveNext_m00
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * V_1 = NULL;
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
-		BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * L_1 = __this->get_U3CU3E4__this_3();
-		V_1 = L_1;
-		int32_t L_2 = V_0;
-		if (!L_2)
+		int32_t L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0017;
+			goto IL_0012;
 		}
 	}
 	{
-		int32_t L_3 = V_0;
-		if ((((int32_t)L_3) == ((int32_t)1)))
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0038;
+			goto IL_0014;
 		}
 	}
+	{
+		goto IL_0016;
+	}
+
+IL_0012:
+	{
+		goto IL_0018;
+	}
+
+IL_0014:
+	{
+		goto IL_003a;
+	}
+
+IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0017:
+IL_0018:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// yield return new WaitForSeconds(waitTime);
-		float L_4 = __this->get_waitTime_2();
-		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_5 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_5, L_4, /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_5);
+		float L_3 = __this->get_waitTime_3();
+		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_4 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_4, L_3, /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_4);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_0038:
+IL_003a:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// ServerReject(conn);
-		BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * L_6 = V_1;
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_7 = __this->get_conn_4();
-		NullCheck(L_6);
-		NetworkAuthenticator_ServerReject_mE93B207E35BFAE90B5F285FDFCEF2D1E61B12930(L_6, L_7, /*hidden argument*/NULL);
+		BasicAuthenticator_t6B696CC9E1EFEAF9DD34EE94DC00C9989547EBBE * L_5 = __this->get_U3CU3E4__this_4();
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_6 = __this->get_conn_2();
+		NullCheck(L_5);
+		NetworkAuthenticator_ServerReject_mE93B207E35BFAE90B5F285FDFCEF2D1E61B12930(L_5, L_6, /*hidden argument*/NULL);
 		// }
 		return (bool)0;
 	}
@@ -11540,6 +11581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeoutAuthenticator_OnStopClient_m08EC5
 // System.Void Mirror.Authenticators.TimeoutAuthenticator::OnServerAuthenticate(Mirror.NetworkConnection)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeoutAuthenticator_OnServerAuthenticate_mCE2E83734B188C37DACB29A4421BF22F25DB787C (TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * __this, NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * ___conn0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// authenticator.OnServerAuthenticate(conn);
 		NetworkAuthenticator_t11F7D6E69CFAFD18F3EDDEEC342024139A97E80D * L_0 = __this->get_authenticator_6();
@@ -11548,19 +11590,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeoutAuthenticator_OnServerAuthenticat
 		VirtActionInvoker1< NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * >::Invoke(6 /* System.Void Mirror.NetworkAuthenticator::OnServerAuthenticate(Mirror.NetworkConnection) */, L_0, L_1);
 		// if (timeout > 0)
 		float L_2 = __this->get_timeout_7();
-		if ((!(((float)L_2) > ((float)(0.0f)))))
+		V_0 = (bool)((((float)L_2) > ((float)(0.0f)))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0027;
+			goto IL_002d;
 		}
 	}
 	{
 		// StartCoroutine(BeginAuthentication(conn));
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_3 = ___conn0;
-		RuntimeObject* L_4 = TimeoutAuthenticator_BeginAuthentication_m223496E6B3CA172883169D4614B1C2C7085483DD(__this, L_3, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_4, /*hidden argument*/NULL);
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_4 = ___conn0;
+		RuntimeObject* L_5 = TimeoutAuthenticator_BeginAuthentication_m223496E6B3CA172883169D4614B1C2C7085483DD(__this, L_4, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_5, /*hidden argument*/NULL);
 	}
 
-IL_0027:
+IL_002d:
 	{
 		// }
 		return;
@@ -11575,6 +11619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeoutAuthenticator_OnClientAuthenticat
 		il2cpp_codegen_initialize_method (TimeoutAuthenticator_OnClientAuthenticate_m856261EBD08F0FDF820151553DD6CD3CB79572F8_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// authenticator.OnClientAuthenticate();
 		NetworkAuthenticator_t11F7D6E69CFAFD18F3EDDEEC342024139A97E80D * L_0 = __this->get_authenticator_6();
@@ -11582,20 +11627,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeoutAuthenticator_OnClientAuthenticat
 		VirtActionInvoker0::Invoke(9 /* System.Void Mirror.NetworkAuthenticator::OnClientAuthenticate() */, L_0);
 		// if (timeout > 0)
 		float L_1 = __this->get_timeout_7();
-		if ((!(((float)L_1) > ((float)(0.0f)))))
+		V_0 = (bool)((((float)L_1) > ((float)(0.0f)))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_002a;
+			goto IL_0030;
 		}
 	}
 	{
 		// StartCoroutine(BeginAuthentication(NetworkClient.connection));
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkClient_tF8429BA1B702C5F0363D4A2313066F7C81BEF980_il2cpp_TypeInfo_var);
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_2 = NetworkClient_get_connection_m522710D02FBA43C477CD30042FEDA537611DA554_inline(/*hidden argument*/NULL);
-		RuntimeObject* L_3 = TimeoutAuthenticator_BeginAuthentication_m223496E6B3CA172883169D4614B1C2C7085483DD(__this, L_2, /*hidden argument*/NULL);
-		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_3, /*hidden argument*/NULL);
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_3 = NetworkClient_get_connection_m522710D02FBA43C477CD30042FEDA537611DA554_inline(/*hidden argument*/NULL);
+		RuntimeObject* L_4 = TimeoutAuthenticator_BeginAuthentication_m223496E6B3CA172883169D4614B1C2C7085483DD(__this, L_3, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_mBF8044CE06A35D76A69669ADD8977D05956616B7(__this, L_4, /*hidden argument*/NULL);
 	}
 
-IL_002a:
+IL_0030:
 	{
 		// }
 		return;
@@ -11615,11 +11662,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TimeoutAuthenticator_BeginAuth
 		U3CBeginAuthenticationU3Ed__9__ctor_m579E74866724FC120B6527BAC827EB83F602C561(L_0, 0, /*hidden argument*/NULL);
 		U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F * L_1 = L_0;
 		NullCheck(L_1);
-		L_1->set_U3CU3E4__this_2(__this);
+		L_1->set_U3CU3E4__this_3(__this);
 		U3CBeginAuthenticationU3Ed__9_t55F487B06BD42A4E44C0F54E2F6CC1AA5B6E265F * L_2 = L_1;
 		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_3 = ___conn0;
 		NullCheck(L_2);
-		L_2->set_conn_3(L_3);
+		L_2->set_conn_2(L_3);
 		return L_2;
 	}
 }
@@ -11704,63 +11751,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CBeginAuthenticationU3Ed__9_MoveNext_m
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * V_1 = NULL;
+	bool V_1 = false;
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
-		TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * L_1 = __this->get_U3CU3E4__this_2();
-		V_1 = L_1;
-		int32_t L_2 = V_0;
-		if (!L_2)
+		int32_t L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0017;
+			goto IL_0012;
 		}
 	}
 	{
-		int32_t L_3 = V_0;
-		if ((((int32_t)L_3) == ((int32_t)1)))
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
-			goto IL_0038;
+			goto IL_0014;
 		}
 	}
+	{
+		goto IL_0016;
+	}
+
+IL_0012:
+	{
+		goto IL_0018;
+	}
+
+IL_0014:
+	{
+		goto IL_003f;
+	}
+
+IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0017:
+IL_0018:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// yield return new WaitForSecondsRealtime(timeout);
-		TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * L_4 = V_1;
-		NullCheck(L_4);
-		float L_5 = L_4->get_timeout_7();
-		WaitForSecondsRealtime_t0CF361107C4A9E25E0D4CF2F37732CE785235739 * L_6 = (WaitForSecondsRealtime_t0CF361107C4A9E25E0D4CF2F37732CE785235739 *)il2cpp_codegen_object_new(WaitForSecondsRealtime_t0CF361107C4A9E25E0D4CF2F37732CE785235739_il2cpp_TypeInfo_var);
-		WaitForSecondsRealtime__ctor_m775503EC1F4963D8E5BBDD7989B40F6A000E0525(L_6, L_5, /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_6);
+		TimeoutAuthenticator_t6C66F01F9DD9833FADEE0175EFAC81076074283C * L_3 = __this->get_U3CU3E4__this_3();
+		NullCheck(L_3);
+		float L_4 = L_3->get_timeout_7();
+		WaitForSecondsRealtime_t0CF361107C4A9E25E0D4CF2F37732CE785235739 * L_5 = (WaitForSecondsRealtime_t0CF361107C4A9E25E0D4CF2F37732CE785235739 *)il2cpp_codegen_object_new(WaitForSecondsRealtime_t0CF361107C4A9E25E0D4CF2F37732CE785235739_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_m775503EC1F4963D8E5BBDD7989B40F6A000E0525(L_5, L_4, /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_5);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_0038:
+IL_003f:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// if (!conn.isAuthenticated)
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_7 = __this->get_conn_3();
-		NullCheck(L_7);
-		bool L_8 = L_7->get_isAuthenticated_3();
-		if (L_8)
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_6 = __this->get_conn_2();
+		NullCheck(L_6);
+		bool L_7 = L_6->get_isAuthenticated_3();
+		V_1 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (!L_8)
 		{
-			goto IL_0057;
+			goto IL_0066;
 		}
 	}
 	{
 		// conn.Disconnect();
-		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_9 = __this->get_conn_3();
+		NetworkConnection_tB7F48309DFDE730F2B8365840A48DFF388C8D553 * L_9 = __this->get_conn_2();
 		NullCheck(L_9);
 		VirtActionInvoker0::Invoke(8 /* System.Void Mirror.NetworkConnection::Disconnect() */, L_9);
 	}
 
-IL_0057:
+IL_0066:
 	{
 		// }
 		return (bool)0;

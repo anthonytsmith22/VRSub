@@ -2098,12 +2098,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Input_ActionSet_default_t92B7BE831971
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get__default_m137E968F56C058FB164095009912D2970BF1712F_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p__default.GetCopy<SteamVR_Input_ActionSet_default>();
 		SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p__default_0();
 		NullCheck(L_0);
 		SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * L_1 = SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9_m4601760B9D998B16B97B9CF9F3BC24238BAF4BEB(L_0, /*hidden argument*/SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9_m4601760B9D998B16B97B9CF9F3BC24238BAF4BEB_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Input_ActionSet_platformer Valve.VR.SteamVR_Actions::get_platformer()
@@ -2115,12 +2124,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Input_ActionSet_platformer_t0CB749203
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_platformer_m176BA93E211F9CE366065F5B4501024D63E48065_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_platformer.GetCopy<SteamVR_Input_ActionSet_platformer>();
 		SteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_platformer_1();
 		NullCheck(L_0);
 		SteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F * L_1 = SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F_m02DF02865C901D1B940DCEB11B60BEBF81DC9F20(L_0, /*hidden argument*/SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F_m02DF02865C901D1B940DCEB11B60BEBF81DC9F20_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Input_ActionSet_buggy Valve.VR.SteamVR_Actions::get_buggy()
@@ -2132,12 +2150,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_buggy_mFF4BB0264F09AD75941B682C89FD3AEC447C91BD_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_buggy.GetCopy<SteamVR_Input_ActionSet_buggy>();
 		SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_buggy_2();
 		NullCheck(L_0);
 		SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * L_1 = SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58_mDE627E9965B50FA0FF09BFBC62D738698E073177(L_0, /*hidden argument*/SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58_mDE627E9965B50FA0FF09BFBC62D738698E073177_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Input_ActionSet_mixedreality Valve.VR.SteamVR_Actions::get_mixedreality()
@@ -2149,12 +2176,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Input_ActionSet_mixedreality_t98C0235
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_mixedreality_mB0B09D53D72D05A80219B4A28D1AE50035F1E1BF_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_mixedreality.GetCopy<SteamVR_Input_ActionSet_mixedreality>();
 		SteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_mixedreality_3();
 		NullCheck(L_0);
 		SteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F * L_1 = SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F_m1BE1EBB0ED583A3CB1F901D027B6801917786E78(L_0, /*hidden argument*/SteamVR_ActionSet_GetCopy_TisSteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F_m1BE1EBB0ED583A3CB1F901D027B6801917786E78_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F * L_2 = V_0;
+		return L_2;
 	}
 }
 // System.Void Valve.VR.SteamVR_Actions::StartPreInitActionSets()
@@ -2220,12 +2256,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_InteractUI_m0ED3991855BC6CD8A2B6CB10778FB84BAA731F50_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_InteractUI.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_InteractUI_4();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_default_Teleport()
@@ -2237,12 +2282,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_Teleport_mFE1A1658452AAD51FA3759F8A83B113BFC68A710_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_Teleport.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_Teleport_5();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_default_GrabPinch()
@@ -2254,12 +2308,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_GrabPinch_m444626B221F27D0116B323E7F619D71559E0243C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_GrabPinch.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_GrabPinch_6();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_default_GrabGrip()
@@ -2271,12 +2334,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_GrabGrip_mB61124AED50E5BEC134B1C1E9E756E404EC6E336_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_GrabGrip.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_GrabGrip_7();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Pose Valve.VR.SteamVR_Actions::get_default_Pose()
@@ -2288,12 +2360,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_Pose_mE0C7C2998E78175D62846B95D594B10FAE347B9B_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_Pose.GetCopy<SteamVR_Action_Pose>();
 		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_Pose_8();
 		NullCheck(L_0);
 		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C_m1867F9B927B2AED793B6212CAA987751D0344976(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C_m1867F9B927B2AED793B6212CAA987751D0344976_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Skeleton Valve.VR.SteamVR_Actions::get_default_SkeletonLeftHand()
@@ -2305,12 +2386,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_SkeletonLeftHand_mC3F54657EA1C39A0498CF19A8803669BD8A76722_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_SkeletonLeftHand.GetCopy<SteamVR_Action_Skeleton>();
 		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_SkeletonLeftHand_9();
 		NullCheck(L_0);
 		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504_mF26E5F28B625422FFE176C005EBF9B3AE7519E6C(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504_mF26E5F28B625422FFE176C005EBF9B3AE7519E6C_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Skeleton Valve.VR.SteamVR_Actions::get_default_SkeletonRightHand()
@@ -2322,12 +2412,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_SkeletonRightHand_m8E9440367D5E2B1241749F701ECBCECB5D1A6BD0_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_SkeletonRightHand.GetCopy<SteamVR_Action_Skeleton>();
 		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_SkeletonRightHand_10();
 		NullCheck(L_0);
 		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504_mF26E5F28B625422FFE176C005EBF9B3AE7519E6C(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504_mF26E5F28B625422FFE176C005EBF9B3AE7519E6C_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Single Valve.VR.SteamVR_Actions::get_default_Squeeze()
@@ -2339,12 +2438,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Single_tE548CF5EE507681A93F996
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_Squeeze_mAC555FA90B1411CF6E2B23FDAEEF7C96DD24AE23_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_Squeeze.GetCopy<SteamVR_Action_Single>();
 		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_Squeeze_11();
 		NullCheck(L_0);
 		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81_mCC2CEA92E061144E1FB184EA0D54669A3B55DF08(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81_mCC2CEA92E061144E1FB184EA0D54669A3B55DF08_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_default_HeadsetOnHead()
@@ -2356,12 +2464,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_HeadsetOnHead_mF63FBEF99E1273CE65ABA3D80D1DCCE079F6DE02_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_HeadsetOnHead.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_HeadsetOnHead_12();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_default_SnapTurnLeft()
@@ -2373,12 +2490,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_SnapTurnLeft_mDC0BEA69C8FD228EE49B45759C06EA9CE2E034A4_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_SnapTurnLeft.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_SnapTurnLeft_13();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_default_SnapTurnRight()
@@ -2390,12 +2516,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_SnapTurnRight_m6F46BD895D871CBB70653F8FE31ED06D15542DB7_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_SnapTurnRight.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_SnapTurnRight_14();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Vibration Valve.VR.SteamVR_Actions::get_default_Haptic()
@@ -2407,12 +2542,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Vibration_t487523BCA03933B9812
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_default_Haptic_m015ECF04DBC22007685265E3D08FC01DAF8AD87A_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_default_Haptic.GetCopy<SteamVR_Action_Vibration>();
 		SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_default_Haptic_15();
 		NullCheck(L_0);
 		SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB_mEA7525847F3361BA8E5CC4784447A9F14E2CFA8B(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB_mEA7525847F3361BA8E5CC4784447A9F14E2CFA8B_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Vector2 Valve.VR.SteamVR_Actions::get_platformer_Move()
@@ -2424,12 +2568,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B95
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_platformer_Move_m08E1D0CF1BC6557B55EE238A7F2603108FBD8101_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_platformer_Move.GetCopy<SteamVR_Action_Vector2>();
 		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_platformer_Move_16();
 		NullCheck(L_0);
 		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37_m93BF7C895AB6E9A85CA05B7A08A2C1493AB06EEB(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37_m93BF7C895AB6E9A85CA05B7A08A2C1493AB06EEB_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_platformer_Jump()
@@ -2441,12 +2594,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_platformer_Jump_mFBB2FA2D4DDE37EDDE4FDC3429FB85DF5DC4C5B8_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_platformer_Jump.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_platformer_Jump_17();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Vector2 Valve.VR.SteamVR_Actions::get_buggy_Steering()
@@ -2458,12 +2620,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B95
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_buggy_Steering_mACFBE60FC8A4375B54577D48B78BB8E6CCF2BF67_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_buggy_Steering.GetCopy<SteamVR_Action_Vector2>();
 		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_buggy_Steering_18();
 		NullCheck(L_0);
 		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37_m93BF7C895AB6E9A85CA05B7A08A2C1493AB06EEB(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37_m93BF7C895AB6E9A85CA05B7A08A2C1493AB06EEB_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Single Valve.VR.SteamVR_Actions::get_buggy_Throttle()
@@ -2475,12 +2646,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Single_tE548CF5EE507681A93F996
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_buggy_Throttle_m9A4D94F6F3D705D809121F8FE2A563315265B55A_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_buggy_Throttle.GetCopy<SteamVR_Action_Single>();
 		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_buggy_Throttle_19();
 		NullCheck(L_0);
 		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81_mCC2CEA92E061144E1FB184EA0D54669A3B55DF08(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81_mCC2CEA92E061144E1FB184EA0D54669A3B55DF08_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_buggy_Brake()
@@ -2492,12 +2672,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_buggy_Brake_mF7BBFC21DB3777B3564FD504CEC87E38B960F475_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_buggy_Brake.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_buggy_Brake_20();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Actions::get_buggy_Reset()
@@ -2509,12 +2698,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_buggy_Reset_mB2F59EB793926228BFD7BCEEBA59CC5F36E96668_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_buggy_Reset.GetCopy<SteamVR_Action_Boolean>();
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_buggy_Reset_21();
 		NullCheck(L_0);
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20_mB6F5EAA12CBEF8A5A544F169C70519922B2469E0_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_2 = V_0;
+		return L_2;
 	}
 }
 // Valve.VR.SteamVR_Action_Pose Valve.VR.SteamVR_Actions::get_mixedreality_ExternalCamera()
@@ -2526,12 +2724,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1
 		il2cpp_codegen_initialize_method (SteamVR_Actions_get_mixedreality_ExternalCamera_m7FA9C9C3C84A2BA9B4259467E65A91E251ED0FFA_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * V_0 = NULL;
 	{
 		// return SteamVR_Actions.p_mixedreality_ExternalCamera.GetCopy<SteamVR_Action_Pose>();
 		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_0 = ((SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_StaticFields*)il2cpp_codegen_static_fields_for(SteamVR_Actions_t054EA1C199E12463D8D9B8957A1D7583BCD6CC0D_il2cpp_TypeInfo_var))->get_p_mixedreality_ExternalCamera_22();
 		NullCheck(L_0);
 		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_1 = SteamVR_Action_GetCopy_TisSteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C_m1867F9B927B2AED793B6212CAA987751D0344976(L_0, /*hidden argument*/SteamVR_Action_GetCopy_TisSteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C_m1867F9B927B2AED793B6212CAA987751D0344976_RuntimeMethod_var);
-		return L_1;
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		// }
+		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_2 = V_0;
+		return L_2;
 	}
 }
 // System.Void Valve.VR.SteamVR_Actions::InitializeActionArrays()
@@ -3126,37 +3333,73 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SteamVR_Actions__ctor_m45351256E854E158C
 // Valve.VR.SteamVR_Action_Vector2 Valve.VR.SteamVR_Input_ActionSet_buggy::get_Steering()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * SteamVR_Input_ActionSet_buggy_get_Steering_m013B5FB7171B11F564B602CAA2A9CFE4071D5794 (SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.buggy_Steering;
 		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_0 = SteamVR_Actions_get_buggy_Steering_mACFBE60FC8A4375B54577D48B78BB8E6CCF2BF67(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Single Valve.VR.SteamVR_Input_ActionSet_buggy::get_Throttle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * SteamVR_Input_ActionSet_buggy_get_Throttle_m6E39C0D70570183E8DCF1ED16F122F27BC403149 (SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.buggy_Throttle;
 		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_0 = SteamVR_Actions_get_buggy_Throttle_m9A4D94F6F3D705D809121F8FE2A563315265B55A(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_buggy::get_Brake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_buggy_get_Brake_mE844C4FC164F2E9FC7E20267DAE951388127FD7A (SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.buggy_Brake;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_buggy_Brake_mF7BBFC21DB3777B3564FD504CEC87E38B960F475(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_buggy::get_Reset()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_buggy_get_Reset_m7D1F95DCDE96F1A8E230406DEDED73CA0B9F310F (SteamVR_Input_ActionSet_buggy_t3D4B3B36D54114220B595A21C1FE8EE446982D58 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.buggy_Reset;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_buggy_Reset_mB2F59EB793926228BFD7BCEEBA59CC5F36E96668(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Valve.VR.SteamVR_Input_ActionSet_buggy::.ctor()
@@ -3178,109 +3421,217 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SteamVR_Input_ActionSet_buggy__ctor_mEDB
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_InteractUI()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_InteractUI_mBD5D0C62CE5E84387ECB95F330C4D12B19CF416E (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_InteractUI;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_InteractUI_m0ED3991855BC6CD8A2B6CB10778FB84BAA731F50(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_Teleport()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_Teleport_m6C31455770E6DAC3C4EE87F7860E7621510BC2CE (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_Teleport;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_Teleport_mFE1A1658452AAD51FA3759F8A83B113BFC68A710(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_GrabPinch()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_GrabPinch_m0D40903E895BE0146B1C2FBFEACF8F0D18EA2E46 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_GrabPinch;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_GrabPinch_m444626B221F27D0116B323E7F619D71559E0243C(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_GrabGrip()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_GrabGrip_m436081E4C2F9CE9CE1BB16998D3E0819A494F3DF (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_GrabGrip;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_GrabGrip_mB61124AED50E5BEC134B1C1E9E756E404EC6E336(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Pose Valve.VR.SteamVR_Input_ActionSet_default::get_Pose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * SteamVR_Input_ActionSet_default_get_Pose_mE7C1A40CE9F19BD5B346B1A7B87AABEBE73D8583 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_Pose;
 		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_0 = SteamVR_Actions_get_default_Pose_mE0C7C2998E78175D62846B95D594B10FAE347B9B(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Skeleton Valve.VR.SteamVR_Input_ActionSet_default::get_SkeletonLeftHand()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * SteamVR_Input_ActionSet_default_get_SkeletonLeftHand_m71438ED0C458BDD90A9D2EC7C8E79E842D1FE950 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_SkeletonLeftHand;
 		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_0 = SteamVR_Actions_get_default_SkeletonLeftHand_mC3F54657EA1C39A0498CF19A8803669BD8A76722(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Skeleton Valve.VR.SteamVR_Input_ActionSet_default::get_SkeletonRightHand()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * SteamVR_Input_ActionSet_default_get_SkeletonRightHand_m0B9E8BF892DB1C8407DF8F6E77FFE032805C7447 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_SkeletonRightHand;
 		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_0 = SteamVR_Actions_get_default_SkeletonRightHand_m8E9440367D5E2B1241749F701ECBCECB5D1A6BD0(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Skeleton_t7E7D4C52B0F7C916A35C6CE369BDDA563C478504 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Single Valve.VR.SteamVR_Input_ActionSet_default::get_Squeeze()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * SteamVR_Input_ActionSet_default_get_Squeeze_m01AA1267831DE4A8E6FAEA256F722786A4857366 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_Squeeze;
 		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_0 = SteamVR_Actions_get_default_Squeeze_mAC555FA90B1411CF6E2B23FDAEEF7C96DD24AE23(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Single_tE548CF5EE507681A93F996409CB4B176D0710D81 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_HeadsetOnHead()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_HeadsetOnHead_mD58337B196FCFF09E294E7C9516EA99F134DE7E9 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_HeadsetOnHead;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_HeadsetOnHead_mF63FBEF99E1273CE65ABA3D80D1DCCE079F6DE02(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_SnapTurnLeft()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_SnapTurnLeft_m913EF79C5BAD9A107115A561E6D4423816C43CFB (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_SnapTurnLeft;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_SnapTurnLeft_mDC0BEA69C8FD228EE49B45759C06EA9CE2E034A4(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_default::get_SnapTurnRight()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_default_get_SnapTurnRight_mB799A089CD93DD3A171D38C483964DE60A9101EF (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_SnapTurnRight;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_default_SnapTurnRight_m6F46BD895D871CBB70653F8FE31ED06D15542DB7(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Vibration Valve.VR.SteamVR_Input_ActionSet_default::get_Haptic()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * SteamVR_Input_ActionSet_default_get_Haptic_mCA5C9D97EDB56E03CE40AAFEC3E66CCE140C3219 (SteamVR_Input_ActionSet_default_t92B7BE831971BD66B6F2CB65069BB67FE275C2E9 * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * V_0 = NULL;
 	{
 		// return SteamVR_Actions.default_Haptic;
 		SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * L_0 = SteamVR_Actions_get_default_Haptic_m015ECF04DBC22007685265E3D08FC01DAF8AD87A(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Vibration_t487523BCA03933B9812950511E8A4BCE00F03EAB * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Valve.VR.SteamVR_Input_ActionSet_default::.ctor()
@@ -3302,10 +3653,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SteamVR_Input_ActionSet_default__ctor_m3
 // Valve.VR.SteamVR_Action_Pose Valve.VR.SteamVR_Input_ActionSet_mixedreality::get_ExternalCamera()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * SteamVR_Input_ActionSet_mixedreality_get_ExternalCamera_m97E0DCCF282EE9AE8A53E1A4F7B3AC9B3B628CF6 (SteamVR_Input_ActionSet_mixedreality_t98C02355BD9D0EE3F167D580B1144F41A7AD945F * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * V_0 = NULL;
 	{
 		// return SteamVR_Actions.mixedreality_ExternalCamera;
 		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_0 = SteamVR_Actions_get_mixedreality_ExternalCamera_m7FA9C9C3C84A2BA9B4259467E65A91E251ED0FFA(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Pose_tC80CDCF5892F57737ABFCFF1E7BD7DC52951846C * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Valve.VR.SteamVR_Input_ActionSet_mixedreality::.ctor()
@@ -3327,19 +3687,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SteamVR_Input_ActionSet_mixedreality__ct
 // Valve.VR.SteamVR_Action_Vector2 Valve.VR.SteamVR_Input_ActionSet_platformer::get_Move()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * SteamVR_Input_ActionSet_platformer_get_Move_mF2B7BF0E7567E09FF5B3474DE0A1C8F9FFECF96F (SteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.platformer_Move;
 		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_0 = SteamVR_Actions_get_platformer_Move_m08E1D0CF1BC6557B55EE238A7F2603108FBD8101(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Vector2_t759E1B2DC99C6B8FA7B9515ADD17B3A9A9454C37 * L_1 = V_0;
+		return L_1;
 	}
 }
 // Valve.VR.SteamVR_Action_Boolean Valve.VR.SteamVR_Input_ActionSet_platformer::get_Jump()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * SteamVR_Input_ActionSet_platformer_get_Jump_m5B0B1FA0E5B571586C63C10E31DC2A5752978BDE (SteamVR_Input_ActionSet_platformer_t0CB749203FB1EF4EBDA66610FB358A9A2049AC7F * __this, const RuntimeMethod* method)
 {
+	SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * V_0 = NULL;
 	{
 		// return SteamVR_Actions.platformer_Jump;
 		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_0 = SteamVR_Actions_get_platformer_Jump_mFBB2FA2D4DDE37EDDE4FDC3429FB85DF5DC4C5B8(/*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		// }
+		SteamVR_Action_Boolean_tE41AFE2395D4C8B9ED8BE1298F3545B4832E8C20 * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Valve.VR.SteamVR_Input_ActionSet_platformer::.ctor()

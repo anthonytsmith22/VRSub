@@ -27,6 +27,8 @@ struct IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7;
 struct ConfigurationCollectionAttribute_t8A214FF7BBB509127F1EC7799CDC11A03EF31690;
 // System.Configuration.ConfigurationElement
 struct ConfigurationElement_tF3ECE1CDFD3304CD9D595E758276F014321AD9FE;
+// System.Configuration.ConfigurationElementCollection
+struct ConfigurationElementCollection_tB0DA3194B9C1528D2627B291C79B560C68A78FCC;
 // System.Configuration.ConfigurationPropertyCollection
 struct ConfigurationPropertyCollection_tF435364EB4EA4A7CC30A7B885EA11204A7367591;
 // System.Configuration.ConfigurationSection
@@ -57,6 +59,7 @@ struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 struct XmlReader_t13F08E3C651EB9F2AE882342BCD5E2CA86F29ABB;
 
 IL2CPP_EXTERN_C RuntimeClass* PlatformNotSupportedException_t14FE109377F8FA8B3B2F9A0C4FE3BF10662C73B5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElementCollection_get_Count_m58EFBCAA164C912FEBD007AACF85784B80C54EFA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_IsModified_mA046D03044CDCD875C22E34247CE15E7BBC883A5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_ResetModified_m6AAF1F8A88CEF6F993A6666E3B4D4B2456024989_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConfigurationElement_Reset_m39498D76FA0912DA725E3224537BBF7FA5B0FC1A_RuntimeMethod_var;
@@ -73,6 +76,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* IgnoreSection_SerializeSection_m03CB506F46A
 IL2CPP_EXTERN_C const RuntimeMethod* IgnoreSection__ctor_m30C69267DD27E85879BA3AE28ABCDAE783B28350_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IgnoreSection_get_Properties_m654A228B012E724695AFD79627F13FCF739244E4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ThrowStub_ThrowNotSupportedException_mF0DAFE591641D359313AB87E6900E4B05E42390A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const uint32_t ConfigurationElementCollection_get_Count_m58EFBCAA164C912FEBD007AACF85784B80C54EFA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ConfigurationElement_IsModified_mA046D03044CDCD875C22E34247CE15E7BBC883A5_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ConfigurationElement_ResetModified_m6AAF1F8A88CEF6F993A6666E3B4D4B2456024989_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ConfigurationElement_Reset_m39498D76FA0912DA725E3224537BBF7FA5B0FC1A_MetadataUsageId;
@@ -376,6 +380,24 @@ struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_pinvoke
 struct Enum_t2AF27C02B8653AE29442467390005ABC74D8F521_marshaled_com
 {
 };
+
+// System.Int32
+struct Int32_t585191389E07734F19F3156FF88FB3EF4800D102 
+{
+public:
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Int32_t585191389E07734F19F3156FF88FB3EF4800D102, ___m_value_0)); }
+	inline int32_t get_m_value_0() const { return ___m_value_0; }
+	inline int32_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(int32_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
 
 // System.IntPtr
 struct IntPtr_t 
@@ -982,6 +1004,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationElement_ResetModified_m6AAF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Int32 System.Configuration.ConfigurationElementCollection::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ConfigurationElementCollection_get_Count_m58EFBCAA164C912FEBD007AACF85784B80C54EFA (ConfigurationElementCollection_tB0DA3194B9C1528D2627B291C79B560C68A78FCC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ConfigurationElementCollection_get_Count_m58EFBCAA164C912FEBD007AACF85784B80C54EFA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		il2cpp_codegen_raise_profile_exception(ConfigurationElementCollection_get_Count_m58EFBCAA164C912FEBD007AACF85784B80C54EFA_RuntimeMethod_var);
+		il2cpp_codegen_initobj((&V_0), sizeof(int32_t));
+		int32_t L_0 = V_0;
+		return L_0;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

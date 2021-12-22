@@ -1497,6 +1497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m89BADFF36C3B17001387872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Extensions_ReceiveFrom_NonAlloc_m481A6AA400F4CADD162739A302D7E81860DD7621 (Socket_t47148BFA7740C9C45A69F2F3722F734B9DCA45D8 * ___socket0, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___buffer1, int32_t ___offset2, int32_t ___size3, int32_t ___socketFlags4, IPEndPointNonAlloc_tE953E57CB49CAEBE6068CCA7F74CEFE597317B54 * ___remoteEndPoint5, const RuntimeMethod* method)
 {
 	EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * V_0 = NULL;
+	int32_t V_1 = 0;
 	{
 		// EndPoint casted = remoteEndPoint;
 		IPEndPointNonAlloc_tE953E57CB49CAEBE6068CCA7F74CEFE597317B54 * L_0 = ___remoteEndPoint5;
@@ -1509,13 +1510,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Extensions_ReceiveFrom_NonAlloc_m481A
 		int32_t L_5 = ___socketFlags4;
 		NullCheck(L_1);
 		int32_t L_6 = Socket_ReceiveFrom_m7115D6E24DEF6BD3BA6A476E18C36D023F2EBEBA(L_1, L_2, L_3, L_4, L_5, (EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 **)(&V_0), /*hidden argument*/NULL);
-		return L_6;
+		V_1 = L_6;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Int32 WhereAllocation.Extensions::ReceiveFrom_NonAlloc(System.Net.Sockets.Socket,System.Byte[],WhereAllocation.IPEndPointNonAlloc)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Extensions_ReceiveFrom_NonAlloc_mDA451BDFEB8AAA537BB6D2B3D9BBC6275A0D1976 (Socket_t47148BFA7740C9C45A69F2F3722F734B9DCA45D8 * ___socket0, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___buffer1, IPEndPointNonAlloc_tE953E57CB49CAEBE6068CCA7F74CEFE597317B54 * ___remoteEndPoint2, const RuntimeMethod* method)
 {
 	EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * V_0 = NULL;
+	int32_t V_1 = 0;
 	{
 		// EndPoint casted = remoteEndPoint;
 		IPEndPointNonAlloc_tE953E57CB49CAEBE6068CCA7F74CEFE597317B54 * L_0 = ___remoteEndPoint2;
@@ -1525,13 +1535,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Extensions_ReceiveFrom_NonAlloc_mDA45
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_2 = ___buffer1;
 		NullCheck(L_1);
 		int32_t L_3 = Socket_ReceiveFrom_mD95E4E0292060CAD14B9A2FD8C49AB99125227CF(L_1, L_2, (EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 **)(&V_0), /*hidden argument*/NULL);
-		return L_3;
+		V_1 = L_3;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Int32 WhereAllocation.Extensions::SendTo_NonAlloc(System.Net.Sockets.Socket,System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,WhereAllocation.IPEndPointNonAlloc)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Extensions_SendTo_NonAlloc_m4507DE1256B751F5141F675237173B803EEB780D (Socket_t47148BFA7740C9C45A69F2F3722F734B9DCA45D8 * ___socket0, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___buffer1, int32_t ___offset2, int32_t ___size3, int32_t ___socketFlags4, IPEndPointNonAlloc_tE953E57CB49CAEBE6068CCA7F74CEFE597317B54 * ___remoteEndPoint5, const RuntimeMethod* method)
 {
 	EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * V_0 = NULL;
+	int32_t V_1 = 0;
 	{
 		// EndPoint casted = remoteEndPoint;
 		IPEndPointNonAlloc_tE953E57CB49CAEBE6068CCA7F74CEFE597317B54 * L_0 = ___remoteEndPoint5;
@@ -1545,7 +1564,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Extensions_SendTo_NonAlloc_m4507DE125
 		EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * L_6 = V_0;
 		NullCheck(L_1);
 		int32_t L_7 = Socket_SendTo_m95926F192663BB81CC267386B93F6D8E57FDF434(L_1, L_2, L_3, L_4, L_5, L_6, /*hidden argument*/NULL);
-		return L_7;
+		V_1 = L_7;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 #ifdef __clang__
@@ -1618,110 +1645,135 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C08
 		il2cpp_codegen_initialize_method (IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * V_0 = NULL;
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * V_3 = NULL;
+	bool V_4 = false;
+	EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * V_5 = NULL;
 	{
 		// if (socketAddress.Family != AddressFamily)
 		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_0 = ___socketAddress0;
 		NullCheck(L_0);
 		int32_t L_1 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_0, /*hidden argument*/NULL);
 		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Net.Sockets.AddressFamily System.Net.EndPoint::get_AddressFamily() */, __this);
-		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		V_0 = (bool)((((int32_t)((((int32_t)L_1) == ((int32_t)L_2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0034;
+			goto IL_003c;
 		}
 	}
 	{
 		// throw new ArgumentException($"Unsupported socketAddress.AddressFamily: {socketAddress.Family}. Expected: {AddressFamily}");
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_3 = ___socketAddress0;
-		NullCheck(L_3);
-		int32_t L_4 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_3, /*hidden argument*/NULL);
-		int32_t L_5 = L_4;
-		RuntimeObject * L_6 = Box(AddressFamily_tFA4F79FA7F299EBDF507F4811E6E5C3EEBF0850E_il2cpp_TypeInfo_var, &L_5);
-		int32_t L_7 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Net.Sockets.AddressFamily System.Net.EndPoint::get_AddressFamily() */, __this);
-		int32_t L_8 = L_7;
-		RuntimeObject * L_9 = Box(AddressFamily_tFA4F79FA7F299EBDF507F4811E6E5C3EEBF0850E_il2cpp_TypeInfo_var, &L_8);
-		String_t* L_10 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralB0D972B07933D8FBD82B632B3A18A64FAF272D7A, L_6, L_9, /*hidden argument*/NULL);
-		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_11 = (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)il2cpp_codegen_object_new(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7(L_11, L_10, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_RuntimeMethod_var);
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_4 = ___socketAddress0;
+		NullCheck(L_4);
+		int32_t L_5 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_4, /*hidden argument*/NULL);
+		int32_t L_6 = L_5;
+		RuntimeObject * L_7 = Box(AddressFamily_tFA4F79FA7F299EBDF507F4811E6E5C3EEBF0850E_il2cpp_TypeInfo_var, &L_6);
+		int32_t L_8 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Net.Sockets.AddressFamily System.Net.EndPoint::get_AddressFamily() */, __this);
+		int32_t L_9 = L_8;
+		RuntimeObject * L_10 = Box(AddressFamily_tFA4F79FA7F299EBDF507F4811E6E5C3EEBF0850E_il2cpp_TypeInfo_var, &L_9);
+		String_t* L_11 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralB0D972B07933D8FBD82B632B3A18A64FAF272D7A, L_7, L_10, /*hidden argument*/NULL);
+		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_12 = (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)il2cpp_codegen_object_new(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7(L_12, L_11, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_RuntimeMethod_var);
 	}
 
-IL_0034:
+IL_003c:
 	{
 		// if (socketAddress.Size < 8)
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_12 = ___socketAddress0;
-		NullCheck(L_12);
-		int32_t L_13 = SocketAddress_get_Size_mF4849EFEEA3BA3E2109D3E05E635072F89DE57CB_inline(L_12, /*hidden argument*/NULL);
-		if ((((int32_t)L_13) >= ((int32_t)8)))
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_13 = ___socketAddress0;
+		NullCheck(L_13);
+		int32_t L_14 = SocketAddress_get_Size_mF4849EFEEA3BA3E2109D3E05E635072F89DE57CB_inline(L_13, /*hidden argument*/NULL);
+		V_1 = (bool)((((int32_t)L_14) < ((int32_t)8))? 1 : 0);
+		bool L_15 = V_1;
+		if (!L_15)
 		{
-			goto IL_0058;
+			goto IL_0064;
 		}
 	}
 	{
 		// throw new ArgumentException($"Unsupported socketAddress.Size: {socketAddress.Size}. Expected: <8");
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_14 = ___socketAddress0;
-		NullCheck(L_14);
-		int32_t L_15 = SocketAddress_get_Size_mF4849EFEEA3BA3E2109D3E05E635072F89DE57CB_inline(L_14, /*hidden argument*/NULL);
-		int32_t L_16 = L_15;
-		RuntimeObject * L_17 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_16);
-		String_t* L_18 = String_Format_m0ACDD8B34764E4040AED0B3EEB753567E4576BFA(_stringLiteral9A903E74B520FCC4833437B6C64B6944D19DBB96, L_17, /*hidden argument*/NULL);
-		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_19 = (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)il2cpp_codegen_object_new(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var);
-		ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7(L_19, L_18, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_RuntimeMethod_var);
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_16 = ___socketAddress0;
+		NullCheck(L_16);
+		int32_t L_17 = SocketAddress_get_Size_mF4849EFEEA3BA3E2109D3E05E635072F89DE57CB_inline(L_16, /*hidden argument*/NULL);
+		int32_t L_18 = L_17;
+		RuntimeObject * L_19 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_18);
+		String_t* L_20 = String_Format_m0ACDD8B34764E4040AED0B3EEB753567E4576BFA(_stringLiteral9A903E74B520FCC4833437B6C64B6944D19DBB96, L_19, /*hidden argument*/NULL);
+		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_21 = (ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)il2cpp_codegen_object_new(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m9A85EF7FEFEC21DDD525A67E831D77278E5165B7(L_21, L_20, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21, IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_RuntimeMethod_var);
 	}
 
-IL_0058:
+IL_0064:
 	{
 		// if (socketAddress != temp)
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_20 = ___socketAddress0;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_21 = __this->get_temp_7();
-		if ((((RuntimeObject*)(SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 *)L_20) == ((RuntimeObject*)(SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 *)L_21)))
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_22 = ___socketAddress0;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_23 = __this->get_temp_7();
+		V_2 = (bool)((((int32_t)((((RuntimeObject*)(SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 *)L_22) == ((RuntimeObject*)(SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 *)L_23))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_24 = V_2;
+		if (!L_24)
 		{
-			goto IL_00b0;
+			goto IL_00d0;
 		}
 	}
 	{
 		// temp = socketAddress;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_22 = ___socketAddress0;
-		__this->set_temp_7(L_22);
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_25 = ___socketAddress0;
+		__this->set_temp_7(L_25);
 		// temp[0] += 1;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_23 = __this->get_temp_7();
-		V_0 = L_23;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_24 = V_0;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_25 = V_0;
-		NullCheck(L_25);
-		uint8_t L_26 = SocketAddress_get_Item_m9B0A7BADAFEC83332452472EFB0F2B2A8AF7C442(L_25, 0, /*hidden argument*/NULL);
-		NullCheck(L_24);
-		SocketAddress_set_Item_m99934FEE4418DC91A6272059E8090293D79DB881(L_24, 0, (uint8_t)(((int32_t)((uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)1))))), /*hidden argument*/NULL);
-		// temp[0] -= 1;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_27 = __this->get_temp_7();
-		V_0 = L_27;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_28 = V_0;
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_29 = V_0;
-		NullCheck(L_29);
-		uint8_t L_30 = SocketAddress_get_Item_m9B0A7BADAFEC83332452472EFB0F2B2A8AF7C442(L_29, 0, /*hidden argument*/NULL);
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_26 = __this->get_temp_7();
+		V_3 = L_26;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_27 = V_3;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_28 = V_3;
 		NullCheck(L_28);
-		SocketAddress_set_Item_m99934FEE4418DC91A6272059E8090293D79DB881(L_28, 0, (uint8_t)(((int32_t)((uint8_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_30, (int32_t)1))))), /*hidden argument*/NULL);
-		// if (temp.GetHashCode() == 0)
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_31 = __this->get_temp_7();
+		uint8_t L_29 = SocketAddress_get_Item_m9B0A7BADAFEC83332452472EFB0F2B2A8AF7C442(L_28, 0, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		SocketAddress_set_Item_m99934FEE4418DC91A6272059E8090293D79DB881(L_27, 0, (uint8_t)(((int32_t)((uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_29, (int32_t)1))))), /*hidden argument*/NULL);
+		// temp[0] -= 1;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_30 = __this->get_temp_7();
+		V_3 = L_30;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_31 = V_3;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_32 = V_3;
+		NullCheck(L_32);
+		uint8_t L_33 = SocketAddress_get_Item_m9B0A7BADAFEC83332452472EFB0F2B2A8AF7C442(L_32, 0, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		int32_t L_32 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_31);
-		if (L_32)
+		SocketAddress_set_Item_m99934FEE4418DC91A6272059E8090293D79DB881(L_31, 0, (uint8_t)(((int32_t)((uint8_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_33, (int32_t)1))))), /*hidden argument*/NULL);
+		// if (temp.GetHashCode() == 0)
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_34 = __this->get_temp_7();
+		NullCheck(L_34);
+		int32_t L_35 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_34);
+		V_4 = (bool)((((int32_t)L_35) == ((int32_t)0))? 1 : 0);
+		bool L_36 = V_4;
+		if (!L_36)
 		{
-			goto IL_00b0;
+			goto IL_00cf;
 		}
 	}
 	{
 		// throw new Exception($"SocketAddress GetHashCode() is 0 after ReceiveFrom. Does the m_changed trick not work anymore?");
-		Exception_t * L_33 = (Exception_t *)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
-		Exception__ctor_m89BADFF36C3B170013878726E07729D51AA9FBE0(L_33, _stringLiteral1D3C08EF0307E53C33D18BF084DE36C743E9479F, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_33, IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_RuntimeMethod_var);
+		Exception_t * L_37 = (Exception_t *)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m89BADFF36C3B170013878726E07729D51AA9FBE0(L_37, _stringLiteral1D3C08EF0307E53C33D18BF084DE36C743E9479F, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_37, IPEndPointNonAlloc_Create_mB4D9BD41C2F1986D175F4DB81B6E27DBACFFB268_RuntimeMethod_var);
 	}
 
-IL_00b0:
+IL_00cf:
+	{
+	}
+
+IL_00d0:
 	{
 		// return this;
-		return __this;
+		V_5 = __this;
+		goto IL_00d5;
+	}
+
+IL_00d5:
+	{
+		// }
+		EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * L_38 = V_5;
+		return L_38;
 	}
 }
 // System.Int32 WhereAllocation.IPEndPointNonAlloc::GetHashCode()
@@ -1745,68 +1797,86 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IPEndPoint_tCD29981135F7B1989C3845BF455AD44EB
 		s_Il2CppMethodInitialized = true;
 	}
 	IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * V_0 = NULL;
+	IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F * V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F * V_4 = NULL;
 	{
 		// if (temp.Family == AddressFamily.InterNetworkV6)
 		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_0 = __this->get_temp_7();
 		NullCheck(L_0);
 		int32_t L_1 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_0, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)23)))))
+		V_2 = (bool)((((int32_t)L_1) == ((int32_t)((int32_t)23)))? 1 : 0);
+		bool L_2 = V_2;
+		if (!L_2)
 		{
-			goto IL_0017;
+			goto IL_001c;
 		}
 	}
 	{
 		// ipAddress = IPAddress.IPv6Any;
 		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var);
-		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_2 = ((IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var))->get_IPv6Any_7();
-		V_0 = L_2;
-		goto IL_004d;
+		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_3 = ((IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var))->get_IPv6Any_7();
+		V_0 = L_3;
+		goto IL_0056;
 	}
 
-IL_0017:
+IL_001c:
 	{
 		// else if (temp.Family == AddressFamily.InterNetwork)
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_3 = __this->get_temp_7();
-		NullCheck(L_3);
-		int32_t L_4 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_3, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_4 = __this->get_temp_7();
+		NullCheck(L_4);
+		int32_t L_5 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_4, /*hidden argument*/NULL);
+		V_3 = (bool)((((int32_t)L_5) == ((int32_t)2))? 1 : 0);
+		bool L_6 = V_3;
+		if (!L_6)
 		{
-			goto IL_002d;
+			goto IL_0036;
 		}
 	}
 	{
 		// ipAddress = IPAddress.Any;
 		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var);
-		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_5 = ((IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var))->get_Any_0();
-		V_0 = L_5;
-		goto IL_004d;
+		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_7 = ((IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var))->get_Any_0();
+		V_0 = L_7;
+		goto IL_0056;
 	}
 
-IL_002d:
+IL_0036:
 	{
 		// throw new Exception($"Unexpected SocketAddress family: {temp.Family}");
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_6 = __this->get_temp_7();
-		NullCheck(L_6);
-		int32_t L_7 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_6, /*hidden argument*/NULL);
-		int32_t L_8 = L_7;
-		RuntimeObject * L_9 = Box(AddressFamily_tFA4F79FA7F299EBDF507F4811E6E5C3EEBF0850E_il2cpp_TypeInfo_var, &L_8);
-		String_t* L_10 = String_Format_m0ACDD8B34764E4040AED0B3EEB753567E4576BFA(_stringLiteral431785F9DD620FC6C3816720665F58019FE55A6B, L_9, /*hidden argument*/NULL);
-		Exception_t * L_11 = (Exception_t *)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
-		Exception__ctor_m89BADFF36C3B170013878726E07729D51AA9FBE0(L_11, L_10, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, IPEndPointNonAlloc_DeepCopyIPEndPoint_m2E5D058D93A641D92A891DE72E174E6E796BAE48_RuntimeMethod_var);
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_8 = __this->get_temp_7();
+		NullCheck(L_8);
+		int32_t L_9 = SocketAddress_get_Family_mA5C74070602CE88CF4E8C77A06B7B60D73BC736D(L_8, /*hidden argument*/NULL);
+		int32_t L_10 = L_9;
+		RuntimeObject * L_11 = Box(AddressFamily_tFA4F79FA7F299EBDF507F4811E6E5C3EEBF0850E_il2cpp_TypeInfo_var, &L_10);
+		String_t* L_12 = String_Format_m0ACDD8B34764E4040AED0B3EEB753567E4576BFA(_stringLiteral431785F9DD620FC6C3816720665F58019FE55A6B, L_11, /*hidden argument*/NULL);
+		Exception_t * L_13 = (Exception_t *)il2cpp_codegen_object_new(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m89BADFF36C3B170013878726E07729D51AA9FBE0(L_13, L_12, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, IPEndPointNonAlloc_DeepCopyIPEndPoint_m2E5D058D93A641D92A891DE72E174E6E796BAE48_RuntimeMethod_var);
 	}
 
-IL_004d:
+IL_0056:
 	{
 		// IPEndPoint placeholder = new IPEndPoint(ipAddress, 0);
-		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_12 = V_0;
-		IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F * L_13 = (IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F *)il2cpp_codegen_object_new(IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F_il2cpp_TypeInfo_var);
-		IPEndPoint__ctor_m1C90FD0534415E17207A0BBC05CD381335089845(L_13, L_12, 0, /*hidden argument*/NULL);
+		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_14 = V_0;
+		IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F * L_15 = (IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F *)il2cpp_codegen_object_new(IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F_il2cpp_TypeInfo_var);
+		IPEndPoint__ctor_m1C90FD0534415E17207A0BBC05CD381335089845(L_15, L_14, 0, /*hidden argument*/NULL);
+		V_1 = L_15;
 		// return (IPEndPoint)placeholder.Create(temp);
-		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_14 = __this->get_temp_7();
-		NullCheck(L_13);
-		EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * L_15 = VirtFuncInvoker1< EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 *, SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * >::Invoke(6 /* System.Net.EndPoint System.Net.EndPoint::Create(System.Net.SocketAddress) */, L_13, L_14);
-		return ((IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F *)CastclassClass((RuntimeObject*)L_15, IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F_il2cpp_TypeInfo_var));
+		IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F * L_16 = V_1;
+		SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * L_17 = __this->get_temp_7();
+		NullCheck(L_16);
+		EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 * L_18 = VirtFuncInvoker1< EndPoint_tD87FCEF2780A951E8CE8D808C345FBF2C088D980 *, SocketAddress_tFD1A629405590229D8DAA15D03083147B767C969 * >::Invoke(6 /* System.Net.EndPoint System.Net.EndPoint::Create(System.Net.SocketAddress) */, L_16, L_17);
+		V_4 = ((IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F *)CastclassClass((RuntimeObject*)L_18, IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F_il2cpp_TypeInfo_var));
+		goto IL_0073;
+	}
+
+IL_0073:
+	{
+		// }
+		IPEndPoint_tCD29981135F7B1989C3845BF455AD44EBC13DE3F * L_19 = V_4;
+		return L_19;
 	}
 }
 #ifdef __clang__

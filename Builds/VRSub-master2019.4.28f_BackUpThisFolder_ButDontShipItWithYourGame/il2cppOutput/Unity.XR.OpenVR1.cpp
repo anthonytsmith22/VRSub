@@ -18,17 +18,6 @@
 #include "codegen/il2cpp-codegen.h"
 #include "il2cpp-object-internals.h"
 
-template <typename R, typename T1>
-struct VirtFuncInvoker1
-{
-	typedef R (*Func)(void*, T1, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
 template <typename R, typename T1, typename T2>
 struct VirtFuncInvoker2
 {
@@ -40,6 +29,28 @@ struct VirtFuncInvoker2
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3, typename T4>
+struct VirtFuncInvoker4
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct VirtFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct VirtFuncInvoker5
 {
@@ -49,6 +60,17 @@ struct VirtFuncInvoker5
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename R>
@@ -116,28 +138,6 @@ struct VirtActionInvoker6
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct VirtFuncInvoker3
-{
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4>
-struct VirtFuncInvoker4
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
-	}
-};
 template <typename T1, typename T2, typename T3, typename T4, typename T5>
 struct VirtActionInvoker5
 {
@@ -160,18 +160,6 @@ struct VirtFuncInvoker6
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1>
-struct GenericVirtFuncInvoker1
-{
-	typedef R (*Func)(void*, T1, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
 template <typename R, typename T1, typename T2>
 struct GenericVirtFuncInvoker2
 {
@@ -184,6 +172,30 @@ struct GenericVirtFuncInvoker2
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3, typename T4>
+struct GenericVirtFuncInvoker4
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct GenericVirtFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct GenericVirtFuncInvoker5
 {
@@ -194,6 +206,18 @@ struct GenericVirtFuncInvoker5
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct GenericVirtFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename R>
@@ -267,30 +291,6 @@ struct GenericVirtActionInvoker6
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct GenericVirtFuncInvoker3
-{
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4>
-struct GenericVirtFuncInvoker4
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
-	}
-};
 template <typename T1, typename T2, typename T3, typename T4, typename T5>
 struct GenericVirtActionInvoker5
 {
@@ -315,17 +315,6 @@ struct GenericVirtFuncInvoker6
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1>
-struct InterfaceFuncInvoker1
-{
-	typedef R (*Func)(void*, T1, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
 template <typename R, typename T1, typename T2>
 struct InterfaceFuncInvoker2
 {
@@ -337,6 +326,28 @@ struct InterfaceFuncInvoker2
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3, typename T4>
+struct InterfaceFuncInvoker4
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct InterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct InterfaceFuncInvoker5
 {
@@ -346,6 +357,17 @@ struct InterfaceFuncInvoker5
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct InterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename R>
@@ -413,28 +435,6 @@ struct InterfaceActionInvoker6
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct InterfaceFuncInvoker3
-{
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4>
-struct InterfaceFuncInvoker4
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
-
-	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
-	}
-};
 template <typename T1, typename T2, typename T3, typename T4, typename T5>
 struct InterfaceActionInvoker5
 {
@@ -457,18 +457,6 @@ struct InterfaceFuncInvoker6
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1>
-struct GenericInterfaceFuncInvoker1
-{
-	typedef R (*Func)(void*, T1, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
-	}
-};
 template <typename R, typename T1, typename T2>
 struct GenericInterfaceFuncInvoker2
 {
@@ -481,6 +469,30 @@ struct GenericInterfaceFuncInvoker2
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, invokeData.method);
 	}
 };
+template <typename R, typename T1, typename T2, typename T3, typename T4>
+struct GenericInterfaceFuncInvoker4
+{
+	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct GenericInterfaceFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
 template <typename R, typename T1, typename T2, typename T3, typename T4, typename T5>
 struct GenericInterfaceFuncInvoker5
 {
@@ -491,6 +503,18 @@ struct GenericInterfaceFuncInvoker5
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct GenericInterfaceFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename R>
@@ -564,30 +588,6 @@ struct GenericInterfaceActionInvoker6
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, p6, invokeData.method);
 	}
 };
-template <typename R, typename T1, typename T2, typename T3>
-struct GenericInterfaceFuncInvoker3
-{
-	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
-	}
-};
-template <typename R, typename T1, typename T2, typename T3, typename T4>
-struct GenericInterfaceFuncInvoker4
-{
-	typedef R (*Func)(void*, T1, T2, T3, T4, const RuntimeMethod*);
-
-	static inline R Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4)
-	{
-		VirtualInvokeData invokeData;
-		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
-		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
-	}
-};
 template <typename T1, typename T2, typename T3, typename T4, typename T5>
 struct GenericInterfaceActionInvoker5
 {
@@ -643,6 +643,18 @@ struct Compositor_FrameTimingU5BU5D_t3A7867CF1F0FFEC1736E18CF05BF904DB14360E7;
 struct HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969;
 // Valve.VR.HmdVector2_t[]
 struct HmdVector2_tU5BU5D_t4FDF339B499397F647AD96DBAFBC6377D6B52D80;
+// Valve.VR.IVRApplications/_SetApplicationAutoLaunch
+struct _SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B;
+// Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType
+struct _SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7;
+// Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock
+struct _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B;
+// Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock
+struct _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A;
+// Valve.VR.IVRBlockQueue/_Connect
+struct _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA;
+// Valve.VR.IVRBlockQueue/_Create
+struct _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4;
 // Valve.VR.IVRBlockQueue/_Destroy
 struct _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959;
 // Valve.VR.IVRBlockQueue/_QueueHasReader
@@ -950,7 +962,6 @@ IL2CPP_EXTERN_C RuntimeClass* ETrackedControllerRole_t41800D741329F0FDCA6A4FF9E0
 IL2CPP_EXTERN_C RuntimeClass* ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRCompositorTimingMode_t0782295C762AF521DB39A9F771E1C3A5B251EE5C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVREye_t219A610A4B7074B70644F9B952B1C937834D4981_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRSkeletalTransformSpace_t1AADDF1D14B44EF3471DEC638167692B06EBF6AD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRSubmitFlags_t1C9413C08F9D0D9B4347E22A36966F87706E4746_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9_il2cpp_TypeInfo_var;
@@ -959,9 +970,6 @@ IL2CPP_EXTERN_C RuntimeClass* HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038
 IL2CPP_EXTERN_C RuntimeClass* InputAnalogActionData_t_t6C7615BD7F4223A4ADA9268DDF501D09B3C808CA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputBindingInfo_t_t9D986FCE0F3B0E316FBD3809E09C604A9775B102_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InputDigitalActionData_t_t4A01C92AC860229A4C521ED827FD4FC4508A822C_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IntPtr_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F_il2cpp_TypeInfo_var;
@@ -971,6 +979,8 @@ IL2CPP_EXTERN_C RuntimeClass* TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63
 IL2CPP_EXTERN_C RuntimeClass* UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _AreBoundsVisible_t1916B3BCA37D063B31047A7A13A7D0CEC729A8A0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _BeginVrProfilerEvent_t845EA80A3EA42F4DBD79D3277EBE5C2647E34A3B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _CanRenderScene_t16F551BADB55D7F930B6509B204D97A79561A666_il2cpp_TypeInfo_var;
@@ -983,7 +993,10 @@ IL2CPP_EXTERN_C RuntimeClass* _CompositorBringToFront_t5343D37B1101FA91138DC0DCD
 IL2CPP_EXTERN_C RuntimeClass* _CompositorDumpImages_t72EC96F53BAE526F747D8A57989C1DA08035DD43_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _CompositorGoToBack_tB9DB8D1D9AAB81EE6207C7913090ADD6495801AA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _CompositorQuit_t18ED3360737B93C153359B4740A94BAC1544C752_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _DecompressSkeletalBoneData_t86826E0E71A97AF27926A5FE729C40C044950EE3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _DriverDebugRequest_t10220164400E6CBFA450556E66BF581CB019E24F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _EmitVrProfilerEvent_t5E4F85FAA061CCE03F465B165FE0F923E738F570_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ExportLiveToBuffer_t779EDE47B24402244B39125B3A939BAFDF70483F_il2cpp_TypeInfo_var;
@@ -1072,9 +1085,12 @@ IL2CPP_EXTERN_C RuntimeClass* _OpenBindingUI_tEB5276251C8845C26545C483C744740F58
 IL2CPP_EXTERN_C RuntimeClass* _Open_tF89E0CC6B337E8942FD174C530AE52BE4830B5F5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _PostPresentHandoff_t314F84869CA64790F35314666051FB1631337010_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _PropertyContainer_t62F41ED28493CD0FDCF4F2AFFD672E2D836E1F36_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _Read_t321A5E4A54382ADB4B070BB63BEB2BC88AA37F91_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ReleaseMirrorTextureD3D11_t6E374E0BEC9B8E9F88EC0EDE8E41AB43A8D138F9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ReleaseSharedGLTexture_t2E539F5AE30C1CCC23E51738272DF8A53E8AD5B0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ReloadFromDisk_tF991DB912F971E7CE8FFFAD6AD72A493EE572756_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ReloadInfo_tF3142F09B919CC83509FBBB7F31902BB65AD58FE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _ResetZeroPose_t62CA20A8A87EF1209761C2546184149C045113A0_il2cpp_TypeInfo_var;
@@ -1107,8 +1123,11 @@ IL2CPP_EXTERN_C RuntimeClass* _SuspendRendering_tC9EA4D458AE7DEFEB96CD6F28EA74C2
 IL2CPP_EXTERN_C RuntimeClass* _TriggerHapticVibrationAction_tB60CF22CEAEFCF00E9931AC7794926A72FBA6BD7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _UnlockGLSharedTextureForAccess_tD4D376FA10FDD78116934904862757CE3821494A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _UpdateActionState_t6857C1DBCCBEEAFC0DA66FC28413D59734A7E0AA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _WaitGetPoses_t8FBB49D540A4521220D3D00976C2B89F0415F63D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _Write_t0694BA4CABF6EBB2B662690D92979FC975FA0EC4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const uint32_t IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_com_FromNativeMethodDefinition_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F_com_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRChaperone_t3086BE05574261522D4460986E7E1C0D5619FCF4_com_FromNativeMethodDefinition_MetadataUsageId;
@@ -1127,9 +1146,13 @@ IL2CPP_EXTERN_C const uint32_t IVRIOBuffer_t05D6C37522FF677CE1C35CE583840C09C661
 IL2CPP_EXTERN_C const uint32_t IVRIOBuffer_t05D6C37522FF677CE1C35CE583840C09C6618021_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F_com_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _AcquireReadOnlyBlock_BeginInvoke_mF960B466BF690083BB74EB6C9EF824C860A79666_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _AcquireWriteOnlyBlock_BeginInvoke_m881763719148D8AF0370AEFCB02D643424F55D8C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _BeginVrProfilerEvent_BeginInvoke_m0A0EF8791D39A4DE1B6903DB2696844987DAF181_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _Close_BeginInvoke_mB9FB69396374809DAA15F937A2080B89DC303A7C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _CommitWorkingCopy_BeginInvoke_m3FC64C890F01DB5B2487D87FD8E13DA89CE0A81D_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _Connect_BeginInvoke_m106AA83026F05F992C14BEB0320400F2D6778133_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _Create_BeginInvoke_m8C0E561CDA0175B0F1EE11752923838C0907DD65_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _DecompressSkeletalBoneData_BeginInvoke_m9667294AD93FD763035A90B6388F4FC6495A96AE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _Destroy_BeginInvoke_m679102D5859FCED96101BC453302C1FB1454C789_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _DriverDebugRequest_BeginInvoke_m2635EE9A9C1DBCF422E72F656481EF63435542B5_MetadataUsageId;
@@ -1173,15 +1196,9 @@ IL2CPP_EXTERN_C const uint32_t _GetLiveSeatedZeroPoseToRawTrackingPose_BeginInvo
 IL2CPP_EXTERN_C const uint32_t _GetMirrorTextureD3D11_BeginInvoke_m2C90E8B34B5484D947DEB99BFCC34DB7C3F5D825_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetMirrorTextureGL_BeginInvoke_m39B3E5F444F7860DAD869AF1B36A02B167AF23F0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetOriginLocalizedName_BeginInvoke_m9FB7EDBE790DE6D13475AD2BD6F73A3B2A3DB096_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetOriginTrackedDeviceInfo_BeginInvoke_m51D50F72BB579668386F733063F896D7B03329E0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetPlayAreaRect_BeginInvoke_mC523C600D167A790D0558A29768A7869B86083F0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetPlayAreaSize_BeginInvoke_m9FE0ED4E0F091C11335979839771EB4FF5E08231_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetPoseActionDataForNextFrame_BeginInvoke_m2BC9E0FFAA8DB1B81693C2400851184D60DDBAC7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetPoseActionDataRelativeToNow_BeginInvoke_m9523357F1A4E142DA0231B11F40B02256FA10ECA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetPosesForFrame_BeginInvoke_mF17517396F65B200D1B3400805AC493E015F5177_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetSkeletalActionData_BeginInvoke_mA600425ADA2CC65F203604DBCC3DDF5283947B15_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetSkeletalBoneDataCompressed_BeginInvoke_m19E86E6C7AD42F4A3F07A1FDAD734F40ADB016E0_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _GetSkeletalBoneData_BeginInvoke_mE74523338829F98D7EB981FC697C8CDF4900C3B6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetVulkanDeviceExtensionsRequired_BeginInvoke_mADE7B09828025CC2CDF86A30EF703E8E2A787ED7_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetVulkanInstanceExtensionsRequired_BeginInvoke_m3DD6E278EDD84EA2BB18ED5A31FA7F1BD9AB5A20_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetWindowBounds_BeginInvoke_mA37CC0B6FD4AB9CB3634E81A65760FAC79799486_MetadataUsageId;
@@ -1204,6 +1221,8 @@ IL2CPP_EXTERN_C const uint32_t _ReleaseSharedGLTexture_BeginInvoke_m7689EC4980AF
 IL2CPP_EXTERN_C const uint32_t _ReleaseWriteOnlyBlock_BeginInvoke_m3B3AC3263F06DA7F15EAC3D39159B2C06AD0324B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _ReloadFromDisk_BeginInvoke_mE79F28BD6525B3EE0990EE8E12DE03DD1A0ECBBC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _ResetZeroPose_BeginInvoke_mEDCD2B2B7B9E9D4D3E4E58F093050701D2816320_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _SetApplicationAutoLaunch_BeginInvoke_m8856CD75103C0FEA05EED1285F32F0C3939377A0_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t _SetDefaultApplicationForMimeType_BeginInvoke_m2ACB9A204CB396649BD941A4A62D539F556F8585_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _SetExplicitTimingMode_BeginInvoke_m4934D668E784652649BB8E173754F9642383531D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _SetHeadsetViewBlendRange_BeginInvoke_mC288416CF968D5CE91BB4DB24306A3D794E0504F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _SetHeadsetViewCropped_BeginInvoke_mA0D9B2681B58191CA6026955407516AD93047955_MetadataUsageId;
@@ -2055,6 +2074,139 @@ public:
 	}
 };
 
+
+// Valve.VR.IVRBlockQueue
+struct IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5 
+{
+public:
+	// Valve.VR.IVRBlockQueue/_Create Valve.VR.IVRBlockQueue::Create
+	_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * ___Create_0;
+	// Valve.VR.IVRBlockQueue/_Connect Valve.VR.IVRBlockQueue::Connect
+	_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * ___Connect_1;
+	// Valve.VR.IVRBlockQueue/_Destroy Valve.VR.IVRBlockQueue::Destroy
+	_Destroy_tB5407CB3629C54665CD01A019398E15C3907E959 * ___Destroy_2;
+	// Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock Valve.VR.IVRBlockQueue::AcquireWriteOnlyBlock
+	_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * ___AcquireWriteOnlyBlock_3;
+	// Valve.VR.IVRBlockQueue/_ReleaseWriteOnlyBlock Valve.VR.IVRBlockQueue::ReleaseWriteOnlyBlock
+	_ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88 * ___ReleaseWriteOnlyBlock_4;
+	// Valve.VR.IVRBlockQueue/_WaitAndAcquireReadOnlyBlock Valve.VR.IVRBlockQueue::WaitAndAcquireReadOnlyBlock
+	_WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA * ___WaitAndAcquireReadOnlyBlock_5;
+	// Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock Valve.VR.IVRBlockQueue::AcquireReadOnlyBlock
+	_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * ___AcquireReadOnlyBlock_6;
+	// Valve.VR.IVRBlockQueue/_ReleaseReadOnlyBlock Valve.VR.IVRBlockQueue::ReleaseReadOnlyBlock
+	_ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098 * ___ReleaseReadOnlyBlock_7;
+	// Valve.VR.IVRBlockQueue/_QueueHasReader Valve.VR.IVRBlockQueue::QueueHasReader
+	_QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005 * ___QueueHasReader_8;
+
+public:
+	inline static int32_t get_offset_of_Create_0() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___Create_0)); }
+	inline _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * get_Create_0() const { return ___Create_0; }
+	inline _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 ** get_address_of_Create_0() { return &___Create_0; }
+	inline void set_Create_0(_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * value)
+	{
+		___Create_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Create_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Connect_1() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___Connect_1)); }
+	inline _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * get_Connect_1() const { return ___Connect_1; }
+	inline _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA ** get_address_of_Connect_1() { return &___Connect_1; }
+	inline void set_Connect_1(_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * value)
+	{
+		___Connect_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Connect_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Destroy_2() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___Destroy_2)); }
+	inline _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959 * get_Destroy_2() const { return ___Destroy_2; }
+	inline _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959 ** get_address_of_Destroy_2() { return &___Destroy_2; }
+	inline void set_Destroy_2(_Destroy_tB5407CB3629C54665CD01A019398E15C3907E959 * value)
+	{
+		___Destroy_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Destroy_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_AcquireWriteOnlyBlock_3() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___AcquireWriteOnlyBlock_3)); }
+	inline _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * get_AcquireWriteOnlyBlock_3() const { return ___AcquireWriteOnlyBlock_3; }
+	inline _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A ** get_address_of_AcquireWriteOnlyBlock_3() { return &___AcquireWriteOnlyBlock_3; }
+	inline void set_AcquireWriteOnlyBlock_3(_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * value)
+	{
+		___AcquireWriteOnlyBlock_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___AcquireWriteOnlyBlock_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ReleaseWriteOnlyBlock_4() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___ReleaseWriteOnlyBlock_4)); }
+	inline _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88 * get_ReleaseWriteOnlyBlock_4() const { return ___ReleaseWriteOnlyBlock_4; }
+	inline _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88 ** get_address_of_ReleaseWriteOnlyBlock_4() { return &___ReleaseWriteOnlyBlock_4; }
+	inline void set_ReleaseWriteOnlyBlock_4(_ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88 * value)
+	{
+		___ReleaseWriteOnlyBlock_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ReleaseWriteOnlyBlock_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_WaitAndAcquireReadOnlyBlock_5() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___WaitAndAcquireReadOnlyBlock_5)); }
+	inline _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA * get_WaitAndAcquireReadOnlyBlock_5() const { return ___WaitAndAcquireReadOnlyBlock_5; }
+	inline _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA ** get_address_of_WaitAndAcquireReadOnlyBlock_5() { return &___WaitAndAcquireReadOnlyBlock_5; }
+	inline void set_WaitAndAcquireReadOnlyBlock_5(_WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA * value)
+	{
+		___WaitAndAcquireReadOnlyBlock_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___WaitAndAcquireReadOnlyBlock_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_AcquireReadOnlyBlock_6() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___AcquireReadOnlyBlock_6)); }
+	inline _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * get_AcquireReadOnlyBlock_6() const { return ___AcquireReadOnlyBlock_6; }
+	inline _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B ** get_address_of_AcquireReadOnlyBlock_6() { return &___AcquireReadOnlyBlock_6; }
+	inline void set_AcquireReadOnlyBlock_6(_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * value)
+	{
+		___AcquireReadOnlyBlock_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___AcquireReadOnlyBlock_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ReleaseReadOnlyBlock_7() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___ReleaseReadOnlyBlock_7)); }
+	inline _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098 * get_ReleaseReadOnlyBlock_7() const { return ___ReleaseReadOnlyBlock_7; }
+	inline _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098 ** get_address_of_ReleaseReadOnlyBlock_7() { return &___ReleaseReadOnlyBlock_7; }
+	inline void set_ReleaseReadOnlyBlock_7(_ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098 * value)
+	{
+		___ReleaseReadOnlyBlock_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ReleaseReadOnlyBlock_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_QueueHasReader_8() { return static_cast<int32_t>(offsetof(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5, ___QueueHasReader_8)); }
+	inline _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005 * get_QueueHasReader_8() const { return ___QueueHasReader_8; }
+	inline _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005 ** get_address_of_QueueHasReader_8() { return &___QueueHasReader_8; }
+	inline void set_QueueHasReader_8(_QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005 * value)
+	{
+		___QueueHasReader_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___QueueHasReader_8), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of Valve.VR.IVRBlockQueue
+struct IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke
+{
+	Il2CppMethodPointer ___Create_0;
+	Il2CppMethodPointer ___Connect_1;
+	Il2CppMethodPointer ___Destroy_2;
+	Il2CppMethodPointer ___AcquireWriteOnlyBlock_3;
+	Il2CppMethodPointer ___ReleaseWriteOnlyBlock_4;
+	Il2CppMethodPointer ___WaitAndAcquireReadOnlyBlock_5;
+	Il2CppMethodPointer ___AcquireReadOnlyBlock_6;
+	Il2CppMethodPointer ___ReleaseReadOnlyBlock_7;
+	Il2CppMethodPointer ___QueueHasReader_8;
+};
+// Native definition for COM marshalling of Valve.VR.IVRBlockQueue
+struct IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com
+{
+	Il2CppMethodPointer ___Create_0;
+	Il2CppMethodPointer ___Connect_1;
+	Il2CppMethodPointer ___Destroy_2;
+	Il2CppMethodPointer ___AcquireWriteOnlyBlock_3;
+	Il2CppMethodPointer ___ReleaseWriteOnlyBlock_4;
+	Il2CppMethodPointer ___WaitAndAcquireReadOnlyBlock_5;
+	Il2CppMethodPointer ___AcquireReadOnlyBlock_6;
+	Il2CppMethodPointer ___ReleaseReadOnlyBlock_7;
+	Il2CppMethodPointer ___QueueHasReader_8;
+};
 
 // Valve.VR.IVRChaperone
 struct IVRChaperone_t3086BE05574261522D4460986E7E1C0D5619FCF4 
@@ -11518,6 +11670,24 @@ public:
 };
 
 
+// Valve.VR.EVRApplicationError
+struct EVRApplicationError_tC47050B5098374BE5366BF5E787D58EECB3C8CBE 
+{
+public:
+	// System.Int32 Valve.VR.EVRApplicationError::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(EVRApplicationError_tC47050B5098374BE5366BF5E787D58EECB3C8CBE, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // Valve.VR.EVRCompositorError
 struct EVRCompositorError_t5C5ACBE45465898E5953943AEF47CFAAD91DDC19 
 {
@@ -12239,6 +12409,60 @@ public:
 	{
 		___m_nNumVSyncsToFirstView_25 = value;
 	}
+};
+
+
+// Valve.VR.IVRApplications/_SetApplicationAutoLaunch
+struct _SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType
+struct _SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock
+struct _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock
+struct _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRBlockQueue/_Connect
+struct _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// Valve.VR.IVRBlockQueue/_Create
+struct _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4  : public MulticastDelegate_t
+{
+public:
+
+public:
 };
 
 
@@ -13889,6 +14113,848 @@ public:
 
 
 
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, intptr_t ___pchAppKey0, bool ___bAutoLaunch1, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___pchAppKey0, static_cast<int32_t>(___bAutoLaunch1));
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRApplications/_SetApplicationAutoLaunch::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _SetApplicationAutoLaunch__ctor_m25A6245499453A7486676CE64CF8CC6F13DCA4FA (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetApplicationAutoLaunch::Invoke(System.IntPtr,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetApplicationAutoLaunch_Invoke_mD5B05F8991DDC19A50F372714A02964D695A21A7 (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, intptr_t ___pchAppKey0, bool ___bAutoLaunch1, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, bool, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___pchAppKey0, ___bAutoLaunch1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, bool, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___bAutoLaunch1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, bool >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___bAutoLaunch1);
+					else
+						result = GenericVirtFuncInvoker2< int32_t, intptr_t, bool >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___bAutoLaunch1);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker2< int32_t, intptr_t, bool >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchAppKey0, ___bAutoLaunch1);
+					else
+						result = VirtFuncInvoker2< int32_t, intptr_t, bool >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchAppKey0, ___bAutoLaunch1);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchAppKey0) - 1), ___bAutoLaunch1, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, bool, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___bAutoLaunch1, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRApplications/_SetApplicationAutoLaunch::BeginInvoke(System.IntPtr,System.Boolean,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _SetApplicationAutoLaunch_BeginInvoke_m8856CD75103C0FEA05EED1285F32F0C3939377A0 (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, intptr_t ___pchAppKey0, bool ___bAutoLaunch1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_SetApplicationAutoLaunch_BeginInvoke_m8856CD75103C0FEA05EED1285F32F0C3939377A0_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchAppKey0);
+	__d_args[1] = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &___bAutoLaunch1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetApplicationAutoLaunch::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetApplicationAutoLaunch_EndInvoke_m7AC225AB775B0199AADFFA4B8C8690AEAD16BD61 (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, intptr_t ___pchAppKey0, intptr_t ___pchMimeType1, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___pchAppKey0, ___pchMimeType1);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _SetDefaultApplicationForMimeType__ctor_mE681B033278112D305896DE653D4C1784B82C450 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::Invoke(System.IntPtr,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetDefaultApplicationForMimeType_Invoke_mB3F8425C5C75E41D7B135D8B494F2677A9BCEF62 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, intptr_t ___pchAppKey0, intptr_t ___pchMimeType1, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___pchAppKey0, ___pchMimeType1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___pchMimeType1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___pchMimeType1);
+					else
+						result = GenericVirtFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___pchMimeType1);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchAppKey0, ___pchMimeType1);
+					else
+						result = VirtFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchAppKey0, ___pchMimeType1);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchAppKey0) - 1), ___pchMimeType1, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___pchMimeType1, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _SetDefaultApplicationForMimeType_BeginInvoke_m2ACB9A204CB396649BD941A4A62D539F556F8585 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, intptr_t ___pchAppKey0, intptr_t ___pchMimeType1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_SetDefaultApplicationForMimeType_BeginInvoke_m2ACB9A204CB396649BD941A4A62D539F556F8585_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchAppKey0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchMimeType1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetDefaultApplicationForMimeType_EndInvoke_m2BF07D8E169262C3C524DF72B846A8866D0195AE (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: Valve.VR.IVRBlockQueue
+IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_pinvoke(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Create_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Create_0()));
+	marshaled.___Connect_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Connect_1()));
+	marshaled.___Destroy_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Destroy_2()));
+	marshaled.___AcquireWriteOnlyBlock_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireWriteOnlyBlock_3()));
+	marshaled.___ReleaseWriteOnlyBlock_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseWriteOnlyBlock_4()));
+	marshaled.___WaitAndAcquireReadOnlyBlock_5 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_WaitAndAcquireReadOnlyBlock_5()));
+	marshaled.___AcquireReadOnlyBlock_6 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireReadOnlyBlock_6()));
+	marshaled.___ReleaseReadOnlyBlock_7 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseReadOnlyBlock_7()));
+	marshaled.___QueueHasReader_8 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_QueueHasReader_8()));
+}
+IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_pinvoke_back(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke& marshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_Create_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4>(marshaled.___Create_0, _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4_il2cpp_TypeInfo_var));
+	unmarshaled.set_Connect_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA>(marshaled.___Connect_1, _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA_il2cpp_TypeInfo_var));
+	unmarshaled.set_Destroy_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_Destroy_tB5407CB3629C54665CD01A019398E15C3907E959>(marshaled.___Destroy_2, _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959_il2cpp_TypeInfo_var));
+	unmarshaled.set_AcquireWriteOnlyBlock_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A>(marshaled.___AcquireWriteOnlyBlock_3, _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A_il2cpp_TypeInfo_var));
+	unmarshaled.set_ReleaseWriteOnlyBlock_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88>(marshaled.___ReleaseWriteOnlyBlock_4, _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88_il2cpp_TypeInfo_var));
+	unmarshaled.set_WaitAndAcquireReadOnlyBlock_5(il2cpp_codegen_marshal_function_ptr_to_delegate<_WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA>(marshaled.___WaitAndAcquireReadOnlyBlock_5, _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA_il2cpp_TypeInfo_var));
+	unmarshaled.set_AcquireReadOnlyBlock_6(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B>(marshaled.___AcquireReadOnlyBlock_6, _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B_il2cpp_TypeInfo_var));
+	unmarshaled.set_ReleaseReadOnlyBlock_7(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098>(marshaled.___ReleaseReadOnlyBlock_7, _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098_il2cpp_TypeInfo_var));
+	unmarshaled.set_QueueHasReader_8(il2cpp_codegen_marshal_function_ptr_to_delegate<_QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005>(marshaled.___QueueHasReader_8, _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Valve.VR.IVRBlockQueue
+IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_pinvoke_cleanup(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Valve.VR.IVRBlockQueue
+IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_com(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com& marshaled)
+{
+	marshaled.___Create_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Create_0()));
+	marshaled.___Connect_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Connect_1()));
+	marshaled.___Destroy_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Destroy_2()));
+	marshaled.___AcquireWriteOnlyBlock_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireWriteOnlyBlock_3()));
+	marshaled.___ReleaseWriteOnlyBlock_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseWriteOnlyBlock_4()));
+	marshaled.___WaitAndAcquireReadOnlyBlock_5 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_WaitAndAcquireReadOnlyBlock_5()));
+	marshaled.___AcquireReadOnlyBlock_6 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireReadOnlyBlock_6()));
+	marshaled.___ReleaseReadOnlyBlock_7 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseReadOnlyBlock_7()));
+	marshaled.___QueueHasReader_8 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_QueueHasReader_8()));
+}
+IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_com_back(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com& marshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_com_FromNativeMethodDefinition_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	unmarshaled.set_Create_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4>(marshaled.___Create_0, _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4_il2cpp_TypeInfo_var));
+	unmarshaled.set_Connect_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA>(marshaled.___Connect_1, _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA_il2cpp_TypeInfo_var));
+	unmarshaled.set_Destroy_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_Destroy_tB5407CB3629C54665CD01A019398E15C3907E959>(marshaled.___Destroy_2, _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959_il2cpp_TypeInfo_var));
+	unmarshaled.set_AcquireWriteOnlyBlock_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A>(marshaled.___AcquireWriteOnlyBlock_3, _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A_il2cpp_TypeInfo_var));
+	unmarshaled.set_ReleaseWriteOnlyBlock_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88>(marshaled.___ReleaseWriteOnlyBlock_4, _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88_il2cpp_TypeInfo_var));
+	unmarshaled.set_WaitAndAcquireReadOnlyBlock_5(il2cpp_codegen_marshal_function_ptr_to_delegate<_WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA>(marshaled.___WaitAndAcquireReadOnlyBlock_5, _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA_il2cpp_TypeInfo_var));
+	unmarshaled.set_AcquireReadOnlyBlock_6(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B>(marshaled.___AcquireReadOnlyBlock_6, _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B_il2cpp_TypeInfo_var));
+	unmarshaled.set_ReleaseReadOnlyBlock_7(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098>(marshaled.___ReleaseReadOnlyBlock_7, _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098_il2cpp_TypeInfo_var));
+	unmarshaled.set_QueueHasReader_8(il2cpp_codegen_marshal_function_ptr_to_delegate<_QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005>(marshaled.___QueueHasReader_8, _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005_il2cpp_TypeInfo_var));
+}
+// Conversion method for clean up from marshalling of: Valve.VR.IVRBlockQueue
+IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_com_cleanup(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, uint64_t*, intptr_t*, int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _AcquireReadOnlyBlock__ctor_mD8CB3CEAD1756FBF3179E061CAD17F4CB31C0848 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::Invoke(System.UInt64,System.UInt64&,System.IntPtr&,Valve.VR.EBlockQueueReadType)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireReadOnlyBlock_Invoke_mDD155967A8827136E4C67BF25839733C4BBD33C4 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 4)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
+					else
+						result = GenericVirtFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
+					else
+						result = VirtFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___ulQueueHandle0) - 1), ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::BeginInvoke(System.UInt64,System.UInt64&,System.IntPtr&,Valve.VR.EBlockQueueReadType,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _AcquireReadOnlyBlock_BeginInvoke_mF960B466BF690083BB74EB6C9EF824C860A79666 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback4, RuntimeObject * ___object5, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AcquireReadOnlyBlock_BeginInvoke_mF960B466BF690083BB74EB6C9EF824C860A79666_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[5] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulQueueHandle0);
+	__d_args[1] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulBlockHandle1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppvBuffer2);
+	__d_args[3] = Box(EBlockQueueReadType_tE0CEC62472DF76109CCEFC214108D6A30F1ED31D_il2cpp_TypeInfo_var, &___eReadType3);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback4, (RuntimeObject*)___object5);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::EndInvoke(System.UInt64&,System.IntPtr&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireReadOnlyBlock_EndInvoke_m5A56069EC7BE88C6D7801391EB194D62C54B5DA2 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t* ___pulBlockHandle0, intptr_t* ___ppvBuffer1, RuntimeObject* ___result2, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pulBlockHandle0,
+	___ppvBuffer1,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result2, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, uint64_t*, intptr_t*);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _AcquireWriteOnlyBlock__ctor_m88B1DD049ABBB5C72CB832509945F12FA3FF6F02 (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::Invoke(System.UInt64,System.UInt64&,System.IntPtr&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireWriteOnlyBlock_Invoke_m6820570F432DC106027064DF66D3FF695126805C (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 3)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t, uint64_t*, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
+					else
+						result = GenericVirtFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
+					else
+						result = VirtFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, uint64_t*, intptr_t*, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___ulQueueHandle0) - 1), ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::BeginInvoke(System.UInt64,System.UInt64&,System.IntPtr&,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _AcquireWriteOnlyBlock_BeginInvoke_m881763719148D8AF0370AEFCB02D643424F55D8C (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_AcquireWriteOnlyBlock_BeginInvoke_m881763719148D8AF0370AEFCB02D643424F55D8C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[4] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulQueueHandle0);
+	__d_args[1] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulBlockHandle1);
+	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppvBuffer2);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::EndInvoke(System.UInt64&,System.IntPtr&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireWriteOnlyBlock_EndInvoke_m9EB3E75792C7C436627B1FBBB180B148AC7CF852 (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t* ___pulBlockHandle0, intptr_t* ___ppvBuffer1, RuntimeObject* ___result2, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pulBlockHandle0,
+	___ppvBuffer1,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result2, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t*, intptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___pulQueueHandle0, ___pchPath1);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRBlockQueue/_Connect::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _Connect__ctor_m9D2E6E0EAF76C9DB161CAF1A1AD4B572EEA38788 (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Connect::Invoke(System.UInt64&,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Connect_Invoke_m528132D505FE88E2CFE0AD020F372196FFC4489F (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 2)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t*, intptr_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___pulQueueHandle0, ___pchPath1, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1);
+					else
+						result = GenericVirtFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1);
+					else
+						result = VirtFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(___pulQueueHandle0) - 1), ___pchPath1, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRBlockQueue/_Connect::BeginInvoke(System.UInt64&,System.IntPtr,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _Connect_BeginInvoke_m106AA83026F05F992C14BEB0320400F2D6778133 (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_Connect_BeginInvoke_m106AA83026F05F992C14BEB0320400F2D6778133_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[3] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulQueueHandle0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchPath1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Connect::EndInvoke(System.UInt64&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Connect_EndInvoke_m312AA70EC3905A25D8A80C8418A5F81A87F407F5 (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pulQueueHandle0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, uint32_t ___unBlockDataSize2, uint32_t ___unBlockHeaderSize3, uint32_t ___unBlockCount4, const RuntimeMethod* method)
+{
+	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	int32_t returnValue = il2cppPInvokeFunc(___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
+
+	return returnValue;
+}
+// System.Void Valve.VR.IVRBlockQueue/_Create::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _Create__ctor_m016057D25D26C0AED396D255C2E40C5350B0507E (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Create::Invoke(System.UInt64&,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Create_Invoke_m412FACAC89B0B86905CB76B411F04A70053BC8B3 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, uint32_t ___unBlockDataSize2, uint32_t ___unBlockHeaderSize3, uint32_t ___unBlockCount4, const RuntimeMethod* method)
+{
+	int32_t result = 0;
+	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 5)
+			{
+				// open
+				typedef int32_t (*FunctionPointerType) (uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
+					else
+						result = GenericVirtFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						result = InterfaceFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
+					else
+						result = VirtFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
+					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(___pulQueueHandle0) - 1), ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
+				}
+				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
+				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
+			}
+		}
+	}
+	return result;
+}
+// System.IAsyncResult Valve.VR.IVRBlockQueue/_Create::BeginInvoke(System.UInt64&,System.IntPtr,System.UInt32,System.UInt32,System.UInt32,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _Create_BeginInvoke_m8C0E561CDA0175B0F1EE11752923838C0907DD65 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, uint32_t ___unBlockDataSize2, uint32_t ___unBlockHeaderSize3, uint32_t ___unBlockCount4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (_Create_BeginInvoke_m8C0E561CDA0175B0F1EE11752923838C0907DD65_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[6] = {0};
+	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulQueueHandle0);
+	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchPath1);
+	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBlockDataSize2);
+	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBlockHeaderSize3);
+	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBlockCount4);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
+}
+// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Create::EndInvoke(System.UInt64&,System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Create_EndInvoke_m49C529DAA840DF515E5D0E45D480EFFD0F285C37 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, RuntimeObject* ___result1, const RuntimeMethod* method)
+{
+	void* ___out_args[] = {
+	___pulQueueHandle0,
+	};
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
+	return *(int32_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -30488,787 +31554,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetOriginLocalizedName_BeginI
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetOriginLocalizedName_EndInvoke_mBE5296ACDAD04A2F272A39DD09247084747D83E2 (_GetOriginLocalizedName_tE07610E77B523E126544A7832EECC551E2FD3021 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetOriginTrackedDeviceInfo__ctor_m1CE7550EE2DC5300B40EDBE7EFBCE6E9E3ED39F4 (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::Invoke(System.UInt64,Valve.VR.InputOriginInfo_t&,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetOriginTrackedDeviceInfo_Invoke_mFD9F2323420944B0EF5C55A8B4B8A5B253A2A4BE (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 3)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___origin0, ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(targetMethod, targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
-					else
-						result = GenericVirtFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(targetMethod, targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
-					else
-						result = VirtFuncInvoker3< int32_t, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___origin0) - 1), ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___origin0, ___pOriginInfo1, ___unOriginInfoSize2, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::BeginInvoke(System.UInt64,Valve.VR.InputOriginInfo_t&,System.UInt32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetOriginTrackedDeviceInfo_BeginInvoke_m51D50F72BB579668386F733063F896D7B03329E0 (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetOriginTrackedDeviceInfo_BeginInvoke_m51D50F72BB579668386F733063F896D7B03329E0_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[4] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___origin0);
-	__d_args[1] = Box(InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7_il2cpp_TypeInfo_var, &*___pOriginInfo1);
-	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unOriginInfoSize2);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetOriginTrackedDeviceInfo::EndInvoke(Valve.VR.InputOriginInfo_t&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetOriginTrackedDeviceInfo_EndInvoke_m7EAC25B0B80A783FF16CA18C28383346636183FE (_GetOriginTrackedDeviceInfo_t435DE06C2EE2B7705EE9AA94D172E3405305EBAA * __this, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pOriginInfo0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetPoseActionDataForNextFrame__ctor_mB58915FBE3C78789F7EFB47F2C5BBDD0A82D2CD0 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::Invoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataForNextFrame_Invoke_m5B31DC3ADD784072B4EDC435CC9539B939086C41 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 5)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
-					else
-						result = GenericVirtFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
-					else
-						result = VirtFuncInvoker5< int32_t, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___pActionData2, ___unActionDataSize3, ___ulRestrictToDevice4, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::BeginInvoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetPoseActionDataForNextFrame_BeginInvoke_m2BC9E0FFAA8DB1B81693C2400851184D60DDBAC7 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetPoseActionDataForNextFrame_BeginInvoke_m2BC9E0FFAA8DB1B81693C2400851184D60DDBAC7_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[6] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
-	__d_args[1] = Box(ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469_il2cpp_TypeInfo_var, &___eOrigin1);
-	__d_args[2] = Box(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111_il2cpp_TypeInfo_var, &*___pActionData2);
-	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unActionDataSize3);
-	__d_args[4] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulRestrictToDevice4);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataForNextFrame::EndInvoke(Valve.VR.InputPoseActionData_t&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataForNextFrame_EndInvoke_mF8B5CD65C968AAF6242C186895C9889D3B1DD7D1 (_GetPoseActionDataForNextFrame_t00494DFAEA855A0ADF9E551FAA418F58F4B66592 * __this, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pActionData0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetPoseActionDataRelativeToNow__ctor_mE5FCD16C96FAA91EA3836568F615805EE89D15D0 (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::Invoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,System.Single,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataRelativeToNow_Invoke_m4C86F99B52EF1E3A3721DC9B1B7D972DD484D825 (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 6)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
-					else
-						result = GenericVirtFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(targetMethod, targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
-					else
-						result = VirtFuncInvoker6< int32_t, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, float, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *, uint32_t, uint64_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eOrigin1, ___fPredictedSecondsFromNow2, ___pActionData3, ___unActionDataSize4, ___ulRestrictToDevice5, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::BeginInvoke(System.UInt64,Valve.VR.ETrackingUniverseOrigin,System.Single,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetPoseActionDataRelativeToNow_BeginInvoke_m9523357F1A4E142DA0231B11F40B02256FA10ECA (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback6, RuntimeObject * ___object7, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetPoseActionDataRelativeToNow_BeginInvoke_m9523357F1A4E142DA0231B11F40B02256FA10ECA_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[7] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
-	__d_args[1] = Box(ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469_il2cpp_TypeInfo_var, &___eOrigin1);
-	__d_args[2] = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &___fPredictedSecondsFromNow2);
-	__d_args[3] = Box(InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111_il2cpp_TypeInfo_var, &*___pActionData3);
-	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unActionDataSize4);
-	__d_args[5] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulRestrictToDevice5);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback6, (RuntimeObject*)___object7);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetPoseActionDataRelativeToNow::EndInvoke(Valve.VR.InputPoseActionData_t&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetPoseActionDataRelativeToNow_EndInvoke_m3E8E0751753FA3B63BB4CE116E912612BEA9D0CB (_GetPoseActionDataRelativeToNow_t7F4F266EC331D8691677E7BC70E59558EE01F931 * __this, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pActionData0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___action0, ___pActionData1, ___unActionDataSize2);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRInput/_GetSkeletalActionData::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetSkeletalActionData__ctor_mF5314C087C8F02C3D6E82E67B3BD1E41C7F09183 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalActionData::Invoke(System.UInt64,Valve.VR.InputSkeletalActionData_t&,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalActionData_Invoke_mFD7322A817129E2621EA9DC59B1064AA4E095405 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 3)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___pActionData1, ___unActionDataSize2, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___pActionData1, ___unActionDataSize2, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
-					else
-						result = GenericVirtFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
-					else
-						result = VirtFuncInvoker3< int32_t, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___pActionData1, ___unActionDataSize2);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___pActionData1, ___unActionDataSize2, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___pActionData1, ___unActionDataSize2, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRInput/_GetSkeletalActionData::BeginInvoke(System.UInt64,Valve.VR.InputSkeletalActionData_t&,System.UInt32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetSkeletalActionData_BeginInvoke_mA600425ADA2CC65F203604DBCC3DDF5283947B15 (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetSkeletalActionData_BeginInvoke_mA600425ADA2CC65F203604DBCC3DDF5283947B15_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[4] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
-	__d_args[1] = Box(InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26_il2cpp_TypeInfo_var, &*___pActionData1);
-	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unActionDataSize2);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalActionData::EndInvoke(Valve.VR.InputSkeletalActionData_t&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalActionData_EndInvoke_m57A28532EE35F98B899C3F3556C33971AE1B2EDB (_GetSkeletalActionData_t9216D0ABD8AC09499C70B1BB93F57D968E634615 * __this, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pActionData0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, uint32_t ___unTransformArrayCount4, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, int32_t, VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC *, uint32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Marshaling of parameter '___pTransformArray3' to native representation
-	VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC * ____pTransformArray3_marshaled = NULL;
-	if (___pTransformArray3 != NULL)
-	{
-		____pTransformArray3_marshaled = reinterpret_cast<VRBoneTransform_t_tB0AFC02B2EB00C94AA2AB8D517379266A80385AC *>((___pTransformArray3)->GetAddressAtUnchecked(0));
-	}
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eTransformSpace1, ___eMotionRange2, ____pTransformArray3_marshaled, ___unTransformArrayCount4);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRInput/_GetSkeletalBoneData::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetSkeletalBoneData__ctor_m7BE5624BDF093699816B86276551A7ADD702685C (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneData::Invoke(System.UInt64,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.EVRSkeletalMotionRange,Valve.VR.VRBoneTransform_t[],System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneData_Invoke_m70FD6C22451096AA6418061DE1C3E47196D93B7F (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, uint32_t ___unTransformArrayCount4, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 5)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
-					else
-						result = GenericVirtFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(targetMethod, targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
-					else
-						result = VirtFuncInvoker5< int32_t, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, int32_t, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8*, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eTransformSpace1, ___eMotionRange2, ___pTransformArray3, ___unTransformArrayCount4, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRInput/_GetSkeletalBoneData::BeginInvoke(System.UInt64,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.EVRSkeletalMotionRange,Valve.VR.VRBoneTransform_t[],System.UInt32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetSkeletalBoneData_BeginInvoke_mE74523338829F98D7EB981FC697C8CDF4900C3B6 (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, uint32_t ___unTransformArrayCount4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetSkeletalBoneData_BeginInvoke_mE74523338829F98D7EB981FC697C8CDF4900C3B6_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[6] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
-	__d_args[1] = Box(EVRSkeletalTransformSpace_t1AADDF1D14B44EF3471DEC638167692B06EBF6AD_il2cpp_TypeInfo_var, &___eTransformSpace1);
-	__d_args[2] = Box(EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2_il2cpp_TypeInfo_var, &___eMotionRange2);
-	__d_args[3] = ___pTransformArray3;
-	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unTransformArrayCount4);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneData::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneData_EndInvoke_m312176F18F066798A871A7713595A75F0E95E209 (_GetSkeletalBoneData_t1FD6A4A117DC2B8F302E4A22FE6544160C1253B6 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, int32_t, intptr_t, uint32_t, uint32_t*);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _GetSkeletalBoneDataCompressed__ctor_m7C88E75432C040506A1D20BBB79E24837E999F41 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::Invoke(System.UInt64,Valve.VR.EVRSkeletalMotionRange,System.IntPtr,System.UInt32,System.UInt32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneDataCompressed_Invoke_mCB15672D176C6C7C7983330E6F69FAA02F783D87 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 5)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(targetMethod, targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
-					else
-						result = GenericVirtFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(targetMethod, targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
-					else
-						result = VirtFuncInvoker5< int32_t, uint64_t, int32_t, intptr_t, uint32_t, uint32_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___action0) - 1), ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, int32_t, intptr_t, uint32_t, uint32_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___action0, ___eMotionRange1, ___pvCompressedData2, ___unCompressedSize3, ___punRequiredCompressedSize4, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::BeginInvoke(System.UInt64,Valve.VR.EVRSkeletalMotionRange,System.IntPtr,System.UInt32,System.UInt32&,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _GetSkeletalBoneDataCompressed_BeginInvoke_m19E86E6C7AD42F4A3F07A1FDAD734F40ADB016E0 (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_GetSkeletalBoneDataCompressed_BeginInvoke_m19E86E6C7AD42F4A3F07A1FDAD734F40ADB016E0_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[6] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___action0);
-	__d_args[1] = Box(EVRSkeletalMotionRange_tEEC0E65399E78BF5E94D2956D90ACD1C01C24BC2_il2cpp_TypeInfo_var, &___eMotionRange1);
-	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pvCompressedData2);
-	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unCompressedSize3);
-	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &*___punRequiredCompressedSize4);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
-}
-// Valve.VR.EVRInputError Valve.VR.IVRInput/_GetSkeletalBoneDataCompressed::EndInvoke(System.UInt32&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _GetSkeletalBoneDataCompressed_EndInvoke_m03F2C7C769F86462D22332920E50EB5BBB1C1E0D (_GetSkeletalBoneDataCompressed_t8167E3331CDA6F777C1729C8B59F8A85D50FEAB6 * __this, uint32_t* ___punRequiredCompressedSize0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___punRequiredCompressedSize0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);
 }
 #ifdef __clang__

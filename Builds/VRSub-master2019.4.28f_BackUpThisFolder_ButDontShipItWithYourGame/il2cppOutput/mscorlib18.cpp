@@ -12715,7 +12715,7 @@ IL_00f2:
 		int32_t L_45 = L_44;
 		RuntimeObject * L_46 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_45);
 		NullCheck(L_43);
-		RuntimeObject * L_47 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_43, L_46);
+		RuntimeObject * L_47 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_43, L_46);
 		if (!L_47)
 		{
 			goto IL_011e;
@@ -12727,7 +12727,7 @@ IL_00f2:
 		int32_t L_50 = L_49;
 		RuntimeObject * L_51 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_50);
 		NullCheck(L_48);
-		RuntimeObject * L_52 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_48, L_51);
+		RuntimeObject * L_52 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_48, L_51);
 		V_3 = ((*(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768 *)((ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768 *)UnBox(L_52, ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var))));
 		goto IL_0140;
 	}
@@ -13657,7 +13657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_5 = L_4;
 		RuntimeObject * L_6 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_5);
 		NullCheck(L_1);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_1, L_3, L_6);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_1, L_3, L_6);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_7 = __this->get_keymap_36();
 		int32_t L_8 = ((int32_t)((int32_t)57));
 		RuntimeObject * L_9 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_8);
@@ -13667,7 +13667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_11 = L_10;
 		RuntimeObject * L_12 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_11);
 		NullCheck(L_7);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_7, L_9, L_12);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_7, L_9, L_12);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_13 = __this->get_keymap_36();
 		int32_t L_14 = ((int32_t)((int32_t)61));
 		RuntimeObject * L_15 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_14);
@@ -13677,7 +13677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_17 = L_16;
 		RuntimeObject * L_18 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_17);
 		NullCheck(L_13);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_13, L_15, L_18);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_13, L_15, L_18);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_19 = __this->get_keymap_36();
 		int32_t L_20 = ((int32_t)((int32_t)66));
 		RuntimeObject * L_21 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_20);
@@ -13687,7 +13687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_23 = L_22;
 		RuntimeObject * L_24 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_23);
 		NullCheck(L_19);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_19, L_21, L_24);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_19, L_21, L_24);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_25 = __this->get_keymap_36();
 		int32_t L_26 = ((int32_t)((int32_t)67));
 		RuntimeObject * L_27 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_26);
@@ -13697,7 +13697,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_29 = L_28;
 		RuntimeObject * L_30 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_29);
 		NullCheck(L_25);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_25, L_27, L_30);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_25, L_27, L_30);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_31 = __this->get_keymap_36();
 		int32_t L_32 = ((int32_t)((int32_t)68));
 		RuntimeObject * L_33 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_32);
@@ -13707,7 +13707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_35 = L_34;
 		RuntimeObject * L_36 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_35);
 		NullCheck(L_31);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_31, L_33, L_36);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_31, L_33, L_36);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_37 = __this->get_keymap_36();
 		int32_t L_38 = ((int32_t)((int32_t)69));
 		RuntimeObject * L_39 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_38);
@@ -13717,7 +13717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_41 = L_40;
 		RuntimeObject * L_42 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_41);
 		NullCheck(L_37);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_37, L_39, L_42);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_37, L_39, L_42);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_43 = __this->get_keymap_36();
 		int32_t L_44 = ((int32_t)((int32_t)70));
 		RuntimeObject * L_45 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_44);
@@ -13727,7 +13727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_47 = L_46;
 		RuntimeObject * L_48 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_47);
 		NullCheck(L_43);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_43, L_45, L_48);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_43, L_45, L_48);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_49 = __this->get_keymap_36();
 		int32_t L_50 = ((int32_t)((int32_t)71));
 		RuntimeObject * L_51 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_50);
@@ -13737,7 +13737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_53 = L_52;
 		RuntimeObject * L_54 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_53);
 		NullCheck(L_49);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_49, L_51, L_54);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_49, L_51, L_54);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_55 = __this->get_keymap_36();
 		int32_t L_56 = ((int32_t)((int32_t)72));
 		RuntimeObject * L_57 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_56);
@@ -13747,7 +13747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_59 = L_58;
 		RuntimeObject * L_60 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_59);
 		NullCheck(L_55);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_55, L_57, L_60);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_55, L_57, L_60);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_61 = __this->get_keymap_36();
 		int32_t L_62 = ((int32_t)((int32_t)73));
 		RuntimeObject * L_63 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_62);
@@ -13757,7 +13757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_65 = L_64;
 		RuntimeObject * L_66 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_65);
 		NullCheck(L_61);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_61, L_63, L_66);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_61, L_63, L_66);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_67 = __this->get_keymap_36();
 		int32_t L_68 = ((int32_t)((int32_t)74));
 		RuntimeObject * L_69 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_68);
@@ -13767,7 +13767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_71 = L_70;
 		RuntimeObject * L_72 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_71);
 		NullCheck(L_67);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_67, L_69, L_72);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_67, L_69, L_72);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_73 = __this->get_keymap_36();
 		int32_t L_74 = ((int32_t)((int32_t)75));
 		RuntimeObject * L_75 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_74);
@@ -13777,7 +13777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_77 = L_76;
 		RuntimeObject * L_78 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_77);
 		NullCheck(L_73);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_73, L_75, L_78);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_73, L_75, L_78);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_79 = __this->get_keymap_36();
 		int32_t L_80 = ((int32_t)((int32_t)76));
 		RuntimeObject * L_81 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_80);
@@ -13787,7 +13787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_83 = L_82;
 		RuntimeObject * L_84 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_83);
 		NullCheck(L_79);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_79, L_81, L_84);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_79, L_81, L_84);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_85 = __this->get_keymap_36();
 		int32_t L_86 = ((int32_t)((int32_t)79));
 		RuntimeObject * L_87 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_86);
@@ -13797,7 +13797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_89 = L_88;
 		RuntimeObject * L_90 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_89);
 		NullCheck(L_85);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_85, L_87, L_90);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_85, L_87, L_90);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_91 = __this->get_keymap_36();
 		int32_t L_92 = ((int32_t)((int32_t)80));
 		RuntimeObject * L_93 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_92);
@@ -13807,7 +13807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_95 = L_94;
 		RuntimeObject * L_96 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_95);
 		NullCheck(L_91);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_91, L_93, L_96);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_91, L_93, L_96);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_97 = __this->get_keymap_36();
 		int32_t L_98 = ((int32_t)((int32_t)81));
 		RuntimeObject * L_99 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_98);
@@ -13817,7 +13817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_101 = L_100;
 		RuntimeObject * L_102 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_101);
 		NullCheck(L_97);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_97, L_99, L_102);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_97, L_99, L_102);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_103 = __this->get_keymap_36();
 		int32_t L_104 = ((int32_t)((int32_t)82));
 		RuntimeObject * L_105 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_104);
@@ -13827,7 +13827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_107 = L_106;
 		RuntimeObject * L_108 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_107);
 		NullCheck(L_103);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_103, L_105, L_108);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_103, L_105, L_108);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_109 = __this->get_keymap_36();
 		int32_t L_110 = ((int32_t)((int32_t)83));
 		RuntimeObject * L_111 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_110);
@@ -13837,7 +13837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_113 = L_112;
 		RuntimeObject * L_114 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_113);
 		NullCheck(L_109);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_109, L_111, L_114);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_109, L_111, L_114);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_115 = __this->get_keymap_36();
 		int32_t L_116 = ((int32_t)((int32_t)84));
 		RuntimeObject * L_117 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_116);
@@ -13847,7 +13847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_119 = L_118;
 		RuntimeObject * L_120 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_119);
 		NullCheck(L_115);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_115, L_117, L_120);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_115, L_117, L_120);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_121 = __this->get_keymap_36();
 		int32_t L_122 = ((int32_t)((int32_t)85));
 		RuntimeObject * L_123 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_122);
@@ -13857,7 +13857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_125 = L_124;
 		RuntimeObject * L_126 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_125);
 		NullCheck(L_121);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_121, L_123, L_126);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_121, L_123, L_126);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_127 = __this->get_keymap_36();
 		int32_t L_128 = ((int32_t)((int32_t)87));
 		RuntimeObject * L_129 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_128);
@@ -13867,7 +13867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_131 = L_130;
 		RuntimeObject * L_132 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_131);
 		NullCheck(L_127);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_127, L_129, L_132);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_127, L_129, L_132);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_133 = __this->get_keymap_36();
 		int32_t L_134 = ((int32_t)((int32_t)139));
 		RuntimeObject * L_135 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_134);
@@ -13877,7 +13877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_137 = L_136;
 		RuntimeObject * L_138 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_137);
 		NullCheck(L_133);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_133, L_135, L_138);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_133, L_135, L_138);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_139 = __this->get_keymap_36();
 		int32_t L_140 = ((int32_t)((int32_t)140));
 		RuntimeObject * L_141 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_140);
@@ -13887,7 +13887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_143 = L_142;
 		RuntimeObject * L_144 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_143);
 		NullCheck(L_139);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_139, L_141, L_144);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_139, L_141, L_144);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_145 = __this->get_keymap_36();
 		int32_t L_146 = ((int32_t)((int32_t)141));
 		RuntimeObject * L_147 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_146);
@@ -13897,7 +13897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_149 = L_148;
 		RuntimeObject * L_150 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_149);
 		NullCheck(L_145);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_145, L_147, L_150);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_145, L_147, L_150);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_151 = __this->get_keymap_36();
 		int32_t L_152 = ((int32_t)((int32_t)142));
 		RuntimeObject * L_153 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_152);
@@ -13907,7 +13907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_155 = L_154;
 		RuntimeObject * L_156 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_155);
 		NullCheck(L_151);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_151, L_153, L_156);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_151, L_153, L_156);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_157 = __this->get_keymap_36();
 		int32_t L_158 = ((int32_t)((int32_t)143));
 		RuntimeObject * L_159 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_158);
@@ -13917,7 +13917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_161 = L_160;
 		RuntimeObject * L_162 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_161);
 		NullCheck(L_157);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_157, L_159, L_162);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_157, L_159, L_162);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_163 = __this->get_keymap_36();
 		int32_t L_164 = ((int32_t)((int32_t)148));
 		RuntimeObject * L_165 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_164);
@@ -13927,7 +13927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_167 = L_166;
 		RuntimeObject * L_168 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_167);
 		NullCheck(L_163);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_163, L_165, L_168);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_163, L_165, L_168);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_169 = __this->get_keymap_36();
 		int32_t L_170 = ((int32_t)((int32_t)158));
 		RuntimeObject * L_171 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_170);
@@ -13937,7 +13937,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_173 = L_172;
 		RuntimeObject * L_174 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_173);
 		NullCheck(L_169);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_169, L_171, L_174);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_169, L_171, L_174);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_175 = __this->get_keymap_36();
 		int32_t L_176 = ((int32_t)((int32_t)162));
 		RuntimeObject * L_177 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_176);
@@ -13947,7 +13947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_179 = L_178;
 		RuntimeObject * L_180 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_179);
 		NullCheck(L_175);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_175, L_177, L_180);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_175, L_177, L_180);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_181 = __this->get_keymap_36();
 		int32_t L_182 = ((int32_t)((int32_t)164));
 		RuntimeObject * L_183 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_182);
@@ -13957,7 +13957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_185 = L_184;
 		RuntimeObject * L_186 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_185);
 		NullCheck(L_181);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_181, L_183, L_186);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_181, L_183, L_186);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_187 = __this->get_keymap_36();
 		int32_t L_188 = ((int32_t)((int32_t)165));
 		RuntimeObject * L_189 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_188);
@@ -13967,7 +13967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_191 = L_190;
 		RuntimeObject * L_192 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_191);
 		NullCheck(L_187);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_187, L_189, L_192);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_187, L_189, L_192);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_193 = __this->get_keymap_36();
 		int32_t L_194 = ((int32_t)((int32_t)168));
 		RuntimeObject * L_195 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_194);
@@ -13977,7 +13977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_197 = L_196;
 		RuntimeObject * L_198 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_197);
 		NullCheck(L_193);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_193, L_195, L_198);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_193, L_195, L_198);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_199 = __this->get_keymap_36();
 		int32_t L_200 = ((int32_t)((int32_t)176));
 		RuntimeObject * L_201 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_200);
@@ -13987,7 +13987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_203 = L_202;
 		RuntimeObject * L_204 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_203);
 		NullCheck(L_199);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_199, L_201, L_204);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_199, L_201, L_204);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_205 = __this->get_keymap_36();
 		int32_t L_206 = ((int32_t)((int32_t)185));
 		RuntimeObject * L_207 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_206);
@@ -13997,7 +13997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_209 = L_208;
 		RuntimeObject * L_210 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_209);
 		NullCheck(L_205);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_205, L_207, L_210);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_205, L_207, L_210);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_211 = __this->get_keymap_36();
 		int32_t L_212 = ((int32_t)((int32_t)186));
 		RuntimeObject * L_213 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_212);
@@ -14007,7 +14007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_215 = L_214;
 		RuntimeObject * L_216 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_215);
 		NullCheck(L_211);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_211, L_213, L_216);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_211, L_213, L_216);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_217 = __this->get_keymap_36();
 		int32_t L_218 = ((int32_t)((int32_t)189));
 		RuntimeObject * L_219 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_218);
@@ -14017,7 +14017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_221 = L_220;
 		RuntimeObject * L_222 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_221);
 		NullCheck(L_217);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_217, L_219, L_222);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_217, L_219, L_222);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_223 = __this->get_keymap_36();
 		int32_t L_224 = ((int32_t)((int32_t)191));
 		RuntimeObject * L_225 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_224);
@@ -14027,7 +14027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_227 = L_226;
 		RuntimeObject * L_228 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_227);
 		NullCheck(L_223);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_223, L_225, L_228);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_223, L_225, L_228);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_229 = __this->get_keymap_36();
 		int32_t L_230 = ((int32_t)((int32_t)198));
 		RuntimeObject * L_231 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_230);
@@ -14037,7 +14037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_233 = L_232;
 		RuntimeObject * L_234 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_233);
 		NullCheck(L_229);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_229, L_231, L_234);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_229, L_231, L_234);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_235 = __this->get_keymap_36();
 		int32_t L_236 = ((int32_t)((int32_t)199));
 		RuntimeObject * L_237 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_236);
@@ -14047,7 +14047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_239 = L_238;
 		RuntimeObject * L_240 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_239);
 		NullCheck(L_235);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_235, L_237, L_240);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_235, L_237, L_240);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_241 = __this->get_keymap_36();
 		int32_t L_242 = ((int32_t)((int32_t)201));
 		RuntimeObject * L_243 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_242);
@@ -14057,7 +14057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_245 = L_244;
 		RuntimeObject * L_246 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_245);
 		NullCheck(L_241);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_241, L_243, L_246);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_241, L_243, L_246);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_247 = __this->get_keymap_36();
 		int32_t L_248 = ((int32_t)((int32_t)207));
 		RuntimeObject * L_249 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_248);
@@ -14067,7 +14067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_251 = L_250;
 		RuntimeObject * L_252 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_251);
 		NullCheck(L_247);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_247, L_249, L_252);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_247, L_249, L_252);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_253 = __this->get_keymap_36();
 		int32_t L_254 = ((int32_t)((int32_t)210));
 		RuntimeObject * L_255 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_254);
@@ -14077,7 +14077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_257 = L_256;
 		RuntimeObject * L_258 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_257);
 		NullCheck(L_253);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_253, L_255, L_258);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_253, L_255, L_258);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_259 = __this->get_keymap_36();
 		int32_t L_260 = ((int32_t)((int32_t)214));
 		RuntimeObject * L_261 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_260);
@@ -14087,7 +14087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_263 = L_262;
 		RuntimeObject * L_264 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_263);
 		NullCheck(L_259);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_259, L_261, L_264);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_259, L_261, L_264);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_265 = __this->get_keymap_36();
 		int32_t L_266 = ((int32_t)((int32_t)216));
 		RuntimeObject * L_267 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_266);
@@ -14097,7 +14097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_269 = L_268;
 		RuntimeObject * L_270 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_269);
 		NullCheck(L_265);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_265, L_267, L_270);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_265, L_267, L_270);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_271 = __this->get_keymap_36();
 		int32_t L_272 = ((int32_t)((int32_t)217));
 		RuntimeObject * L_273 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_272);
@@ -14107,7 +14107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_275 = L_274;
 		RuntimeObject * L_276 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_275);
 		NullCheck(L_271);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_271, L_273, L_276);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_271, L_273, L_276);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_277 = __this->get_keymap_36();
 		int32_t L_278 = ((int32_t)((int32_t)218));
 		RuntimeObject * L_279 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_278);
@@ -14117,7 +14117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_281 = L_280;
 		RuntimeObject * L_282 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_281);
 		NullCheck(L_277);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_277, L_279, L_282);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_277, L_279, L_282);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_283 = __this->get_keymap_36();
 		int32_t L_284 = ((int32_t)((int32_t)219));
 		RuntimeObject * L_285 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_284);
@@ -14127,7 +14127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_287 = L_286;
 		RuntimeObject * L_288 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_287);
 		NullCheck(L_283);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_283, L_285, L_288);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_283, L_285, L_288);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_289 = __this->get_keymap_36();
 		int32_t L_290 = ((int32_t)((int32_t)220));
 		RuntimeObject * L_291 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_290);
@@ -14137,7 +14137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_293 = L_292;
 		RuntimeObject * L_294 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_293);
 		NullCheck(L_289);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_289, L_291, L_294);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_289, L_291, L_294);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_295 = __this->get_keymap_36();
 		int32_t L_296 = ((int32_t)((int32_t)221));
 		RuntimeObject * L_297 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_296);
@@ -14147,7 +14147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_299 = L_298;
 		RuntimeObject * L_300 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_299);
 		NullCheck(L_295);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_295, L_297, L_300);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_295, L_297, L_300);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_301 = __this->get_keymap_36();
 		int32_t L_302 = ((int32_t)((int32_t)222));
 		RuntimeObject * L_303 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_302);
@@ -14157,7 +14157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_305 = L_304;
 		RuntimeObject * L_306 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_305);
 		NullCheck(L_301);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_301, L_303, L_306);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_301, L_303, L_306);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_307 = __this->get_keymap_36();
 		int32_t L_308 = ((int32_t)((int32_t)223));
 		RuntimeObject * L_309 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_308);
@@ -14167,7 +14167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_311 = L_310;
 		RuntimeObject * L_312 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_311);
 		NullCheck(L_307);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_307, L_309, L_312);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_307, L_309, L_312);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_313 = __this->get_keymap_36();
 		int32_t L_314 = ((int32_t)((int32_t)224));
 		RuntimeObject * L_315 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_314);
@@ -14177,7 +14177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_317 = L_316;
 		RuntimeObject * L_318 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_317);
 		NullCheck(L_313);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_313, L_315, L_318);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_313, L_315, L_318);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_319 = __this->get_keymap_36();
 		int32_t L_320 = ((int32_t)((int32_t)225));
 		RuntimeObject * L_321 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_320);
@@ -14187,7 +14187,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_323 = L_322;
 		RuntimeObject * L_324 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_323);
 		NullCheck(L_319);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_319, L_321, L_324);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_319, L_321, L_324);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_325 = __this->get_keymap_36();
 		int32_t L_326 = ((int32_t)((int32_t)226));
 		RuntimeObject * L_327 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_326);
@@ -14197,7 +14197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_329 = L_328;
 		RuntimeObject * L_330 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_329);
 		NullCheck(L_325);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_325, L_327, L_330);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_325, L_327, L_330);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_331 = __this->get_keymap_36();
 		int32_t L_332 = ((int32_t)((int32_t)227));
 		RuntimeObject * L_333 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_332);
@@ -14207,7 +14207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_335 = L_334;
 		RuntimeObject * L_336 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_335);
 		NullCheck(L_331);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_331, L_333, L_336);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_331, L_333, L_336);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_337 = __this->get_keymap_36();
 		int32_t L_338 = ((int32_t)((int32_t)228));
 		RuntimeObject * L_339 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_338);
@@ -14217,7 +14217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_341 = L_340;
 		RuntimeObject * L_342 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_341);
 		NullCheck(L_337);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_337, L_339, L_342);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_337, L_339, L_342);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_343 = __this->get_keymap_36();
 		int32_t L_344 = ((int32_t)((int32_t)229));
 		RuntimeObject * L_345 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_344);
@@ -14227,7 +14227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_347 = L_346;
 		RuntimeObject * L_348 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_347);
 		NullCheck(L_343);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_343, L_345, L_348);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_343, L_345, L_348);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_349 = __this->get_keymap_36();
 		int32_t L_350 = ((int32_t)((int32_t)59));
 		RuntimeObject * L_351 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_350);
@@ -14237,7 +14237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_353 = L_352;
 		RuntimeObject * L_354 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_353);
 		NullCheck(L_349);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_349, L_351, L_354);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_349, L_351, L_354);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_355 = __this->get_keymap_36();
 		int32_t L_356 = ((int32_t)((int32_t)77));
 		RuntimeObject * L_357 = Box(TermInfoStrings_tA50FD6AB2B4EFB66E90CD563942E0A664FD6022F_il2cpp_TypeInfo_var, &L_356);
@@ -14247,7 +14247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TermInfoDriver_CreateKeyMap_mC802A816F3E
 		ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768  L_359 = L_358;
 		RuntimeObject * L_360 = Box(ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768_il2cpp_TypeInfo_var, &L_359);
 		NullCheck(L_355);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_355, L_357, L_360);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_355, L_357, L_360);
 		return;
 	}
 }
@@ -23258,7 +23258,7 @@ IL_0049:
 		int32_t L_18 = L_17;
 		RuntimeObject * L_19 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_18);
 		NullCheck(L_16);
-		RuntimeObject * L_20 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_19);
+		RuntimeObject * L_20 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_19);
 		V_0 = ((Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 *)CastclassClass((RuntimeObject*)L_20, Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4_il2cpp_TypeInfo_var));
 	}
 
@@ -23306,7 +23306,7 @@ IL_0095:
 			int32_t L_28 = L_27;
 			RuntimeObject * L_29 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_28);
 			NullCheck(L_26);
-			RuntimeObject * L_30 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_26, L_29);
+			RuntimeObject * L_30 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_26, L_29);
 			Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_31 = ((Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 *)CastclassClass((RuntimeObject*)L_30, Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4_il2cpp_TypeInfo_var));
 			V_0 = L_31;
 			if (!L_31)

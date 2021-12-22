@@ -361,7 +361,7 @@ struct IEqualityComparer_1_tF41F2CFBB8A21CD4411E06F0A94D474849F4E478;
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_tE09735A322C3B17000EF4E4BC8026FEDEB7B0D9B;
 // System.Collections.Generic.IList`1<System.Reflection.MemberInfo>
-struct IList_1_t0A7844F36B8AC3C11DF5C8C112F0E6BD8DCC1A58;
+struct IList_1_t54C21103410489E58E3E42A495A77830B8DB2CE3;
 // System.Collections.Generic.IList`1<Valve.Newtonsoft.Json.JsonConverter>
 struct IList_1_t7E573966AC4EFD3467BE776D410C32A4FC9C5503;
 // System.Collections.Generic.IList`1<Valve.Newtonsoft.Json.Linq.JToken>

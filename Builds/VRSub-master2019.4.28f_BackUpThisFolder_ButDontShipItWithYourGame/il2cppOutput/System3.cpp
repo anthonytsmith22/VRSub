@@ -33948,7 +33948,7 @@ IL_003e:
 		NullCheck(L_13);
 		String_t* L_14 = Uri_get_Scheme_m14A8F0018D8AACADBEF39600A59944F33EE39187(L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		RuntimeObject * L_15 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_12, L_14);
+		RuntimeObject * L_15 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_12, L_14);
 		G_B9_0 = ((Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E *)IsInstClass((RuntimeObject*)L_15, Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E_il2cpp_TypeInfo_var));
 	}
 
@@ -34367,7 +34367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WebProxy_IsLocalInProxyHash_mB4C405FEB5A
 		NullCheck(L_3);
 		String_t* L_4 = Uri_get_Scheme_m14A8F0018D8AACADBEF39600A59944F33EE39187(L_3, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		RuntimeObject * L_5 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_2, L_4);
+		RuntimeObject * L_5 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_2, L_4);
 		IL2CPP_RUNTIME_CLASS_INIT(Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E_il2cpp_TypeInfo_var);
 		bool L_6 = Uri_op_Equality_mFED3D4AFAB090B76D2088C485507F8F702ADA18F(((Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E *)CastclassClass((RuntimeObject*)L_5, Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E_il2cpp_TypeInfo_var)), (Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E *)NULL, /*hidden argument*/NULL);
 		if (!L_6)
@@ -37222,16 +37222,16 @@ IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR TaskFactory_1_t35BBF03CDA9AA94D2BE8CB805D2C764236F56CC7 * Task_1_get_Factory_m6A68150D42CE0F050CEFFC71C366CDD6DB743C97_gshared_inline (const RuntimeMethod* method)
 {
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		TaskFactory_1_t35BBF03CDA9AA94D2BE8CB805D2C764236F56CC7 * L_0 = ((Task_1_t640F0CBB720BB9CD14B90B7B81624471A9F56D87_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->get_s_Factory_41();
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		TaskFactory_1_t35BBF03CDA9AA94D2BE8CB805D2C764236F56CC7 * L_0 = ((Task_1_t640F0CBB720BB9CD14B90B7B81624471A9F56D87_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->get_s_Factory_41();
 		return (TaskFactory_1_t35BBF03CDA9AA94D2BE8CB805D2C764236F56CC7 *)L_0;
 	}
 }
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR TaskFactory_1_t45B9948C30C02913088711FD38BB6F49AB6D483D * Task_1_get_Factory_m82349101192433959283C0BAD2C18310BA8BCB9A_gshared_inline (const RuntimeMethod* method)
 {
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		TaskFactory_1_t45B9948C30C02913088711FD38BB6F49AB6D483D * L_0 = ((Task_1_t2B23AA25494A26885230C0ED74B57510498BE7EB_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->get_s_Factory_41();
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		TaskFactory_1_t45B9948C30C02913088711FD38BB6F49AB6D483D * L_0 = ((Task_1_t2B23AA25494A26885230C0ED74B57510498BE7EB_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->get_s_Factory_41();
 		return (TaskFactory_1_t45B9948C30C02913088711FD38BB6F49AB6D483D *)L_0;
 	}
 }

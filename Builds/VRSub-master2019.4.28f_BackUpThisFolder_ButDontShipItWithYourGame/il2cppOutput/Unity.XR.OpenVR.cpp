@@ -1346,7 +1346,6 @@ IL2CPP_EXTERN_C RuntimeClass* Boolean_tB53F6830F670160873277339AA58F15CAED4399C_
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* EBlockQueueReadType_tE0CEC62472DF76109CCEFC214108D6A30F1ED31D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ETrackingUniverseOrigin_t643FEB471D1118F0DEFB499BBC70E0B8682C4469_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRApplicationError_tC47050B5098374BE5366BF5E787D58EECB3C8CBE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* EVRApplicationProperty_t3939317DD5EC446C3FCE393D3D4EF16B0876EA78_il2cpp_TypeInfo_var;
@@ -1418,13 +1417,8 @@ IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t40A29037BE2A380351F496B3C68A8A92B66
 IL2CPP_EXTERN_C RuntimeClass* Utils_tD5883129F9D7B6AB51414D1490F63FD9A8787F01_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _AddApplicationManifest_t90D1ABBA78E85A0F12135960423ADB7AE3AB4063_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _CancelApplicationLaunch_t005E5683C8B0C3449B245C1434A3EE3644501B3F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetApplicationAutoLaunch_t616858E5D20A614D8111C40B961F0C13CE2D44BF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetApplicationCount_tFE6F808D5C6F2FDA3215AF2A91B13EAA9DC62D42_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _GetApplicationKeyByIndex_t2D3406BC5BB0233B0D0C27DDAEF2122F40C2FF95_il2cpp_TypeInfo_var;
@@ -1460,13 +1454,9 @@ IL2CPP_EXTERN_C RuntimeClass* _PollNextEventPacked_tF8BF2C15564F4C4F21BE1B980EBD
 IL2CPP_EXTERN_C RuntimeClass* _PollNextEvent_tC00306C648BB487B4115482F2CE7DB03832822B4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _PollNextOverlayEventPacked_tC9CB6707F575FFE4625DE07CB1DCC6A42CA59DF6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _PollNextOverlayEvent_t32909C42216D2BD4A68CFD43F5E35402CF1F4003_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _RemoveApplicationManifest_tDCFA121260BE5BD6E511883221668E0CA1473481_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* _SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0492F28967E2B98DECB0A0699EB8E7D0D42E9260;
 IL2CPP_EXTERN_C String_t* _stringLiteral08534F33C201A45017B502E90A800F1B708EBCB3;
 IL2CPP_EXTERN_C String_t* _stringLiteral12C0F1FBADC4046B5F2BB9E063B227EF8750D9D6;
@@ -1685,8 +1675,6 @@ IL2CPP_EXTERN_C const uint32_t GetControllerStateWithPoseUnion_t734A56A70EB55E68
 IL2CPP_EXTERN_C const uint32_t HmdMatrix34_t_GetRotation_mC38BF33EF009CC61DC1F5ABA90E548772DEEEF79_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00_com_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_com_FromNativeMethodDefinition_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t OpenVREvent__ctor_mC28EBE09310BE3B883AF4625C73EA798FDD52B46_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t OpenVREvents_AddListener_m12A0A9AF918844CBBEEFB6234A2CBEE395E4C7A9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t OpenVREvents_Add_m8EF19355ACB11218D11A62EBC9867960136DE200_MetadataUsageId;
@@ -1737,12 +1725,8 @@ IL2CPP_EXTERN_C const uint32_t U3CU3Ec_U3CGetTypeU3Eb__2_7_m839FF0DB8287D3282C85
 IL2CPP_EXTERN_C const uint32_t U3CU3Ec__DisplayClass2_0_U3CGetTypeU3Eb__2_m3F560BB2E41400B886C2C0D7A8896B9C32D0251B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t U3CU3Ec__DisplayClass2_0_U3CGetTypeU3Eb__6_m2C67116B76BB1EDF7161CEED63F18496A9D72A37_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t U3CU3Ec__cctor_m7FBA52BA229506FCDB2FB2B3FF7F8262EF92E9F0_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _AcquireReadOnlyBlock_BeginInvoke_mF960B466BF690083BB74EB6C9EF824C860A79666_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _AcquireWriteOnlyBlock_BeginInvoke_m881763719148D8AF0370AEFCB02D643424F55D8C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _AddApplicationManifest_BeginInvoke_m160719B06C579A1C8B67B7766D9EAC92B7C0C89F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _CancelApplicationLaunch_BeginInvoke_m099B3AF9BE09D822A055F2AC807DD7DB02081729_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _Connect_BeginInvoke_m106AA83026F05F992C14BEB0320400F2D6778133_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _Create_BeginInvoke_m8C0E561CDA0175B0F1EE11752923838C0907DD65_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetApplicationAutoLaunch_BeginInvoke_mFA36B7A28C6CF1DF153EC9D7B3686982D545E7D8_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetApplicationKeyByIndex_BeginInvoke_m7FA4AA91EE1138A8A715610BF06FAB33A4E3F89A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _GetApplicationKeyByProcessId_BeginInvoke_m57C19B47688536F2DD1FC9512BA5E83DA250338C_MetadataUsageId;
@@ -1771,8 +1755,6 @@ IL2CPP_EXTERN_C const uint32_t _PerformApplicationPrelaunchCheck_BeginInvoke_m6D
 IL2CPP_EXTERN_C const uint32_t _PollNextEventPacked_BeginInvoke_m462D70A0A819136C8D95A7C26628E251DF67DDE1_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _PollNextOverlayEventPacked_BeginInvoke_m387AACFE7C717AA6503401B20E810E76E9907E0B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t _RemoveApplicationManifest_BeginInvoke_m2148C62AC9E0A25DB453FDF7A21879A5BB6E5717_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _SetApplicationAutoLaunch_BeginInvoke_m8856CD75103C0FEA05EED1285F32F0C3939377A0_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t _SetDefaultApplicationForMimeType_BeginInvoke_m2ACB9A204CB396649BD941A4A62D539F556F8585_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct UserDefinedSettings_tE31F51C128256DD3D970DBDE6E20242854DE8C48;;
@@ -30577,11 +30559,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVREvents_IsInitialized_m605E4794FEB1
 		il2cpp_codegen_initialize_method (OpenVREvents_IsInitialized_m605E4794FEB1719C2BC4754EA2E0EB1E080850DA_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// return instance != null;
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
 		OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193 * L_0 = ((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->get_instance_0();
-		return (bool)((!(((RuntimeObject*)(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193 *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		V_0 = (bool)((!(((RuntimeObject*)(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193 *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		// }
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVREvents::.ctor(System.Boolean)
@@ -30593,15 +30584,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents__ctor_m86FB651C9D9B89DD7663
 		il2cpp_codegen_initialize_method (OpenVREvents__ctor_m86FB651C9D9B89DD766355B15A915BC1845D9833_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	bool V_3 = false;
 	{
+		// private bool preloadedEvents = false;
+		__this->set_preloadedEvents_5((bool)0);
+		// private bool exiting = false;
+		__this->set_exiting_9((bool)0);
 		// public OpenVREvents(bool lazyLoadEvents = false)
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		// if (OpenVRHelpers.IsUsingSteamVRInput())
 		bool L_0 = OpenVRHelpers_IsUsingSteamVRInput_m37FB3C3EDE0197208E50135FC30EC112F97A0B97(/*hidden argument*/NULL);
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0014;
+			goto IL_0028;
 		}
 	}
 	{
@@ -30609,81 +30609,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents__ctor_m86FB651C9D9B89DD7663
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
 		((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->set_enabled_8((bool)0);
 		// return;
-		return;
+		goto IL_00a1;
 	}
 
-IL_0014:
+IL_0028:
 	{
 		// instance = this;
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
 		((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->set_instance_0(__this);
 		// events = new OpenVREvent[(int)EVREventType.VREvent_VendorSpecific_Reserved_End];
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_1 = (OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC*)(OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC*)SZArrayNew(OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC_il2cpp_TypeInfo_var, (uint32_t)((int32_t)19999));
-		__this->set_events_1(L_1);
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_2 = (OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC*)(OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC*)SZArrayNew(OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC_il2cpp_TypeInfo_var, (uint32_t)((int32_t)19999));
+		__this->set_events_1(L_2);
 		// vrEvent = new VREvent_t();
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_2 = __this->get_address_of_vrEvent_3();
-		il2cpp_codegen_initobj(L_2, sizeof(VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 ));
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_3 = __this->get_address_of_vrEvent_3();
+		il2cpp_codegen_initobj(L_3, sizeof(VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 ));
 		// vrEventSize = (uint)System.Runtime.InteropServices.Marshal.SizeOf(typeof(VREvent_t));
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_3 = { reinterpret_cast<intptr_t> (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0_0_0_0_var) };
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_4 = { reinterpret_cast<intptr_t> (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_4 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_3, /*hidden argument*/NULL);
+		Type_t * L_5 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_4, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		int32_t L_5 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_4, /*hidden argument*/NULL);
-		__this->set_vrEventSize_4(L_5);
+		int32_t L_6 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_5, /*hidden argument*/NULL);
+		__this->set_vrEventSize_4(L_6);
 		// if (lazyLoadEvents == false)
-		bool L_6 = ___lazyLoadEvents0;
-		if (L_6)
+		bool L_7 = ___lazyLoadEvents0;
+		V_1 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (!L_8)
 		{
-			goto IL_0070;
+			goto IL_0091;
 		}
 	}
 	{
 		// for (int eventIndex = 0; eventIndex < events.Length; eventIndex++)
-		V_0 = 0;
-		goto IL_0063;
+		V_2 = 0;
+		goto IL_007f;
 	}
 
-IL_0052:
+IL_006c:
 	{
 		// events[eventIndex] = new OpenVREvent();
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_7 = __this->get_events_1();
-		int32_t L_8 = V_0;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_9 = (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)il2cpp_codegen_object_new(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0_il2cpp_TypeInfo_var);
-		OpenVREvent__ctor_mC28EBE09310BE3B883AF4625C73EA798FDD52B46(L_9, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		ArrayElementTypeCheck (L_7, L_9);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_9);
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_9 = __this->get_events_1();
+		int32_t L_10 = V_2;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_11 = (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)il2cpp_codegen_object_new(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0_il2cpp_TypeInfo_var);
+		OpenVREvent__ctor_mC28EBE09310BE3B883AF4625C73EA798FDD52B46(L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_11);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_11);
 		// for (int eventIndex = 0; eventIndex < events.Length; eventIndex++)
-		int32_t L_10 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+		int32_t L_12 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, (int32_t)1));
 	}
 
-IL_0063:
+IL_007f:
 	{
 		// for (int eventIndex = 0; eventIndex < events.Length; eventIndex++)
-		int32_t L_11 = V_0;
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_12 = __this->get_events_1();
-		NullCheck(L_12);
-		if ((((int32_t)L_11) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length)))))))
+		int32_t L_13 = V_2;
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_14 = __this->get_events_1();
+		NullCheck(L_14);
+		V_3 = (bool)((((int32_t)L_13) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))))))? 1 : 0);
+		bool L_15 = V_3;
+		if (L_15)
 		{
-			goto IL_0052;
+			goto IL_006c;
 		}
 	}
 	{
-		// }
-		goto IL_0077;
+		goto IL_009a;
 	}
 
-IL_0070:
+IL_0091:
 	{
 		// preloadedEvents = true;
 		__this->set_preloadedEvents_5((bool)1);
 	}
 
-IL_0077:
+IL_009a:
 	{
 		// RegisterDefaultEvents();
 		OpenVREvents_RegisterDefaultEvents_m2165EA8EA8B1222D4CFAE7A5AD71E70FF0F844ED(__this, /*hidden argument*/NULL);
+	}
+
+IL_00a1:
+	{
 		// }
 		return;
 	}
@@ -30739,13 +30746,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_Add_m8EF19355ACB11218D11A62
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t G_B5_0 = 0;
 	{
 		// if (!enabled)
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
 		bool L_0 = ((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->get_enabled_8();
-		if (L_0)
+		V_1 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_1;
+		if (!L_1)
 		{
-			goto IL_0012;
+			goto IL_001b;
 		}
 	}
 	{
@@ -30753,74 +30766,93 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_Add_m8EF19355ACB11218D11A62
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
 		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(_stringLiteralB9930180DE36EC9914DFC6528172D92AEADDAB4A, /*hidden argument*/NULL);
 		// return;
-		return;
+		goto IL_006a;
 	}
 
-IL_0012:
+IL_001b:
 	{
 		// int eventIndex = (int)eventType;
-		int32_t L_1 = ___eventType0;
-		V_0 = L_1;
+		int32_t L_2 = ___eventType0;
+		V_0 = L_2;
 		// if (preloadedEvents == false && events[eventIndex] == null)
-		bool L_2 = __this->get_preloadedEvents_5();
-		if (L_2)
+		bool L_3 = __this->get_preloadedEvents_5();
+		if (L_3)
 		{
-			goto IL_0033;
+			goto IL_0032;
 		}
 	}
 	{
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_3 = __this->get_events_1();
-		int32_t L_4 = V_0;
-		NullCheck(L_3);
-		int32_t L_5 = L_4;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		if (L_6)
-		{
-			goto IL_0033;
-		}
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_4 = __this->get_events_1();
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		G_B5_0 = ((((RuntimeObject*)(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_7) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		goto IL_0033;
 	}
+
+IL_0032:
 	{
-		// events[eventIndex] = new OpenVREvent();
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_7 = __this->get_events_1();
-		int32_t L_8 = V_0;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_9 = (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)il2cpp_codegen_object_new(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0_il2cpp_TypeInfo_var);
-		OpenVREvent__ctor_mC28EBE09310BE3B883AF4625C73EA798FDD52B46(L_9, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		ArrayElementTypeCheck (L_7, L_9);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_9);
+		G_B5_0 = 0;
 	}
 
 IL_0033:
 	{
-		// if (removeOtherListeners)
-		bool L_10 = ___removeOtherListeners2;
-		if (!L_10)
+		V_2 = (bool)G_B5_0;
+		bool L_8 = V_2;
+		if (!L_8)
 		{
-			goto IL_0043;
+			goto IL_0046;
+		}
+	}
+	{
+		// events[eventIndex] = new OpenVREvent();
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_9 = __this->get_events_1();
+		int32_t L_10 = V_0;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_11 = (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)il2cpp_codegen_object_new(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0_il2cpp_TypeInfo_var);
+		OpenVREvent__ctor_mC28EBE09310BE3B883AF4625C73EA798FDD52B46(L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_11);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_11);
+	}
+
+IL_0046:
+	{
+		// if (removeOtherListeners)
+		bool L_12 = ___removeOtherListeners2;
+		V_3 = L_12;
+		bool L_13 = V_3;
+		if (!L_13)
+		{
+			goto IL_005b;
 		}
 	}
 	{
 		// events[eventIndex].RemoveAllListeners();
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_11 = __this->get_events_1();
-		int32_t L_12 = V_0;
-		NullCheck(L_11);
-		int32_t L_13 = L_12;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_14 = __this->get_events_1();
+		int32_t L_15 = V_0;
 		NullCheck(L_14);
-		UnityEventBase_RemoveAllListeners_m7EC34F9A8A4F1990D14EBF9E77BA62718F1C5D43(L_14, /*hidden argument*/NULL);
+		int32_t L_16 = L_15;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		NullCheck(L_17);
+		UnityEventBase_RemoveAllListeners_m7EC34F9A8A4F1990D14EBF9E77BA62718F1C5D43(L_17, /*hidden argument*/NULL);
 	}
 
-IL_0043:
+IL_005b:
 	{
 		// events[eventIndex].AddListener(action);
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_15 = __this->get_events_1();
-		int32_t L_16 = V_0;
-		NullCheck(L_15);
-		int32_t L_17 = L_16;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
-		UnityAction_1_t40A29037BE2A380351F496B3C68A8A92B66BB029 * L_19 = ___action1;
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_18 = __this->get_events_1();
+		int32_t L_19 = V_0;
 		NullCheck(L_18);
-		UnityEvent_1_AddListener_mD6FE8DB8A7DC1E83AD5C7938A5359435898E752F(L_18, L_19, /*hidden argument*/UnityEvent_1_AddListener_mD6FE8DB8A7DC1E83AD5C7938A5359435898E752F_RuntimeMethod_var);
+		int32_t L_20 = L_19;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		UnityAction_1_t40A29037BE2A380351F496B3C68A8A92B66BB029 * L_22 = ___action1;
+		NullCheck(L_21);
+		UnityEvent_1_AddListener_mD6FE8DB8A7DC1E83AD5C7938A5359435898E752F(L_21, L_22, /*hidden argument*/UnityEvent_1_AddListener_mD6FE8DB8A7DC1E83AD5C7938A5359435898E752F_RuntimeMethod_var);
+	}
+
+IL_006a:
+	{
 		// }
 		return;
 	}
@@ -30856,6 +30888,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_Remove_m7DC90F3979C2E6ED103
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	bool V_1 = false;
+	int32_t G_B3_0 = 0;
 	{
 		// int eventIndex = (int)eventType;
 		int32_t L_0 = ___eventType0;
@@ -30864,7 +30898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_Remove_m7DC90F3979C2E6ED103
 		bool L_1 = __this->get_preloadedEvents_5();
 		if (L_1)
 		{
-			goto IL_0014;
+			goto IL_0018;
 		}
 	}
 	{
@@ -30873,26 +30907,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_Remove_m7DC90F3979C2E6ED103
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		if (!L_5)
+		G_B3_0 = ((!(((RuntimeObject*)(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_5) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		goto IL_0019;
+	}
+
+IL_0018:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_0019:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_6 = V_1;
+		if (!L_6)
 		{
-			goto IL_0022;
+			goto IL_002e;
 		}
 	}
-
-IL_0014:
 	{
 		// events[eventIndex].RemoveListener(action);
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_6 = __this->get_events_1();
-		int32_t L_7 = V_0;
-		NullCheck(L_6);
-		int32_t L_8 = L_7;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		UnityAction_1_t40A29037BE2A380351F496B3C68A8A92B66BB029 * L_10 = ___action1;
-		NullCheck(L_9);
-		UnityEvent_1_RemoveListener_m9DE926A932680D169319B63F66A0663CBD2EB364(L_9, L_10, /*hidden argument*/UnityEvent_1_RemoveListener_m9DE926A932680D169319B63F66A0663CBD2EB364_RuntimeMethod_var);
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_7 = __this->get_events_1();
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		UnityAction_1_t40A29037BE2A380351F496B3C68A8A92B66BB029 * L_11 = ___action1;
+		NullCheck(L_10);
+		UnityEvent_1_RemoveListener_m9DE926A932680D169319B63F66A0663CBD2EB364(L_10, L_11, /*hidden argument*/UnityEvent_1_RemoveListener_m9DE926A932680D169319B63F66A0663CBD2EB364_RuntimeMethod_var);
 	}
 
-IL_0022:
+IL_002e:
 	{
 		// }
 		return;
@@ -30926,127 +30971,176 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_PollEvents_m11E5D0374D52806
 		il2cpp_codegen_initialize_method (OpenVREvents_PollEvents_m11E5D0374D52806D5ED8CC5FF49DF74DC48421B6_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	int32_t V_0 = 0;
+	bool V_0 = false;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t G_B3_0 = 0;
+	int32_t G_B8_0 = 0;
 	{
 		// if (Valve.VR.OpenVR.System != null && enabled)
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVR_t89189C917B539750153B18DDDCB4F7D9C8EF004D_il2cpp_TypeInfo_var);
 		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_0 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_0098;
+			goto IL_000f;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
 		bool L_1 = ((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->get_enabled_8();
-		if (!L_1)
+		G_B3_0 = ((int32_t)(L_1));
+		goto IL_0010;
+	}
+
+IL_000f:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0010:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0098;
+			goto IL_00c7;
 		}
 	}
 	{
 		// for (int eventIndex = 0; eventIndex < maxEventsPerUpdate; eventIndex++)
-		V_0 = 0;
-		goto IL_0093;
+		V_1 = 0;
+		goto IL_00b8;
 	}
 
-IL_0018:
+IL_001f:
 	{
 		// if (Valve.VR.OpenVR.System == null || !Valve.VR.OpenVR.System.PollNextEvent(ref vrEvent, vrEventSize))
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVR_t89189C917B539750153B18DDDCB4F7D9C8EF004D_il2cpp_TypeInfo_var);
-		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_2 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
-		if (!L_2)
+		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_3 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
+		if (!L_3)
 		{
-			goto IL_0098;
+			goto IL_0042;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVR_t89189C917B539750153B18DDDCB4F7D9C8EF004D_il2cpp_TypeInfo_var);
-		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_3 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_4 = __this->get_address_of_vrEvent_3();
-		uint32_t L_5 = __this->get_vrEventSize_4();
-		NullCheck(L_3);
-		bool L_6 = CVRSystem_PollNextEvent_mACBB2908F5E2D38B09A2CE266B5FF577CFADFDDD(L_3, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_4, L_5, /*hidden argument*/NULL);
-		if (!L_6)
+		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_4 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_5 = __this->get_address_of_vrEvent_3();
+		uint32_t L_6 = __this->get_vrEventSize_4();
+		NullCheck(L_4);
+		bool L_7 = CVRSystem_PollNextEvent_mACBB2908F5E2D38B09A2CE266B5FF577CFADFDDD(L_4, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_5, L_6, /*hidden argument*/NULL);
+		G_B8_0 = ((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		goto IL_0043;
+	}
+
+IL_0042:
+	{
+		G_B8_0 = 1;
+	}
+
+IL_0043:
+	{
+		V_3 = (bool)G_B8_0;
+		bool L_8 = V_3;
+		if (!L_8)
 		{
-			goto IL_0098;
+			goto IL_0049;
 		}
 	}
 	{
+		// break;
+		goto IL_00c6;
+	}
+
+IL_0049:
+	{
 		// int uEventType = (int)vrEvent.eventType;
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_7 = __this->get_address_of_vrEvent_3();
-		uint32_t L_8 = L_7->get_eventType_0();
-		V_1 = L_8;
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_9 = __this->get_address_of_vrEvent_3();
+		uint32_t L_10 = L_9->get_eventType_0();
+		V_2 = L_10;
 		// if (debugLogAllEvents)
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
-		bool L_9 = ((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->get_debugLogAllEvents_7();
-		if (!L_9)
+		bool L_11 = ((OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_StaticFields*)il2cpp_codegen_static_fields_for(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var))->get_debugLogAllEvents_7();
+		V_4 = L_11;
+		bool L_12 = V_4;
+		if (!L_12)
 		{
-			goto IL_0072;
+			goto IL_008c;
 		}
 	}
 	{
 		// EVREventType eventType = (EVREventType)uEventType;
-		int32_t L_10 = V_1;
-		V_2 = L_10;
+		int32_t L_13 = V_2;
+		V_5 = L_13;
 		// Debug.Log(string.Format("[{0}] {1}", Time.frameCount, eventType.ToString()));
-		int32_t L_11 = Time_get_frameCount_m97573E267B487B8FD4BF37615AFC19BED7B4E436(/*hidden argument*/NULL);
-		int32_t L_12 = L_11;
-		RuntimeObject * L_13 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_12);
-		RuntimeObject * L_14 = Box(EVREventType_t71122110217E7D313E2BE65D50AF1B2DDDBFF40D_il2cpp_TypeInfo_var, (&V_2));
-		NullCheck(L_14);
-		String_t* L_15 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_14);
-		V_2 = *(int32_t*)UnBox(L_14);
-		String_t* L_16 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralB6B2EA6EE5A68E6F78BBA04EF59608975399B1B0, L_13, L_15, /*hidden argument*/NULL);
+		int32_t L_14 = Time_get_frameCount_m97573E267B487B8FD4BF37615AFC19BED7B4E436(/*hidden argument*/NULL);
+		int32_t L_15 = L_14;
+		RuntimeObject * L_16 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_15);
+		RuntimeObject * L_17 = Box(EVREventType_t71122110217E7D313E2BE65D50AF1B2DDDBFF40D_il2cpp_TypeInfo_var, (&V_5));
+		NullCheck(L_17);
+		String_t* L_18 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_17);
+		V_5 = *(int32_t*)UnBox(L_17);
+		String_t* L_19 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralB6B2EA6EE5A68E6F78BBA04EF59608975399B1B0, L_16, L_18, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
-		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_16, /*hidden argument*/NULL);
+		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_19, /*hidden argument*/NULL);
 	}
 
-IL_0072:
+IL_008c:
 	{
 		// if (events[uEventType] != null)
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_17 = __this->get_events_1();
-		int32_t L_18 = V_1;
-		NullCheck(L_17);
-		int32_t L_19 = L_18;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
-		if (!L_20)
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_20 = __this->get_events_1();
+		int32_t L_21 = V_2;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		V_6 = (bool)((!(((RuntimeObject*)(OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 *)L_23) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		bool L_24 = V_6;
+		if (!L_24)
 		{
-			goto IL_008f;
+			goto IL_00b3;
 		}
 	}
 	{
 		// events[uEventType].Invoke(vrEvent);
-		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_21 = __this->get_events_1();
-		int32_t L_22 = V_1;
-		NullCheck(L_21);
-		int32_t L_23 = L_22;
-		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0  L_25 = __this->get_vrEvent_3();
-		NullCheck(L_24);
-		UnityEvent_1_Invoke_m5014BDE7C9C0AB0A65052FFFF41FC3142E63642C(L_24, L_25, /*hidden argument*/UnityEvent_1_Invoke_m5014BDE7C9C0AB0A65052FFFF41FC3142E63642C_RuntimeMethod_var);
+		OpenVREventU5BU5D_tB09EE1D78A8EBA0C5B0B94876387B83C0ABB65FC* L_25 = __this->get_events_1();
+		int32_t L_26 = V_2;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		OpenVREvent_t6A29C734C60B59D43A48C0927796EC8583D968D0 * L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0  L_29 = __this->get_vrEvent_3();
+		NullCheck(L_28);
+		UnityEvent_1_Invoke_m5014BDE7C9C0AB0A65052FFFF41FC3142E63642C(L_28, L_29, /*hidden argument*/UnityEvent_1_Invoke_m5014BDE7C9C0AB0A65052FFFF41FC3142E63642C_RuntimeMethod_var);
 	}
 
-IL_008f:
+IL_00b3:
 	{
 		// for (int eventIndex = 0; eventIndex < maxEventsPerUpdate; eventIndex++)
-		int32_t L_26 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_26, (int32_t)1));
+		int32_t L_30 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_30, (int32_t)1));
 	}
 
-IL_0093:
+IL_00b8:
 	{
 		// for (int eventIndex = 0; eventIndex < maxEventsPerUpdate; eventIndex++)
-		int32_t L_27 = V_0;
-		if ((((int32_t)L_27) < ((int32_t)((int32_t)64))))
+		int32_t L_31 = V_1;
+		V_7 = (bool)((((int32_t)L_31) < ((int32_t)((int32_t)64)))? 1 : 0);
+		bool L_32 = V_7;
+		if (L_32)
 		{
-			goto IL_0018;
+			goto IL_001f;
 		}
 	}
 
-IL_0098:
+IL_00c6:
+	{
+	}
+
+IL_00c7:
 	{
 		// }
 		return;
@@ -31061,46 +31155,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVREvents_On_VREvent_Quit_mB7C8DBB4D8
 		il2cpp_codegen_initialize_method (OpenVREvents_On_VREvent_Quit_mB7C8DBB4D82C559EE88FB9DAE34DA64956219F59_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// if (exiting == true)
 		bool L_0 = __this->get_exiting_9();
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0009;
+			goto IL_000e;
 		}
 	}
 	{
 		// return;
-		return;
+		goto IL_003f;
 	}
 
-IL_0009:
+IL_000e:
 	{
 		// exiting = true;
 		__this->set_exiting_9((bool)1);
 		// if (Valve.VR.OpenVR.System != null)
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVR_t89189C917B539750153B18DDDCB4F7D9C8EF004D_il2cpp_TypeInfo_var);
-		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_1 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
-		if (!L_1)
+		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_2 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
+		V_1 = (bool)((!(((RuntimeObject*)(CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A *)L_2) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_0021;
+			goto IL_002e;
 		}
 	}
 	{
 		// Valve.VR.OpenVR.System.AcknowledgeQuit_Exiting();
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVR_t89189C917B539750153B18DDDCB4F7D9C8EF004D_il2cpp_TypeInfo_var);
-		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_2 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
-		NullCheck(L_2);
-		CVRSystem_AcknowledgeQuit_Exiting_mBAC62F0BD43BFDDD3569B507DBEE6DCCD725CCBC(L_2, /*hidden argument*/NULL);
+		CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * L_4 = OpenVR_get_System_mD6EEBD2924CD8EAA959F61DA26F30D7ACED06B7C(/*hidden argument*/NULL);
+		NullCheck(L_4);
+		CVRSystem_AcknowledgeQuit_Exiting_mBAC62F0BD43BFDDD3569B507DBEE6DCCD725CCBC(L_4, /*hidden argument*/NULL);
 	}
 
-IL_0021:
+IL_002e:
 	{
 		// Debug.Log("<b>[OpenVR]</b> Quit requested from OpenVR. Exiting application via Application.Quit");
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
 		Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(_stringLiteral902E49D991E401544593164635B968D6289CA66F, /*hidden argument*/NULL);
 		// Application.Quit();
 		Application_Quit_mA005EB22CB989AC3794334754F15E1C0D2FF1C95(/*hidden argument*/NULL);
+	}
+
+IL_003f:
+	{
 		// }
 		return;
 	}
@@ -31139,10 +31243,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRHelpers_IsUsingSteamVRInput_m37FB3
 		il2cpp_codegen_initialize_method (OpenVRHelpers_IsUsingSteamVRInput_m37FB3C3EDE0197208E50135FC30EC112F97A0B97_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// return DoesTypeExist("SteamVR_Input");
 		bool L_0 = OpenVRHelpers_DoesTypeExist_m0E7401AE97FE08588563D32575A73F2910D3471E(_stringLiteral51BD1C8635618BFB90DEEECDECDBEF84FBC2074C, (bool)0, /*hidden argument*/NULL);
-		return L_0;
+		V_0 = L_0;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		// }
+		bool L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Boolean Unity.XR.OpenVR.OpenVRHelpers::DoesTypeExist(System.String,System.Boolean)
@@ -31154,6 +31267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRHelpers_DoesTypeExist_m0E7401AE97F
 		il2cpp_codegen_initialize_method (OpenVRHelpers_DoesTypeExist_m0E7401AE97FE08588563D32575A73F2910D3471E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// return GetType(className, fullname) != null;
 		String_t* L_0 = ___className0;
@@ -31161,7 +31275,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRHelpers_DoesTypeExist_m0E7401AE97F
 		Type_t * L_2 = OpenVRHelpers_GetType_mE4016FC4D93B1898FA441CFE1CD16FF96579AADD(L_0, L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		bool L_3 = Type_op_Inequality_m615014191FB05FD50F63A24EB9A6CCA785E7CEC9(L_2, (Type_t *)NULL, /*hidden argument*/NULL);
-		return L_3;
+		V_0 = L_3;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		// }
+		bool L_4 = V_0;
+		return L_4;
 	}
 }
 // System.Type Unity.XR.OpenVR.OpenVRHelpers::GetType(System.String,System.Boolean)
@@ -31175,6 +31297,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * OpenVRHelpers_GetType_mE4016FC4D93B1
 	}
 	U3CU3Ec__DisplayClass2_0_tCDAE2648132710A2FBBDB6057D7B68DA952A17A8 * V_0 = NULL;
 	Type_t * V_1 = NULL;
+	bool V_2 = false;
+	Type_t * V_3 = NULL;
 	Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * G_B3_0 = NULL;
 	AssemblyU5BU5D_t90BF014AA048450526A42C74F9583341A138DE58* G_B3_1 = NULL;
 	Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * G_B2_0 = NULL;
@@ -31215,9 +31339,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * OpenVRHelpers_GetType_mE4016FC4D93B1
 		V_1 = (Type_t *)NULL;
 		// if (fullname)
 		bool L_3 = ___fullname1;
-		if (!L_3)
+		V_2 = L_3;
+		bool L_4 = V_2;
+		if (!L_4)
 		{
-			goto IL_00a2;
+			goto IL_00a7;
 		}
 	}
 	{
@@ -31225,201 +31351,208 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t * OpenVRHelpers_GetType_mE4016FC4D93B1
 		//              from type in assembly.GetTypes()
 		//              where type.FullName == className
 		//              select type).FirstOrDefault();
-		AppDomain_t1B59572328F60585904DF52A59FE47CF5B5FFFF8 * L_4 = AppDomain_get_CurrentDomain_m3D3D52C9382D6853E49551DA6182DBC5F1118BF0(/*hidden argument*/NULL);
-		NullCheck(L_4);
-		AssemblyU5BU5D_t90BF014AA048450526A42C74F9583341A138DE58* L_5 = AppDomain_GetAssemblies_mF1A63ADFC80562168DF846017BB72CAB09298A23(L_4, /*hidden argument*/NULL);
+		AppDomain_t1B59572328F60585904DF52A59FE47CF5B5FFFF8 * L_5 = AppDomain_get_CurrentDomain_m3D3D52C9382D6853E49551DA6182DBC5F1118BF0(/*hidden argument*/NULL);
+		NullCheck(L_5);
+		AssemblyU5BU5D_t90BF014AA048450526A42C74F9583341A138DE58* L_6 = AppDomain_GetAssemblies_mF1A63ADFC80562168DF846017BB72CAB09298A23(L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_6 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_0_1();
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_7 = L_6;
-		G_B2_0 = L_7;
-		G_B2_1 = L_5;
-		if (L_7)
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_7 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_0_1();
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_8 = L_7;
+		G_B2_0 = L_8;
+		G_B2_1 = L_6;
+		if (L_8)
 		{
-			G_B3_0 = L_7;
-			G_B3_1 = L_5;
-			goto IL_003e;
+			G_B3_0 = L_8;
+			G_B3_1 = L_6;
+			goto IL_0042;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_8 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_9 = (Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D *)il2cpp_codegen_object_new(Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D_il2cpp_TypeInfo_var);
-		Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D(L_9, L_8, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_0_m15C50ABA125BFAF21CD1C2E2D98FC6A20F0E0AF9_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D_RuntimeMethod_var);
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_10 = L_9;
-		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_0_1(L_10);
-		G_B3_0 = L_10;
+		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_9 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_10 = (Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D *)il2cpp_codegen_object_new(Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D_il2cpp_TypeInfo_var);
+		Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D(L_10, L_9, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_0_m15C50ABA125BFAF21CD1C2E2D98FC6A20F0E0AF9_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D_RuntimeMethod_var);
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_11 = L_10;
+		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_0_1(L_11);
+		G_B3_0 = L_11;
 		G_B3_1 = G_B2_1;
 	}
 
-IL_003e:
+IL_0042:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_11 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_1_2();
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_12 = L_11;
-		G_B4_0 = L_12;
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_12 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_1_2();
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_13 = L_12;
+		G_B4_0 = L_13;
 		G_B4_1 = G_B3_0;
 		G_B4_2 = G_B3_1;
-		if (L_12)
+		if (L_13)
 		{
-			G_B5_0 = L_12;
+			G_B5_0 = L_13;
 			G_B5_1 = G_B3_0;
 			G_B5_2 = G_B3_1;
-			goto IL_005d;
+			goto IL_0061;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_13 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_14 = (Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 *)il2cpp_codegen_object_new(Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372_il2cpp_TypeInfo_var);
-		Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6(L_14, L_13, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_1_m351EF821B6EE14DE59039F718A4C7CF58963FEAF_RuntimeMethod_var), /*hidden argument*/Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6_RuntimeMethod_var);
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_15 = L_14;
-		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_1_2(L_15);
-		G_B5_0 = L_15;
+		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_14 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_15 = (Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 *)il2cpp_codegen_object_new(Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372_il2cpp_TypeInfo_var);
+		Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6(L_15, L_14, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_1_m351EF821B6EE14DE59039F718A4C7CF58963FEAF_RuntimeMethod_var), /*hidden argument*/Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6_RuntimeMethod_var);
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_16 = L_15;
+		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_1_2(L_16);
+		G_B5_0 = L_16;
 		G_B5_1 = G_B4_1;
 		G_B5_2 = G_B4_2;
 	}
 
-IL_005d:
+IL_0061:
 	{
-		RuntimeObject* L_16 = Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23((RuntimeObject*)(RuntimeObject*)G_B5_2, G_B5_1, G_B5_0, /*hidden argument*/Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23_RuntimeMethod_var);
-		U3CU3Ec__DisplayClass2_0_tCDAE2648132710A2FBBDB6057D7B68DA952A17A8 * L_17 = V_0;
-		Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 * L_18 = (Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 *)il2cpp_codegen_object_new(Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3_il2cpp_TypeInfo_var);
-		Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE(L_18, L_17, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass2_0_U3CGetTypeU3Eb__2_m3F560BB2E41400B886C2C0D7A8896B9C32D0251B_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE_RuntimeMethod_var);
-		RuntimeObject* L_19 = Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0(L_16, L_18, /*hidden argument*/Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0_RuntimeMethod_var);
+		RuntimeObject* L_17 = Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23((RuntimeObject*)(RuntimeObject*)G_B5_2, G_B5_1, G_B5_0, /*hidden argument*/Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23_RuntimeMethod_var);
+		U3CU3Ec__DisplayClass2_0_tCDAE2648132710A2FBBDB6057D7B68DA952A17A8 * L_18 = V_0;
+		Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 * L_19 = (Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 *)il2cpp_codegen_object_new(Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3_il2cpp_TypeInfo_var);
+		Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE(L_19, L_18, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass2_0_U3CGetTypeU3Eb__2_m3F560BB2E41400B886C2C0D7A8896B9C32D0251B_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE_RuntimeMethod_var);
+		RuntimeObject* L_20 = Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0(L_17, L_19, /*hidden argument*/Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_20 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_3_3();
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_21 = L_20;
-		G_B6_0 = L_21;
-		G_B6_1 = L_19;
-		if (L_21)
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_21 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_3_3();
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_22 = L_21;
+		G_B6_0 = L_22;
+		G_B6_1 = L_20;
+		if (L_22)
 		{
-			G_B7_0 = L_21;
-			G_B7_1 = L_19;
-			goto IL_0092;
+			G_B7_0 = L_22;
+			G_B7_1 = L_20;
+			goto IL_0096;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_22 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_23 = (Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 *)il2cpp_codegen_object_new(Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65_il2cpp_TypeInfo_var);
-		Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0(L_23, L_22, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_3_mF9A0137D9EEF95B77CFE23D4056530CBAEE17AB3_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0_RuntimeMethod_var);
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_24 = L_23;
-		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_3_3(L_24);
-		G_B7_0 = L_24;
+		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_23 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_24 = (Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 *)il2cpp_codegen_object_new(Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65_il2cpp_TypeInfo_var);
+		Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0(L_24, L_23, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_3_mF9A0137D9EEF95B77CFE23D4056530CBAEE17AB3_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0_RuntimeMethod_var);
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_25 = L_24;
+		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_3_3(L_25);
+		G_B7_0 = L_25;
 		G_B7_1 = G_B6_1;
 	}
 
-IL_0092:
+IL_0096:
 	{
-		RuntimeObject* L_25 = Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651(G_B7_1, G_B7_0, /*hidden argument*/Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651_RuntimeMethod_var);
-		Type_t * L_26 = Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730(L_25, /*hidden argument*/Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730_RuntimeMethod_var);
-		V_1 = L_26;
-		// }
-		goto IL_012a;
+		RuntimeObject* L_26 = Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651(G_B7_1, G_B7_0, /*hidden argument*/Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651_RuntimeMethod_var);
+		Type_t * L_27 = Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730(L_26, /*hidden argument*/Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730_RuntimeMethod_var);
+		V_1 = L_27;
+		goto IL_0131;
 	}
 
-IL_00a2:
+IL_00a7:
 	{
 		// foundType = (from assembly in AppDomain.CurrentDomain.GetAssemblies()
 		//              from type in assembly.GetTypes()
 		//              where type.Name == className
 		//              select type).FirstOrDefault();
-		AppDomain_t1B59572328F60585904DF52A59FE47CF5B5FFFF8 * L_27 = AppDomain_get_CurrentDomain_m3D3D52C9382D6853E49551DA6182DBC5F1118BF0(/*hidden argument*/NULL);
-		NullCheck(L_27);
-		AssemblyU5BU5D_t90BF014AA048450526A42C74F9583341A138DE58* L_28 = AppDomain_GetAssemblies_mF1A63ADFC80562168DF846017BB72CAB09298A23(L_27, /*hidden argument*/NULL);
+		AppDomain_t1B59572328F60585904DF52A59FE47CF5B5FFFF8 * L_28 = AppDomain_get_CurrentDomain_m3D3D52C9382D6853E49551DA6182DBC5F1118BF0(/*hidden argument*/NULL);
+		NullCheck(L_28);
+		AssemblyU5BU5D_t90BF014AA048450526A42C74F9583341A138DE58* L_29 = AppDomain_GetAssemblies_mF1A63ADFC80562168DF846017BB72CAB09298A23(L_28, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_29 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_4_4();
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_30 = L_29;
-		G_B9_0 = L_30;
-		G_B9_1 = L_28;
-		if (L_30)
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_30 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_4_4();
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_31 = L_30;
+		G_B9_0 = L_31;
+		G_B9_1 = L_29;
+		if (L_31)
 		{
-			G_B10_0 = L_30;
-			G_B10_1 = L_28;
-			goto IL_00cb;
+			G_B10_0 = L_31;
+			G_B10_1 = L_29;
+			goto IL_00d1;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_31 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_32 = (Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D *)il2cpp_codegen_object_new(Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D_il2cpp_TypeInfo_var);
-		Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D(L_32, L_31, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_4_m711BCCCF8883285FB4CD5F02227233639BD0A31A_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D_RuntimeMethod_var);
-		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_33 = L_32;
-		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_4_4(L_33);
-		G_B10_0 = L_33;
+		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_32 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_33 = (Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D *)il2cpp_codegen_object_new(Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D_il2cpp_TypeInfo_var);
+		Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D(L_33, L_32, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_4_m711BCCCF8883285FB4CD5F02227233639BD0A31A_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m0F843B165F1FA493C2A355B28394DC78AA6DF90D_RuntimeMethod_var);
+		Func_2_t1DB78001C40A03A303D41DD7A89698AFAC67B86D * L_34 = L_33;
+		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_4_4(L_34);
+		G_B10_0 = L_34;
 		G_B10_1 = G_B9_1;
 	}
 
-IL_00cb:
+IL_00d1:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_34 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_5_5();
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_35 = L_34;
-		G_B11_0 = L_35;
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_35 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_5_5();
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_36 = L_35;
+		G_B11_0 = L_36;
 		G_B11_1 = G_B10_0;
 		G_B11_2 = G_B10_1;
-		if (L_35)
+		if (L_36)
 		{
-			G_B12_0 = L_35;
+			G_B12_0 = L_36;
 			G_B12_1 = G_B10_0;
 			G_B12_2 = G_B10_1;
-			goto IL_00ea;
+			goto IL_00f0;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_36 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_37 = (Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 *)il2cpp_codegen_object_new(Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372_il2cpp_TypeInfo_var);
-		Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6(L_37, L_36, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_5_mD242F500201BF7901EA8E5EFC77F7A4C7A5A8B1C_RuntimeMethod_var), /*hidden argument*/Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6_RuntimeMethod_var);
-		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_38 = L_37;
-		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_5_5(L_38);
-		G_B12_0 = L_38;
+		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_37 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_38 = (Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 *)il2cpp_codegen_object_new(Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372_il2cpp_TypeInfo_var);
+		Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6(L_38, L_37, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_5_mD242F500201BF7901EA8E5EFC77F7A4C7A5A8B1C_RuntimeMethod_var), /*hidden argument*/Func_3__ctor_m571CCE574D39A48505904E28043A589C34D651E6_RuntimeMethod_var);
+		Func_3_t07C54C4801491C6BD6D14631C5FE88C9FD746372 * L_39 = L_38;
+		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_5_5(L_39);
+		G_B12_0 = L_39;
 		G_B12_1 = G_B11_1;
 		G_B12_2 = G_B11_2;
 	}
 
-IL_00ea:
+IL_00f0:
 	{
-		RuntimeObject* L_39 = Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23((RuntimeObject*)(RuntimeObject*)G_B12_2, G_B12_1, G_B12_0, /*hidden argument*/Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23_RuntimeMethod_var);
-		U3CU3Ec__DisplayClass2_0_tCDAE2648132710A2FBBDB6057D7B68DA952A17A8 * L_40 = V_0;
-		Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 * L_41 = (Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 *)il2cpp_codegen_object_new(Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3_il2cpp_TypeInfo_var);
-		Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE(L_41, L_40, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass2_0_U3CGetTypeU3Eb__6_m2C67116B76BB1EDF7161CEED63F18496A9D72A37_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE_RuntimeMethod_var);
-		RuntimeObject* L_42 = Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0(L_39, L_41, /*hidden argument*/Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0_RuntimeMethod_var);
+		RuntimeObject* L_40 = Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23((RuntimeObject*)(RuntimeObject*)G_B12_2, G_B12_1, G_B12_0, /*hidden argument*/Enumerable_SelectMany_TisAssembly_t_TisType_t_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_mE3CE92632A5B36D41249A171AD4DC4E087B27F23_RuntimeMethod_var);
+		U3CU3Ec__DisplayClass2_0_tCDAE2648132710A2FBBDB6057D7B68DA952A17A8 * L_41 = V_0;
+		Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 * L_42 = (Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3 *)il2cpp_codegen_object_new(Func_2_tE89F6611FF55E8E8B2705BA17C79DF541B3FFFF3_il2cpp_TypeInfo_var);
+		Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE(L_42, L_41, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass2_0_U3CGetTypeU3Eb__6_m2C67116B76BB1EDF7161CEED63F18496A9D72A37_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_mD1A707B95E945D1E71EE7869A529921A101417FE_RuntimeMethod_var);
+		RuntimeObject* L_43 = Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0(L_40, L_42, /*hidden argument*/Enumerable_Where_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_m9B7ECEEBED6BC4E78406CB2E19216CFFDCBB0ED0_RuntimeMethod_var);
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_43 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_7_6();
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_44 = L_43;
-		G_B13_0 = L_44;
-		G_B13_1 = L_42;
-		if (L_44)
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_44 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9__2_7_6();
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_45 = L_44;
+		G_B13_0 = L_45;
+		G_B13_1 = L_43;
+		if (L_45)
 		{
-			G_B14_0 = L_44;
-			G_B14_1 = L_42;
-			goto IL_011f;
+			G_B14_0 = L_45;
+			G_B14_1 = L_43;
+			goto IL_0125;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var);
-		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_45 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_46 = (Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 *)il2cpp_codegen_object_new(Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65_il2cpp_TypeInfo_var);
-		Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0(L_46, L_45, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_7_m839FF0DB8287D3282C858E1ABBA18ECE5C48A6FA_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0_RuntimeMethod_var);
-		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_47 = L_46;
-		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_7_6(L_47);
-		G_B14_0 = L_47;
+		U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA * L_46 = ((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->get_U3CU3E9_0();
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_47 = (Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 *)il2cpp_codegen_object_new(Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65_il2cpp_TypeInfo_var);
+		Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0(L_47, L_46, (intptr_t)((intptr_t)U3CU3Ec_U3CGetTypeU3Eb__2_7_m839FF0DB8287D3282C858E1ABBA18ECE5C48A6FA_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m61131FF3673B1B392B801DB159A075FC146C78A0_RuntimeMethod_var);
+		Func_2_t20FD24F17D4A848680308452EE639BB75D3EAA65 * L_48 = L_47;
+		((U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tD94EF7DE6AFBFD827874F57981CF5D06E39AA4EA_il2cpp_TypeInfo_var))->set_U3CU3E9__2_7_6(L_48);
+		G_B14_0 = L_48;
 		G_B14_1 = G_B13_1;
 	}
 
-IL_011f:
+IL_0125:
 	{
-		RuntimeObject* L_48 = Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651(G_B14_1, G_B14_0, /*hidden argument*/Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651_RuntimeMethod_var);
-		Type_t * L_49 = Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730(L_48, /*hidden argument*/Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730_RuntimeMethod_var);
-		V_1 = L_49;
+		RuntimeObject* L_49 = Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651(G_B14_1, G_B14_0, /*hidden argument*/Enumerable_Select_TisU3CU3Ef__AnonymousType0_2_tD4DFF65F6EC1C7BC5CC4EEFDFF36ECF923915DB6_TisType_t_mE8C0C2D21EFB1A0DFE1F8570890A3DFCEC08E651_RuntimeMethod_var);
+		Type_t * L_50 = Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730(L_49, /*hidden argument*/Enumerable_FirstOrDefault_TisType_t_mD2F7F8133270C8B66C71E24ED54A9F7EA3E3C730_RuntimeMethod_var);
+		V_1 = L_50;
 	}
 
-IL_012a:
+IL_0131:
 	{
 		// return foundType;
-		Type_t * L_50 = V_1;
-		return L_50;
+		Type_t * L_51 = V_1;
+		V_3 = L_51;
+		goto IL_0135;
+	}
+
+IL_0135:
+	{
+		// }
+		Type_t * L_52 = V_3;
+		return L_52;
 	}
 }
 // System.String Unity.XR.OpenVR.OpenVRHelpers::GetActionManifestPathFromPlugin()
@@ -31431,24 +31564,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRHelpers_GetActionManifestPath
 		il2cpp_codegen_initialize_method (OpenVRHelpers_GetActionManifestPathFromPlugin_m15C4072FCF3504BEABDDF4EB305287E72BA3CD9D_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	Type_t * V_0 = NULL;
+	MethodInfo_t * V_1 = NULL;
+	RuntimeObject * V_2 = NULL;
+	String_t* V_3 = NULL;
 	{
 		// Type steamvrInputType = GetType("SteamVR_Input");
 		Type_t * L_0 = OpenVRHelpers_GetType_mE4016FC4D93B1898FA441CFE1CD16FF96579AADD(_stringLiteral51BD1C8635618BFB90DEEECDECDBEF84FBC2074C, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
 		// MethodInfo getPathMethod = steamvrInputType.GetMethod("GetActionsFilePath");
-		NullCheck(L_0);
-		MethodInfo_t * L_1 = Type_GetMethod_mB8368D44E32C205D279BA3BB9E6FE1D09D45A6DE(L_0, _stringLiteralC7D59BDDDAC2523720466C7B6866C7D35BB7F9A9, /*hidden argument*/NULL);
-		// object path = getPathMethod.Invoke(null, new object[] { false });
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_2 = (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)SZArrayNew(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_3 = L_2;
-		bool L_4 = ((bool)0);
-		RuntimeObject * L_5 = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &L_4);
-		NullCheck(L_3);
-		ArrayElementTypeCheck (L_3, L_5);
-		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_5);
+		Type_t * L_1 = V_0;
 		NullCheck(L_1);
-		RuntimeObject * L_6 = MethodBase_Invoke_m471794D56262D9DB5B5A324883030AB16BD39674(L_1, NULL, L_3, /*hidden argument*/NULL);
+		MethodInfo_t * L_2 = Type_GetMethod_mB8368D44E32C205D279BA3BB9E6FE1D09D45A6DE(L_1, _stringLiteralC7D59BDDDAC2523720466C7B6866C7D35BB7F9A9, /*hidden argument*/NULL);
+		V_1 = L_2;
+		// object path = getPathMethod.Invoke(null, new object[] { false });
+		MethodInfo_t * L_3 = V_1;
+		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_4 = (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)SZArrayNew(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_5 = L_4;
+		bool L_6 = ((bool)0);
+		RuntimeObject * L_7 = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_7);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_7);
+		NullCheck(L_3);
+		RuntimeObject * L_8 = MethodBase_Invoke_m471794D56262D9DB5B5A324883030AB16BD39674(L_3, NULL, L_5, /*hidden argument*/NULL);
+		V_2 = L_8;
 		// return (string)path;
-		return ((String_t*)CastclassSealed((RuntimeObject*)L_6, String_t_il2cpp_TypeInfo_var));
+		RuntimeObject * L_9 = V_2;
+		V_3 = ((String_t*)CastclassSealed((RuntimeObject*)L_9, String_t_il2cpp_TypeInfo_var));
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		// }
+		String_t* L_10 = V_3;
+		return L_10;
 	}
 }
 // System.String Unity.XR.OpenVR.OpenVRHelpers::GetActionManifestNameFromPlugin()
@@ -31460,17 +31611,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRHelpers_GetActionManifestName
 		il2cpp_codegen_initialize_method (OpenVRHelpers_GetActionManifestNameFromPlugin_mF282426A044A09ACD3086C5CC27C5FC1CB5A4F87_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	Type_t * V_0 = NULL;
+	MethodInfo_t * V_1 = NULL;
+	RuntimeObject * V_2 = NULL;
+	String_t* V_3 = NULL;
 	{
 		// Type steamvrInputType = GetType("SteamVR_Input");
 		Type_t * L_0 = OpenVRHelpers_GetType_mE4016FC4D93B1898FA441CFE1CD16FF96579AADD(_stringLiteral51BD1C8635618BFB90DEEECDECDBEF84FBC2074C, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
 		// MethodInfo getPathMethod = steamvrInputType.GetMethod("GetActionsFileName");
-		NullCheck(L_0);
-		MethodInfo_t * L_1 = Type_GetMethod_mB8368D44E32C205D279BA3BB9E6FE1D09D45A6DE(L_0, _stringLiteralD3070038C6183AA0AA9D3560BFFBEFDAF1560615, /*hidden argument*/NULL);
-		// object path = getPathMethod.Invoke(null, null);
+		Type_t * L_1 = V_0;
 		NullCheck(L_1);
-		RuntimeObject * L_2 = MethodBase_Invoke_m471794D56262D9DB5B5A324883030AB16BD39674(L_1, NULL, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)NULL, /*hidden argument*/NULL);
+		MethodInfo_t * L_2 = Type_GetMethod_mB8368D44E32C205D279BA3BB9E6FE1D09D45A6DE(L_1, _stringLiteralD3070038C6183AA0AA9D3560BFFBEFDAF1560615, /*hidden argument*/NULL);
+		V_1 = L_2;
+		// object path = getPathMethod.Invoke(null, null);
+		MethodInfo_t * L_3 = V_1;
+		NullCheck(L_3);
+		RuntimeObject * L_4 = MethodBase_Invoke_m471794D56262D9DB5B5A324883030AB16BD39674(L_3, NULL, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)NULL, /*hidden argument*/NULL);
+		V_2 = L_4;
 		// return (string)path;
-		return ((String_t*)CastclassSealed((RuntimeObject*)L_2, String_t_il2cpp_TypeInfo_var));
+		RuntimeObject * L_5 = V_2;
+		V_3 = ((String_t*)CastclassSealed((RuntimeObject*)L_5, String_t_il2cpp_TypeInfo_var));
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		// }
+		String_t* L_6 = V_3;
+		return L_6;
 	}
 }
 // System.String Unity.XR.OpenVR.OpenVRHelpers::GetEditorAppKeyFromPlugin()
@@ -31482,17 +31651,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRHelpers_GetEditorAppKeyFromPl
 		il2cpp_codegen_initialize_method (OpenVRHelpers_GetEditorAppKeyFromPlugin_m8445355BFAAAFFA0BA983AEBBD2B08897E7EE6C8_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	Type_t * V_0 = NULL;
+	MethodInfo_t * V_1 = NULL;
+	RuntimeObject * V_2 = NULL;
+	String_t* V_3 = NULL;
 	{
 		// Type steamvrInputType = GetType("SteamVR_Input");
 		Type_t * L_0 = OpenVRHelpers_GetType_mE4016FC4D93B1898FA441CFE1CD16FF96579AADD(_stringLiteral51BD1C8635618BFB90DEEECDECDBEF84FBC2074C, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_0;
 		// MethodInfo getPathMethod = steamvrInputType.GetMethod("GetEditorAppKey");
-		NullCheck(L_0);
-		MethodInfo_t * L_1 = Type_GetMethod_mB8368D44E32C205D279BA3BB9E6FE1D09D45A6DE(L_0, _stringLiteralDF35537BF120365CE76E97CA225658777F2655AD, /*hidden argument*/NULL);
-		// object path = getPathMethod.Invoke(null, null);
+		Type_t * L_1 = V_0;
 		NullCheck(L_1);
-		RuntimeObject * L_2 = MethodBase_Invoke_m471794D56262D9DB5B5A324883030AB16BD39674(L_1, NULL, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)NULL, /*hidden argument*/NULL);
+		MethodInfo_t * L_2 = Type_GetMethod_mB8368D44E32C205D279BA3BB9E6FE1D09D45A6DE(L_1, _stringLiteralDF35537BF120365CE76E97CA225658777F2655AD, /*hidden argument*/NULL);
+		V_1 = L_2;
+		// object path = getPathMethod.Invoke(null, null);
+		MethodInfo_t * L_3 = V_1;
+		NullCheck(L_3);
+		RuntimeObject * L_4 = MethodBase_Invoke_m471794D56262D9DB5B5A324883030AB16BD39674(L_3, NULL, (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)NULL, /*hidden argument*/NULL);
+		V_2 = L_4;
 		// return (string)path;
-		return ((String_t*)CastclassSealed((RuntimeObject*)L_2, String_t_il2cpp_TypeInfo_var));
+		RuntimeObject * L_5 = V_2;
+		V_3 = ((String_t*)CastclassSealed((RuntimeObject*)L_5, String_t_il2cpp_TypeInfo_var));
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		// }
+		String_t* L_6 = V_3;
+		return L_6;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRHelpers::.ctor()
@@ -31710,10 +31897,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF
 		il2cpp_codegen_initialize_method (OpenVRLoader_get_displaySubsystem_m331A65FEFDACDEA4DA5E6C3EC84C9700E2F1DC0D_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0 * V_0 = NULL;
 	{
 		// return GetLoadedSubsystem<XRDisplaySubsystem>();
 		XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0 * L_0 = GenericVirtFuncInvoker0< XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0 * >::Invoke(XRLoader_GetLoadedSubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_m4D3DDF617B48045DD21FBB6231882D6B7E653B33_RuntimeMethod_var, __this);
-		return L_0;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// }
+		XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0 * L_1 = V_0;
+		return L_1;
 	}
 }
 // UnityEngine.XR.XRInputSubsystem Unity.XR.OpenVR.OpenVRLoader::get_inputSubsystem()
@@ -31725,10 +31921,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425
 		il2cpp_codegen_initialize_method (OpenVRLoader_get_inputSubsystem_mDB35FE04B4EF7E6E5542C7DC34C2AE30F9C29441_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * V_0 = NULL;
 	{
 		// return GetLoadedSubsystem<XRInputSubsystem>();
 		XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * L_0 = GenericVirtFuncInvoker0< XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * >::Invoke(XRLoader_GetLoadedSubsystem_TisXRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7_mFD9C3F59810B3FEC0A6FD5EFE508B4D1B950D621_RuntimeMethod_var, __this);
-		return L_0;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// }
+		XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Boolean Unity.XR.OpenVR.OpenVRLoader::Initialize()
@@ -31741,6 +31946,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Initialize_m4B6C5F0F8FF49C2
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 * V_1 = NULL;
+	bool V_2 = false;
+	bool V_3 = false;
+	int32_t G_B5_0 = 0;
 	{
 		// CreateSubsystem<XRDisplaySubsystemDescriptor, XRDisplaySubsystem>(s_DisplaySubsystemDescriptors, "OpenVR Display");
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_il2cpp_TypeInfo_var);
@@ -31751,59 +31960,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Initialize_m4B6C5F0F8FF49C2
 		V_0 = L_1;
 		// if (result != EVRInitError.None)
 		int32_t L_2 = V_0;
-		if (!L_2)
+		V_2 = (bool)((!(((uint32_t)L_2) <= ((uint32_t)0)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
 		{
-			goto IL_003d;
+			goto IL_0049;
 		}
 	}
 	{
 		// DestroySubsystem<XRDisplaySubsystem>();
 		XRLoaderHelper_DestroySubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_mDE741B4F8D624C5B1236F8B909A74FF8A4E301B7(__this, /*hidden argument*/XRLoaderHelper_DestroySubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_mDE741B4F8D624C5B1236F8B909A74FF8A4E301B7_RuntimeMethod_var);
 		// Debug.LogError("<b>[OpenVR]</b> Could not initialize OpenVR. Error code: " + result.ToString());
-		RuntimeObject * L_3 = Box(EVRInitError_t7B1A93C1F60B651B38493AA0FD9161D5F7D07361_il2cpp_TypeInfo_var, (&V_0));
-		NullCheck(L_3);
-		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_3);
-		V_0 = *(int32_t*)UnBox(L_3);
-		String_t* L_5 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteralA3A79D862692B3634036DF522BD9D0B3F16604A5, L_4, /*hidden argument*/NULL);
+		RuntimeObject * L_4 = Box(EVRInitError_t7B1A93C1F60B651B38493AA0FD9161D5F7D07361_il2cpp_TypeInfo_var, (&V_0));
+		NullCheck(L_4);
+		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_4);
+		V_0 = *(int32_t*)UnBox(L_4);
+		String_t* L_6 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteralA3A79D862692B3634036DF522BD9D0B3F16604A5, L_5, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
-		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_5, /*hidden argument*/NULL);
+		Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_6, /*hidden argument*/NULL);
 		// return false;
-		return (bool)0;
+		V_3 = (bool)0;
+		goto IL_0094;
 	}
 
-IL_003d:
+IL_0049:
 	{
 		// CreateSubsystem<XRInputSubsystemDescriptor, XRInputSubsystem>(s_InputSubsystemDescriptors, "OpenVR Input");
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_il2cpp_TypeInfo_var);
-		List_1_t4C7D94A4867081F6849EA0AE495315279F1B8FF0 * L_6 = ((OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_StaticFields*)il2cpp_codegen_static_fields_for(OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_il2cpp_TypeInfo_var))->get_s_InputSubsystemDescriptors_6();
-		XRLoaderHelper_CreateSubsystem_TisXRInputSubsystemDescriptor_t0695204904011F75FF666A5F623C98FBCC163AD5_TisXRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7_m988F1B09D3E9566D1026BBAC986E81747373BDE7(__this, L_6, _stringLiteralAA34388DCE8C6C8E5C4C0331AB653780641CD17F, /*hidden argument*/XRLoaderHelper_CreateSubsystem_TisXRInputSubsystemDescriptor_t0695204904011F75FF666A5F623C98FBCC163AD5_TisXRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7_m988F1B09D3E9566D1026BBAC986E81747373BDE7_RuntimeMethod_var);
+		List_1_t4C7D94A4867081F6849EA0AE495315279F1B8FF0 * L_7 = ((OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_StaticFields*)il2cpp_codegen_static_fields_for(OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_il2cpp_TypeInfo_var))->get_s_InputSubsystemDescriptors_6();
+		XRLoaderHelper_CreateSubsystem_TisXRInputSubsystemDescriptor_t0695204904011F75FF666A5F623C98FBCC163AD5_TisXRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7_m988F1B09D3E9566D1026BBAC986E81747373BDE7(__this, L_7, _stringLiteralAA34388DCE8C6C8E5C4C0331AB653780641CD17F, /*hidden argument*/XRLoaderHelper_CreateSubsystem_TisXRInputSubsystemDescriptor_t0695204904011F75FF666A5F623C98FBCC163AD5_TisXRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7_m988F1B09D3E9566D1026BBAC986E81747373BDE7_RuntimeMethod_var);
 		// OpenVREvents.Initialize();
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVREvents_t10751E8B5E394CBA9A2229EB9D7CF48DB9E43193_il2cpp_TypeInfo_var);
 		OpenVREvents_Initialize_m300E0C490D83CCF5D7FEA9401F0B8C7F9D1B20AC((bool)0, /*hidden argument*/NULL);
 		// TickCallbackDelegate callback = TickCallback;
-		TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 * L_7 = (TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 *)il2cpp_codegen_object_new(TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3_il2cpp_TypeInfo_var);
-		TickCallbackDelegate__ctor_m5BD704929127D7E83D013813D2A8AD3C07D1A6A0(L_7, NULL, (intptr_t)((intptr_t)OpenVRLoader_TickCallback_m2144F6BB6856DAD0BCAD5460F97F578F24A3B3C2_RuntimeMethod_var), /*hidden argument*/NULL);
+		TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 * L_8 = (TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 *)il2cpp_codegen_object_new(TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3_il2cpp_TypeInfo_var);
+		TickCallbackDelegate__ctor_m5BD704929127D7E83D013813D2A8AD3C07D1A6A0(L_8, NULL, (intptr_t)((intptr_t)OpenVRLoader_TickCallback_m2144F6BB6856DAD0BCAD5460F97F578F24A3B3C2_RuntimeMethod_var), /*hidden argument*/NULL);
+		V_1 = L_8;
 		// RegisterTickCallback(callback);
-		TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 * L_8 = L_7;
-		OpenVRLoader_RegisterTickCallback_mD92BD358ECCC17CDB6ED49804D982637FCDEA155(L_8, /*hidden argument*/NULL);
+		TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 * L_9 = V_1;
+		OpenVRLoader_RegisterTickCallback_mD92BD358ECCC17CDB6ED49804D982637FCDEA155(L_9, /*hidden argument*/NULL);
 		// callback(0);
-		NullCheck(L_8);
-		TickCallbackDelegate_Invoke_mE028E7832E774CD96345C3F9288D063BA90F53D5(L_8, 0, /*hidden argument*/NULL);
+		TickCallbackDelegate_tEC5729B74EC047A08D7F7271EE46DE7232C4D7E3 * L_10 = V_1;
+		NullCheck(L_10);
+		TickCallbackDelegate_Invoke_mE028E7832E774CD96345C3F9288D063BA90F53D5(L_10, 0, /*hidden argument*/NULL);
 		// return displaySubsystem != null && inputSubsystem != null;
-		XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0 * L_9 = OpenVRLoader_get_displaySubsystem_m331A65FEFDACDEA4DA5E6C3EC84C9700E2F1DC0D(__this, /*hidden argument*/NULL);
-		if (!L_9)
+		XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0 * L_11 = OpenVRLoader_get_displaySubsystem_m331A65FEFDACDEA4DA5E6C3EC84C9700E2F1DC0D(__this, /*hidden argument*/NULL);
+		if (!L_11)
 		{
-			goto IL_007d;
+			goto IL_0090;
 		}
 	}
 	{
-		XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * L_10 = OpenVRLoader_get_inputSubsystem_mDB35FE04B4EF7E6E5542C7DC34C2AE30F9C29441(__this, /*hidden argument*/NULL);
-		return (bool)((!(((RuntimeObject*)(XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 *)L_10) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * L_12 = OpenVRLoader_get_inputSubsystem_mDB35FE04B4EF7E6E5542C7DC34C2AE30F9C29441(__this, /*hidden argument*/NULL);
+		G_B5_0 = ((!(((RuntimeObject*)(XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 *)L_12) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		goto IL_0091;
 	}
 
-IL_007d:
+IL_0090:
 	{
-		return (bool)0;
+		G_B5_0 = 0;
+	}
+
+IL_0091:
+	{
+		V_3 = (bool)G_B5_0;
+		goto IL_0094;
+	}
+
+IL_0094:
+	{
+		// }
+		bool L_13 = V_3;
+		return L_13;
 	}
 }
 // System.String Unity.XR.OpenVR.OpenVRLoader::GetEscapedApplicationName()
@@ -31815,29 +32043,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRLoader_GetEscapedApplicationN
 		il2cpp_codegen_initialize_method (OpenVRLoader_GetEscapedApplicationName_m813CB7642D5A7F9E2905A1C46C84D9CF61BD35AF_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
 	{
 		// if (string.IsNullOrEmpty(Application.productName))
 		String_t* L_0 = Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5(/*hidden argument*/NULL);
 		bool L_1 = String_IsNullOrEmpty_m06A85A206AC2106D1982826C5665B9BD35324229(L_0, /*hidden argument*/NULL);
-		if (!L_1)
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
 		{
-			goto IL_0012;
+			goto IL_0017;
 		}
 	}
 	{
 		// return "";
-		return _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		V_1 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		goto IL_003d;
 	}
 
-IL_0012:
+IL_0017:
 	{
 		// return Application.productName.Replace("\\", "\\\\").Replace("\"", "\\\""); //replace \ with \\ and replace " with \"  for json escaping
-		String_t* L_2 = Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5(/*hidden argument*/NULL);
-		NullCheck(L_2);
-		String_t* L_3 = String_Replace_m970DFB0A280952FA7D3BA20AB7A8FB9F80CF6470(L_2, _stringLiteral08534F33C201A45017B502E90A800F1B708EBCB3, _stringLiteral9E94758983980504AF303EF297FD2BF9D9CEA063, /*hidden argument*/NULL);
+		String_t* L_3 = Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5(/*hidden argument*/NULL);
 		NullCheck(L_3);
-		String_t* L_4 = String_Replace_m970DFB0A280952FA7D3BA20AB7A8FB9F80CF6470(L_3, _stringLiteral2ACE62C1BEFA19E3EA37DD52BE9F6D508C5163E6, _stringLiteralAB006BB8AACDF6E68299BC1DFFCCC9BCC8AC3EAF, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_4 = String_Replace_m970DFB0A280952FA7D3BA20AB7A8FB9F80CF6470(L_3, _stringLiteral08534F33C201A45017B502E90A800F1B708EBCB3, _stringLiteral9E94758983980504AF303EF297FD2BF9D9CEA063, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		String_t* L_5 = String_Replace_m970DFB0A280952FA7D3BA20AB7A8FB9F80CF6470(L_4, _stringLiteral2ACE62C1BEFA19E3EA37DD52BE9F6D508C5163E6, _stringLiteralAB006BB8AACDF6E68299BC1DFFCCC9BCC8AC3EAF, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRLoader::WatchForReload()
@@ -31865,6 +32106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Start_m89A3AB22445E04D273EF
 		il2cpp_codegen_initialize_method (OpenVRLoader_Start_m89A3AB22445E04D273EF23788791945281A581D9_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// running = true;
 		__this->set_running_7((bool)1);
@@ -31877,7 +32119,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Start_m89A3AB22445E04D273EF
 		// SetupFileSystemWatchers();
 		OpenVRLoader_SetupFileSystemWatchers_mE4F33754C6F3C449B6836E1B4CE61CF8B4DC2498(__this, /*hidden argument*/NULL);
 		// return true;
-		return (bool)1;
+		V_0 = (bool)1;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRLoader::SetupFileSystemWatchers()
@@ -31924,7 +32174,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader_ManualFileWatcherLoop_mB828
 		s_Il2CppMethodInitialized = true;
 	}
 	int64_t V_0 = 0;
-	int64_t V_1 = 0;
+	bool V_1 = false;
+	int64_t V_2 = 0;
+	bool V_3 = false;
+	bool V_4 = false;
 	{
 		// watcherFile = new System.IO.FileInfo(mirrorViewPath);
 		FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C * L_0 = (FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C *)il2cpp_codegen_object_new(FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C_il2cpp_TypeInfo_var);
@@ -31932,63 +32185,72 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader_ManualFileWatcherLoop_mB828
 		__this->set_watcherFile_8(L_0);
 		// long lastLength = -1;
 		V_0 = (((int64_t)((int64_t)(-1))));
-		goto IL_004b;
+		goto IL_005f;
 	}
 
-IL_0015:
+IL_0016:
 	{
 		// if (watcherFile.Exists)
 		FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C * L_1 = __this->get_watcherFile_8();
 		NullCheck(L_1);
 		bool L_2 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_1);
-		if (!L_2)
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_003e;
+			goto IL_004e;
 		}
 	}
 	{
 		// long currentLength = watcherFile.Length;
-		FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C * L_3 = __this->get_watcherFile_8();
-		NullCheck(L_3);
-		int64_t L_4 = FileInfo_get_Length_mCF9523258C44DB5D9D1BDC4A4333BD4EC7CAF847(L_3, /*hidden argument*/NULL);
-		V_1 = L_4;
+		FileInfo_tF8C1D41E1ABDAC19BF4F76A491DD28DD8DBEE35C * L_4 = __this->get_watcherFile_8();
+		NullCheck(L_4);
+		int64_t L_5 = FileInfo_get_Length_mCF9523258C44DB5D9D1BDC4A4333BD4EC7CAF847(L_4, /*hidden argument*/NULL);
+		V_2 = L_5;
 		// if (lastLength != currentLength)
-		int64_t L_5 = V_0;
-		int64_t L_6 = V_1;
-		if ((((int64_t)L_5) == ((int64_t)L_6)))
+		int64_t L_6 = V_0;
+		int64_t L_7 = V_2;
+		V_3 = (bool)((((int32_t)((((int64_t)L_6) == ((int64_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_3;
+		if (!L_8)
 		{
-			goto IL_0041;
+			goto IL_004b;
 		}
 	}
 	{
 		// OnChanged(null, null);
 		OpenVRLoader_OnChanged_m6DEC47D654C8E2A679F29C7AF10E2C7D0601ABE2(__this, NULL, (FileSystemEventArgs_t76FFCF51AA38412695984DFA1137232633B94473 *)NULL, /*hidden argument*/NULL);
 		// lastLength = currentLength;
-		int64_t L_7 = V_1;
-		V_0 = L_7;
-		// }
-		goto IL_0041;
+		int64_t L_9 = V_2;
+		V_0 = L_9;
 	}
 
-IL_003e:
+IL_004b:
+	{
+		goto IL_0053;
+	}
+
+IL_004e:
 	{
 		// lastLength = -1;
 		V_0 = (((int64_t)((int64_t)(-1))));
 	}
 
-IL_0041:
+IL_0053:
 	{
 		// System.Threading.Thread.Sleep(1000);
 		Thread_Sleep_m2CD320EAB7BE02CC1F395EAFE9970D53A5F9EAEF(((int32_t)1000), /*hidden argument*/NULL);
 	}
 
-IL_004b:
+IL_005f:
 	{
 		// while (running)
-		bool L_8 = __this->get_running_7();
-		if (L_8)
+		bool L_10 = __this->get_running_7();
+		V_4 = L_10;
+		bool L_11 = V_4;
+		if (L_11)
 		{
-			goto IL_0015;
+			goto IL_0016;
 		}
 	}
 	{
@@ -31999,24 +32261,27 @@ IL_004b:
 // System.Void Unity.XR.OpenVR.OpenVRLoader::DestroyMirrorModeWatcher()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader_DestroyMirrorModeWatcher_m70C7E5364DEF7ED23FB59C057F2B2CB3F9ACFF48 (OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// if (watcherThread != null)
 		Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7 * L_0 = __this->get_watcherThread_9();
-		if (!L_0)
+		V_0 = (bool)((!(((RuntimeObject*)(Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7 *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_001a;
+			goto IL_0023;
 		}
 	}
 	{
 		// watcherThread.Abort();
-		Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7 * L_1 = __this->get_watcherThread_9();
-		NullCheck(L_1);
-		Thread_Abort_mFF7FBB8E9DAF2ABC8DD85C48F6BDB91502B7DA44(L_1, /*hidden argument*/NULL);
+		Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7 * L_2 = __this->get_watcherThread_9();
+		NullCheck(L_2);
+		Thread_Abort_mFF7FBB8E9DAF2ABC8DD85C48F6BDB91502B7DA44(L_2, /*hidden argument*/NULL);
 		// watcherThread = null;
 		__this->set_watcherThread_9((Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7 *)NULL);
 	}
 
-IL_001a:
+IL_0023:
 	{
 		// }
 		return;
@@ -32042,10 +32307,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader_ReadMirrorModeConfig_mA946F
 		s_Il2CppMethodInitialized = true;
 	}
 	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* V_0 = NULL;
-	int32_t V_1 = 0;
-	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* V_2 = NULL;
+	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* V_1 = NULL;
+	int32_t V_2 = 0;
 	String_t* V_3 = NULL;
-	int32_t V_4 = 0;
+	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* V_4 = NULL;
+	bool V_5 = false;
+	String_t* V_6 = NULL;
+	bool V_7 = false;
+	String_t* V_8 = NULL;
+	int32_t V_9 = 0;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -32053,205 +32327,227 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader_ReadMirrorModeConfig_mA946F
 	void* __leave_targets_storage = alloca(sizeof(int32_t) * 2);
 	il2cpp::utils::LeaveTargetStack __leave_targets(__leave_targets_storage);
 	NO_UNUSED_WARNING (__leave_targets);
+	{
+	}
 
-IL_0000:
+IL_0001:
 	try
 	{ // begin try (depth: 1)
 		{
 			// var lines = System.IO.File.ReadAllLines(mirrorViewPath);
 			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_0 = File_ReadAllLines_mE23F86FECEC7385CD2D20EA0257277E8D09DCDB7(_stringLiteralDCABB2B737AE7D6AD464902A2F3D47C34FE2A6CF, /*hidden argument*/NULL);
-			// foreach (var line in lines)
 			V_0 = L_0;
-			V_1 = 0;
-			goto IL_00c6;
-		}
-
-IL_0012:
-		{
 			// foreach (var line in lines)
 			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_1 = V_0;
-			int32_t L_2 = V_1;
-			NullCheck(L_1);
-			int32_t L_3 = L_2;
-			String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+			V_1 = L_1;
+			V_2 = 0;
+			goto IL_00ff;
+		}
+
+IL_0017:
+		{
+			// foreach (var line in lines)
+			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_2 = V_1;
+			int32_t L_3 = V_2;
+			NullCheck(L_2);
+			int32_t L_4 = L_3;
+			String_t* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+			V_3 = L_5;
 			// var split = line.Split('=');
-			CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_5 = (CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)SZArrayNew(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2_il2cpp_TypeInfo_var, (uint32_t)1);
-			CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_6 = L_5;
-			NullCheck(L_6);
-			(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)61));
-			NullCheck(L_4);
-			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_7 = String_Split_m13262358217AD2C119FD1B9733C3C0289D608512(L_4, L_6, /*hidden argument*/NULL);
-			V_2 = L_7;
-			// if (split.Length == 2)
-			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_8 = V_2;
+			String_t* L_6 = V_3;
+			CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_7 = (CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*)SZArrayNew(CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2_il2cpp_TypeInfo_var, (uint32_t)1);
+			CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_8 = L_7;
 			NullCheck(L_8);
-			if ((!(((uint32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length))))) == ((uint32_t)2))))
+			(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)61));
+			NullCheck(L_6);
+			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_9 = String_Split_m13262358217AD2C119FD1B9733C3C0289D608512(L_6, L_8, /*hidden argument*/NULL);
+			V_4 = L_9;
+			// if (split.Length == 2)
+			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_10 = V_4;
+			NullCheck(L_10);
+			V_5 = (bool)((((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length))))) == ((int32_t)2))? 1 : 0);
+			bool L_11 = V_5;
+			if (!L_11)
 			{
-				goto IL_00c2;
+				goto IL_00fa;
 			}
 		}
 
-IL_002f:
+IL_003f:
 		{
 			// var key = split[0];
-			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_9 = V_2;
-			NullCheck(L_9);
-			int32_t L_10 = 0;
-			String_t* L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_12 = V_4;
+			NullCheck(L_12);
+			int32_t L_13 = 0;
+			String_t* L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+			V_6 = L_14;
 			// if (key == "MirrorViewMode")
-			bool L_12 = String_op_Equality_m139F0E4195AE2F856019E63B241F36F016997FCE(L_11, _stringLiteral2B3F9E2C181B366762478AA40EDFB67D5EA13DB1, /*hidden argument*/NULL);
-			if (!L_12)
-			{
-				goto IL_00c2;
-			}
-		}
-
-IL_0041:
-		{
-			// string stringMode = split[1];
-			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_13 = V_2;
-			NullCheck(L_13);
-			int32_t L_14 = 1;
-			String_t* L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-			V_3 = L_15;
-			// OpenVRSettings.MirrorViewModes mode = OpenVRSettings.MirrorViewModes.None;
-			V_4 = 0;
-			// if (stringMode.Equals("left", System.StringComparison.CurrentCultureIgnoreCase))
-			String_t* L_16 = V_3;
-			NullCheck(L_16);
-			bool L_17 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_16, _stringLiteral12C0F1FBADC4046B5F2BB9E063B227EF8750D9D6, 1, /*hidden argument*/NULL);
+			String_t* L_15 = V_6;
+			bool L_16 = String_op_Equality_m139F0E4195AE2F856019E63B241F36F016997FCE(L_15, _stringLiteral2B3F9E2C181B366762478AA40EDFB67D5EA13DB1, /*hidden argument*/NULL);
+			V_7 = L_16;
+			bool L_17 = V_7;
 			if (!L_17)
 			{
-				goto IL_005b;
+				goto IL_00f9;
 			}
-		}
-
-IL_0056:
-		{
-			// mode = OpenVRSettings.MirrorViewModes.Left;
-			V_4 = 1;
-			goto IL_009e;
 		}
 
 IL_005b:
 		{
-			// else if (stringMode.Equals("right", System.StringComparison.CurrentCultureIgnoreCase))
-			String_t* L_18 = V_3;
+			// string stringMode = split[1];
+			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_18 = V_4;
 			NullCheck(L_18);
-			bool L_19 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_18, _stringLiteralD27A1F11771200949714B1AF99F048A416F5D6F4, 1, /*hidden argument*/NULL);
-			if (!L_19)
-			{
-				goto IL_006e;
-			}
-		}
-
-IL_0069:
-		{
-			// mode = OpenVRSettings.MirrorViewModes.Right;
-			V_4 = 2;
-			goto IL_009e;
-		}
-
-IL_006e:
-		{
-			// else if (stringMode.Equals("openvr", System.StringComparison.CurrentCultureIgnoreCase))
-			String_t* L_20 = V_3;
-			NullCheck(L_20);
-			bool L_21 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_20, _stringLiteralF510D7CF0567689D969913568E2A55F0CA05F802, 1, /*hidden argument*/NULL);
-			if (!L_21)
-			{
-				goto IL_0081;
-			}
-		}
-
-IL_007c:
-		{
-			// mode = OpenVRSettings.MirrorViewModes.OpenVR;
-			V_4 = 3;
-			goto IL_009e;
-		}
-
-IL_0081:
-		{
-			// else if (stringMode.Equals("none", System.StringComparison.CurrentCultureIgnoreCase))
-			String_t* L_22 = V_3;
-			NullCheck(L_22);
-			bool L_23 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_22, _stringLiteral71F8E7976E4CBC4561C9D62FB283E7F788202ACB, 1, /*hidden argument*/NULL);
+			int32_t L_19 = 1;
+			String_t* L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+			V_8 = L_20;
+			// OpenVRSettings.MirrorViewModes mode = OpenVRSettings.MirrorViewModes.None;
+			V_9 = 0;
+			// if (stringMode.Equals("left", System.StringComparison.CurrentCultureIgnoreCase))
+			String_t* L_21 = V_8;
+			NullCheck(L_21);
+			bool L_22 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_21, _stringLiteral12C0F1FBADC4046B5F2BB9E063B227EF8750D9D6, 1, /*hidden argument*/NULL);
+			V_10 = L_22;
+			bool L_23 = V_10;
 			if (!L_23)
 			{
-				goto IL_0094;
+				goto IL_007d;
 			}
 		}
 
-IL_008f:
+IL_0078:
 		{
-			// mode = OpenVRSettings.MirrorViewModes.None;
-			V_4 = 0;
-			goto IL_009e;
+			// mode = OpenVRSettings.MirrorViewModes.Left;
+			V_9 = 1;
+			goto IL_00d2;
 		}
 
-IL_0094:
+IL_007d:
+		{
+			// else if (stringMode.Equals("right", System.StringComparison.CurrentCultureIgnoreCase))
+			String_t* L_24 = V_8;
+			NullCheck(L_24);
+			bool L_25 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_24, _stringLiteralD27A1F11771200949714B1AF99F048A416F5D6F4, 1, /*hidden argument*/NULL);
+			V_11 = L_25;
+			bool L_26 = V_11;
+			if (!L_26)
+			{
+				goto IL_0095;
+			}
+		}
+
+IL_0090:
+		{
+			// mode = OpenVRSettings.MirrorViewModes.Right;
+			V_9 = 2;
+			goto IL_00d2;
+		}
+
+IL_0095:
+		{
+			// else if (stringMode.Equals("openvr", System.StringComparison.CurrentCultureIgnoreCase))
+			String_t* L_27 = V_8;
+			NullCheck(L_27);
+			bool L_28 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_27, _stringLiteralF510D7CF0567689D969913568E2A55F0CA05F802, 1, /*hidden argument*/NULL);
+			V_12 = L_28;
+			bool L_29 = V_12;
+			if (!L_29)
+			{
+				goto IL_00ad;
+			}
+		}
+
+IL_00a8:
+		{
+			// mode = OpenVRSettings.MirrorViewModes.OpenVR;
+			V_9 = 3;
+			goto IL_00d2;
+		}
+
+IL_00ad:
+		{
+			// else if (stringMode.Equals("none", System.StringComparison.CurrentCultureIgnoreCase))
+			String_t* L_30 = V_8;
+			NullCheck(L_30);
+			bool L_31 = String_Equals_mB42D01789A129C548840C18E9065ACF9412F1F84(L_30, _stringLiteral71F8E7976E4CBC4561C9D62FB283E7F788202ACB, 1, /*hidden argument*/NULL);
+			V_13 = L_31;
+			bool L_32 = V_13;
+			if (!L_32)
+			{
+				goto IL_00c5;
+			}
+		}
+
+IL_00c0:
+		{
+			// mode = OpenVRSettings.MirrorViewModes.None;
+			V_9 = 0;
+			goto IL_00d2;
+		}
+
+IL_00c5:
 		{
 			// Debug.LogError("<b>[OpenVR]</b> Invalid mode specified in openvr_mirrorview.cfg. Options are: Left, Right, None, and OpenVR.");
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
 			Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(_stringLiteral414AFF16AA0F8734316610B28E57BC05820C087A, /*hidden argument*/NULL);
 		}
 
-IL_009e:
+IL_00d2:
 		{
 			// Debug.Log("<b>[OpenVR]</b> Mirror View Mode changed via file to: " + mode.ToString());
-			RuntimeObject * L_24 = Box(MirrorViewModes_t85C5EC64658D00345F82649D00B3C9B8FBAAF374_il2cpp_TypeInfo_var, (&V_4));
-			NullCheck(L_24);
-			String_t* L_25 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_24);
-			V_4 = *(int32_t*)UnBox(L_24);
-			String_t* L_26 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteral31092ABF357D6A1B37E2506D6FA1AE81AA4E85B1, L_25, /*hidden argument*/NULL);
+			RuntimeObject * L_33 = Box(MirrorViewModes_t85C5EC64658D00345F82649D00B3C9B8FBAAF374_il2cpp_TypeInfo_var, (&V_9));
+			NullCheck(L_33);
+			String_t* L_34 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_33);
+			V_9 = *(int32_t*)UnBox(L_33);
+			String_t* L_35 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE(_stringLiteral31092ABF357D6A1B37E2506D6FA1AE81AA4E85B1, L_34, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
-			Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_26, /*hidden argument*/NULL);
+			Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(L_35, /*hidden argument*/NULL);
 			// OpenVRSettings.SetMirrorViewMode((ushort)mode); //bypass the local set.
-			int32_t L_27 = V_4;
-			OpenVRSettings_SetMirrorViewMode_mA6DC3340FB187C3F3EA570506BC64497F7E18BF8((uint16_t)(((int32_t)((uint16_t)L_27))), /*hidden argument*/NULL);
+			int32_t L_36 = V_9;
+			OpenVRSettings_SetMirrorViewMode_mA6DC3340FB187C3F3EA570506BC64497F7E18BF8((uint16_t)(((int32_t)((uint16_t)L_36))), /*hidden argument*/NULL);
 		}
 
-IL_00c2:
+IL_00f9:
 		{
-			int32_t L_28 = V_1;
-			V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_28, (int32_t)1));
 		}
 
-IL_00c6:
+IL_00fa:
+		{
+			int32_t L_37 = V_2;
+			V_2 = ((int32_t)il2cpp_codegen_add((int32_t)L_37, (int32_t)1));
+		}
+
+IL_00ff:
 		{
 			// foreach (var line in lines)
-			int32_t L_29 = V_1;
-			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_30 = V_0;
-			NullCheck(L_30);
-			if ((((int32_t)L_29) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_30)->max_length)))))))
+			int32_t L_38 = V_2;
+			StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_39 = V_1;
+			NullCheck(L_39);
+			if ((((int32_t)L_38) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_39)->max_length)))))))
 			{
-				goto IL_0012;
+				goto IL_0017;
 			}
 		}
 
-IL_00cf:
+IL_0108:
 		{
-			// }
-			goto IL_00d4;
+			goto IL_0110;
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__exception_local = (Exception_t *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (RuntimeObject_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
-			goto CATCH_00d1;
+			goto CATCH_010b;
 		throw e;
 	}
 
-CATCH_00d1:
+CATCH_010b:
 	{ // begin catch(System.Object)
 		// catch
-		// { }
-		goto IL_00d4;
+		goto IL_0110;
 	} // end catch (depth: 1)
 
-IL_00d4:
+IL_0110:
 	{
 		// }
 		return;
@@ -32266,6 +32562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Stop_mB66EA823443B09F726B05
 		il2cpp_codegen_initialize_method (OpenVRLoader_Stop_mB66EA823443B09F726B05B17743103D5300FDD78_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// running = false;
 		__this->set_running_7((bool)0);
@@ -32281,7 +32578,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Stop_mB66EA823443B09F726B05
 		// StopSubsystem<XRDisplaySubsystem>(); //display actually does vrshutdown
 		XRLoaderHelper_StopSubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_mBAB47A43F0636D9CA3339B4A56C92E08AAA4199C(__this, /*hidden argument*/XRLoaderHelper_StopSubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_mBAB47A43F0636D9CA3339B4A56C92E08AAA4199C_RuntimeMethod_var);
 		// return true;
-		return (bool)1;
+		V_0 = (bool)1;
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Boolean Unity.XR.OpenVR.OpenVRLoader::Deinitialize()
@@ -32293,6 +32598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Deinitialize_m4FC5E0C0B7695
 		il2cpp_codegen_initialize_method (OpenVRLoader_Deinitialize_m4FC5E0C0B7695E96CCC5AA625C2251B4F278610E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	bool V_0 = false;
 	{
 		// CleanupTick();
 		IL2CPP_RUNTIME_CLASS_INIT(OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A_il2cpp_TypeInfo_var);
@@ -32306,7 +32612,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRLoader_Deinitialize_m4FC5E0C0B7695
 		// DestroySubsystem<XRDisplaySubsystem>();
 		XRLoaderHelper_DestroySubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_mDE741B4F8D624C5B1236F8B909A74FF8A4E301B7(__this, /*hidden argument*/XRLoaderHelper_DestroySubsystem_TisXRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_mDE741B4F8D624C5B1236F8B909A74FF8A4E301B7_RuntimeMethod_var);
 		// return true;
-		return (bool)1;
+		V_0 = (bool)1;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		bool L_0 = V_0;
+		return L_0;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRLoader::CleanupTick()
@@ -32436,6 +32750,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader_TickCallback_m2144F6BB6856D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRLoader__ctor_mEFB387F96350ADA82C2DD7C752D84D0F24E2D98E (OpenVRLoader_tB88EC206047FDD1F5A75F2FC9BDCADCD23C98F3A * __this, const RuntimeMethod* method)
 {
 	{
+		// private bool running = false;
+		__this->set_running_7((bool)0);
 		XRLoaderHelper__ctor_m61180EE7C9A2091D2120E4FCBA1A022333248FD6(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -32676,6 +32992,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRSettings_GetStreamingSteamVRP
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
 	{
 		// string path = System.IO.Path.Combine(Application.streamingAssetsPath, StreamingAssetsFolderName);
 		String_t* L_0 = Application_get_streamingAssetsPath_m87163AE531BEB6A6588FABAD3207D829721CF31F(/*hidden argument*/NULL);
@@ -32684,29 +33002,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRSettings_GetStreamingSteamVRP
 		V_0 = L_1;
 		// if (create)
 		bool L_2 = ___create0;
-		if (!L_2)
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_001e;
+			goto IL_0024;
 		}
 	}
 	{
 		// CreateDirectory(new DirectoryInfo(path));
-		String_t* L_3 = V_0;
-		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_4 = (DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F *)il2cpp_codegen_object_new(DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F_il2cpp_TypeInfo_var);
-		DirectoryInfo__ctor_m00923CD8472B1FB220FAEE9D09CCCF9A96A021C6(L_4, L_3, /*hidden argument*/NULL);
-		OpenVRSettings_CreateDirectory_mB8FAEBC3E5A5E1F16841DC8C7ED17A16BF4CDFA2(L_4, /*hidden argument*/NULL);
+		String_t* L_4 = V_0;
+		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_5 = (DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F *)il2cpp_codegen_object_new(DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F_il2cpp_TypeInfo_var);
+		DirectoryInfo__ctor_m00923CD8472B1FB220FAEE9D09CCCF9A96A021C6(L_5, L_4, /*hidden argument*/NULL);
+		OpenVRSettings_CreateDirectory_mB8FAEBC3E5A5E1F16841DC8C7ED17A16BF4CDFA2(L_5, /*hidden argument*/NULL);
 	}
 
-IL_001e:
+IL_0024:
 	{
 		// return path;
-		String_t* L_5 = V_0;
-		return L_5;
+		String_t* L_6 = V_0;
+		V_2 = L_6;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		// }
+		String_t* L_7 = V_2;
+		return L_7;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRSettings::CreateDirectory(System.IO.DirectoryInfo)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRSettings_CreateDirectory_mB8FAEBC3E5A5E1F16841DC8C7ED17A16BF4CDFA2 (DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * ___directory0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// if (directory.Parent.Exists == false)
 		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_0 = ___directory0;
@@ -32714,38 +33044,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRSettings_CreateDirectory_mB8FAEBC3
 		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_1 = DirectoryInfo_get_Parent_m3D5334F86808B91BC66CEB88A72AF3A2A849116B(L_0, /*hidden argument*/NULL);
 		NullCheck(L_1);
 		bool L_2 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_1);
-		if (L_2)
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0018;
+			goto IL_001f;
 		}
 	}
 	{
 		// CreateDirectory(directory.Parent);
-		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_3 = ___directory0;
-		NullCheck(L_3);
-		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_4 = DirectoryInfo_get_Parent_m3D5334F86808B91BC66CEB88A72AF3A2A849116B(L_3, /*hidden argument*/NULL);
-		OpenVRSettings_CreateDirectory_mB8FAEBC3E5A5E1F16841DC8C7ED17A16BF4CDFA2(L_4, /*hidden argument*/NULL);
+		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_4 = ___directory0;
+		NullCheck(L_4);
+		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_5 = DirectoryInfo_get_Parent_m3D5334F86808B91BC66CEB88A72AF3A2A849116B(L_4, /*hidden argument*/NULL);
+		OpenVRSettings_CreateDirectory_mB8FAEBC3E5A5E1F16841DC8C7ED17A16BF4CDFA2(L_5, /*hidden argument*/NULL);
 	}
 
-IL_0018:
+IL_001f:
 	{
 		// if (directory.Exists == false)
-		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_5 = ___directory0;
-		NullCheck(L_5);
-		bool L_6 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_5);
-		if (L_6)
+		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_6 = ___directory0;
+		NullCheck(L_6);
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean System.IO.FileSystemInfo::get_Exists() */, L_6);
+		V_1 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (!L_8)
 		{
-			goto IL_0026;
+			goto IL_0033;
 		}
 	}
 	{
 		// directory.Create();
-		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_7 = ___directory0;
-		NullCheck(L_7);
-		DirectoryInfo_Create_m6847E3BA38FAB943C8BC12356CBB41E81B0EA029(L_7, /*hidden argument*/NULL);
+		DirectoryInfo_t432CD06DF148701E930708371CB985BC0E8EF87F * L_9 = ___directory0;
+		NullCheck(L_9);
+		DirectoryInfo_Create_m6847E3BA38FAB943C8BC12356CBB41E81B0EA029(L_9, /*hidden argument*/NULL);
 	}
 
-IL_0026:
+IL_0033:
 	{
 		// }
 		return;
@@ -32754,28 +33088,55 @@ IL_0026:
 // System.UInt16 Unity.XR.OpenVR.OpenVRSettings::GetStereoRenderingMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t OpenVRSettings_GetStereoRenderingMode_m29E8E8513290C03A70004B083E33A9CE8882824B (OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * __this, const RuntimeMethod* method)
 {
+	uint16_t V_0 = 0;
 	{
 		// return (ushort)StereoRenderingMode;
 		int32_t L_0 = __this->get_StereoRenderingMode_7();
-		return (uint16_t)(((int32_t)((uint16_t)L_0)));
+		V_0 = (uint16_t)(((int32_t)((uint16_t)L_0)));
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		// }
+		uint16_t L_1 = V_0;
+		return L_1;
 	}
 }
 // System.UInt16 Unity.XR.OpenVR.OpenVRSettings::GetInitializationType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t OpenVRSettings_GetInitializationType_m28AD2708CB64A7A1CD7122BBBAC915409926DC41 (OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * __this, const RuntimeMethod* method)
 {
+	uint16_t V_0 = 0;
 	{
 		// return (ushort)InitializationType;
 		int32_t L_0 = __this->get_InitializationType_8();
-		return (uint16_t)(((int32_t)((uint16_t)L_0)));
+		V_0 = (uint16_t)(((int32_t)((uint16_t)L_0)));
+		goto IL_000b;
+	}
+
+IL_000b:
+	{
+		// }
+		uint16_t L_1 = V_0;
+		return L_1;
 	}
 }
 // Unity.XR.OpenVR.OpenVRSettings/MirrorViewModes Unity.XR.OpenVR.OpenVRSettings::GetMirrorViewMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OpenVRSettings_GetMirrorViewMode_mC44DE0EE27621DD9332F686346F7921D53F7E8D3 (OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
 	{
 		// return MirrorView;
 		int32_t L_0 = __this->get_MirrorView_11();
-		return L_0;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		// }
+		int32_t L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRSettings::SetMirrorViewMode(Unity.XR.OpenVR.OpenVRSettings/MirrorViewModes)
@@ -32802,6 +33163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRSettings_GenerateEditorAppKey
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
+	String_t* V_1 = NULL;
 	{
 		// return string.Format("application.generated.unity.{0}.{1}.exe", CleanProductName(), ((int)(UnityEngine.Random.value * int.MaxValue)).ToString());
 		String_t* L_0 = OpenVRSettings_CleanProductName_mF7CFC17A7C470B983B9B4787A90D849704C567F2(/*hidden argument*/NULL);
@@ -32809,7 +33171,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRSettings_GenerateEditorAppKey
 		V_0 = (il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply((float)L_1, (float)(2.14748365E+09f)))));
 		String_t* L_2 = Int32_ToString_m1863896DE712BF97C031D55B12E1583F1982DC02((int32_t*)(&V_0), /*hidden argument*/NULL);
 		String_t* L_3 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteral27B9AD5CB01C3AD37A260337ED1517947BBB9673, L_0, L_2, /*hidden argument*/NULL);
-		return L_3;
+		V_1 = L_3;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		String_t* L_4 = V_1;
+		return L_4;
 	}
 }
 // System.String Unity.XR.OpenVR.OpenVRSettings::CleanProductName()
@@ -32822,6 +33192,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRSettings_CleanProductName_mF7
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
+	bool V_1 = false;
+	String_t* V_2 = NULL;
 	{
 		// string productName = Application.productName;
 		String_t* L_0 = Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5(/*hidden argument*/NULL);
@@ -32829,36 +33201,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OpenVRSettings_CleanProductName_mF7
 		// if (string.IsNullOrEmpty(productName))
 		String_t* L_1 = V_0;
 		bool L_2 = String_IsNullOrEmpty_m06A85A206AC2106D1982826C5665B9BD35324229(L_1, /*hidden argument*/NULL);
-		if (!L_2)
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
 		{
-			goto IL_0016;
+			goto IL_0019;
 		}
 	}
 	{
 		// productName = "unnamed_product";
 		V_0 = _stringLiteral2EB16C113F033A209DB5B516F47F1BE11B77558A;
-		goto IL_0032;
+		goto IL_0037;
 	}
 
-IL_0016:
+IL_0019:
 	{
 		// productName = System.Text.RegularExpressions.Regex.Replace(Application.productName, "[^\\w\\._]", "");
-		String_t* L_3 = Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5(/*hidden argument*/NULL);
+		String_t* L_4 = Application_get_productName_m9F65580744751D3771DA955C0D947787F3F5E9A5(/*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var);
-		String_t* L_4 = Regex_Replace_mB4E5642068CF8B6DFA3C3C6E21E8AD33AED12223(L_3, _stringLiteralB6FEBAFD38240C5E86D298146F72B50451CF7A2A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, /*hidden argument*/NULL);
-		V_0 = L_4;
+		String_t* L_5 = Regex_Replace_mB4E5642068CF8B6DFA3C3C6E21E8AD33AED12223(L_4, _stringLiteralB6FEBAFD38240C5E86D298146F72B50451CF7A2A, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// productName = productName.ToLower();
-		String_t* L_5 = V_0;
-		NullCheck(L_5);
-		String_t* L_6 = String_ToLower_m5287204D93C9DDC4DF84581ADD756D0FDE2BA5A8(L_5, /*hidden argument*/NULL);
-		V_0 = L_6;
+		String_t* L_6 = V_0;
+		NullCheck(L_6);
+		String_t* L_7 = String_ToLower_m5287204D93C9DDC4DF84581ADD756D0FDE2BA5A8(L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 	}
 
-IL_0032:
+IL_0037:
 	{
 		// return productName;
-		String_t* L_7 = V_0;
-		return L_7;
+		String_t* L_8 = V_0;
+		V_2 = L_8;
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		// }
+		String_t* L_9 = V_2;
+		return L_9;
 	}
 }
 // Unity.XR.OpenVR.OpenVRSettings Unity.XR.OpenVR.OpenVRSettings::GetSettings(System.Boolean)
@@ -32871,6 +33253,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7D
 		s_Il2CppMethodInitialized = true;
 	}
 	OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * V_0 = NULL;
+	bool V_1 = false;
+	OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * V_2 = NULL;
 	{
 		// OpenVRSettings settings = null;
 		V_0 = (OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 *)NULL;
@@ -32882,22 +33266,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7D
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 		bool L_2 = Object_op_Equality_mBC2401774F3BE33E8CF6F0A8148E66C95D6CFF1C(L_1, (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 *)NULL, /*hidden argument*/NULL);
 		bool L_3 = ___create0;
-		if (!((int32_t)((int32_t)L_2&(int32_t)L_3)))
+		V_1 = (bool)((int32_t)((int32_t)L_2&(int32_t)L_3));
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0019;
+			goto IL_001c;
 		}
 	}
 	{
 		// settings = OpenVRSettings.CreateInstance<OpenVRSettings>();
-		OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * L_4 = ScriptableObject_CreateInstance_TisOpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235_m60897950BC6492D075CDDE331F069EEABFAA577E(/*hidden argument*/ScriptableObject_CreateInstance_TisOpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235_m60897950BC6492D075CDDE331F069EEABFAA577E_RuntimeMethod_var);
-		V_0 = L_4;
+		OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * L_5 = ScriptableObject_CreateInstance_TisOpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235_m60897950BC6492D075CDDE331F069EEABFAA577E(/*hidden argument*/ScriptableObject_CreateInstance_TisOpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235_m60897950BC6492D075CDDE331F069EEABFAA577E_RuntimeMethod_var);
+		V_0 = L_5;
 	}
 
-IL_0019:
+IL_001c:
 	{
 		// return settings;
-		OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * L_5 = V_0;
-		return L_5;
+		OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * L_6 = V_0;
+		V_2 = L_6;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		// }
+		OpenVRSettings_t9DB0E3DF02FB479E7838AB3EA9A7DB717BF35235 * L_7 = V_2;
+		return L_7;
 	}
 }
 #if FORCE_PINVOKE_INTERNAL
@@ -32936,65 +33330,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenVRSettings_InitializeActionManifestF
 	}
 	String_t* V_0 = NULL;
 	String_t* V_1 = NULL;
+	bool V_2 = false;
+	String_t* V_3 = NULL;
+	bool V_4 = false;
+	bool V_5 = false;
 	{
 		// string oldPath = ActionManifestFileRelativeFilePath;
 		String_t* L_0 = __this->get_ActionManifestFileRelativeFilePath_10();
+		V_0 = L_0;
 		// if (OpenVRHelpers.IsUsingSteamVRInput())
 		bool L_1 = OpenVRHelpers_IsUsingSteamVRInput_m37FB3C3EDE0197208E50135FC30EC112F97A0B97(/*hidden argument*/NULL);
-		if (!L_1)
+		V_2 = L_1;
+		bool L_2 = V_2;
+		if (!L_2)
 		{
-			goto IL_005d;
+			goto IL_0066;
 		}
 	}
 	{
 		// newPath = System.IO.Path.Combine(OpenVRSettings.GetStreamingSteamVRPath(false), OpenVRHelpers.GetActionManifestNameFromPlugin());
-		String_t* L_2 = OpenVRSettings_GetStreamingSteamVRPath_m9A1062F85B08A0A073C6C82078D968CDB411A17C((bool)0, /*hidden argument*/NULL);
-		String_t* L_3 = OpenVRHelpers_GetActionManifestNameFromPlugin_mF282426A044A09ACD3086C5CC27C5FC1CB5A4F87(/*hidden argument*/NULL);
+		String_t* L_3 = OpenVRSettings_GetStreamingSteamVRPath_m9A1062F85B08A0A073C6C82078D968CDB411A17C((bool)0, /*hidden argument*/NULL);
+		String_t* L_4 = OpenVRHelpers_GetActionManifestNameFromPlugin_mF282426A044A09ACD3086C5CC27C5FC1CB5A4F87(/*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Path_t0B99A4B924A6FDF08814FFA8DD4CD121ED1A0752_il2cpp_TypeInfo_var);
-		String_t* L_4 = Path_Combine_mA495A18104786EB450EC0E44EE0FB7F9040C4311(L_2, L_3, /*hidden argument*/NULL);
-		V_0 = L_4;
-		// string fullpath = System.IO.Path.GetFullPath(".");
-		String_t* L_5 = Path_GetFullPath_m58677E6FFAFB7BB4A23011CE50F76487226EDE20(_stringLiteral3A52CE780950D4D969792A2559CD519D7EE8C727, /*hidden argument*/NULL);
+		String_t* L_5 = Path_Combine_mA495A18104786EB450EC0E44EE0FB7F9040C4311(L_3, L_4, /*hidden argument*/NULL);
 		V_1 = L_5;
+		// string fullpath = System.IO.Path.GetFullPath(".");
+		String_t* L_6 = Path_GetFullPath_m58677E6FFAFB7BB4A23011CE50F76487226EDE20(_stringLiteral3A52CE780950D4D969792A2559CD519D7EE8C727, /*hidden argument*/NULL);
+		V_3 = L_6;
 		// newPath = newPath.Remove(0, fullpath.Length + 1);
-		String_t* L_6 = V_0;
 		String_t* L_7 = V_1;
+		String_t* L_8 = V_3;
+		NullCheck(L_8);
+		int32_t L_9 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_8, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		int32_t L_8 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(L_7, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		String_t* L_9 = String_Remove_m54FD37F2B9CA7DBFE440B0CB8503640A2CFF00FF(L_6, 0, ((int32_t)il2cpp_codegen_add((int32_t)L_8, (int32_t)1)), /*hidden argument*/NULL);
-		V_0 = L_9;
+		String_t* L_10 = String_Remove_m54FD37F2B9CA7DBFE440B0CB8503640A2CFF00FF(L_7, 0, ((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)1)), /*hidden argument*/NULL);
+		V_1 = L_10;
 		// if (newPath.StartsWith("Assets"))
-		String_t* L_10 = V_0;
-		NullCheck(L_10);
-		bool L_11 = String_StartsWith_m7D468FB7C801D9C2DBEEEEC86F8BA8F4EC3243C1(L_10, _stringLiteral20E338624CEE29D0EFFEAD85B0DD0E70DE783B4C, /*hidden argument*/NULL);
-		if (!L_11)
+		String_t* L_11 = V_1;
+		NullCheck(L_11);
+		bool L_12 = String_StartsWith_m7D468FB7C801D9C2DBEEEEC86F8BA8F4EC3243C1(L_11, _stringLiteral20E338624CEE29D0EFFEAD85B0DD0E70DE783B4C, /*hidden argument*/NULL);
+		V_4 = L_12;
+		bool L_13 = V_4;
+		if (!L_13)
 		{
-			goto IL_005f;
+			goto IL_0063;
 		}
 	}
 	{
 		// newPath = newPath.Remove(0, "Assets".Length + 1);
-		String_t* L_12 = V_0;
+		String_t* L_14 = V_1;
 		NullCheck(_stringLiteral20E338624CEE29D0EFFEAD85B0DD0E70DE783B4C);
-		int32_t L_13 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(_stringLiteral20E338624CEE29D0EFFEAD85B0DD0E70DE783B4C, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		String_t* L_14 = String_Remove_m54FD37F2B9CA7DBFE440B0CB8503640A2CFF00FF(L_12, 0, ((int32_t)il2cpp_codegen_add((int32_t)L_13, (int32_t)1)), /*hidden argument*/NULL);
-		V_0 = L_14;
-		// }
-		goto IL_005f;
+		int32_t L_15 = String_get_Length_mD48C8A16A5CF1914F330DCE82D9BE15C3BEDD018_inline(_stringLiteral20E338624CEE29D0EFFEAD85B0DD0E70DE783B4C, /*hidden argument*/NULL);
+		NullCheck(L_14);
+		String_t* L_16 = String_Remove_m54FD37F2B9CA7DBFE440B0CB8503640A2CFF00FF(L_14, 0, ((int32_t)il2cpp_codegen_add((int32_t)L_15, (int32_t)1)), /*hidden argument*/NULL);
+		V_1 = L_16;
 	}
 
-IL_005d:
+IL_0063:
+	{
+		goto IL_006a;
+	}
+
+IL_0066:
 	{
 		// newPath = null;
-		V_0 = (String_t*)NULL;
+		V_1 = (String_t*)NULL;
 	}
 
-IL_005f:
+IL_006a:
 	{
 		// return false;
-		return (bool)0;
+		V_5 = (bool)0;
+		goto IL_006f;
+	}
+
+IL_006f:
+	{
+		// }
+		bool L_17 = V_5;
+		return L_17;
 	}
 }
 // System.Void Unity.XR.OpenVR.OpenVRSettings::Awake()
@@ -33021,12 +33435,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenVRSettings__ctor_m424811DF2137698874
 		__this->set_PromptToUpgradePackage_4((bool)1);
 		// public bool PromptToUpgradePreviewPackages = true;
 		__this->set_PromptToUpgradePreviewPackages_5((bool)1);
+		// public string SkipPromptForVersion = null;
+		__this->set_SkipPromptForVersion_6((String_t*)NULL);
 		// public StereoRenderingModes StereoRenderingMode = StereoRenderingModes.SinglePassInstanced;
 		__this->set_StereoRenderingMode_7(1);
 		// public InitializationTypes InitializationType = InitializationTypes.Scene;
 		__this->set_InitializationType_8(1);
+		// public string EditorAppKey = null;
+		__this->set_EditorAppKey_9((String_t*)NULL);
 		// public MirrorViewModes MirrorView = MirrorViewModes.Right;
 		__this->set_MirrorView_11(2);
+		// public bool HasCopiedDefaults = false;
+		__this->set_HasCopiedDefaults_14((bool)0);
 		ScriptableObject__ctor_m6E2B3821A4A361556FC12E9B1C71E1D5DC002C5B(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -33114,6 +33534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_AddApplicationManifes
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchApplicationManifestFullPathUtf8 = Utils.ToUtf8(pchApplicationManifestFullPath);
 		String_t* L_0 = ___pchApplicationManifestFullPath0;
@@ -33127,12 +33549,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_AddApplicationManifes
 		bool L_5 = ___bTemporary1;
 		NullCheck(L_3);
 		int32_t L_6 = _AddApplicationManifest_Invoke_m13253FF3E1626A61C5CEDE82B3C2A7C61944F115(L_3, (intptr_t)L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchApplicationManifestFullPathUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::RemoveApplicationManifest(System.String)
@@ -33146,6 +33578,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_RemoveApplicationMani
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchApplicationManifestFullPathUtf8 = Utils.ToUtf8(pchApplicationManifestFullPath);
 		String_t* L_0 = ___pchApplicationManifestFullPath0;
@@ -33158,12 +33592,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_RemoveApplicationMani
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = _RemoveApplicationManifest_Invoke_m955D53414048A815540B392318F767FADF663BC5(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchApplicationManifestFullPathUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		int32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVRApplications::IsApplicationInstalled(System.String)
@@ -33177,6 +33621,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_IsApplicationInstalled_m
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33189,30 +33635,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_IsApplicationInstalled_m
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		bool L_5 = _IsApplicationInstalled_Invoke_m85222DC1B440AD62545168C3B6E50853A64570CD(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		bool L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		bool L_8 = V_2;
+		return L_8;
 	}
 }
 // System.UInt32 Valve.VR.CVRApplications::GetApplicationCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationCount_m79EA298FED914145D4E57F5266665428415842DF (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetApplicationCount();
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
 		_GetApplicationCount_tFE6F808D5C6F2FDA3215AF2A91B13EAA9DC62D42 * L_1 = L_0->get_GetApplicationCount_3();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetApplicationCount_Invoke_mC0729ABF4F4946149ADDD90CA2E8008D6DF6C107(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::GetApplicationKeyByIndex(System.UInt32,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByIndex_mE9FB46E26EF32EC18E30BC5184C7A1B0E212D41D (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, uint32_t ___unApplicationIndex0, StringBuilder_t * ___pchAppKeyBuffer1, uint32_t ___unAppKeyBufferLen2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRApplicationError result = FnTable.GetApplicationKeyByIndex(unApplicationIndex,pchAppKeyBuffer,unAppKeyBufferLen);
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
@@ -33222,13 +33692,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByIn
 		uint32_t L_4 = ___unAppKeyBufferLen2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetApplicationKeyByIndex_Invoke_mFE9B29465080238D0869FE2420973E79E0E7F2E4(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::GetApplicationKeyByProcessId(System.UInt32,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByProcessId_mFB7A9637E54FD00C488A4AF5C1E13433E439E450 (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, uint32_t ___unProcessId0, StringBuilder_t * ___pchAppKeyBuffer1, uint32_t ___unAppKeyBufferLen2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRApplicationError result = FnTable.GetApplicationKeyByProcessId(unProcessId,pchAppKeyBuffer,unAppKeyBufferLen);
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
@@ -33238,8 +33720,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetApplicationKeyByPr
 		uint32_t L_4 = ___unAppKeyBufferLen2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetApplicationKeyByProcessId_Invoke_m609B32C9CE935757C3FE53844191444D5C89E62C(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::LaunchApplication(System.String)
@@ -33253,6 +33745,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplication_m0C
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33265,12 +33759,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplication_m0C
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = _LaunchApplication_Invoke_m632E2C0F515BC9413ED63FC74A58E16204A66E1D(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		int32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::LaunchTemplateApplication(System.String,System.String,Valve.VR.AppOverrideKeys_t[])
@@ -33286,6 +33790,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchTemplateApplica
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchTemplateAppKeyUtf8 = Utils.ToUtf8(pchTemplateAppKey);
 		String_t* L_0 = ___pchTemplateAppKey0;
@@ -33306,6 +33812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchTemplateApplica
 		NullCheck(L_9);
 		NullCheck(L_5);
 		int32_t L_10 = _LaunchTemplateApplication_Invoke_mD2B1E3465534228B6ABD3F88C14856BF06E3D06D(L_5, (intptr_t)L_6, (intptr_t)L_7, L_8, (((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))), /*hidden argument*/NULL);
+		V_2 = L_10;
 		// Marshal.FreeHGlobal(pchTemplateAppKeyUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -33314,7 +33821,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchTemplateApplica
 		intptr_t L_12 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_12, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		int32_t L_13 = V_2;
+		V_3 = L_13;
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		// }
+		int32_t L_14 = V_3;
+		return L_14;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::LaunchApplicationFromMimeType(System.String,System.String)
@@ -33330,6 +33846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplicationFrom
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchMimeTypeUtf8 = Utils.ToUtf8(pchMimeType);
 		String_t* L_0 = ___pchMimeType0;
@@ -33347,6 +33865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplicationFrom
 		intptr_t L_7 = V_1;
 		NullCheck(L_5);
 		int32_t L_8 = _LaunchApplicationFromMimeType_Invoke_m122A4EC3DC263B5676908683712EACEAEDC7C7CD(L_5, (intptr_t)L_6, (intptr_t)L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
 		// Marshal.FreeHGlobal(pchMimeTypeUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -33355,7 +33874,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchApplicationFrom
 		intptr_t L_10 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_10, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		int32_t L_11 = V_2;
+		V_3 = L_11;
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		// }
+		int32_t L_12 = V_3;
+		return L_12;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::LaunchDashboardOverlay(System.String)
@@ -33369,6 +33897,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchDashboardOverla
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33381,12 +33911,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchDashboardOverla
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = _LaunchDashboardOverlay_Invoke_mA32F420A9A1889AE47474D8591B52203278B5133(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		int32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVRApplications::CancelApplicationLaunch(System.String)
@@ -33400,6 +33940,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_CancelApplicationLaunch_
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33412,12 +33954,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_CancelApplicationLaunch_
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		bool L_5 = _CancelApplicationLaunch_Invoke_m2C01811A7EF78B92CA551FB5D8FBEEA8E3795300(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		bool L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		bool L_8 = V_2;
+		return L_8;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::IdentifyApplication(System.UInt32,System.String)
@@ -33431,6 +33983,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_IdentifyApplication_m
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey1;
@@ -33444,12 +33998,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_IdentifyApplication_m
 		intptr_t L_5 = V_0;
 		NullCheck(L_3);
 		int32_t L_6 = _IdentifyApplication_Invoke_m15E39C398ADEEEEBEFC7021B058D789DA30FA06B(L_3, L_4, (intptr_t)L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // System.UInt32 Valve.VR.CVRApplications::GetApplicationProcessId(System.String)
@@ -33463,6 +34027,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProces
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33475,12 +34041,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProces
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		uint32_t L_5 = _GetApplicationProcessId_Invoke_mF66FD312EF46879D12CF5832F6C57AEAF1B85B9D(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		uint32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		uint32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // System.String Valve.VR.CVRApplications::GetApplicationsErrorNameFromEnum(Valve.VR.EVRApplicationError)
@@ -33492,6 +34068,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetApplicationsErro
 		il2cpp_codegen_initialize_method (CVRApplications_GetApplicationsErrorNameFromEnum_m8C604AC7BF2D91963651E82ECB2E976D0706DA85_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetApplicationsErrorNameFromEnum(error);
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
@@ -33499,10 +34078,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetApplicationsErro
 		int32_t L_2 = ___error0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetApplicationsErrorNameFromEnum_Invoke_m28B6278D464110D19D177898F873311FE601ACB0(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.UInt32 Valve.VR.CVRApplications::GetApplicationPropertyString(System.String,Valve.VR.EVRApplicationProperty,System.Text.StringBuilder,System.UInt32,Valve.VR.EVRApplicationError&)
@@ -33516,6 +34105,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProper
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33532,12 +34123,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationProper
 		int32_t* L_8 = ___peError4;
 		NullCheck(L_3);
 		uint32_t L_9 = _GetApplicationPropertyString_Invoke_m4BAEE912C73B4BE6CEBD5C925A3B5967F6A43D98(L_3, (intptr_t)L_4, L_5, L_6, L_7, (int32_t*)L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_10 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_10, /*hidden argument*/NULL);
 		// return result;
-		return L_9;
+		uint32_t L_11 = V_1;
+		V_2 = L_11;
+		goto IL_002b;
+	}
+
+IL_002b:
+	{
+		// }
+		uint32_t L_12 = V_2;
+		return L_12;
 	}
 }
 // System.Boolean Valve.VR.CVRApplications::GetApplicationPropertyBool(System.String,Valve.VR.EVRApplicationProperty,Valve.VR.EVRApplicationError&)
@@ -33551,6 +34152,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationPropertyBo
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33565,12 +34168,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationPropertyBo
 		int32_t* L_6 = ___peError2;
 		NullCheck(L_3);
 		bool L_7 = _GetApplicationPropertyBool_Invoke_mA59DD56D761005EDCF74344B4EE3E4BC83DB3203(L_3, (intptr_t)L_4, L_5, (int32_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		bool L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		bool L_10 = V_2;
+		return L_10;
 	}
 }
 // System.UInt64 Valve.VR.CVRApplications::GetApplicationPropertyUint64(System.String,Valve.VR.EVRApplicationProperty,Valve.VR.EVRApplicationError&)
@@ -33584,6 +34197,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRApplications_GetApplicationProper
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint64_t V_1 = 0;
+	uint64_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33598,12 +34213,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRApplications_GetApplicationProper
 		int32_t* L_6 = ___peError2;
 		NullCheck(L_3);
 		uint64_t L_7 = _GetApplicationPropertyUint64_Invoke_m7AA7DF6ECEC3486EE001B9B6F12B44BC07D7F88F(L_3, (intptr_t)L_4, L_5, (int32_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		uint64_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		uint64_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::SetApplicationAutoLaunch(System.String,System.Boolean)
@@ -33617,6 +34242,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetApplicationAutoLau
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33630,12 +34257,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetApplicationAutoLau
 		bool L_5 = ___bAutoLaunch1;
 		NullCheck(L_3);
 		int32_t L_6 = _SetApplicationAutoLaunch_Invoke_mD5B05F8991DDC19A50F372714A02964D695A21A7(L_3, (intptr_t)L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // System.Boolean Valve.VR.CVRApplications::GetApplicationAutoLaunch(System.String)
@@ -33649,6 +34286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationAutoLaunch
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33661,12 +34300,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationAutoLaunch
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		bool L_5 = _GetApplicationAutoLaunch_Invoke_m68E78E8DF47AF44C4307F8D5112900460C5BFCDA(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		bool L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		bool L_8 = V_2;
+		return L_8;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::SetDefaultApplicationForMimeType(System.String,System.String)
@@ -33682,6 +34331,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetDefaultApplication
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33699,6 +34350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetDefaultApplication
 		intptr_t L_7 = V_1;
 		NullCheck(L_5);
 		int32_t L_8 = _SetDefaultApplicationForMimeType_Invoke_mB3F8425C5C75E41D7B135D8B494F2677A9BCEF62(L_5, (intptr_t)L_6, (intptr_t)L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -33707,7 +34359,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_SetDefaultApplication
 		intptr_t L_10 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_10, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		int32_t L_11 = V_2;
+		V_3 = L_11;
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		// }
+		int32_t L_12 = V_3;
+		return L_12;
 	}
 }
 // System.Boolean Valve.VR.CVRApplications::GetDefaultApplicationForMimeType(System.String,System.Text.StringBuilder,System.UInt32)
@@ -33721,6 +34382,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetDefaultApplicationFor
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pchMimeTypeUtf8 = Utils.ToUtf8(pchMimeType);
 		String_t* L_0 = ___pchMimeType0;
@@ -33735,12 +34398,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetDefaultApplicationFor
 		uint32_t L_6 = ___unAppKeyBufferLen2;
 		NullCheck(L_3);
 		bool L_7 = _GetDefaultApplicationForMimeType_Invoke_mC236ADF0872CD04D637736F1A11B64A14E3AA3C7(L_3, (intptr_t)L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchMimeTypeUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		bool L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		bool L_10 = V_2;
+		return L_10;
 	}
 }
 // System.Boolean Valve.VR.CVRApplications::GetApplicationSupportedMimeTypes(System.String,System.Text.StringBuilder,System.UInt32)
@@ -33754,6 +34427,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationSupportedM
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33768,12 +34443,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRApplications_GetApplicationSupportedM
 		uint32_t L_6 = ___unMimeTypesBuffer2;
 		NullCheck(L_3);
 		bool L_7 = _GetApplicationSupportedMimeTypes_Invoke_m86D1D429C68AEFC23A82DA56EF261ED3C2161D2A(L_3, (intptr_t)L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		bool L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		bool L_10 = V_2;
+		return L_10;
 	}
 }
 // System.UInt32 Valve.VR.CVRApplications::GetApplicationsThatSupportMimeType(System.String,System.Text.StringBuilder,System.UInt32)
@@ -33787,6 +34472,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationsThatS
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchMimeTypeUtf8 = Utils.ToUtf8(pchMimeType);
 		String_t* L_0 = ___pchMimeType0;
@@ -33801,17 +34488,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationsThatS
 		uint32_t L_6 = ___unAppKeysThatSupportBuffer2;
 		NullCheck(L_3);
 		uint32_t L_7 = _GetApplicationsThatSupportMimeType_Invoke_m2E44CA60342C46ADD38AEA3B650D8E45D9C25B90(L_3, (intptr_t)L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchMimeTypeUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		uint32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		uint32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // System.UInt32 Valve.VR.CVRApplications::GetApplicationLaunchArguments(System.UInt32,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationLaunchArguments_mE2927B6C482ECE35DA29056970A3BD0790C877F6 (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, uint32_t ___unHandle0, StringBuilder_t * ___pchArgs1, uint32_t ___unArgs2, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetApplicationLaunchArguments(unHandle,pchArgs,unArgs);
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
@@ -33821,13 +34520,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetApplicationLaunch
 		uint32_t L_4 = ___unArgs2;
 		NullCheck(L_1);
 		uint32_t L_5 = _GetApplicationLaunchArguments_Invoke_mFD00354633C9F588A367FA39D5EDEDD4869E0D6B(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		uint32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		uint32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::GetStartingApplication(System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetStartingApplication_mADB17D2D1A61CEA148394B964FAE5B881E247C29 (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, StringBuilder_t * ___pchAppKeyBuffer0, uint32_t ___unAppKeyBufferLen1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRApplicationError result = FnTable.GetStartingApplication(pchAppKeyBuffer,unAppKeyBufferLen);
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
@@ -33836,21 +34547,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetStartingApplicatio
 		uint32_t L_3 = ___unAppKeyBufferLen1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetStartingApplication_Invoke_m21A9C1890FBEBA71368CD45CD20B7A9FDD4B5539(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRSceneApplicationState Valve.VR.CVRApplications::GetSceneApplicationState()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_GetSceneApplicationState_m4175C1A35A06176AF73328E9CDAB5412E44B830B (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRSceneApplicationState result = FnTable.GetSceneApplicationState();
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
 		_GetSceneApplicationState_t74F3123940A5EF0E753B6C35745F93094A2F4F9D * L_1 = L_0->get_GetSceneApplicationState_25();
 		NullCheck(L_1);
 		int32_t L_2 = _GetSceneApplicationState_Invoke_m542DB784BA10AE93AE1838092FD8FDEEC588EB0D(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::PerformApplicationPrelaunchCheck(System.String)
@@ -33864,6 +34597,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_PerformApplicationPre
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -33876,12 +34611,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_PerformApplicationPre
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = _PerformApplicationPrelaunchCheck_Invoke_m8D6EF01D0CB9E75F2A8B15D08398E961F2A5E382(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		int32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // System.String Valve.VR.CVRApplications::GetSceneApplicationStateNameFromEnum(Valve.VR.EVRSceneApplicationState)
@@ -33893,6 +34638,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetSceneApplication
 		il2cpp_codegen_initialize_method (CVRApplications_GetSceneApplicationStateNameFromEnum_m9F90E77631BA47C002CF48BE95A39A8BB11D5D08_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetSceneApplicationStateNameFromEnum(state);
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
@@ -33900,10 +34648,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRApplications_GetSceneApplication
 		int32_t L_2 = ___state0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetSceneApplicationStateNameFromEnum_Invoke_m052BE2700BFEAC0B9C2C02D7EEDDE1A678140CCC(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRApplicationError Valve.VR.CVRApplications::LaunchInternalProcess(System.String,System.String,System.String)
@@ -33921,6 +34679,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchInternalProcess
 	memset((&V_1), 0, sizeof(V_1));
 	intptr_t V_2;
 	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
 	{
 		// IntPtr pchBinaryPathUtf8 = Utils.ToUtf8(pchBinaryPath);
 		String_t* L_0 = ___pchBinaryPath0;
@@ -33943,6 +34703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchInternalProcess
 		intptr_t L_10 = V_2;
 		NullCheck(L_7);
 		int32_t L_11 = _LaunchInternalProcess_Invoke_m2F475AA428329139DCA7BE848602D64AF5B73843(L_7, (intptr_t)L_8, (intptr_t)L_9, (intptr_t)L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
 		// Marshal.FreeHGlobal(pchBinaryPathUtf8);
 		intptr_t L_12 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -33954,20 +34715,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRApplications_LaunchInternalProcess
 		intptr_t L_14 = V_2;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_14, /*hidden argument*/NULL);
 		// return result;
-		return L_11;
+		int32_t L_15 = V_3;
+		V_4 = L_15;
+		goto IL_0044;
+	}
+
+IL_0044:
+	{
+		// }
+		int32_t L_16 = V_4;
+		return L_16;
 	}
 }
 // System.UInt32 Valve.VR.CVRApplications::GetCurrentSceneProcessId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRApplications_GetCurrentSceneProcessId_m850EB4BD17C1FF3D17C3783B2CD0519B5E8F943F (CVRApplications_t95FA62201CE618CC19C6F3DC101499E9CA4E069B * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetCurrentSceneProcessId();
 		IVRApplications_t9B9C7922212D792775491BD047C0884783A45D00 * L_0 = __this->get_address_of_FnTable_0();
 		_GetCurrentSceneProcessId_tCD02584FA554C2D2A79C8F2AD3A5D9E71F12157F * L_1 = L_0->get_GetCurrentSceneProcessId_29();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetCurrentSceneProcessId_Invoke_m7BC66763C751577BB5DD8F7319404E7B52C651B6(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 #ifdef __clang__
@@ -34013,6 +34795,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_Create_mACEB24379458AAC
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// pulQueueHandle = 0;
 		uint64_t* L_0 = ___pulQueueHandle0;
@@ -34032,12 +34816,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_Create_mACEB24379458AAC
 		uint32_t L_9 = ___unBlockCount4;
 		NullCheck(L_4);
 		int32_t L_10 = _Create_Invoke_m412FACAC89B0B86905CB76B411F04A70053BC8B3(L_4, (uint64_t*)L_5, (intptr_t)L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
 		// Marshal.FreeHGlobal(pchPathUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_11, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		int32_t L_12 = V_1;
+		V_2 = L_12;
+		goto IL_002f;
+	}
+
+IL_002f:
+	{
+		// }
+		int32_t L_13 = V_2;
+		return L_13;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::Connect(System.UInt64&,System.String)
@@ -34051,6 +34845,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_Connect_m4721DBB0DCD573
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// pulQueueHandle = 0;
 		uint64_t* L_0 = ___pulQueueHandle0;
@@ -34067,17 +34863,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_Connect_m4721DBB0DCD573
 		intptr_t L_6 = V_0;
 		NullCheck(L_4);
 		int32_t L_7 = _Connect_Invoke_m528132D505FE88E2CFE0AD020F372196FFC4489F(L_4, (uint64_t*)L_5, (intptr_t)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchPathUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::Destroy(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_Destroy_m721D572F37DE5C8D2BF5EABE467A525630AD6E2D (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EBlockQueueError result = FnTable.Destroy(ulQueueHandle);
 		IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5 * L_0 = __this->get_address_of_FnTable_0();
@@ -34085,13 +34893,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_Destroy_m721D572F37DE5C
 		uint64_t L_2 = ___ulQueueHandle0;
 		NullCheck(L_1);
 		int32_t L_3 = _Destroy_Invoke_mF1B732002DD63D8B8E61D67919631350896C25F7(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::AcquireWriteOnlyBlock(System.UInt64,System.UInt64&,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_AcquireWriteOnlyBlock_m32CE939C2B35E5F40A6F7BD8055090A5A93501B1 (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pulBlockHandle = 0;
 		uint64_t* L_0 = ___pulBlockHandle1;
@@ -34104,13 +34924,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_AcquireWriteOnlyBlock_m
 		intptr_t* L_5 = ___ppvBuffer2;
 		NullCheck(L_2);
 		int32_t L_6 = _AcquireWriteOnlyBlock_Invoke_m6820570F432DC106027064DF66D3FF695126805C(L_2, L_3, (uint64_t*)L_4, (intptr_t*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::ReleaseWriteOnlyBlock(System.UInt64,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_ReleaseWriteOnlyBlock_m859C162B008BD7B9FCC2A1B594049459AAFC9C0A (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, uint64_t ___ulBlockHandle1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EBlockQueueError result = FnTable.ReleaseWriteOnlyBlock(ulQueueHandle,ulBlockHandle);
 		IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5 * L_0 = __this->get_address_of_FnTable_0();
@@ -34119,13 +34951,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_ReleaseWriteOnlyBlock_m
 		uint64_t L_3 = ___ulBlockHandle1;
 		NullCheck(L_1);
 		int32_t L_4 = _ReleaseWriteOnlyBlock_Invoke_m876DA67610E0CA2DF0CF8F01E7C7A2183F8BE16C(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::WaitAndAcquireReadOnlyBlock(System.UInt64,System.UInt64&,System.IntPtr&,Valve.VR.EBlockQueueReadType,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_WaitAndAcquireReadOnlyBlock_m89E58FE10D9EF0855AC94720B41FFEA9725D170F (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, uint32_t ___unTimeoutMs4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pulBlockHandle = 0;
 		uint64_t* L_0 = ___pulBlockHandle1;
@@ -34140,13 +34984,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_WaitAndAcquireReadOnlyB
 		uint32_t L_7 = ___unTimeoutMs4;
 		NullCheck(L_2);
 		int32_t L_8 = _WaitAndAcquireReadOnlyBlock_Invoke_mC936FED7449433AC2B10BB99517E372C7DBDC052(L_2, L_3, (uint64_t*)L_4, (intptr_t*)L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::AcquireReadOnlyBlock(System.UInt64,System.UInt64&,System.IntPtr&,Valve.VR.EBlockQueueReadType)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_AcquireReadOnlyBlock_m0AD32FAB371E02F36ECB05D00B0A28712035140E (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pulBlockHandle = 0;
 		uint64_t* L_0 = ___pulBlockHandle1;
@@ -34160,13 +35016,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_AcquireReadOnlyBlock_m0
 		int32_t L_6 = ___eReadType3;
 		NullCheck(L_2);
 		int32_t L_7 = _AcquireReadOnlyBlock_Invoke_mDD155967A8827136E4C67BF25839733C4BBD33C4(L_2, L_3, (uint64_t*)L_4, (intptr_t*)L_5, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::ReleaseReadOnlyBlock(System.UInt64,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_ReleaseReadOnlyBlock_m777DBF7BECCE935936645D5CE6163C4871B52DED (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, uint64_t ___ulBlockHandle1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EBlockQueueError result = FnTable.ReleaseReadOnlyBlock(ulQueueHandle,ulBlockHandle);
 		IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5 * L_0 = __this->get_address_of_FnTable_0();
@@ -34175,13 +35043,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_ReleaseReadOnlyBlock_m7
 		uint64_t L_3 = ___ulBlockHandle1;
 		NullCheck(L_1);
 		int32_t L_4 = _ReleaseReadOnlyBlock_Invoke_m00B7310B708FCDB552A4678807FFBEFD0DAF2DA0(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EBlockQueueError Valve.VR.CVRBlockQueue::QueueHasReader(System.UInt64,System.Boolean&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_QueueHasReader_mA42970D5EC7F6152681710D04837FCD1E3D148B9 (CVRBlockQueue_tDE4102547999BE49D40F383B445E10CAEB67D310 * __this, uint64_t ___ulQueueHandle0, bool* ___pbHasReaders1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pbHasReaders = false;
 		bool* L_0 = ___pbHasReaders1;
@@ -34193,8 +35073,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRBlockQueue_QueueHasReader_mA42970D
 		bool* L_4 = ___pbHasReaders1;
 		NullCheck(L_2);
 		int32_t L_5 = _QueueHasReader_Invoke_m5BB814F06AD39C79FF5163450FE0D44EF6631F0A(L_2, L_3, (bool*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 #ifdef __clang__
@@ -34232,19 +35122,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone__ctor_mEB1D4CC6AA91E9F148C6
 // Valve.VR.ChaperoneCalibrationState Valve.VR.CVRChaperone::GetCalibrationState()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRChaperone_GetCalibrationState_mBFCD6C3A8068FC3FBDC9EB0E468C49F92BA33314 (CVRChaperone_t17BEFE8BBD7A7A6C5DF495799D9302EDB300BC73 * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ChaperoneCalibrationState result = FnTable.GetCalibrationState();
 		IVRChaperone_t3086BE05574261522D4460986E7E1C0D5619FCF4 * L_0 = __this->get_address_of_FnTable_0();
 		_GetCalibrationState_t7D327982A33D586F1E1A08EF61001874E2FC08AD * L_1 = L_0->get_GetCalibrationState_0();
 		NullCheck(L_1);
 		int32_t L_2 = _GetCalibrationState_Invoke_m2B2B8DC361E167628CAE8AD7CCCF7548FE089DDD(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperone::GetPlayAreaSize(System.Single&,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaSize_mC7D9F992321A9A8EDFB39D20F77BDECC955CFC7F (CVRChaperone_t17BEFE8BBD7A7A6C5DF495799D9302EDB300BC73 * __this, float* ___pSizeX0, float* ___pSizeZ1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// pSizeX = 0;
 		float* L_0 = ___pSizeX0;
@@ -34259,13 +35163,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaSize_mC7D9F99232
 		float* L_5 = ___pSizeZ1;
 		NullCheck(L_3);
 		bool L_6 = _GetPlayAreaSize_Invoke_m0A94C0DE871EA2CF0410D702813001431F2EF64E(L_3, (float*)L_4, (float*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		bool L_7 = V_0;
+		V_1 = L_7;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		bool L_8 = V_1;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperone::GetPlayAreaRect(Valve.VR.HmdQuad_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaRect_m693E15F42185A413880F2EB18D7688FA0E2BE423 (CVRChaperone_t17BEFE8BBD7A7A6C5DF495799D9302EDB300BC73 * __this, HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038F * ___rect0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetPlayAreaRect(ref rect);
 		IVRChaperone_t3086BE05574261522D4460986E7E1C0D5619FCF4 * L_0 = __this->get_address_of_FnTable_0();
@@ -34273,8 +35189,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_GetPlayAreaRect_m693E15F421
 		HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038F * L_2 = ___rect0;
 		NullCheck(L_1);
 		bool L_3 = _GetPlayAreaRect_Invoke_m5AC0A6524F4E2B4077861EAA543C3A4E97427467(L_1, (HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038F *)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRChaperone::ReloadInfo()
@@ -34324,14 +35250,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperone_GetBoundsColor_m80AB40C3F2C
 // System.Boolean Valve.VR.CVRChaperone::AreBoundsVisible()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperone_AreBoundsVisible_m28E079F0C15F08941ED58C33EB6B6E980967B240 (CVRChaperone_t17BEFE8BBD7A7A6C5DF495799D9302EDB300BC73 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.AreBoundsVisible();
 		IVRChaperone_t3086BE05574261522D4460986E7E1C0D5619FCF4 * L_0 = __this->get_address_of_FnTable_0();
 		_AreBoundsVisible_t1916B3BCA37D063B31047A7A13A7D0CEC729A8A0 * L_1 = L_0->get_AreBoundsVisible_6();
 		NullCheck(L_1);
 		bool L_2 = _AreBoundsVisible_Invoke_m427C43D6B0081E3AB82613BB6C199E0B25DC806F(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRChaperone::ForceBoundsVisible(System.Boolean)
@@ -34397,6 +35335,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup__ctor_m812EEE54DF50320
 // System.Boolean Valve.VR.CVRChaperoneSetup::CommitWorkingCopy(Valve.VR.EChaperoneConfigFile)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_CommitWorkingCopy_mD79F42CF913B0D308A6401369C41117E7386C3CA (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, int32_t ___configFile0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.CommitWorkingCopy(configFile);
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
@@ -34404,8 +35344,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_CommitWorkingCopy_mD79
 		int32_t L_2 = ___configFile0;
 		NullCheck(L_1);
 		bool L_3 = _CommitWorkingCopy_Invoke_mD62C7580ADC1DA19A15F1DC99DC7A3705C78412F(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRChaperoneSetup::RevertWorkingCopy()
@@ -34424,6 +35374,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_RevertWorkingCopy_mB53
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetWorkingPlayAreaSize(System.Single&,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaSize_mE825DAD3AC8B327774C43406C6CB5D5541BD948B (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, float* ___pSizeX0, float* ___pSizeZ1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// pSizeX = 0;
 		float* L_0 = ___pSizeX0;
@@ -34438,13 +35390,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaSize
 		float* L_5 = ___pSizeZ1;
 		NullCheck(L_3);
 		bool L_6 = _GetWorkingPlayAreaSize_Invoke_m20BF12F418068B088279BDC8FC687731578C9956(L_3, (float*)L_4, (float*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		bool L_7 = V_0;
+		V_1 = L_7;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		bool L_8 = V_1;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetWorkingPlayAreaRect(Valve.VR.HmdQuad_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaRect_mC7B7AE179C2D773BA9AD812A0A568C3D3D98F9E3 (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038F * ___rect0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetWorkingPlayAreaRect(ref rect);
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
@@ -34452,8 +35416,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingPlayAreaRect
 		HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038F * L_2 = ___rect0;
 		NullCheck(L_1);
 		bool L_3 = _GetWorkingPlayAreaRect_Invoke_m79F78E9709EF90F57E553BCD3A218F2864F7D3FA(L_1, (HmdQuad_t_t02F149FAF9044A5AC30E38DAB7243205E4B0038F *)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetWorkingCollisionBoundsInfo(Valve.VR.HmdQuad_t[]&)
@@ -34466,6 +35440,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingCollisionBou
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// uint punQuadsCount = 0;
 		V_0 = 0;
@@ -34473,22 +35449,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingCollisionBou
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
 		_GetWorkingCollisionBoundsInfo_tCBE0865A1F2EAD606F7AC828FF5E0B5B2254028B * L_1 = L_0->get_GetWorkingCollisionBoundsInfo_4();
 		NullCheck(L_1);
-		_GetWorkingCollisionBoundsInfo_Invoke_mA6A533EC8435C95C0ADCBCDBE8C8BF36D11BA409(L_1, (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)NULL, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		bool L_2 = _GetWorkingCollisionBoundsInfo_Invoke_mA6A533EC8435C95C0ADCBCDBE8C8BF36D11BA409(L_1, (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)NULL, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		V_1 = L_2;
 		// pQuadsBuffer= new HmdQuad_t[punQuadsCount];
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_2 = ___pQuadsBuffer0;
-		uint32_t L_3 = V_0;
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_4 = (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)SZArrayNew(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969_il2cpp_TypeInfo_var, (uint32_t)L_3);
-		*((RuntimeObject **)L_2) = (RuntimeObject *)L_4;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_2, (void*)(RuntimeObject *)L_4);
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_3 = ___pQuadsBuffer0;
+		uint32_t L_4 = V_0;
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_5 = (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)SZArrayNew(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		*((RuntimeObject **)L_3) = (RuntimeObject *)L_5;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_3, (void*)(RuntimeObject *)L_5);
 		// result = FnTable.GetWorkingCollisionBoundsInfo(pQuadsBuffer,ref punQuadsCount);
-		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_5 = __this->get_address_of_FnTable_0();
-		_GetWorkingCollisionBoundsInfo_tCBE0865A1F2EAD606F7AC828FF5E0B5B2254028B * L_6 = L_5->get_GetWorkingCollisionBoundsInfo_4();
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_7 = ___pQuadsBuffer0;
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_8 = *((HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969**)L_7);
-		NullCheck(L_6);
-		bool L_9 = _GetWorkingCollisionBoundsInfo_Invoke_mA6A533EC8435C95C0ADCBCDBE8C8BF36D11BA409(L_6, L_8, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_6 = __this->get_address_of_FnTable_0();
+		_GetWorkingCollisionBoundsInfo_tCBE0865A1F2EAD606F7AC828FF5E0B5B2254028B * L_7 = L_6->get_GetWorkingCollisionBoundsInfo_4();
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_8 = ___pQuadsBuffer0;
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_9 = *((HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969**)L_8);
+		NullCheck(L_7);
+		bool L_10 = _GetWorkingCollisionBoundsInfo_Invoke_mA6A533EC8435C95C0ADCBCDBE8C8BF36D11BA409(L_7, L_9, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		V_1 = L_10;
 		// return result;
-		return L_9;
+		bool L_11 = V_1;
+		V_2 = L_11;
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		// }
+		bool L_12 = V_2;
+		return L_12;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetLiveCollisionBoundsInfo(Valve.VR.HmdQuad_t[]&)
@@ -34501,6 +35488,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// uint punQuadsCount = 0;
 		V_0 = 0;
@@ -34508,27 +35497,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveCollisionBounds
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
 		_GetLiveCollisionBoundsInfo_t8E2271BC696FFC275A5002F6C5E2F4AF67DF65D9 * L_1 = L_0->get_GetLiveCollisionBoundsInfo_5();
 		NullCheck(L_1);
-		_GetLiveCollisionBoundsInfo_Invoke_mE1F91F1678A05D342FC8A2F50C928DB931B85A2E(L_1, (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)NULL, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		bool L_2 = _GetLiveCollisionBoundsInfo_Invoke_mE1F91F1678A05D342FC8A2F50C928DB931B85A2E(L_1, (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)NULL, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		V_1 = L_2;
 		// pQuadsBuffer= new HmdQuad_t[punQuadsCount];
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_2 = ___pQuadsBuffer0;
-		uint32_t L_3 = V_0;
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_4 = (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)SZArrayNew(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969_il2cpp_TypeInfo_var, (uint32_t)L_3);
-		*((RuntimeObject **)L_2) = (RuntimeObject *)L_4;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_2, (void*)(RuntimeObject *)L_4);
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_3 = ___pQuadsBuffer0;
+		uint32_t L_4 = V_0;
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_5 = (HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969*)SZArrayNew(HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		*((RuntimeObject **)L_3) = (RuntimeObject *)L_5;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject **)L_3, (void*)(RuntimeObject *)L_5);
 		// result = FnTable.GetLiveCollisionBoundsInfo(pQuadsBuffer,ref punQuadsCount);
-		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_5 = __this->get_address_of_FnTable_0();
-		_GetLiveCollisionBoundsInfo_t8E2271BC696FFC275A5002F6C5E2F4AF67DF65D9 * L_6 = L_5->get_GetLiveCollisionBoundsInfo_5();
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_7 = ___pQuadsBuffer0;
-		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_8 = *((HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969**)L_7);
-		NullCheck(L_6);
-		bool L_9 = _GetLiveCollisionBoundsInfo_Invoke_mE1F91F1678A05D342FC8A2F50C928DB931B85A2E(L_6, L_8, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_6 = __this->get_address_of_FnTable_0();
+		_GetLiveCollisionBoundsInfo_t8E2271BC696FFC275A5002F6C5E2F4AF67DF65D9 * L_7 = L_6->get_GetLiveCollisionBoundsInfo_5();
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969** L_8 = ___pQuadsBuffer0;
+		HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969* L_9 = *((HmdQuad_tU5BU5D_tB12F025E9AFBDF585018EBCA61436F975E449969**)L_8);
+		NullCheck(L_7);
+		bool L_10 = _GetLiveCollisionBoundsInfo_Invoke_mE1F91F1678A05D342FC8A2F50C928DB931B85A2E(L_7, L_9, (uint32_t*)(&V_0), /*hidden argument*/NULL);
+		V_1 = L_10;
 		// return result;
-		return L_9;
+		bool L_11 = V_1;
+		V_2 = L_11;
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		// }
+		bool L_12 = V_2;
+		return L_12;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose(Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingSeatedZeroPoseToRawTrackingPose_m1E850681C417EC8AF204B90CD6417C3FCC343EA9 (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatSeatedZeroPoseToRawTrackingPose0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetWorkingSeatedZeroPoseToRawTrackingPose(ref pmatSeatedZeroPoseToRawTrackingPose);
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
@@ -34536,13 +35538,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingSeatedZeroPo
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_2 = ___pmatSeatedZeroPoseToRawTrackingPose0;
 		NullCheck(L_1);
 		bool L_3 = _GetWorkingSeatedZeroPoseToRawTrackingPose_Invoke_m179283D07C19038F28E64D0073CDA650B7F28C03(L_1, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose(Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingStandingZeroPoseToRawTrackingPose_m8F3BC9A85C6735E9C3033DF21F0AC38E12EDAB01 (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatStandingZeroPoseToRawTrackingPose0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetWorkingStandingZeroPoseToRawTrackingPose(ref pmatStandingZeroPoseToRawTrackingPose);
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
@@ -34550,8 +35564,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetWorkingStandingZero
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_2 = ___pmatStandingZeroPoseToRawTrackingPose0;
 		NullCheck(L_1);
 		bool L_3 = _GetWorkingStandingZeroPoseToRawTrackingPose_Invoke_m8F3F25032C7BA054E29DD370079FAEE1B78EC060(L_1, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRChaperoneSetup::SetWorkingPlayAreaSize(System.Single,System.Single)
@@ -34646,6 +35670,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRChaperoneSetup_ReloadFromDisk_mFD3022
 // System.Boolean Valve.VR.CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose(Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveSeatedZeroPoseToRawTrackingPose_mD28C4CA51D83268CDF7F57D714B6C69E587D886A (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatSeatedZeroPoseToRawTrackingPose0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetLiveSeatedZeroPoseToRawTrackingPose(ref pmatSeatedZeroPoseToRawTrackingPose);
 		IVRChaperoneSetup_t9E0AAF9C52B6EC4F8C1E9F7A7F1B22043808ED0F * L_0 = __this->get_address_of_FnTable_0();
@@ -34653,13 +35679,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_GetLiveSeatedZeroPoseT
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_2 = ___pmatSeatedZeroPoseToRawTrackingPose0;
 		NullCheck(L_1);
 		bool L_3 = _GetLiveSeatedZeroPoseToRawTrackingPose_Invoke_m95CC5E17B1B02EC957F523CEA586611A5E07B7F0(L_1, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::ExportLiveToBuffer(System.Text.StringBuilder,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ExportLiveToBuffer_mEC43026C688937DCD78872CF91B339AD0D212E4F (CVRChaperoneSetup_t10C67CFBE19785FF424B403529434847E3392083 * __this, StringBuilder_t * ___pBuffer0, uint32_t* ___pnBufferLength1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// pnBufferLength = 0;
 		uint32_t* L_0 = ___pnBufferLength1;
@@ -34671,8 +35709,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ExportLiveToBuffer_mEC
 		uint32_t* L_4 = ___pnBufferLength1;
 		NullCheck(L_2);
 		bool L_5 = _ExportLiveToBuffer_Invoke_mC0A49C5584DF7287952A9673E28ED474F129EB79(L_2, L_3, (uint32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		bool L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		bool L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Boolean Valve.VR.CVRChaperoneSetup::ImportFromBufferToWorking(System.String,System.UInt32)
@@ -34686,6 +35734,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ImportFromBufferToWork
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	bool V_2 = false;
 	{
 		// IntPtr pBufferUtf8 = Utils.ToUtf8(pBuffer);
 		String_t* L_0 = ___pBuffer0;
@@ -34699,12 +35749,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRChaperoneSetup_ImportFromBufferToWork
 		uint32_t L_5 = ___nImportFlags1;
 		NullCheck(L_3);
 		bool L_6 = _ImportFromBufferToWorking_Invoke_m89C838DC82C4FA2E80B285EF3817AC5E4071F44D(L_3, (intptr_t)L_4, L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pBufferUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		bool L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		bool L_9 = V_2;
+		return L_9;
 	}
 }
 // System.Void Valve.VR.CVRChaperoneSetup::ShowWorkingSetPreview()
@@ -34795,19 +35855,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SetTrackingSpace_m25BF0740
 // Valve.VR.ETrackingUniverseOrigin Valve.VR.CVRCompositor::GetTrackingSpace()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetTrackingSpace_mD8CE4300448DA53C5F6EC1D9F6D96271B2B93616 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackingUniverseOrigin result = FnTable.GetTrackingSpace();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_GetTrackingSpace_tA79B4C912BD02AA0EDD83FC57FAE73E46E5B882D * L_1 = L_0->get_GetTrackingSpace_1();
 		NullCheck(L_1);
 		int32_t L_2 = _GetTrackingSpace_Invoke_mBCE98E49C7819603F0F250922E14C08ABBF120D6(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::WaitGetPoses(Valve.VR.TrackedDevicePose_t[],Valve.VR.TrackedDevicePose_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_WaitGetPoses_mE138DF8727DB117BDC9DD4A1D9ACAE7434918BFB (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, TrackedDevicePose_tU5BU5D_t834D8F56C2AAEA76919E1F07D5FB7CCEBBC3CB9C* ___pRenderPoseArray0, TrackedDevicePose_tU5BU5D_t834D8F56C2AAEA76919E1F07D5FB7CCEBBC3CB9C* ___pGamePoseArray1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.WaitGetPoses(pRenderPoseArray,(uint) pRenderPoseArray.Length,pGamePoseArray,(uint) pGamePoseArray.Length);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34820,13 +35894,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_WaitGetPoses_mE138DF872
 		NullCheck(L_5);
 		NullCheck(L_1);
 		int32_t L_6 = _WaitGetPoses_Invoke_m5E40A435F4B70853F9529122C0D2CF038A333860(L_1, L_2, (((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)))), L_4, (((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::GetLastPoses(Valve.VR.TrackedDevicePose_t[],Valve.VR.TrackedDevicePose_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoses_m236D033E49CCFD67C47FC0A8679B70DCC215D720 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, TrackedDevicePose_tU5BU5D_t834D8F56C2AAEA76919E1F07D5FB7CCEBBC3CB9C* ___pRenderPoseArray0, TrackedDevicePose_tU5BU5D_t834D8F56C2AAEA76919E1F07D5FB7CCEBBC3CB9C* ___pGamePoseArray1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.GetLastPoses(pRenderPoseArray,(uint) pRenderPoseArray.Length,pGamePoseArray,(uint) pGamePoseArray.Length);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34839,13 +35925,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoses_m236D033E4
 		NullCheck(L_5);
 		NullCheck(L_1);
 		int32_t L_6 = _GetLastPoses_Invoke_m0D2CE329D7570AA242AEF11A0E8AEAE3E8DC6D62(L_1, L_2, (((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)))), L_4, (((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::GetLastPoseForTrackedDeviceIndex(System.UInt32,Valve.VR.TrackedDevicePose_t&,Valve.VR.TrackedDevicePose_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoseForTrackedDeviceIndex_mBB22EE8278EFA477FC440E25372A250CDB79B72A (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, uint32_t ___unDeviceIndex0, TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * ___pOutputPose1, TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * ___pOutputGamePose2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.GetLastPoseForTrackedDeviceIndex(unDeviceIndex,ref pOutputPose,ref pOutputGamePose);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34855,13 +35953,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPoseForTrackedDe
 		TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * L_4 = ___pOutputGamePose2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetLastPoseForTrackedDeviceIndex_Invoke_mB61532E38E0883AECD2B935057BAA76791BB64EE(L_1, L_2, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_3, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::Submit(Valve.VR.EVREye,Valve.VR.Texture_t&,Valve.VR.VRTextureBounds_t&,Valve.VR.EVRSubmitFlags)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_Submit_mBC62EB4B0B73C303B7F4203F86E7FC1254042E78 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, int32_t ___eEye0, Texture_t_t8AA6A3A1B2BA9BC4D366991AAC8BD0C2788D37E5 * ___pTexture1, VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * ___pBounds2, int32_t ___nSubmitFlags3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.Submit(eEye,ref pTexture,ref pBounds,nSubmitFlags);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34872,8 +35982,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_Submit_mBC62EB4B0B73C30
 		int32_t L_5 = ___nSubmitFlags3;
 		NullCheck(L_1);
 		int32_t L_6 = _Submit_Invoke_m5A46D9E4C920B04568E8535B997E70E9DDAFA05D(L_1, L_2, (Texture_t_t8AA6A3A1B2BA9BC4D366991AAC8BD0C2788D37E5 *)L_3, (VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 *)L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::ClearLastSubmittedFrame()
@@ -34905,6 +36025,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_PostPresentHandoff_m538D23
 // System.Boolean Valve.VR.CVRCompositor::GetFrameTiming(Valve.VR.Compositor_FrameTiming&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetFrameTiming_m15D68C6643EB8763F9EB3784C3634467DEE86998 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, Compositor_FrameTiming_t499514BD3B082B37C89C536809E62643D113F502 * ___pTiming0, uint32_t ___unFramesAgo1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetFrameTiming(ref pTiming,unFramesAgo);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34913,13 +36035,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetFrameTiming_m15D68C6643
 		uint32_t L_3 = ___unFramesAgo1;
 		NullCheck(L_1);
 		bool L_4 = _GetFrameTiming_Invoke_mFFD8DE2BE77A8D576B3167C33FC11B007DCF35EA(L_1, (Compositor_FrameTiming_t499514BD3B082B37C89C536809E62643D113F502 *)L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		bool L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		bool L_6 = V_1;
+		return L_6;
 	}
 }
 // System.UInt32 Valve.VR.CVRCompositor::GetFrameTimings(Valve.VR.Compositor_FrameTiming[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetFrameTimings_m9A8F20652E166877D35DC6B597273B2F46709426 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, Compositor_FrameTimingU5BU5D_t3A7867CF1F0FFEC1736E18CF05BF904DB14360E7* ___pTiming0, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetFrameTimings(pTiming,(uint) pTiming.Length);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34929,21 +36063,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetFrameTimings_m9A8F2
 		NullCheck(L_3);
 		NullCheck(L_1);
 		uint32_t L_4 = _GetFrameTimings_Invoke_m1ECBCA45242D34E054574DEAD5A29E58EF483149(L_1, L_2, (((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		uint32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		// }
+		uint32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Single Valve.VR.CVRCompositor::GetFrameTimeRemaining()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRCompositor_GetFrameTimeRemaining_m6DF252F25C2BF0057798A6CEEDD95AB0F163772F (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
 	{
 		// float result = FnTable.GetFrameTimeRemaining();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_GetFrameTimeRemaining_t16772D3C0E808D2B3CF0E7DC54E70DA170377937 * L_1 = L_0->get_GetFrameTimeRemaining_10();
 		NullCheck(L_1);
 		float L_2 = _GetFrameTimeRemaining_Invoke_m9F36795A553B849104DD4B84E93DE113E2A02D09(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		float L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		float L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::GetCumulativeStats(Valve.VR.Compositor_CumulativeStats&,System.UInt32)
@@ -34983,6 +36139,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeToColor_mAE71DC4814F58
 // Valve.VR.HmdColor_t Valve.VR.CVRCompositor::GetCurrentFadeColor(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9  CVRCompositor_GetCurrentFadeColor_mD12C560842DD8BAC4B5BEEA0D2348DCA3BF4EB6B (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, bool ___bBackground0, const RuntimeMethod* method)
 {
+	HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HmdColor_t result = FnTable.GetCurrentFadeColor(bBackground);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -34990,8 +36150,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B7
 		bool L_2 = ___bBackground0;
 		NullCheck(L_1);
 		HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9  L_3 = _GetCurrentFadeColor_Invoke_m3A565A37FCC39B533667415F023E9C782EF42029(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9  L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		HmdColor_t_tD41B7B73D6E69044EAA8442774C2AD0B77047CB9  L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::FadeGrid(System.Single,System.Boolean)
@@ -35012,19 +36182,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_FadeGrid_m8032D7C24FD9CC44
 // System.Single Valve.VR.CVRCompositor::GetCurrentGridAlpha()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRCompositor_GetCurrentGridAlpha_m8B1493BA54B71F170A65249BC31EF7F3F3012829 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
 	{
 		// float result = FnTable.GetCurrentGridAlpha();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_GetCurrentGridAlpha_tCD27A87A08B3BC2217FFA6594EE4BB6D6BF47168 * L_1 = L_0->get_GetCurrentGridAlpha_15();
 		NullCheck(L_1);
 		float L_2 = _GetCurrentGridAlpha_Invoke_mAE5612038EEDB66EDA1553D057B16A9BC56F8483(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		float L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		float L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::SetSkyboxOverride(Valve.VR.Texture_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetSkyboxOverride_m9D807C73DDE075749E495FCC8652E568316EB150 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, Texture_tU5BU5D_t877BAD931C52D70DB38D33763A2A1EE3B89F7665* ___pTextures0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.SetSkyboxOverride(pTextures,(uint) pTextures.Length);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35034,8 +36218,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetSkyboxOverride_m9D80
 		NullCheck(L_3);
 		NullCheck(L_1);
 		int32_t L_4 = _SetSkyboxOverride_Invoke_m422FA534BE787AD97B611EBC82438E658A531E23(L_1, L_2, (((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::ClearSkyboxOverride()
@@ -35093,53 +36287,101 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorQuit_m077BBB1466
 // System.Boolean Valve.VR.CVRCompositor::IsFullscreen()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsFullscreen_mB6E79D65D7627B00FE98153F2C586A724049D5D8 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsFullscreen();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_IsFullscreen_t2BFAAACCFEB1F40A52B7B16899A85C757F233B0C * L_1 = L_0->get_IsFullscreen_21();
 		NullCheck(L_1);
 		bool L_2 = _IsFullscreen_Invoke_mBDF9AE1B73859A1F229271303B1288A7EEA53507(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.UInt32 Valve.VR.CVRCompositor::GetCurrentSceneFocusProcess()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetCurrentSceneFocusProcess_m9A2AD7C597A579C1C731A12A26CF7DEF4F2016B1 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetCurrentSceneFocusProcess();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_GetCurrentSceneFocusProcess_t6421A3BC4B38C84F358F6074A3D3083DA382020F * L_1 = L_0->get_GetCurrentSceneFocusProcess_22();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetCurrentSceneFocusProcess_Invoke_mF0DAE9B6DC891E8009C74BB03EEFAF77E6B293BF(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.UInt32 Valve.VR.CVRCompositor::GetLastFrameRenderer()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetLastFrameRenderer_mCAB3291B261C8C70D3AE08AA78F833EB85A493F2 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetLastFrameRenderer();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_GetLastFrameRenderer_tB18D1C5D91FD3CE71BD6E8C72EA50E970201EDDD * L_1 = L_0->get_GetLastFrameRenderer_23();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetLastFrameRenderer_Invoke_m4D0612BCE129E02FDBB80986E3828186F716ABCE(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRCompositor::CanRenderScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_CanRenderScene_m82ACFAE5E2BBB77E19321F862EAB25D081782F70 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.CanRenderScene();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_CanRenderScene_t16F551BADB55D7F930B6509B204D97A79561A666 * L_1 = L_0->get_CanRenderScene_24();
 		NullCheck(L_1);
 		bool L_2 = _CanRenderScene_Invoke_m3C7BCC94FCB6B4D943C4BFE5884E2F615633D619(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::ShowMirrorWindow()
@@ -35171,14 +36413,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_HideMirrorWindow_m06DBCBBC
 // System.Boolean Valve.VR.CVRCompositor::IsMirrorWindowVisible()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsMirrorWindowVisible_mECF927E53CA09B35759BA44B687533B3773D6262 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsMirrorWindowVisible();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_IsMirrorWindowVisible_tB080895D09F4C11C79F65D88DEB0D0759D8C0E4E * L_1 = L_0->get_IsMirrorWindowVisible_27();
 		NullCheck(L_1);
 		bool L_2 = _IsMirrorWindowVisible_Invoke_m52EE0CD1467395E4D5993909FAB6EB6CE082FACB(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::CompositorDumpImages()
@@ -35197,14 +36451,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_CompositorDumpImages_mDAF6
 // System.Boolean Valve.VR.CVRCompositor::ShouldAppRenderWithLowResources()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ShouldAppRenderWithLowResources_m5890C0E88BA68B159653787233E8D6F334012F7C (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.ShouldAppRenderWithLowResources();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_ShouldAppRenderWithLowResources_tCB09B8D3E65DB6C46E6464963BC62B94E7F661D6 * L_1 = L_0->get_ShouldAppRenderWithLowResources_29();
 		NullCheck(L_1);
 		bool L_2 = _ShouldAppRenderWithLowResources_Invoke_mF118E5E924B64F2813EA5F9D19F6CD92602FB5FD(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::ForceInterleavedReprojectionOn(System.Boolean)
@@ -35251,6 +36517,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SuspendRendering_mBD54CE4E
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::GetMirrorTextureD3D11(Valve.VR.EVREye,System.IntPtr,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureD3D11_mE89AF0C4C9722B8E3C358A99BFE8A926EED1202D (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, int32_t ___eEye0, intptr_t ___pD3D11DeviceOrResource1, intptr_t* ___ppD3D11ShaderResourceView2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.GetMirrorTextureD3D11(eEye,pD3D11DeviceOrResource,ref ppD3D11ShaderResourceView);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35260,8 +36528,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureD3D11_m
 		intptr_t* L_4 = ___ppD3D11ShaderResourceView2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetMirrorTextureD3D11_Invoke_mEFF88E3EC2360B3809049822F265F1D0493DE849(L_1, L_2, (intptr_t)L_3, (intptr_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::ReleaseMirrorTextureD3D11(System.IntPtr)
@@ -35281,6 +36559,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ReleaseMirrorTextureD3D11_
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::GetMirrorTextureGL(Valve.VR.EVREye,System.UInt32&,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureGL_m0E73E0F9E40A437A0A5613E8E2C718E74CC048F0 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, int32_t ___eEye0, uint32_t* ___pglTextureId1, intptr_t ___pglSharedTextureHandle2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pglTextureId = 0;
 		uint32_t* L_0 = ___pglTextureId1;
@@ -35293,13 +36573,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetMirrorTextureGL_m0E7
 		intptr_t L_5 = ___pglSharedTextureHandle2;
 		NullCheck(L_2);
 		int32_t L_6 = _GetMirrorTextureGL_Invoke_m8F8CD0986A1956C923C54F34CABFCD97BBDA8A96(L_2, L_3, (uint32_t*)L_4, (intptr_t)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVRCompositor::ReleaseSharedGLTexture(System.UInt32,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ReleaseSharedGLTexture_mAECE7405168EF2196A98541A7B934C0F5BF87E9E (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, uint32_t ___glTextureId0, intptr_t ___glSharedTextureHandle1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.ReleaseSharedGLTexture(glTextureId,glSharedTextureHandle);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35308,8 +36600,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_ReleaseSharedGLTexture_mAE
 		intptr_t L_3 = ___glSharedTextureHandle1;
 		NullCheck(L_1);
 		bool L_4 = _ReleaseSharedGLTexture_Invoke_m9543DCD559083CEE2FCFE47D7762F142119DB9E1(L_1, L_2, (intptr_t)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		bool L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		bool L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::LockGLSharedTextureForAccess(System.IntPtr)
@@ -35343,6 +36645,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_UnlockGLSharedTextureForAc
 // System.UInt32 Valve.VR.CVRCompositor::GetVulkanInstanceExtensionsRequired(System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanInstanceExtensionsRequired_mB1E2457B294C4A1638F5C9BC9956066EB3C6A62D (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, StringBuilder_t * ___pchValue0, uint32_t ___unBufferSize1, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetVulkanInstanceExtensionsRequired(pchValue,unBufferSize);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35351,13 +36655,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanInstanceExten
 		uint32_t L_3 = ___unBufferSize1;
 		NullCheck(L_1);
 		uint32_t L_4 = _GetVulkanInstanceExtensionsRequired_Invoke_m8006FB981A90ED7D3753F1782A8F21F638476A51(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		uint32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		uint32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.UInt32 Valve.VR.CVRCompositor::GetVulkanDeviceExtensionsRequired(System.IntPtr,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanDeviceExtensionsRequired_m05A0C032C98356850A4DFB35D4EFB5DB13175FE2 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, intptr_t ___pPhysicalDevice0, StringBuilder_t * ___pchValue1, uint32_t ___unBufferSize2, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetVulkanDeviceExtensionsRequired(pPhysicalDevice,pchValue,unBufferSize);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35367,8 +36683,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRCompositor_GetVulkanDeviceExtensi
 		uint32_t L_4 = ___unBufferSize2;
 		NullCheck(L_1);
 		uint32_t L_5 = _GetVulkanDeviceExtensionsRequired_Invoke_mCA270DABE586BE08C7D8F1E3BCA0D3B7F286C44E(L_1, (intptr_t)L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		uint32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		uint32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::SetExplicitTimingMode(Valve.VR.EVRCompositorTimingMode)
@@ -35388,53 +36714,101 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_SetExplicitTimingMode_mA30
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::SubmitExplicitTimingData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SubmitExplicitTimingData_m9B49D53AB5529D671CCBD22F7121028894104797 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.SubmitExplicitTimingData();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_SubmitExplicitTimingData_t5F40045D9F79D25080663F842E12D8777295014E * L_1 = L_0->get_SubmitExplicitTimingData_42();
 		NullCheck(L_1);
 		int32_t L_2 = _SubmitExplicitTimingData_Invoke_mD5E8D4923393AEB95EE9D6369F459CD6541E9DA9(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRCompositor::IsMotionSmoothingEnabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsMotionSmoothingEnabled_m35005630B6AB8030B6D4EE795B593A16D3050BFD (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsMotionSmoothingEnabled();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_IsMotionSmoothingEnabled_tA0D2F0F53194E7D2156308200B6E269DFE0C69BC * L_1 = L_0->get_IsMotionSmoothingEnabled_43();
 		NullCheck(L_1);
 		bool L_2 = _IsMotionSmoothingEnabled_Invoke_mAED56BF20FC684632769C1DFA38CBBCFADCB1E41(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRCompositor::IsMotionSmoothingSupported()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsMotionSmoothingSupported_mC249E8ACAF3E28E3791E2532ED2EBC8CB1F81E2D (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsMotionSmoothingSupported();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_IsMotionSmoothingSupported_t95F452FA6D78FC58EF2148C3B174A67BE61C58FC * L_1 = L_0->get_IsMotionSmoothingSupported_44();
 		NullCheck(L_1);
 		bool L_2 = _IsMotionSmoothingSupported_Invoke_mAA26D9EF78630D63B988369CFA518D135A4E6B84(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRCompositor::IsCurrentSceneFocusAppLoading()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_IsCurrentSceneFocusAppLoading_m6573359B116CD4BC480E82ED390DAA0D3EF7E570 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsCurrentSceneFocusAppLoading();
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
 		_IsCurrentSceneFocusAppLoading_tCE8C42B715A680594786619F24B2ACC74E4B5C96 * L_1 = L_0->get_IsCurrentSceneFocusAppLoading_45();
 		NullCheck(L_1);
 		bool L_2 = _IsCurrentSceneFocusAppLoading_Invoke_mD4D5BA2E5190925C5FDAE41F20E3608A6DCDA5CA(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::SetStageOverride_Async(System.String,Valve.VR.HmdMatrix34_t&,Valve.VR.Compositor_StageRenderSettings&,System.UInt32)
@@ -35448,6 +36822,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetStageOverride_Async_
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchRenderModelPathUtf8 = Utils.ToUtf8(pchRenderModelPath);
 		String_t* L_0 = ___pchRenderModelPath0;
@@ -35463,12 +36839,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_SetStageOverride_Async_
 		uint32_t L_7 = ___nSizeOfRenderSettings3;
 		NullCheck(L_3);
 		int32_t L_8 = _SetStageOverride_Async_Invoke_m9086E07D92B15FE92ACE65CD7BEEF4A3657A1E46(L_3, (intptr_t)L_4, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_5, (Compositor_StageRenderSettings_tF1DF586309CA55C4C9AB9B3BEA4A326F0BFD2EB6 *)L_6, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
 		// Marshal.FreeHGlobal(pchRenderModelPathUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		int32_t L_10 = V_1;
+		V_2 = L_10;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		int32_t L_11 = V_2;
+		return L_11;
 	}
 }
 // System.Void Valve.VR.CVRCompositor::ClearStageOverride()
@@ -35487,6 +36873,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRCompositor_ClearStageOverride_mCDF781
 // System.Boolean Valve.VR.CVRCompositor::GetCompositorBenchmarkResults(Valve.VR.Compositor_BenchmarkResults&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetCompositorBenchmarkResults_m7971C47D8427444A1A7495C4CBBCAA17F9182764 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, Compositor_BenchmarkResults_t60354ACEB82FE1040990EC49E775018615BE7CF3 * ___pBenchmarkResults0, uint32_t ___nSizeOfBenchmarkResults1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetCompositorBenchmarkResults(ref pBenchmarkResults,nSizeOfBenchmarkResults);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35495,13 +36883,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRCompositor_GetCompositorBenchmarkResu
 		uint32_t L_3 = ___nSizeOfBenchmarkResults1;
 		NullCheck(L_1);
 		bool L_4 = _GetCompositorBenchmarkResults_Invoke_mAADACC2AA396EC519D2228C6D252F9D22596AEA8(L_1, (Compositor_BenchmarkResults_t60354ACEB82FE1040990EC49E775018615BE7CF3 *)L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		bool L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		bool L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::GetLastPosePredictionIDs(System.UInt32&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPosePredictionIDs_mC16CE21AB155F2EE0052BCC5FB54CC0C9C60F8D6 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, uint32_t* ___pRenderPosePredictionID0, uint32_t* ___pGamePosePredictionID1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pRenderPosePredictionID = 0;
 		uint32_t* L_0 = ___pRenderPosePredictionID0;
@@ -35516,13 +36916,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetLastPosePredictionID
 		uint32_t* L_5 = ___pGamePosePredictionID1;
 		NullCheck(L_3);
 		int32_t L_6 = _GetLastPosePredictionIDs_Invoke_mC3D427D0D9D8EFADA74A323AD0A5BCF40C703A5F(L_3, (uint32_t*)L_4, (uint32_t*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRCompositorError Valve.VR.CVRCompositor::GetPosesForFrame(System.UInt32,Valve.VR.TrackedDevicePose_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetPosesForFrame_m9C2B0A260F6FDD94B3F5361AC1E4ABD893C66B33 (CVRCompositor_t0316216254FC5BC5562B6EFA273B82DDB77BB282 * __this, uint32_t ___unPosePredictionID0, TrackedDevicePose_tU5BU5D_t834D8F56C2AAEA76919E1F07D5FB7CCEBBC3CB9C* ___pPoseArray1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRCompositorError result = FnTable.GetPosesForFrame(unPosePredictionID,pPoseArray,(uint) pPoseArray.Length);
 		IVRCompositor_tD41C86F469DDC1A52B62E22B3B31DD5FFE5EB890 * L_0 = __this->get_address_of_FnTable_0();
@@ -35533,8 +36945,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRCompositor_GetPosesForFrame_m9C2B0
 		NullCheck(L_4);
 		NullCheck(L_1);
 		int32_t L_5 = _GetPosesForFrame_Invoke_m87B8A0C118CCBB5ABE61D305F19FE6BB9A6E1D11(L_1, L_2, L_3, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 #ifdef __clang__
@@ -35580,6 +37002,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRDebug_EmitVrProfilerEvent_m71E3A1E
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchMessageUtf8 = Utils.ToUtf8(pchMessage);
 		String_t* L_0 = ___pchMessage0;
@@ -35592,17 +37016,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRDebug_EmitVrProfilerEvent_m71E3A1E
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = _EmitVrProfilerEvent_Invoke_m5400719D0A53214ED6E4F926DCF4CE9AE52BDAF5(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchMessageUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		int32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // Valve.VR.EVRDebugError Valve.VR.CVRDebug::BeginVrProfilerEvent(System.UInt64&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRDebug_BeginVrProfilerEvent_mB76CACDB9B56405310CC56A2829014B165A8FC66 (CVRDebug_t44BA2DAE867C888B2E905F481EA35C108E9CA2C7 * __this, uint64_t* ___pHandleOut0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pHandleOut = 0;
 		uint64_t* L_0 = ___pHandleOut0;
@@ -35613,8 +37049,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRDebug_BeginVrProfilerEvent_mB76CAC
 		uint64_t* L_3 = ___pHandleOut0;
 		NullCheck(L_2);
 		int32_t L_4 = _BeginVrProfilerEvent_Invoke_mBE11CC94FABAAACA0B1C753D1777F89CC5B5D0D6(L_2, (uint64_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRDebugError Valve.VR.CVRDebug::FinishVrProfilerEvent(System.UInt64,System.String)
@@ -35628,6 +37074,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRDebug_FinishVrProfilerEvent_mEE23E
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchMessageUtf8 = Utils.ToUtf8(pchMessage);
 		String_t* L_0 = ___pchMessage1;
@@ -35641,12 +37089,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRDebug_FinishVrProfilerEvent_mEE23E
 		intptr_t L_5 = V_0;
 		NullCheck(L_3);
 		int32_t L_6 = _FinishVrProfilerEvent_Invoke_m40536125C46352155FFB5F79F7090B711F122ED8(L_3, L_4, (intptr_t)L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchMessageUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // System.UInt32 Valve.VR.CVRDebug::DriverDebugRequest(System.UInt32,System.String,System.Text.StringBuilder,System.UInt32)
@@ -35660,6 +37118,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDebug_DriverDebugRequest_mBA00168
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchRequestUtf8 = Utils.ToUtf8(pchRequest);
 		String_t* L_0 = ___pchRequest1;
@@ -35675,12 +37135,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDebug_DriverDebugRequest_mBA00168
 		uint32_t L_7 = ___unResponseBufferSize3;
 		NullCheck(L_3);
 		uint32_t L_8 = _DriverDebugRequest_Invoke_m8AC33AE977858DC647DA40F38A4E76882B6E8057(L_3, L_4, (intptr_t)L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
 		// Marshal.FreeHGlobal(pchRequestUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		uint32_t L_10 = V_1;
+		V_2 = L_10;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		uint32_t L_11 = V_2;
+		return L_11;
 	}
 }
 #ifdef __clang__
@@ -35718,19 +37188,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRDriverManager__ctor_mA5FFFDA542D382F7
 // System.UInt32 Valve.VR.CVRDriverManager::GetDriverCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverCount_mD2C146A78F7DAEF3ED75951F3EF27933463803EA (CVRDriverManager_t761277C611722A08A05F77D3C30AA53A66F5FCF2 * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetDriverCount();
 		IVRDriverManager_t551AC9F67BE2377584C8B1DECF19B319395B1E75 * L_0 = __this->get_address_of_FnTable_0();
 		_GetDriverCount_t2BD42CB1399FCCEBA69C166EE1FDC5140E60B932 * L_1 = L_0->get_GetDriverCount_0();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetDriverCount_Invoke_mE0740FB010FB475B86B76D9DE75DB9B17A6265D7(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.UInt32 Valve.VR.CVRDriverManager::GetDriverName(System.UInt32,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverName_m722A6EBDF488DE28852EA198806FE0A17A83A635 (CVRDriverManager_t761277C611722A08A05F77D3C30AA53A66F5FCF2 * __this, uint32_t ___nDriver0, StringBuilder_t * ___pchValue1, uint32_t ___unBufferSize2, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetDriverName(nDriver,pchValue,unBufferSize);
 		IVRDriverManager_t551AC9F67BE2377584C8B1DECF19B319395B1E75 * L_0 = __this->get_address_of_FnTable_0();
@@ -35740,8 +37224,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRDriverManager_GetDriverName_m722A
 		uint32_t L_4 = ___unBufferSize2;
 		NullCheck(L_1);
 		uint32_t L_5 = _GetDriverName_Invoke_m13A3A87CD195CD83A9BB88FBB1FFD51DCD0B29AB(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		uint32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		uint32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.UInt64 Valve.VR.CVRDriverManager::GetDriverHandle(System.String)
@@ -35755,6 +37249,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRDriverManager_GetDriverHandle_m00
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint64_t V_1 = 0;
+	uint64_t V_2 = 0;
 	{
 		// IntPtr pchDriverNameUtf8 = Utils.ToUtf8(pchDriverName);
 		String_t* L_0 = ___pchDriverName0;
@@ -35767,17 +37263,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRDriverManager_GetDriverHandle_m00
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		uint64_t L_5 = _GetDriverHandle_Invoke_mAB4159CE88E9D0337C4C495C15D6518A093308AA(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchDriverNameUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		uint64_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		uint64_t L_8 = V_2;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVRDriverManager::IsEnabled(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRDriverManager_IsEnabled_m56E6462D51454FE004ECD61DA5979642C40A8659 (CVRDriverManager_t761277C611722A08A05F77D3C30AA53A66F5FCF2 * __this, uint32_t ___nDriver0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsEnabled(nDriver);
 		IVRDriverManager_t551AC9F67BE2377584C8B1DECF19B319395B1E75 * L_0 = __this->get_address_of_FnTable_0();
@@ -35785,8 +37293,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRDriverManager_IsEnabled_m56E6462D5145
 		uint32_t L_2 = ___nDriver0;
 		NullCheck(L_1);
 		bool L_3 = _IsEnabled_Invoke_mBE5F3BEDE8CA7F11CF8E908D6BB9176BEF341D41(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -35986,14 +37504,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRHeadsetView_SetHeadsetViewMode_mA9254
 // System.UInt32 Valve.VR.CVRHeadsetView::GetHeadsetViewMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRHeadsetView_GetHeadsetViewMode_m677735847C2F2B54F951E05CA943B5572F733D6D (CVRHeadsetView_tA12FB1FBF95DFB2786D39FBAE51901F0194610AD * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetHeadsetViewMode();
 		IVRHeadsetView_t3CA49A97DC80A8F69EC83189D9FF338FC1412872 * L_0 = __this->get_address_of_FnTable_0();
 		_GetHeadsetViewMode_t16D4045B88A07555A1945E8838E8562A5802A53D * L_1 = L_0->get_GetHeadsetViewMode_3();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetHeadsetViewMode_Invoke_m09EFADA01868113FD600E25EE35DA10674B2FB60(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRHeadsetView::SetHeadsetViewCropped(System.Boolean)
@@ -36013,27 +37543,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRHeadsetView_SetHeadsetViewCropped_mA1
 // System.Boolean Valve.VR.CVRHeadsetView::GetHeadsetViewCropped()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRHeadsetView_GetHeadsetViewCropped_mB4B79F9CF338852F351E2F523120A2A6A4B9A6C5 (CVRHeadsetView_tA12FB1FBF95DFB2786D39FBAE51901F0194610AD * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetHeadsetViewCropped();
 		IVRHeadsetView_t3CA49A97DC80A8F69EC83189D9FF338FC1412872 * L_0 = __this->get_address_of_FnTable_0();
 		_GetHeadsetViewCropped_tB68E10C981C328F2DF7C2839B3055D1FBF04E42F * L_1 = L_0->get_GetHeadsetViewCropped_5();
 		NullCheck(L_1);
 		bool L_2 = _GetHeadsetViewCropped_Invoke_mE1F4CF171713397D63390E1AFC32F32D47B52023(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Single Valve.VR.CVRHeadsetView::GetHeadsetViewAspectRatio()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRHeadsetView_GetHeadsetViewAspectRatio_m1E8B177B088E9349F99AD6124731F21D25EB2E62 (CVRHeadsetView_tA12FB1FBF95DFB2786D39FBAE51901F0194610AD * __this, const RuntimeMethod* method)
 {
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
 	{
 		// float result = FnTable.GetHeadsetViewAspectRatio();
 		IVRHeadsetView_t3CA49A97DC80A8F69EC83189D9FF338FC1412872 * L_0 = __this->get_address_of_FnTable_0();
 		_GetHeadsetViewAspectRatio_tE9093B0C2D3D191DB2B8E67F6AB43976123F5005 * L_1 = L_0->get_GetHeadsetViewAspectRatio_6();
 		NullCheck(L_1);
 		float L_2 = _GetHeadsetViewAspectRatio_Invoke_mAF3886D5599FB9E3B2F353B97288E4C3F1AFBFE5(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		float L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		float L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRHeadsetView::SetHeadsetViewBlendRange(System.Single,System.Single)
@@ -36115,6 +37669,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Open_mFE5CF686A72F257D74E
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchPathUtf8 = Utils.ToUtf8(pchPath);
 		String_t* L_0 = ___pchPath0;
@@ -36134,17 +37690,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Open_mFE5CF686A72F257D74E
 		uint64_t* L_9 = ___pulBuffer4;
 		NullCheck(L_4);
 		int32_t L_10 = _Open_Invoke_mB2454DA3759EFA37159439F192FA59F0E1AC7FAE(L_4, (intptr_t)L_5, L_6, L_7, L_8, (uint64_t*)L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
 		// Marshal.FreeHGlobal(pchPathUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_11, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		int32_t L_12 = V_1;
+		V_2 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		// }
+		int32_t L_13 = V_2;
+		return L_13;
 	}
 }
 // Valve.VR.EIOBufferError Valve.VR.CVRIOBuffer::Close(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Close_m661267536FC37D7A1599443E14DC9ACC7C797CA9 (CVRIOBuffer_tBB291B3257DF92051FC9C654C5B1CE2FE2E105A4 * __this, uint64_t ___ulBuffer0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EIOBufferError result = FnTable.Close(ulBuffer);
 		IVRIOBuffer_t05D6C37522FF677CE1C35CE583840C09C6618021 * L_0 = __this->get_address_of_FnTable_0();
@@ -36152,13 +37720,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Close_m661267536FC37D7A15
 		uint64_t L_2 = ___ulBuffer0;
 		NullCheck(L_1);
 		int32_t L_3 = _Close_Invoke_mC6D60A5C30AD254447E5EFF5E6554F53BC259348(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EIOBufferError Valve.VR.CVRIOBuffer::Read(System.UInt64,System.IntPtr,System.UInt32,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Read_m3A73322159BFF556F7072196AA3568970C841405 (CVRIOBuffer_tBB291B3257DF92051FC9C654C5B1CE2FE2E105A4 * __this, uint64_t ___ulBuffer0, intptr_t ___pDst1, uint32_t ___unBytes2, uint32_t* ___punRead3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punRead = 0;
 		uint32_t* L_0 = ___punRead3;
@@ -36172,13 +37752,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Read_m3A73322159BFF556F70
 		uint32_t* L_6 = ___punRead3;
 		NullCheck(L_2);
 		int32_t L_7 = _Read_Invoke_mDA88600433381057A44AD42594F0F8BC7F09FE12(L_2, L_3, (intptr_t)L_4, L_5, (uint32_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EIOBufferError Valve.VR.CVRIOBuffer::Write(System.UInt64,System.IntPtr,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Write_m9CE7B082F594077BB21D6785349745E6E2D756A6 (CVRIOBuffer_tBB291B3257DF92051FC9C654C5B1CE2FE2E105A4 * __this, uint64_t ___ulBuffer0, intptr_t ___pSrc1, uint32_t ___unBytes2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EIOBufferError result = FnTable.Write(ulBuffer,pSrc,unBytes);
 		IVRIOBuffer_t05D6C37522FF677CE1C35CE583840C09C6618021 * L_0 = __this->get_address_of_FnTable_0();
@@ -36188,13 +37780,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRIOBuffer_Write_m9CE7B082F594077BB2
 		uint32_t L_4 = ___unBytes2;
 		NullCheck(L_1);
 		int32_t L_5 = _Write_Invoke_m5D12326FE6A39BAA537760731D8E2285EF8F33E4(L_1, L_2, (intptr_t)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.UInt64 Valve.VR.CVRIOBuffer::PropertyContainer(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRIOBuffer_PropertyContainer_mF83528C1AEDF973073A0D12FABCF4D43016B3AF6 (CVRIOBuffer_tBB291B3257DF92051FC9C654C5B1CE2FE2E105A4 * __this, uint64_t ___ulBuffer0, const RuntimeMethod* method)
 {
+	uint64_t V_0 = 0;
+	uint64_t V_1 = 0;
 	{
 		// ulong result = FnTable.PropertyContainer(ulBuffer);
 		IVRIOBuffer_t05D6C37522FF677CE1C35CE583840C09C6618021 * L_0 = __this->get_address_of_FnTable_0();
@@ -36202,13 +37806,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRIOBuffer_PropertyContainer_mF8352
 		uint64_t L_2 = ___ulBuffer0;
 		NullCheck(L_1);
 		uint64_t L_3 = _PropertyContainer_Invoke_mEB90842E37A5EACAC1B11B4F737A8713D265E302(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		uint64_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		uint64_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRIOBuffer::HasReaders(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRIOBuffer_HasReaders_mB7554CDB91B4388349CAB47E353A6D404A815D35 (CVRIOBuffer_tBB291B3257DF92051FC9C654C5B1CE2FE2E105A4 * __this, uint64_t ___ulBuffer0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.HasReaders(ulBuffer);
 		IVRIOBuffer_t05D6C37522FF677CE1C35CE583840C09C6618021 * L_0 = __this->get_address_of_FnTable_0();
@@ -36216,8 +37832,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRIOBuffer_HasReaders_mB7554CDB91B43883
 		uint64_t L_2 = ___ulBuffer0;
 		NullCheck(L_1);
 		bool L_3 = _HasReaders_Invoke_m2526EEFE40EA5E44B64C6AEB94213030AF6A4FD7(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -36263,6 +37889,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_SetActionManifestPath_mC1A5D
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchActionManifestPathUtf8 = Utils.ToUtf8(pchActionManifestPath);
 		String_t* L_0 = ___pchActionManifestPath0;
@@ -36275,12 +37903,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_SetActionManifestPath_mC1A5D
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = _SetActionManifestPath_Invoke_m9FC4C1E9FAE361DD0E2B6389EF2750BE487F007A(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchActionManifestPathUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		int32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetActionSetHandle(System.String,System.UInt64&)
@@ -36294,6 +37932,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionSetHandle_m5AC9D624
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchActionSetNameUtf8 = Utils.ToUtf8(pchActionSetName);
 		String_t* L_0 = ___pchActionSetName0;
@@ -36310,12 +37950,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionSetHandle_m5AC9D624
 		uint64_t* L_6 = ___pHandle1;
 		NullCheck(L_4);
 		int32_t L_7 = _GetActionSetHandle_Invoke_m6C9B593EE272A36907D130BE74E3F636E7EA6064(L_4, (intptr_t)L_5, (uint64_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchActionSetNameUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetActionHandle(System.String,System.UInt64&)
@@ -36329,6 +37979,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionHandle_mF3DB37B5ED5
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchActionNameUtf8 = Utils.ToUtf8(pchActionName);
 		String_t* L_0 = ___pchActionName0;
@@ -36345,12 +37997,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionHandle_mF3DB37B5ED5
 		uint64_t* L_6 = ___pHandle1;
 		NullCheck(L_4);
 		int32_t L_7 = _GetActionHandle_Invoke_mC22460BF86BDF57ACD70B6078A657E6B4DB97144(L_4, (intptr_t)L_5, (uint64_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchActionNameUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetInputSourceHandle(System.String,System.UInt64&)
@@ -36364,6 +38026,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetInputSourceHandle_mB6B9CC
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchInputSourcePathUtf8 = Utils.ToUtf8(pchInputSourcePath);
 		String_t* L_0 = ___pchInputSourcePath0;
@@ -36380,17 +38044,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetInputSourceHandle_mB6B9CC
 		uint64_t* L_6 = ___pHandle1;
 		NullCheck(L_4);
 		int32_t L_7 = _GetInputSourceHandle_Invoke_mC37D3D16BEC35EE3451F9A3A03744B92454205C2(L_4, (intptr_t)L_5, (uint64_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchInputSourcePathUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::UpdateActionState(Valve.VR.VRActiveActionSet_t[],System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_UpdateActionState_mDBAA09FD7D60951BC6FA62ACACFE4E57CFAB2C7B (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, VRActiveActionSet_tU5BU5D_t4162E1B98E7B94378D002CF803F922464C21867D* ___pSets0, uint32_t ___unSizeOfVRSelectedActionSet_t1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.UpdateActionState(pSets,unSizeOfVRSelectedActionSet_t,(uint) pSets.Length);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36401,13 +38077,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_UpdateActionState_mDBAA09FD7
 		NullCheck(L_4);
 		NullCheck(L_1);
 		int32_t L_5 = _UpdateActionState_Invoke_m8B6F6757339087FD2B5488EE84318993B3DC0BCF(L_1, L_2, L_3, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetDigitalActionData(System.UInt64,Valve.VR.InputDigitalActionData_t&,System.UInt32,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDigitalActionData_m28C971587E9BF5AE9D507A5DBB11C78C5A3181E3 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, InputDigitalActionData_t_t4A01C92AC860229A4C521ED827FD4FC4508A822C * ___pActionData1, uint32_t ___unActionDataSize2, uint64_t ___ulRestrictToDevice3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetDigitalActionData(action,ref pActionData,unActionDataSize,ulRestrictToDevice);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36418,13 +38106,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDigitalActionData_m28C971
 		uint64_t L_5 = ___ulRestrictToDevice3;
 		NullCheck(L_1);
 		int32_t L_6 = _GetDigitalActionData_Invoke_m2FB902BC3DA9A44FEB738B2011A9D126CBEEE0AE(L_1, L_2, (InputDigitalActionData_t_t4A01C92AC860229A4C521ED827FD4FC4508A822C *)L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetAnalogActionData(System.UInt64,Valve.VR.InputAnalogActionData_t&,System.UInt32,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetAnalogActionData_m3FEB4E2D5AE96E97C2D73EEED945E547AE36741A (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, InputAnalogActionData_t_t6C7615BD7F4223A4ADA9268DDF501D09B3C808CA * ___pActionData1, uint32_t ___unActionDataSize2, uint64_t ___ulRestrictToDevice3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetAnalogActionData(action,ref pActionData,unActionDataSize,ulRestrictToDevice);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36435,13 +38135,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetAnalogActionData_m3FEB4E2
 		uint64_t L_5 = ___ulRestrictToDevice3;
 		NullCheck(L_1);
 		int32_t L_6 = _GetAnalogActionData_Invoke_m266A8FB317333CB9458CACCE71AA4F08E5ACF597(L_1, L_2, (InputAnalogActionData_t_t6C7615BD7F4223A4ADA9268DDF501D09B3C808CA *)L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetPoseActionDataRelativeToNow(System.UInt64,Valve.VR.ETrackingUniverseOrigin,System.Single,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionDataRelativeToNow_mBAEDD17710ECA793901F7A42DB84C84B5C3D5841 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___eOrigin1, float ___fPredictedSecondsFromNow2, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData3, uint32_t ___unActionDataSize4, uint64_t ___ulRestrictToDevice5, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetPoseActionDataRelativeToNow(action,eOrigin,fPredictedSecondsFromNow,ref pActionData,unActionDataSize,ulRestrictToDevice);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36454,13 +38166,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionDataRelativeToN
 		uint64_t L_7 = ___ulRestrictToDevice5;
 		NullCheck(L_1);
 		int32_t L_8 = _GetPoseActionDataRelativeToNow_Invoke_m4C86F99B52EF1E3A3721DC9B1B7D972DD484D825(L_1, L_2, L_3, L_4, (InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *)L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetPoseActionDataForNextFrame(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.InputPoseActionData_t&,System.UInt32,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionDataForNextFrame_m2EA9535E25E060B4C24DB4947ABC493F1B0D0152 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___eOrigin1, InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 * ___pActionData2, uint32_t ___unActionDataSize3, uint64_t ___ulRestrictToDevice4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetPoseActionDataForNextFrame(action,eOrigin,ref pActionData,unActionDataSize,ulRestrictToDevice);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36472,13 +38196,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetPoseActionDataForNextFram
 		uint64_t L_6 = ___ulRestrictToDevice4;
 		NullCheck(L_1);
 		int32_t L_7 = _GetPoseActionDataForNextFrame_Invoke_m5B31DC3ADD784072B4EDC435CC9539B939086C41(L_1, L_2, L_3, (InputPoseActionData_t_tC282FD2CB85805431D2F23AF9C032BAD99683111 *)L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetSkeletalActionData(System.UInt64,Valve.VR.InputSkeletalActionData_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalActionData_mD08DD4FDBE1F6CCF87ACBB5DDC9B3C7C5FEA2BD9 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 * ___pActionData1, uint32_t ___unActionDataSize2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetSkeletalActionData(action,ref pActionData,unActionDataSize);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36488,13 +38224,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalActionData_mD08DD
 		uint32_t L_4 = ___unActionDataSize2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetSkeletalActionData_Invoke_mFD7322A817129E2621EA9DC59B1064AA4E095405(L_1, L_2, (InputSkeletalActionData_t_tD41850247EEE1858231B43C4B3EC2B5617140C26 *)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetDominantHand(Valve.VR.ETrackedControllerRole&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDominantHand_m9C0B4EEF21C0B22EE21BAC920C3C527B3CD806E6 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, int32_t* ___peDominantHand0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetDominantHand(ref peDominantHand);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36502,13 +38250,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetDominantHand_m9C0B4EEF21C
 		int32_t* L_2 = ___peDominantHand0;
 		NullCheck(L_1);
 		int32_t L_3 = _GetDominantHand_Invoke_m7EB0E56CC265E8570CDF72D5C10B63C62BEC6643(L_1, (int32_t*)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::SetDominantHand(Valve.VR.ETrackedControllerRole)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_SetDominantHand_mC9C6ADB1AAE6214A7C332E47A7A609E6D5115B2F (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, int32_t ___eDominantHand0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.SetDominantHand(eDominantHand);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36516,13 +38276,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_SetDominantHand_mC9C6ADB1AAE
 		int32_t L_2 = ___eDominantHand0;
 		NullCheck(L_1);
 		int32_t L_3 = _SetDominantHand_Invoke_m50898921496BCEF2287179FE53D24E7C08246CD9(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetBoneCount(System.UInt64,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBoneCount_m8EB7B9FA9695F9D7D48ACE6C9FEBC27B0D0D6F7B (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, uint32_t* ___pBoneCount1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pBoneCount = 0;
 		uint32_t* L_0 = ___pBoneCount1;
@@ -36534,13 +38306,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBoneCount_m8EB7B9FA9695F9
 		uint32_t* L_4 = ___pBoneCount1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetBoneCount_Invoke_m38A52517F3A1C3264F6866E10EBCB675419FFABB(L_2, L_3, (uint32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetBoneHierarchy(System.UInt64,System.Int32[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBoneHierarchy_mBDD91998A6017809EFA6B91E8F6DC726974D2E0D (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* ___pParentIndices1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetBoneHierarchy(action,pParentIndices,(uint) pParentIndices.Length);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36551,13 +38335,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBoneHierarchy_mBDD91998A6
 		NullCheck(L_4);
 		NullCheck(L_1);
 		int32_t L_5 = _GetBoneHierarchy_Invoke_mACF88A039D229AD5E1E97FDB25C8C568D2A4BCD7(L_1, L_2, L_3, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetBoneName(System.UInt64,System.Int32,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBoneName_mBAE82D02F085E0B3DDCE21EA4BDCEB94A1A72297 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___nBoneIndex1, StringBuilder_t * ___pchBoneName2, uint32_t ___unNameBufferSize3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetBoneName(action,nBoneIndex,pchBoneName,unNameBufferSize);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36568,13 +38364,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBoneName_mBAE82D02F085E0B
 		uint32_t L_5 = ___unNameBufferSize3;
 		NullCheck(L_1);
 		int32_t L_6 = _GetBoneName_Invoke_m0B2003BED8A1A9AF10AA8FA32038151E3A64E4C3(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetSkeletalReferenceTransforms(System.UInt64,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.EVRSkeletalReferencePose,Valve.VR.VRBoneTransform_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalReferenceTransforms_m39DC7D8210062B9512F7CECF5F60E361C1D729AF (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eReferencePose2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetSkeletalReferenceTransforms(action,eTransformSpace,eReferencePose,pTransformArray,(uint) pTransformArray.Length);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36587,13 +38395,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalReferenceTransfor
 		NullCheck(L_6);
 		NullCheck(L_1);
 		int32_t L_7 = _GetSkeletalReferenceTransforms_Invoke_mADAC4A81C516468730F256F73D58AA5B9BEB8D28(L_1, L_2, L_3, L_4, L_5, (((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetSkeletalTrackingLevel(System.UInt64,Valve.VR.EVRSkeletalTrackingLevel&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalTrackingLevel_m47B8F2D722E0599DCFEA1E815F878C0A9439F6CC (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t* ___pSkeletalTrackingLevel1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetSkeletalTrackingLevel(action,ref pSkeletalTrackingLevel);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36602,13 +38422,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalTrackingLevel_m47
 		int32_t* L_3 = ___pSkeletalTrackingLevel1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetSkeletalTrackingLevel_Invoke_mADA36F6A8FD9E53E65223A2994EB08C69F5EF6D4(L_1, L_2, (int32_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetSkeletalBoneData(System.UInt64,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.EVRSkeletalMotionRange,Valve.VR.VRBoneTransform_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneData_m3008E4A3FBB4A3C03948F1EC5C54FC314399F112 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___eTransformSpace1, int32_t ___eMotionRange2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetSkeletalBoneData(action,eTransformSpace,eMotionRange,pTransformArray,(uint) pTransformArray.Length);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36621,13 +38453,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneData_m3008E4A
 		NullCheck(L_6);
 		NullCheck(L_1);
 		int32_t L_7 = _GetSkeletalBoneData_Invoke_m70FD6C22451096AA6418061DE1C3E47196D93B7F(L_1, L_2, L_3, L_4, L_5, (((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetSkeletalSummaryData(System.UInt64,Valve.VR.EVRSummaryType,Valve.VR.VRSkeletalSummaryData_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalSummaryData_mF6F87A491E5F5A4C029BB33E77BCE55BC326D44C (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___eSummaryType1, VRSkeletalSummaryData_t_t644580EA9039A02976937652FFFEE20F90671B66 * ___pSkeletalSummaryData2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetSkeletalSummaryData(action,eSummaryType,ref pSkeletalSummaryData);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36637,13 +38481,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalSummaryData_mF6F8
 		VRSkeletalSummaryData_t_t644580EA9039A02976937652FFFEE20F90671B66 * L_4 = ___pSkeletalSummaryData2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetSkeletalSummaryData_Invoke_m2617D032783DCBC43FBDF8C066EB8467ABC87BD1(L_1, L_2, L_3, (VRSkeletalSummaryData_t_t644580EA9039A02976937652FFFEE20F90671B66 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetSkeletalBoneDataCompressed(System.UInt64,Valve.VR.EVRSkeletalMotionRange,System.IntPtr,System.UInt32,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneDataCompressed_mBB581771AD4927F6CD74B8FCB4441B5FD75467F7 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, int32_t ___eMotionRange1, intptr_t ___pvCompressedData2, uint32_t ___unCompressedSize3, uint32_t* ___punRequiredCompressedSize4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punRequiredCompressedSize = 0;
 		uint32_t* L_0 = ___punRequiredCompressedSize4;
@@ -36658,13 +38514,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetSkeletalBoneDataCompresse
 		uint32_t* L_7 = ___punRequiredCompressedSize4;
 		NullCheck(L_2);
 		int32_t L_8 = _GetSkeletalBoneDataCompressed_Invoke_mCB15672D176C6C7C7983330E6F69FAA02F783D87(L_2, L_3, L_4, (intptr_t)L_5, L_6, (uint32_t*)L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::DecompressSkeletalBoneData(System.IntPtr,System.UInt32,Valve.VR.EVRSkeletalTransformSpace,Valve.VR.VRBoneTransform_t[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_DecompressSkeletalBoneData_m1DE2687A22DDD239EBAF1F462FC619C8261B9A23 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, intptr_t ___pvCompressedBuffer0, uint32_t ___unCompressedBufferSize1, int32_t ___eTransformSpace2, VRBoneTransform_tU5BU5D_tB5FDD0831D295612D4381D2F2D8805367FAF83F8* ___pTransformArray3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.DecompressSkeletalBoneData(pvCompressedBuffer,unCompressedBufferSize,eTransformSpace,pTransformArray,(uint) pTransformArray.Length);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36677,13 +38545,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_DecompressSkeletalBoneData_m
 		NullCheck(L_6);
 		NullCheck(L_1);
 		int32_t L_7 = _DecompressSkeletalBoneData_Invoke_m6E021E584EC4C2724F360E59C29246871A8FF276(L_1, (intptr_t)L_2, L_3, L_4, L_5, (((int32_t)((int32_t)(((RuntimeArray*)L_6)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::TriggerHapticVibrationAction(System.UInt64,System.Single,System.Single,System.Single,System.Single,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_TriggerHapticVibrationAction_m889FF2B09BBB27A333C8D2AA759D5E8D7D280234 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, float ___fStartSecondsFromNow1, float ___fDurationSeconds2, float ___fFrequency3, float ___fAmplitude4, uint64_t ___ulRestrictToDevice5, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.TriggerHapticVibrationAction(action,fStartSecondsFromNow,fDurationSeconds,fFrequency,fAmplitude,ulRestrictToDevice);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36696,13 +38576,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_TriggerHapticVibrationAction
 		uint64_t L_7 = ___ulRestrictToDevice5;
 		NullCheck(L_1);
 		int32_t L_8 = _TriggerHapticVibrationAction_Invoke_mD2B33FE7D6D69331E9A9BD761293532FFD0081FF(L_1, L_2, L_3, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetActionOrigins(System.UInt64,System.UInt64,System.UInt64[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionOrigins_mF85347FEC2A81A859EA4CA8E8B88AB66413070FD (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___actionSetHandle0, uint64_t ___digitalActionHandle1, UInt64U5BU5D_tA808FE881491284FF25AFDF5C4BC92A826031EF4* ___originsOut2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetActionOrigins(actionSetHandle,digitalActionHandle,originsOut,(uint) originsOut.Length);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36714,13 +38606,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionOrigins_mF85347FEC2
 		NullCheck(L_5);
 		NullCheck(L_1);
 		int32_t L_6 = _GetActionOrigins_Invoke_mA25E866CBFF159A948FFF9FAC1D4FCB3BAE53572(L_1, L_2, L_3, L_4, (((int32_t)((int32_t)(((RuntimeArray*)L_5)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetOriginLocalizedName(System.UInt64,System.Text.StringBuilder,System.UInt32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginLocalizedName_mBA00DB64940FC32C5057C8AF2A1D65DF6DC68BFF (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___origin0, StringBuilder_t * ___pchNameArray1, uint32_t ___unNameArraySize2, int32_t ___unStringSectionsToInclude3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetOriginLocalizedName(origin,pchNameArray,unNameArraySize,unStringSectionsToInclude);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36731,13 +38635,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginLocalizedName_mBA00
 		int32_t L_5 = ___unStringSectionsToInclude3;
 		NullCheck(L_1);
 		int32_t L_6 = _GetOriginLocalizedName_Invoke_m6A393BD3AF6F23FD3400F1A154FC0D7B2150306E(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetOriginTrackedDeviceInfo(System.UInt64,Valve.VR.InputOriginInfo_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginTrackedDeviceInfo_m0814AD2AE828ED9D5351D6D0B0F7F17674336030 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___origin0, InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 * ___pOriginInfo1, uint32_t ___unOriginInfoSize2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetOriginTrackedDeviceInfo(origin,ref pOriginInfo,unOriginInfoSize);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36747,13 +38663,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetOriginTrackedDeviceInfo_m
 		uint32_t L_4 = ___unOriginInfoSize2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetOriginTrackedDeviceInfo_Invoke_mFD9F2323420944B0EF5C55A8B4B8A5B253A2A4BE(L_1, L_2, (InputOriginInfo_t_t5CA8B4CC8DC170D7FC353E8E9B2EAC13A64B33B7 *)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetActionBindingInfo(System.UInt64,Valve.VR.InputBindingInfo_t&,System.UInt32,System.UInt32,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionBindingInfo_m790F32A28918200BE5DE41B87738B421AFDBDC80 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___action0, InputBindingInfo_t_t9D986FCE0F3B0E316FBD3809E09C604A9775B102 * ___pOriginInfo1, uint32_t ___unBindingInfoSize2, uint32_t ___unBindingInfoCount3, uint32_t* ___punReturnedBindingInfoCount4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punReturnedBindingInfoCount = 0;
 		uint32_t* L_0 = ___punReturnedBindingInfoCount4;
@@ -36768,13 +38696,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetActionBindingInfo_m790F32
 		uint32_t* L_7 = ___punReturnedBindingInfoCount4;
 		NullCheck(L_2);
 		int32_t L_8 = _GetActionBindingInfo_Invoke_mA09662969F5B5BE9144C886D6751E0E9FC6AE95C(L_2, L_3, (InputBindingInfo_t_t9D986FCE0F3B0E316FBD3809E09C604A9775B102 *)L_4, L_5, L_6, (uint32_t*)L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::ShowActionOrigins(System.UInt64,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowActionOrigins_m8D16939A3028E32DC76BD24643C7366C3E96992B (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___actionSetHandle0, uint64_t ___ulActionHandle1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.ShowActionOrigins(actionSetHandle,ulActionHandle);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36783,13 +38723,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowActionOrigins_m8D16939A3
 		uint64_t L_3 = ___ulActionHandle1;
 		NullCheck(L_1);
 		int32_t L_4 = _ShowActionOrigins_Invoke_m73798FA3D4EC8EB34596A15996E8217DC348CFE0(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::ShowBindingsForActionSet(Valve.VR.VRActiveActionSet_t[],System.UInt32,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowBindingsForActionSet_m7E3EC7E7E619E71F8BD7C8D3A1B4687F773E7F8F (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, VRActiveActionSet_tU5BU5D_t4162E1B98E7B94378D002CF803F922464C21867D* ___pSets0, uint32_t ___unSizeOfVRSelectedActionSet_t1, uint64_t ___originToHighlight2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.ShowBindingsForActionSet(pSets,unSizeOfVRSelectedActionSet_t,(uint) pSets.Length,originToHighlight);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36801,8 +38753,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_ShowBindingsForActionSet_m7E
 		uint64_t L_5 = ___originToHighlight2;
 		NullCheck(L_1);
 		int32_t L_6 = _ShowBindingsForActionSet_Invoke_m9FC9AF94BC4124BF43A6673CA9E3CD0F28E9ECB8(L_1, L_2, L_3, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))), L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetComponentStateForBinding(System.String,System.String,Valve.VR.InputBindingInfo_t&,System.UInt32,System.UInt32,Valve.VR.RenderModel_ComponentState_t&)
@@ -36818,6 +38780,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetComponentStateForBinding_
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -36839,6 +38803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetComponentStateForBinding_
 		RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F * L_11 = ___pComponentState5;
 		NullCheck(L_5);
 		int32_t L_12 = _GetComponentStateForBinding_Invoke_m1C11F475A8AF1CEE9A8D67F468A71E2DC39A6EE3(L_5, (intptr_t)L_6, (intptr_t)L_7, (InputBindingInfo_t_t9D986FCE0F3B0E316FBD3809E09C604A9775B102 *)L_8, L_9, L_10, (RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F *)L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_13 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -36847,20 +38812,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetComponentStateForBinding_
 		intptr_t L_14 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_14, /*hidden argument*/NULL);
 		// return result;
-		return L_12;
+		int32_t L_15 = V_2;
+		V_3 = L_15;
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		// }
+		int32_t L_16 = V_3;
+		return L_16;
 	}
 }
 // System.Boolean Valve.VR.CVRInput::IsUsingLegacyInput()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRInput_IsUsingLegacyInput_m82470F1F200B02EBB4E51E35458A86E7F7B83371 (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsUsingLegacyInput();
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
 		_IsUsingLegacyInput_t612314BBE7397C3BB14BE0083435E0DB35EE29B0 * L_1 = L_0->get_IsUsingLegacyInput_29();
 		NullCheck(L_1);
 		bool L_2 = _IsUsingLegacyInput_Invoke_m2AB1A194A8532A555C4762346B63B4C44A4DBBA3(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::OpenBindingUI(System.String,System.UInt64,System.UInt64,System.Boolean)
@@ -36874,6 +38860,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_OpenBindingUI_m5C8B898ECFF40
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchAppKeyUtf8 = Utils.ToUtf8(pchAppKey);
 		String_t* L_0 = ___pchAppKey0;
@@ -36889,17 +38877,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_OpenBindingUI_m5C8B898ECFF40
 		bool L_7 = ___bShowOnDesktop3;
 		NullCheck(L_3);
 		int32_t L_8 = _OpenBindingUI_Invoke_mCEAD2A36CD175D13E7322F44916C7B7F6FBCADFF(L_3, (intptr_t)L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
 		// Marshal.FreeHGlobal(pchAppKeyUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		int32_t L_10 = V_1;
+		V_2 = L_10;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		int32_t L_11 = V_2;
+		return L_11;
 	}
 }
 // Valve.VR.EVRInputError Valve.VR.CVRInput::GetBindingVariant(System.UInt64,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBindingVariant_m3F7FFA30B0170676BB0830249FE7E7291AC7B3FD (CVRInput_t8458E224B9D7EFD4A5B102EAA06F8F365A25A53A * __this, uint64_t ___ulDevicePath0, StringBuilder_t * ___pchVariantArray1, uint32_t ___unVariantArraySize2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRInputError result = FnTable.GetBindingVariant(ulDevicePath,pchVariantArray,unVariantArraySize);
 		IVRInput_t4B3561EE68C72A22D3EBAA3858E3B5E34B841D5F * L_0 = __this->get_address_of_FnTable_0();
@@ -36909,8 +38909,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRInput_GetBindingVariant_m3F7FFA30B
 		uint32_t L_4 = ___unVariantArraySize2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetBindingVariant_Invoke_m474786A920703D0C5CA228C220A78EE713123A23(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 #ifdef __clang__
@@ -36956,6 +38966,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_CreateNotification_m
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchTextUtf8 = Utils.ToUtf8(pchText);
 		String_t* L_0 = ___pchText3;
@@ -36977,17 +38989,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_CreateNotification_m
 		uint32_t* L_11 = ___pNotificationId6;
 		NullCheck(L_4);
 		int32_t L_12 = _CreateNotification_Invoke_mD9FDFBA3CCCB8ECE71032FA58D174ADD30545193(L_4, L_5, L_6, L_7, (intptr_t)L_8, L_9, (NotificationBitmap_t_t09A683B8AF17505BFBCB5D48989722025A7E0F03 *)L_10, (uint32_t*)L_11, /*hidden argument*/NULL);
+		V_1 = L_12;
 		// Marshal.FreeHGlobal(pchTextUtf8);
 		intptr_t L_13 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_13, /*hidden argument*/NULL);
 		// return result;
-		return L_12;
+		int32_t L_14 = V_1;
+		V_2 = L_14;
+		goto IL_0033;
+	}
+
+IL_0033:
+	{
+		// }
+		int32_t L_15 = V_2;
+		return L_15;
 	}
 }
 // Valve.VR.EVRNotificationError Valve.VR.CVRNotifications::RemoveNotification(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_RemoveNotification_m7400324BEACB14343B5665B8ACA79415BE00F2E0 (CVRNotifications_tC3944B8BEA02D0F8F806108AAF20AC36F9038A02 * __this, uint32_t ___notificationId0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRNotificationError result = FnTable.RemoveNotification(notificationId);
 		IVRNotifications_t2FCEB25F13419F19FB9A0AF52217006D33EB1FBF * L_0 = __this->get_address_of_FnTable_0();
@@ -36995,8 +39019,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRNotifications_RemoveNotification_m
 		uint32_t L_2 = ___notificationId0;
 		NullCheck(L_1);
 		int32_t L_3 = _RemoveNotification_Invoke_m241FE0C743166658D5E350F2826C74EACCF34CEB(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -37042,6 +39076,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_FindOverlay_m599A06CAA1A2D
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchOverlayKeyUtf8 = Utils.ToUtf8(pchOverlayKey);
 		String_t* L_0 = ___pchOverlayKey0;
@@ -37058,12 +39094,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_FindOverlay_m599A06CAA1A2D
 		uint64_t* L_6 = ___pOverlayHandle1;
 		NullCheck(L_4);
 		int32_t L_7 = _FindOverlay_Invoke_m1309636D78D94EEA5F6FB26FE60A81D3037B4E2F(L_4, (intptr_t)L_5, (uint64_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchOverlayKeyUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::CreateOverlay(System.String,System.String,System.UInt64&)
@@ -37079,6 +39125,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateOverlay_mD7168DF776E
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchOverlayKeyUtf8 = Utils.ToUtf8(pchOverlayKey);
 		String_t* L_0 = ___pchOverlayKey0;
@@ -37100,6 +39148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateOverlay_mD7168DF776E
 		uint64_t* L_9 = ___pOverlayHandle2;
 		NullCheck(L_6);
 		int32_t L_10 = _CreateOverlay_Invoke_mD80FF0E4D9A03A87AD41CF853882392032B10653(L_6, (intptr_t)L_7, (intptr_t)L_8, (uint64_t*)L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
 		// Marshal.FreeHGlobal(pchOverlayKeyUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -37108,12 +39157,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateOverlay_mD7168DF776E
 		intptr_t L_12 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_12, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		int32_t L_13 = V_2;
+		V_3 = L_13;
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		// }
+		int32_t L_14 = V_3;
+		return L_14;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::DestroyOverlay(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_DestroyOverlay_m389DB18EEA9B98697A092C713446D70D74C93086 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.DestroyOverlay(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37121,13 +39181,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_DestroyOverlay_m389DB18EEA
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		int32_t L_3 = _DestroyOverlay_Invoke_mC9B703C32D5CE2E7CDE27E9B1212969D72B3BD33(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.UInt32 Valve.VR.CVROverlay::GetOverlayKey(System.UInt64,System.Text.StringBuilder,System.UInt32,Valve.VR.EVROverlayError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayKey_m1C563EB8323297EFF6A91B0AB6FB35FD9C91CDB7 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, StringBuilder_t * ___pchValue1, uint32_t ___unBufferSize2, int32_t* ___pError3, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetOverlayKey(ulOverlayHandle,pchValue,unBufferSize,ref pError);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37138,13 +39210,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayKey_m1C563EB832
 		int32_t* L_5 = ___pError3;
 		NullCheck(L_1);
 		uint32_t L_6 = _GetOverlayKey_Invoke_m765D98778ED2AE43FD026B6477DD51A4335BB1A1(L_1, L_2, L_3, L_4, (int32_t*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		uint32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		uint32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // System.UInt32 Valve.VR.CVROverlay::GetOverlayName(System.UInt64,System.Text.StringBuilder,System.UInt32,Valve.VR.EVROverlayError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayName_mC0669B135F5B836F81E52DFF1981E44B1A983132 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, StringBuilder_t * ___pchValue1, uint32_t ___unBufferSize2, int32_t* ___pError3, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetOverlayName(ulOverlayHandle,pchValue,unBufferSize,ref pError);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37155,8 +39239,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayName_mC0669B135
 		int32_t* L_5 = ___pError3;
 		NullCheck(L_1);
 		uint32_t L_6 = _GetOverlayName_Invoke_m4D06E85E87CC98EC3AB15D972E6585A9A5644BA5(L_1, L_2, L_3, L_4, (int32_t*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		uint32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		uint32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayName(System.UInt64,System.String)
@@ -37170,6 +39264,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayName_m7E96182324
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchNameUtf8 = Utils.ToUtf8(pchName);
 		String_t* L_0 = ___pchName1;
@@ -37183,17 +39279,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayName_m7E96182324
 		intptr_t L_5 = V_0;
 		NullCheck(L_3);
 		int32_t L_6 = _SetOverlayName_Invoke_mADC1E9F5A7386608A1BF58E9D2FF06E2F2967594(L_3, L_4, (intptr_t)L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchNameUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayImageData(System.UInt64,System.IntPtr,System.UInt32,System.UInt32&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayImageData_m0140BC6CA60F7ED597575DAA91B685CF4EB747E3 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, intptr_t ___pvBuffer1, uint32_t ___unBufferSize2, uint32_t* ___punWidth3, uint32_t* ___punHeight4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punWidth = 0;
 		uint32_t* L_0 = ___punWidth3;
@@ -37211,8 +39319,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayImageData_m0140B
 		uint32_t* L_8 = ___punHeight4;
 		NullCheck(L_3);
 		int32_t L_9 = _GetOverlayImageData_Invoke_m2DE11E030C5F8F0B7CB014CD5A1C21485E79E207(L_3, L_4, (intptr_t)L_5, L_6, (uint32_t*)L_7, (uint32_t*)L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
 		// return result;
-		return L_9;
+		int32_t L_10 = V_0;
+		V_1 = L_10;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_11 = V_1;
+		return L_11;
 	}
 }
 // System.String Valve.VR.CVROverlay::GetOverlayErrorNameFromEnum(Valve.VR.EVROverlayError)
@@ -37224,6 +39342,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVROverlay_GetOverlayErrorNameFromE
 		il2cpp_codegen_initialize_method (CVROverlay_GetOverlayErrorNameFromEnum_m21906D1EC1D6400B4844EBAF0AF7CE05596F1C83_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetOverlayErrorNameFromEnum(error);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37231,15 +39352,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVROverlay_GetOverlayErrorNameFromE
 		int32_t L_2 = ___error0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetOverlayErrorNameFromEnum_Invoke_m1C7AFFF5ED0869009757799BDE7395B81E96C795(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayRenderingPid(System.UInt64,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderingPid_mBB375CF912293B865C8F5E590E0DCF4EBAC8B50C (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t ___unPID1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayRenderingPid(ulOverlayHandle,unPID);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37248,13 +39381,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRenderingPid_mBB
 		uint32_t L_3 = ___unPID1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayRenderingPid_Invoke_m7D02279F6804EBCA1EB4E2A4BFF429CFF8A02BF5(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.UInt32 Valve.VR.CVROverlay::GetOverlayRenderingPid(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderingPid_m5AEED2F79EC33D41F86CEE647248266B0A758CF0 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetOverlayRenderingPid(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37262,13 +39407,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetOverlayRenderingPid_m5
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		uint32_t L_3 = _GetOverlayRenderingPid_Invoke_mC8C52BF0588EEE213C9B9B483E9CCFD57F3A166B(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		uint32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		uint32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayFlag(System.UInt64,Valve.VR.VROverlayFlags,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFlag_mE0B94F195931B9EDA23DF4DED409477FA752814D (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t ___eOverlayFlag1, bool ___bEnabled2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayFlag(ulOverlayHandle,eOverlayFlag,bEnabled);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37278,13 +39435,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFlag_mE0B94F1959
 		bool L_4 = ___bEnabled2;
 		NullCheck(L_1);
 		int32_t L_5 = _SetOverlayFlag_Invoke_m98328C03FB01443B63736CE50104106DE8428657(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayFlag(System.UInt64,Valve.VR.VROverlayFlags,System.Boolean&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlag_m3E1512C427DCD4447604A8E9DA73E032F813BD79 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t ___eOverlayFlag1, bool* ___pbEnabled2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pbEnabled = false;
 		bool* L_0 = ___pbEnabled2;
@@ -37297,13 +39466,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlag_m3E1512C427
 		bool* L_5 = ___pbEnabled2;
 		NullCheck(L_2);
 		int32_t L_6 = _GetOverlayFlag_Invoke_m44994953A32DA86DAFB81C2617A0F5C528E639F1(L_2, L_3, L_4, (bool*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayFlags(System.UInt64,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlags_mD4B8A6841317A8F4FBB5D997212E9CA02DF1BA89 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t* ___pFlags1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pFlags = 0;
 		uint32_t* L_0 = ___pFlags1;
@@ -37315,13 +39496,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayFlags_mD4B8A6841
 		uint32_t* L_4 = ___pFlags1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetOverlayFlags_Invoke_m04F3B3E9F59A4C883F700761748ACCC1346561A5(L_2, L_3, (uint32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayColor(System.UInt64,System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayColor_m1A1232BAB25B32AEA5D9806ED94D1AAB9E1F43B3 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float ___fRed1, float ___fGreen2, float ___fBlue3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayColor(ulOverlayHandle,fRed,fGreen,fBlue);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37332,13 +39525,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayColor_m1A1232BAB
 		float L_5 = ___fBlue3;
 		NullCheck(L_1);
 		int32_t L_6 = _SetOverlayColor_Invoke_m3C6A3C05EEBB49800D8CDEE9AFBC9DAC7EA482A5(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayColor(System.UInt64,System.Single&,System.Single&,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayColor_m69E936A482F37C34B4C34D9C48AB7B09A3B49EC8 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float* ___pfRed1, float* ___pfGreen2, float* ___pfBlue3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pfRed = 0;
 		float* L_0 = ___pfRed1;
@@ -37358,13 +39563,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayColor_m69E936A48
 		float* L_8 = ___pfBlue3;
 		NullCheck(L_4);
 		int32_t L_9 = _GetOverlayColor_Invoke_m509C1A5966A1CF68735076EA09F221FE33BC8980(L_4, L_5, (float*)L_6, (float*)L_7, (float*)L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
 		// return result;
-		return L_9;
+		int32_t L_10 = V_0;
+		V_1 = L_10;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		// }
+		int32_t L_11 = V_1;
+		return L_11;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayAlpha(System.UInt64,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAlpha_mBE57D6CECA6383F767F113379BE868BE04AE34A3 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float ___fAlpha1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayAlpha(ulOverlayHandle,fAlpha);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37373,13 +39590,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayAlpha_mBE57D6CEC
 		float L_3 = ___fAlpha1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayAlpha_Invoke_mD6B9EF0C0A0AE85D644882871E19D16AC4CE9B28(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayAlpha(System.UInt64,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAlpha_mC44A9BAEC47829EE09214EF7EBA8BA47A9810973 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float* ___pfAlpha1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pfAlpha = 0;
 		float* L_0 = ___pfAlpha1;
@@ -37391,13 +39620,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayAlpha_mC44A9BAEC
 		float* L_4 = ___pfAlpha1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetOverlayAlpha_Invoke_mA9EED8232ACDDA4F9CBA14FD8E86444285538AD6(L_2, L_3, (float*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTexelAspect(System.UInt64,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexelAspect_m227088E6B65DB26954528A97C9449622C5F99D3D (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float ___fTexelAspect1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTexelAspect(ulOverlayHandle,fTexelAspect);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37406,13 +39647,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexelAspect_m227
 		float L_3 = ___fTexelAspect1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayTexelAspect_Invoke_mAFC33FE7F48C64E8C62BB9E4F26E398575AEB132(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTexelAspect(System.UInt64,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexelAspect_m1B1956BDB726F01DDFBC378315B3A4FE379A5E26 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float* ___pfTexelAspect1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pfTexelAspect = 0;
 		float* L_0 = ___pfTexelAspect1;
@@ -37424,13 +39677,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexelAspect_m1B1
 		float* L_4 = ___pfTexelAspect1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetOverlayTexelAspect_Invoke_m85A4237FC605FA6B69B66DD4123660DBA45E3D5F(L_2, L_3, (float*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlaySortOrder(System.UInt64,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlaySortOrder_mE0C78FD436376568C07B3A81A0639F38D73D599C (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t ___unSortOrder1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlaySortOrder(ulOverlayHandle,unSortOrder);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37439,13 +39704,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlaySortOrder_mE0C78
 		uint32_t L_3 = ___unSortOrder1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlaySortOrder_Invoke_mA410E6BB15F26F591B91115CB19BEC38E712A7C1(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlaySortOrder(System.UInt64,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlaySortOrder_mD5FB25ABEDDE6AE9C007AE72297AB463FB62C391 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t* ___punSortOrder1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punSortOrder = 0;
 		uint32_t* L_0 = ___punSortOrder1;
@@ -37457,13 +39734,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlaySortOrder_mD5FB2
 		uint32_t* L_4 = ___punSortOrder1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetOverlaySortOrder_Invoke_m38F7588D3566314C1B69029EE191245A2BDDE391(L_2, L_3, (uint32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayWidthInMeters(System.UInt64,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayWidthInMeters_m277C6E2B8E840BE4A30F8454B55E0D685525995C (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float ___fWidthInMeters1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayWidthInMeters(ulOverlayHandle,fWidthInMeters);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37472,13 +39761,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayWidthInMeters_m2
 		float L_3 = ___fWidthInMeters1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayWidthInMeters_Invoke_m70225658063BBFDC1B99707ADE844B62A61D73C1(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayWidthInMeters(System.UInt64,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayWidthInMeters_m0379BBCCDCC95EF2E38C454D59D090D0CCA91285 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float* ___pfWidthInMeters1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pfWidthInMeters = 0;
 		float* L_0 = ___pfWidthInMeters1;
@@ -37490,13 +39791,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayWidthInMeters_m0
 		float* L_4 = ___pfWidthInMeters1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetOverlayWidthInMeters_Invoke_m438DA364D7A6BC756BE95F35F512F3C0902C04BB(L_2, L_3, (float*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayCurvature(System.UInt64,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayCurvature_m82C99F8A29ED2DCAD6B3680F85DC625B93C93EAA (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float ___fCurvature1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayCurvature(ulOverlayHandle,fCurvature);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37505,13 +39818,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayCurvature_m82C99
 		float L_3 = ___fCurvature1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayCurvature_Invoke_m171EEAF0D65BADDAE288C8A33E276E4F552A3997(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayCurvature(System.UInt64,System.Single&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayCurvature_m836DFD6CF1419BDE3D2F6571B06345D91C8FD7A6 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float* ___pfCurvature1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pfCurvature = 0;
 		float* L_0 = ___pfCurvature1;
@@ -37523,13 +39848,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayCurvature_m836DF
 		float* L_4 = ___pfCurvature1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetOverlayCurvature_Invoke_m3DA4EEA610AF77B13890BA123BC83FB9A02AF8C5(L_2, L_3, (float*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTextureColorSpace(System.UInt64,Valve.VR.EColorSpace)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureColorSpace_m042FF1D91CA5FE02CC662DB2CD9985BDBD877A95 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t ___eTextureColorSpace1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTextureColorSpace(ulOverlayHandle,eTextureColorSpace);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37538,13 +39875,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureColorSpac
 		int32_t L_3 = ___eTextureColorSpace1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayTextureColorSpace_Invoke_mB815463EE384034D38FD80027A5933D8869460AE(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTextureColorSpace(System.UInt64,Valve.VR.EColorSpace&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureColorSpace_m76B914A05A378F501C7F76DA34076EF214051568 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t* ___peTextureColorSpace1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayTextureColorSpace(ulOverlayHandle,ref peTextureColorSpace);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37553,13 +39902,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureColorSpac
 		int32_t* L_3 = ___peTextureColorSpace1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetOverlayTextureColorSpace_Invoke_m54E43BCCDB69F3061CB2277EECC805A44E768DC8(L_1, L_2, (int32_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTextureBounds(System.UInt64,Valve.VR.VRTextureBounds_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureBounds_m0CCCCE8FBFCDCB8892CB0B90AEAB1EB348F5877A (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * ___pOverlayTextureBounds1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTextureBounds(ulOverlayHandle,ref pOverlayTextureBounds);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37568,13 +39929,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTextureBounds_m0
 		VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * L_3 = ___pOverlayTextureBounds1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayTextureBounds_Invoke_m162BCC0137216BC4B965FD8A017CAC681BFA2AD9(L_1, L_2, (VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTextureBounds(System.UInt64,Valve.VR.VRTextureBounds_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureBounds_m8F7015E29A7E7CF7AA0652F82E68983BBAD219CC (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * ___pOverlayTextureBounds1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayTextureBounds(ulOverlayHandle,ref pOverlayTextureBounds);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37583,13 +39956,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureBounds_m8
 		VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * L_3 = ___pOverlayTextureBounds1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetOverlayTextureBounds_Invoke_mA8A0F7D7A442D0A11214D73148CE159EA354E1F0(L_1, L_2, (VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTransformType(System.UInt64,Valve.VR.VROverlayTransformType&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformType_m0A8EFAE63852C491FA28CA6C5A8699A0FB4BB622 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t* ___peTransformType1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayTransformType(ulOverlayHandle,ref peTransformType);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37598,13 +39983,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformType_m0
 		int32_t* L_3 = ___peTransformType1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetOverlayTransformType_Invoke_m63F5F14B2640E6246D90DEA21583DFA026BC0C3C(L_1, L_2, (int32_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTransformAbsolute(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformAbsolute_m0EA37E53D61919D9DF1C3E8497B6576DE7FBA284 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t ___eTrackingOrigin1, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatTrackingOriginToOverlayTransform2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTransformAbsolute(ulOverlayHandle,eTrackingOrigin,ref pmatTrackingOriginToOverlayTransform);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37614,13 +40011,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformAbsolut
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_4 = ___pmatTrackingOriginToOverlayTransform2;
 		NullCheck(L_1);
 		int32_t L_5 = _SetOverlayTransformAbsolute_Invoke_m7D01B4161BD59745320136A328C07AB0B2CDEE21(L_1, L_2, L_3, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTransformAbsolute(System.UInt64,Valve.VR.ETrackingUniverseOrigin&,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformAbsolute_mE3663E2BBF6E365A2CD9C6F8A9247A9F73447D1B (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t* ___peTrackingOrigin1, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatTrackingOriginToOverlayTransform2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayTransformAbsolute(ulOverlayHandle,ref peTrackingOrigin,ref pmatTrackingOriginToOverlayTransform);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37630,13 +40039,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformAbsolut
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_4 = ___pmatTrackingOriginToOverlayTransform2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetOverlayTransformAbsolute_Invoke_m67969C7F1330BAEACD2EB68EE7487DC9F6B925E2(L_1, L_2, (int32_t*)L_3, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTransformTrackedDeviceRelative(System.UInt64,System.UInt32,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTrackedDeviceRelative_m045921BE872D411D811B84CA5DA1E0244544AD5F (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t ___unTrackedDevice1, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatTrackedDeviceToOverlayTransform2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTransformTrackedDeviceRelative(ulOverlayHandle,unTrackedDevice,ref pmatTrackedDeviceToOverlayTransform);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37646,13 +40067,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_4 = ___pmatTrackedDeviceToOverlayTransform2;
 		NullCheck(L_1);
 		int32_t L_5 = _SetOverlayTransformTrackedDeviceRelative_Invoke_m7B01D22DA27BB7E173DA34C733810A8E5D33FE70(L_1, L_2, L_3, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTransformTrackedDeviceRelative(System.UInt64,System.UInt32&,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTrackedDeviceRelative_mE40DC9E8F5AFE6425316FC7C74805186D2F092DE (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t* ___punTrackedDevice1, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatTrackedDeviceToOverlayTransform2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punTrackedDevice = 0;
 		uint32_t* L_0 = ___punTrackedDevice1;
@@ -37665,8 +40098,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTracked
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_5 = ___pmatTrackedDeviceToOverlayTransform2;
 		NullCheck(L_2);
 		int32_t L_6 = _GetOverlayTransformTrackedDeviceRelative_Invoke_m8742D0DA6348D9CD234941CEB40977BBB4B4F335(L_2, L_3, (uint32_t*)L_4, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTransformTrackedDeviceComponent(System.UInt64,System.UInt32,System.String)
@@ -37680,6 +40123,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchComponentNameUtf8 = Utils.ToUtf8(pchComponentName);
 		String_t* L_0 = ___pchComponentName2;
@@ -37694,17 +40139,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformTracked
 		intptr_t L_6 = V_0;
 		NullCheck(L_3);
 		int32_t L_7 = _SetOverlayTransformTrackedDeviceComponent_Invoke_m375EBC28B437C74814E2209E47E208CE5FB9B99C(L_3, L_4, L_5, (intptr_t)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchComponentNameUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTransformTrackedDeviceComponent(System.UInt64,System.UInt32&,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTrackedDeviceComponent_mF071C30EA377D463A0CFBEFB67F1BD007A255B81 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t* ___punDeviceIndex1, StringBuilder_t * ___pchComponentName2, uint32_t ___unComponentNameSize3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punDeviceIndex = 0;
 		uint32_t* L_0 = ___punDeviceIndex1;
@@ -37718,13 +40175,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformTracked
 		uint32_t L_6 = ___unComponentNameSize3;
 		NullCheck(L_2);
 		int32_t L_7 = _GetOverlayTransformTrackedDeviceComponent_Invoke_mC3A14C21F24A72254F95E3F3A583DD8F068B0C3C(L_2, L_3, (uint32_t*)L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTransformOverlayRelative(System.UInt64,System.UInt64&,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformOverlayRelative_m6F27B2D8A47BE4C9D0AAE5CC67D8A3DCEC8D9250 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint64_t* ___ulOverlayHandleParent1, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatParentOverlayToOverlayTransform2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ulOverlayHandleParent = 0;
 		uint64_t* L_0 = ___ulOverlayHandleParent1;
@@ -37737,13 +40206,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformOverlay
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_5 = ___pmatParentOverlayToOverlayTransform2;
 		NullCheck(L_2);
 		int32_t L_6 = _GetOverlayTransformOverlayRelative_Invoke_mFCE2CD7303258304E5D342DE9CC7DFBC8A89C40D(L_2, L_3, (uint64_t*)L_4, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTransformOverlayRelative(System.UInt64,System.UInt64,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformOverlayRelative_mC1D1B22B7ECB36756C71EB5467C777EF21AFD8E9 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint64_t ___ulOverlayHandleParent1, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatParentOverlayToOverlayTransform2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTransformOverlayRelative(ulOverlayHandle,ulOverlayHandleParent,ref pmatParentOverlayToOverlayTransform);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37753,13 +40234,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformOverlay
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_4 = ___pmatParentOverlayToOverlayTransform2;
 		NullCheck(L_1);
 		int32_t L_5 = _SetOverlayTransformOverlayRelative_Invoke_mE6C0CD18B813C7DC2096A02CC57A14EDCD625368(L_1, L_2, L_3, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTransformCursor(System.UInt64,Valve.VR.HmdVector2_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformCursor_mE10005C56C4B3C28A31877755CB40AABE43FEC19 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulCursorOverlayHandle0, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pvHotspot1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTransformCursor(ulCursorOverlayHandle,ref pvHotspot);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37768,13 +40261,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTransformCursor_
 		HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * L_3 = ___pvHotspot1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayTransformCursor_Invoke_mD16E0829C75AE40C8E76F6B633F2D95BD4795072(L_1, L_2, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTransformCursor(System.UInt64,Valve.VR.HmdVector2_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformCursor_m7D960853FFF4014B4834A18A46E8F576BF3F5ABA (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pvHotspot1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayTransformCursor(ulOverlayHandle,ref pvHotspot);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37783,13 +40288,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTransformCursor_
 		HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * L_3 = ___pvHotspot1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetOverlayTransformCursor_Invoke_m713A68C2C9CDEA0526F6336E98D4DBBD5468B36B(L_1, L_2, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::ShowOverlay(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowOverlay_m6B3A7FAD0BDCDFBCB81C4677F7D5B81EA1B800D4 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.ShowOverlay(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37797,13 +40314,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowOverlay_m6B3A7FAD0BDCD
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		int32_t L_3 = _ShowOverlay_Invoke_m5350AEA48E1598EE546A9CAAF8D49DC61043F99F(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::HideOverlay(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_HideOverlay_m7856184C6459F2E9FCB300F59FEC8C9AE24E961D (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.HideOverlay(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37811,13 +40340,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_HideOverlay_m7856184C6459F
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		int32_t L_3 = _HideOverlay_Invoke_m6765FCD147D087248E92A2A06596BA4356AF3D24(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVROverlay::IsOverlayVisible(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsOverlayVisible_mC4F787C6B0573C91753603E3FE242B7700964317 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsOverlayVisible(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37825,13 +40366,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsOverlayVisible_mC4F787C6B05
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		bool L_3 = _IsOverlayVisible_Invoke_mEDF4D82889067AF3F03D600D514F1748FA6261C6(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetTransformForOverlayCoordinates(System.UInt64,Valve.VR.ETrackingUniverseOrigin,Valve.VR.HmdVector2_t,Valve.VR.HmdMatrix34_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetTransformForOverlayCoordinates_mE1AC6F037D921587A6844D25522D43F55917053D (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t ___eTrackingOrigin1, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A  ___coordinatesInOverlay2, HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * ___pmatTransform3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetTransformForOverlayCoordinates(ulOverlayHandle,eTrackingOrigin,coordinatesInOverlay,ref pmatTransform);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37842,8 +40395,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetTransformForOverlayCoor
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * L_5 = ___pmatTransform3;
 		NullCheck(L_1);
 		int32_t L_6 = _GetTransformForOverlayCoordinates_Invoke_mE3E3D84DCD6AEC364E53F07F6BE33E58E701CA79(L_1, L_2, L_3, L_4, (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // System.Boolean Valve.VR.CVROverlay::PollNextOverlayEvent(System.UInt64,Valve.VR.VREvent_t&,System.UInt32)
@@ -37855,10 +40418,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_PollNextOverlayEvent_mE18E395
 		il2cpp_codegen_initialize_method (CVROverlay_PollNextOverlayEvent_mE18E3950A091A18ACF1FF6FDDE4ED467FE92570C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	PollNextOverlayEventUnion_tBB36BF57AEADF3C1113F18D38D3188A3594A0087  V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F  V_1;
-	memset((&V_1), 0, sizeof(V_1));
+	bool V_0 = false;
+	bool V_1 = false;
+	PollNextOverlayEventUnion_tBB36BF57AEADF3C1113F18D38D3188A3594A0087  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F  V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B3_0 = 0;
 	{
 		// if ((System.Environment.OSVersion.Platform == System.PlatformID.MacOSX) ||
 		//         (System.Environment.OSVersion.Platform == System.PlatformID.Unix))
@@ -37867,64 +40435,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_PollNextOverlayEvent_mE18E395
 		int32_t L_1 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)6)))
 		{
-			goto IL_001a;
+			goto IL_001d;
 		}
 	}
 	{
 		OperatingSystem_tBB05846D5AA6960FFEB42C59E5FE359255C2BE83 * L_2 = Environment_get_OSVersion_mD6E99E279170E00D17F7D29F242EF65434812233(/*hidden argument*/NULL);
 		NullCheck(L_2);
 		int32_t L_3 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_2, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)4))))
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)4))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001e:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0062;
+			goto IL_0073;
 		}
 	}
-
-IL_001a:
 	{
 		// VREvent_t_Packed event_packed = new VREvent_t_Packed();
-		il2cpp_codegen_initobj((&V_1), sizeof(VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F ));
+		il2cpp_codegen_initobj((&V_3), sizeof(VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F ));
 		// u.pPollNextOverlayEventPacked = null;
-		(&V_0)->set_pPollNextOverlayEventPacked_1((_PollNextOverlayEventPacked_tC9CB6707F575FFE4625DE07CB1DCC6A42CA59DF6 *)NULL);
+		(&V_2)->set_pPollNextOverlayEventPacked_1((_PollNextOverlayEventPacked_tC9CB6707F575FFE4625DE07CB1DCC6A42CA59DF6 *)NULL);
 		// u.pPollNextOverlayEvent = FnTable.PollNextOverlayEvent;
-		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_4 = __this->get_address_of_FnTable_0();
-		_PollNextOverlayEvent_t32909C42216D2BD4A68CFD43F5E35402CF1F4003 * L_5 = L_4->get_PollNextOverlayEvent_44();
-		(&V_0)->set_pPollNextOverlayEvent_0(L_5);
+		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_5 = __this->get_address_of_FnTable_0();
+		_PollNextOverlayEvent_t32909C42216D2BD4A68CFD43F5E35402CF1F4003 * L_6 = L_5->get_PollNextOverlayEvent_44();
+		(&V_2)->set_pPollNextOverlayEvent_0(L_6);
 		// bool packed_result = u.pPollNextOverlayEventPacked(ulOverlayHandle,ref event_packed,(uint)System.Runtime.InteropServices.Marshal.SizeOf(typeof(VREvent_t_Packed)));
-		PollNextOverlayEventUnion_tBB36BF57AEADF3C1113F18D38D3188A3594A0087  L_6 = V_0;
-		_PollNextOverlayEventPacked_tC9CB6707F575FFE4625DE07CB1DCC6A42CA59DF6 * L_7 = L_6.get_pPollNextOverlayEventPacked_1();
-		uint64_t L_8 = ___ulOverlayHandle0;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_9 = { reinterpret_cast<intptr_t> (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F_0_0_0_var) };
+		PollNextOverlayEventUnion_tBB36BF57AEADF3C1113F18D38D3188A3594A0087  L_7 = V_2;
+		_PollNextOverlayEventPacked_tC9CB6707F575FFE4625DE07CB1DCC6A42CA59DF6 * L_8 = L_7.get_pPollNextOverlayEventPacked_1();
+		uint64_t L_9 = ___ulOverlayHandle0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_10 = { reinterpret_cast<intptr_t> (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_10 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_9, /*hidden argument*/NULL);
+		Type_t * L_11 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_10, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		int32_t L_11 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_10, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		bool L_12 = _PollNextOverlayEventPacked_Invoke_mF1280708470924D4F0A285F59B75478ABAE15BFF(L_7, L_8, (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_1), L_11, /*hidden argument*/NULL);
+		int32_t L_12 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_11, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		bool L_13 = _PollNextOverlayEventPacked_Invoke_mF1280708470924D4F0A285F59B75478ABAE15BFF(L_8, L_9, (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_3), L_12, /*hidden argument*/NULL);
+		V_4 = L_13;
 		// event_packed.Unpack(ref pEvent);
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_13 = ___pEvent1;
-		VREvent_t_Packed_Unpack_m8B24D002A51C983643B1E6862A6452D4ECF42C57((VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_1), (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_13, /*hidden argument*/NULL);
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_14 = ___pEvent1;
+		VREvent_t_Packed_Unpack_m8B24D002A51C983643B1E6862A6452D4ECF42C57((VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_3), (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_14, /*hidden argument*/NULL);
 		// return packed_result;
-		return L_12;
+		bool L_15 = V_4;
+		V_5 = L_15;
+		goto IL_008c;
 	}
 
-IL_0062:
+IL_0073:
 	{
 		// bool result = FnTable.PollNextOverlayEvent(ulOverlayHandle,ref pEvent,uncbVREvent);
-		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_14 = __this->get_address_of_FnTable_0();
-		_PollNextOverlayEvent_t32909C42216D2BD4A68CFD43F5E35402CF1F4003 * L_15 = L_14->get_PollNextOverlayEvent_44();
-		uint64_t L_16 = ___ulOverlayHandle0;
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_17 = ___pEvent1;
-		uint32_t L_18 = ___uncbVREvent2;
-		NullCheck(L_15);
-		bool L_19 = _PollNextOverlayEvent_Invoke_m43024125C2E4A4566D60FF4E837F113C731D68FA(L_15, L_16, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_17, L_18, /*hidden argument*/NULL);
+		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_16 = __this->get_address_of_FnTable_0();
+		_PollNextOverlayEvent_t32909C42216D2BD4A68CFD43F5E35402CF1F4003 * L_17 = L_16->get_PollNextOverlayEvent_44();
+		uint64_t L_18 = ___ulOverlayHandle0;
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_19 = ___pEvent1;
+		uint32_t L_20 = ___uncbVREvent2;
+		NullCheck(L_17);
+		bool L_21 = _PollNextOverlayEvent_Invoke_m43024125C2E4A4566D60FF4E837F113C731D68FA(L_17, L_18, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_19, L_20, /*hidden argument*/NULL);
+		V_0 = L_21;
 		// return result;
-		return L_19;
+		bool L_22 = V_0;
+		V_5 = L_22;
+		goto IL_008c;
+	}
+
+IL_008c:
+	{
+		// }
+		bool L_23 = V_5;
+		return L_23;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayInputMethod(System.UInt64,Valve.VR.VROverlayInputMethod&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayInputMethod_m029ECA7AE8D685749C05361E2BE0661D88581466 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t* ___peInputMethod1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayInputMethod(ulOverlayHandle,ref peInputMethod);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37933,13 +40527,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayInputMethod_m029
 		int32_t* L_3 = ___peInputMethod1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetOverlayInputMethod_Invoke_mA799A72D57B52EE30BFC271E2EF0811E4BBE2490(L_1, L_2, (int32_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayInputMethod(System.UInt64,Valve.VR.VROverlayInputMethod)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayInputMethod_mDA08818A15930E4070AD70796D4F0F9B1114636D (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, int32_t ___eInputMethod1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayInputMethod(ulOverlayHandle,eInputMethod);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37948,13 +40554,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayInputMethod_mDA0
 		int32_t L_3 = ___eInputMethod1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayInputMethod_Invoke_m8CE29526D4BCDA6202DEEA74D2EC5DE55D8098BE(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayMouseScale(System.UInt64,Valve.VR.HmdVector2_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayMouseScale_m767F573EEB2BFF05F09C204338DDDA03F18EF057 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pvecMouseScale1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.GetOverlayMouseScale(ulOverlayHandle,ref pvecMouseScale);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37963,13 +40581,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayMouseScale_m767F
 		HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * L_3 = ___pvecMouseScale1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetOverlayMouseScale_Invoke_m91EA2E522A246C8DF6EE7233D537821F9307C55B(L_1, L_2, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayMouseScale(System.UInt64,Valve.VR.HmdVector2_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayMouseScale_m0A4531B46046B7E4BEE87D0D52AF8084B8DF0CF5 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pvecMouseScale1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayMouseScale(ulOverlayHandle,ref pvecMouseScale);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37978,13 +40608,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayMouseScale_m0A45
 		HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * L_3 = ___pvecMouseScale1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayMouseScale_Invoke_mA79F34381BDF2ED5E2F22FD9D8F034C7B6650B32(L_1, L_2, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Boolean Valve.VR.CVROverlay::ComputeOverlayIntersection(System.UInt64,Valve.VR.VROverlayIntersectionParams_t&,Valve.VR.VROverlayIntersectionResults_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_ComputeOverlayIntersection_m4D0A35849B5A9BDC1F0B8BECBBC1A492F6EFB50E (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, VROverlayIntersectionParams_t_t35E4B67C9DB84A0BBF98BD8C7637CCEB527E8B1D * ___pParams1, VROverlayIntersectionResults_t_tC1979A8BBD8C7E81BC199FBEE1A549E470C29357 * ___pResults2, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.ComputeOverlayIntersection(ulOverlayHandle,ref pParams,ref pResults);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -37994,13 +40636,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_ComputeOverlayIntersection_m4
 		VROverlayIntersectionResults_t_tC1979A8BBD8C7E81BC199FBEE1A549E470C29357 * L_4 = ___pResults2;
 		NullCheck(L_1);
 		bool L_5 = _ComputeOverlayIntersection_Invoke_m5134957003DF00882BF9E02F77A6362C7C63565B(L_1, L_2, (VROverlayIntersectionParams_t_t35E4B67C9DB84A0BBF98BD8C7637CCEB527E8B1D *)L_3, (VROverlayIntersectionResults_t_tC1979A8BBD8C7E81BC199FBEE1A549E470C29357 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		bool L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		bool L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Boolean Valve.VR.CVROverlay::IsHoverTargetOverlay(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsHoverTargetOverlay_m8B36952118842CB0E2ABA407EEF989C88DD54973 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsHoverTargetOverlay(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38008,13 +40662,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsHoverTargetOverlay_m8B36952
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		bool L_3 = _IsHoverTargetOverlay_Invoke_m3B81B442CE9483BC39B0F09D68EE69CEBD9A293D(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayIntersectionMask(System.UInt64,Valve.VR.VROverlayIntersectionMaskPrimitive_t&,System.UInt32,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayIntersectionMask_m4A3F610FC421184D22E73CDFE5B3146145816465 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, VROverlayIntersectionMaskPrimitive_t_t1396D9BC520730D0906D66E8B413701392EB8054 * ___pMaskPrimitives1, uint32_t ___unNumMaskPrimitives2, uint32_t ___unPrimitiveSize3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayIntersectionMask(ulOverlayHandle,ref pMaskPrimitives,unNumMaskPrimitives,unPrimitiveSize);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38025,13 +40691,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayIntersectionMask
 		uint32_t L_5 = ___unPrimitiveSize3;
 		NullCheck(L_1);
 		int32_t L_6 = _SetOverlayIntersectionMask_Invoke_mD7D360E7B6AC17EA3A491E71470331E1CB2EED2E(L_1, L_2, (VROverlayIntersectionMaskPrimitive_t_t1396D9BC520730D0906D66E8B413701392EB8054 *)L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::TriggerLaserMouseHapticVibration(System.UInt64,System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_TriggerLaserMouseHapticVibration_m280283981CE1CEE44613D87F166FD45FB62CFB3C (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, float ___fDurationSeconds1, float ___fFrequency2, float ___fAmplitude3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.TriggerLaserMouseHapticVibration(ulOverlayHandle,fDurationSeconds,fFrequency,fAmplitude);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38042,13 +40720,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_TriggerLaserMouseHapticVib
 		float L_5 = ___fAmplitude3;
 		NullCheck(L_1);
 		int32_t L_6 = _TriggerLaserMouseHapticVibration_Invoke_mB75AA555B5361EAEEA818072B3C9B7CCAA6B83BC(L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayCursor(System.UInt64,System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayCursor_mC679E24824D8980AE8A6EA4D2F7F6B34F91BF1B4 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint64_t ___ulCursorHandle1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayCursor(ulOverlayHandle,ulCursorHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38057,13 +40747,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayCursor_mC679E248
 		uint64_t L_3 = ___ulCursorHandle1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayCursor_Invoke_m6446EAF54D929745476A89CD5D02A9A605773BBC(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayCursorPositionOverride(System.UInt64,Valve.VR.HmdVector2_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayCursorPositionOverride_m3B36C3B0972BFB14C7DF38CF65AA9D553E7A0F59 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pvCursor1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayCursorPositionOverride(ulOverlayHandle,ref pvCursor);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38072,13 +40774,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayCursorPositionOv
 		HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * L_3 = ___pvCursor1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayCursorPositionOverride_Invoke_m4F063A39F2ECE669FC840422D83BE6029AAD9DBB(L_1, L_2, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::ClearOverlayCursorPositionOverride(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ClearOverlayCursorPositionOverride_mE7482F451E5E82FB5BEAE47A839F2199C2371A3A (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.ClearOverlayCursorPositionOverride(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38086,13 +40800,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ClearOverlayCursorPosition
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		int32_t L_3 = _ClearOverlayCursorPositionOverride_Invoke_mBE390A62257A778CFE35EF5ADF7E7E1791B51A93(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayTexture(System.UInt64,Valve.VR.Texture_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexture_mB2FCE055DA5DD2D0788A39DEDC34DB0089214868 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, Texture_t_t8AA6A3A1B2BA9BC4D366991AAC8BD0C2788D37E5 * ___pTexture1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayTexture(ulOverlayHandle,ref pTexture);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38101,13 +40827,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayTexture_mB2FCE05
 		Texture_t_t8AA6A3A1B2BA9BC4D366991AAC8BD0C2788D37E5 * L_3 = ___pTexture1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetOverlayTexture_Invoke_mE5CB0D9C94F898CDAA9D545C5F60724B12B623B3(L_1, L_2, (Texture_t_t8AA6A3A1B2BA9BC4D366991AAC8BD0C2788D37E5 *)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::ClearOverlayTexture(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ClearOverlayTexture_m5463EAC9697D3A2D1586F88BD5C1DE099084A67F (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.ClearOverlayTexture(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38115,13 +40853,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ClearOverlayTexture_m5463E
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		int32_t L_3 = _ClearOverlayTexture_Invoke_m7B0868A4FE8787023314B393060060859D15DAD3(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayRaw(System.UInt64,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRaw_mB441B8369968D838EA3DB66666EF843AFF6B0692 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, intptr_t ___pvBuffer1, uint32_t ___unWidth2, uint32_t ___unHeight3, uint32_t ___unBytesPerPixel4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetOverlayRaw(ulOverlayHandle,pvBuffer,unWidth,unHeight,unBytesPerPixel);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38133,8 +40883,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayRaw_mB441B836996
 		uint32_t L_6 = ___unBytesPerPixel4;
 		NullCheck(L_1);
 		int32_t L_7 = _SetOverlayRaw_Invoke_m6039CC764031C8BCCFCDB3A00408D442CBB0F913(L_1, L_2, (intptr_t)L_3, L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetOverlayFromFile(System.UInt64,System.String)
@@ -38148,6 +40908,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFromFile_mC0753B
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchFilePathUtf8 = Utils.ToUtf8(pchFilePath);
 		String_t* L_0 = ___pchFilePath1;
@@ -38161,17 +40923,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetOverlayFromFile_mC0753B
 		intptr_t L_5 = V_0;
 		NullCheck(L_3);
 		int32_t L_6 = _SetOverlayFromFile_Invoke_m667C820D7BA362B8659F63E473B3FEA50F824AA2(L_3, L_4, (intptr_t)L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchFilePathUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTexture(System.UInt64,System.IntPtr&,System.IntPtr,System.UInt32&,System.UInt32&,System.UInt32&,Valve.VR.ETextureType&,Valve.VR.EColorSpace&,Valve.VR.VRTextureBounds_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexture_m530C4F246AC094776BEDB1B70B9275B9813A9A0D (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, intptr_t* ___pNativeTextureHandle1, intptr_t ___pNativeTextureRef2, uint32_t* ___pWidth3, uint32_t* ___pHeight4, uint32_t* ___pNativeFormat5, int32_t* ___pAPIType6, int32_t* ___pColorSpace7, VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * ___pTextureBounds8, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pWidth = 0;
 		uint32_t* L_0 = ___pWidth3;
@@ -38196,13 +40970,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTexture_m530C4F2
 		VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * L_13 = ___pTextureBounds8;
 		NullCheck(L_4);
 		int32_t L_14 = _GetOverlayTexture_Invoke_mC57FC13E89A53B023F6D1F281DBD377AF6440A67(L_4, L_5, (intptr_t*)L_6, (intptr_t)L_7, (uint32_t*)L_8, (uint32_t*)L_9, (uint32_t*)L_10, (int32_t*)L_11, (int32_t*)L_12, (VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 *)L_13, /*hidden argument*/NULL);
+		V_0 = L_14;
 		// return result;
-		return L_14;
+		int32_t L_15 = V_0;
+		V_1 = L_15;
+		goto IL_0031;
+	}
+
+IL_0031:
+	{
+		// }
+		int32_t L_16 = V_1;
+		return L_16;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::ReleaseNativeOverlayHandle(System.UInt64,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ReleaseNativeOverlayHandle_mED794FB172081EBD1C249A47143636732EE8E4B3 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, intptr_t ___pNativeTextureHandle1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.ReleaseNativeOverlayHandle(ulOverlayHandle,pNativeTextureHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38211,13 +40997,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ReleaseNativeOverlayHandle
 		intptr_t L_3 = ___pNativeTextureHandle1;
 		NullCheck(L_1);
 		int32_t L_4 = _ReleaseNativeOverlayHandle_Invoke_m3FDFF05640AF46F9F6CA47B47EEE6ED272FA180E(L_1, L_2, (intptr_t)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetOverlayTextureSize(System.UInt64,System.UInt32&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureSize_mC83C8EE7EBDC0AE9853CD5777B3F1ED50CA46B78 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t* ___pWidth1, uint32_t* ___pHeight2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pWidth = 0;
 		uint32_t* L_0 = ___pWidth1;
@@ -38233,8 +41031,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetOverlayTextureSize_mC83
 		uint32_t* L_6 = ___pHeight2;
 		NullCheck(L_3);
 		int32_t L_7 = _GetOverlayTextureSize_Invoke_mED526DB8B008AB259A388C2B4562EED9DE555ADF(L_3, L_4, (uint32_t*)L_5, (uint32_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::CreateDashboardOverlay(System.String,System.String,System.UInt64&,System.UInt64&)
@@ -38250,6 +41058,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateDashboardOverlay_mCE
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchOverlayKeyUtf8 = Utils.ToUtf8(pchOverlayKey);
 		String_t* L_0 = ___pchOverlayKey0;
@@ -38275,6 +41085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateDashboardOverlay_mCE
 		uint64_t* L_11 = ___pThumbnailHandle3;
 		NullCheck(L_7);
 		int32_t L_12 = _CreateDashboardOverlay_Invoke_m14C5F020924949BBC03B4423793E0218AB4134AB(L_7, (intptr_t)L_8, (intptr_t)L_9, (uint64_t*)L_10, (uint64_t*)L_11, /*hidden argument*/NULL);
+		V_2 = L_12;
 		// Marshal.FreeHGlobal(pchOverlayKeyUtf8);
 		intptr_t L_13 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -38283,25 +41094,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_CreateDashboardOverlay_mCE
 		intptr_t L_14 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_14, /*hidden argument*/NULL);
 		// return result;
-		return L_12;
+		int32_t L_15 = V_2;
+		V_3 = L_15;
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		// }
+		int32_t L_16 = V_3;
+		return L_16;
 	}
 }
 // System.Boolean Valve.VR.CVROverlay::IsDashboardVisible()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsDashboardVisible_m7643ED1DAE455ED7E48EBA3B50CF65E92819569F (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsDashboardVisible();
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
 		_IsDashboardVisible_t8E728FCB37F142576985B2B61397F684C072BE51 * L_1 = L_0->get_IsDashboardVisible_64();
 		NullCheck(L_1);
 		bool L_2 = _IsDashboardVisible_Invoke_m69FEBE575C03FBC034D4C7EE6B00299840A7B556(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVROverlay::IsActiveDashboardOverlay(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsActiveDashboardOverlay_mF7ABCA4041217A36824016EF191259ACF57BFF8E (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsActiveDashboardOverlay(ulOverlayHandle);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38309,13 +41143,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlay_IsActiveDashboardOverlay_mF7A
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		bool L_3 = _IsActiveDashboardOverlay_Invoke_m2579B84F899FC9DC6B9B402194A5471FC53723CC(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::SetDashboardOverlaySceneProcess(System.UInt64,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetDashboardOverlaySceneProcess_mB47A2F7095BEE57A0682E90FF64B2BF4B16E718E (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t ___unProcessId1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.SetDashboardOverlaySceneProcess(ulOverlayHandle,unProcessId);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38324,13 +41170,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_SetDashboardOverlayScenePr
 		uint32_t L_3 = ___unProcessId1;
 		NullCheck(L_1);
 		int32_t L_4 = _SetDashboardOverlaySceneProcess_Invoke_m5C52DDFFF56FDA54090EAC1ECDC4C2B275FAF3D3(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::GetDashboardOverlaySceneProcess(System.UInt64,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetDashboardOverlaySceneProcess_m0DBF8353997BB642A2B78AB087F646ED2B94B468 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, uint64_t ___ulOverlayHandle0, uint32_t* ___punProcessId1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punProcessId = 0;
 		uint32_t* L_0 = ___punProcessId1;
@@ -38342,8 +41200,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_GetDashboardOverlayScenePr
 		uint32_t* L_4 = ___punProcessId1;
 		NullCheck(L_2);
 		int32_t L_5 = _GetDashboardOverlaySceneProcess_Invoke_mCC0B418A305609F937243F87572D4CAA14453B52(L_2, L_3, (uint32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Void Valve.VR.CVROverlay::ShowDashboard(System.String)
@@ -38380,14 +41248,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlay_ShowDashboard_mA217892207CB7D
 // System.UInt32 Valve.VR.CVROverlay::GetPrimaryDashboardDevice()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetPrimaryDashboardDevice_m6C8D6406D49FE91950F06F3848C4BEEE8848AF0F (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetPrimaryDashboardDevice();
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
 		_GetPrimaryDashboardDevice_t5974BEF2AACC74755EAB7E9D08DF2A09A21E509B * L_1 = L_0->get_GetPrimaryDashboardDevice_69();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetPrimaryDashboardDevice_Invoke_mB8E768D50C0E9262A507A7498DE3D35643B0AAB2(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::ShowKeyboard(System.Int32,System.Int32,System.UInt32,System.String,System.UInt32,System.String,System.UInt64)
@@ -38403,6 +41283,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboard_mA80259F413D3
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchDescriptionUtf8 = Utils.ToUtf8(pchDescription);
 		String_t* L_0 = ___pchDescription3;
@@ -38425,6 +41307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboard_mA80259F413D3
 		uint64_t L_12 = ___uUserValue6;
 		NullCheck(L_5);
 		int32_t L_13 = _ShowKeyboard_Invoke_m27668A45152F6154576B736E0E6E86F0CE754647(L_5, L_6, L_7, L_8, (intptr_t)L_9, L_10, (intptr_t)L_11, L_12, /*hidden argument*/NULL);
+		V_2 = L_13;
 		// Marshal.FreeHGlobal(pchDescriptionUtf8);
 		intptr_t L_14 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -38433,7 +41316,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboard_mA80259F413D3
 		intptr_t L_15 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_15, /*hidden argument*/NULL);
 		// return result;
-		return L_13;
+		int32_t L_16 = V_2;
+		V_3 = L_16;
+		goto IL_003d;
+	}
+
+IL_003d:
+	{
+		// }
+		int32_t L_17 = V_3;
+		return L_17;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlay::ShowKeyboardForOverlay(System.UInt64,System.Int32,System.Int32,System.UInt32,System.String,System.UInt32,System.String,System.UInt64)
@@ -38449,6 +41341,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboardForOverlay_m5A
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchDescriptionUtf8 = Utils.ToUtf8(pchDescription);
 		String_t* L_0 = ___pchDescription4;
@@ -38472,6 +41366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboardForOverlay_m5A
 		uint64_t L_13 = ___uUserValue7;
 		NullCheck(L_5);
 		int32_t L_14 = _ShowKeyboardForOverlay_Invoke_mC1C66E56757CAA313B21C485464E6221A11C6D1B(L_5, L_6, L_7, L_8, L_9, (intptr_t)L_10, L_11, (intptr_t)L_12, L_13, /*hidden argument*/NULL);
+		V_2 = L_14;
 		// Marshal.FreeHGlobal(pchDescriptionUtf8);
 		intptr_t L_15 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -38480,12 +41375,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowKeyboardForOverlay_m5A
 		intptr_t L_16 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_16, /*hidden argument*/NULL);
 		// return result;
-		return L_14;
+		int32_t L_17 = V_2;
+		V_3 = L_17;
+		goto IL_003f;
+	}
+
+IL_003f:
+	{
+		// }
+		int32_t L_18 = V_3;
+		return L_18;
 	}
 }
 // System.UInt32 Valve.VR.CVROverlay::GetKeyboardText(System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetKeyboardText_mC54026486AAE5AC69E5BEE0485772CA11D2BE387 (CVROverlay_tB2A34B1ABB5A269D91C8B5E5BC9D73C6FF6F8C97 * __this, StringBuilder_t * ___pchText0, uint32_t ___cchText1, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetKeyboardText(pchText,cchText);
 		IVROverlay_tA6441F6D3CF13E5CD37B6264DEC68BBBA387D474 * L_0 = __this->get_address_of_FnTable_0();
@@ -38494,8 +41400,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVROverlay_GetKeyboardText_mC5402648
 		uint32_t L_3 = ___cchText1;
 		NullCheck(L_1);
 		uint32_t L_4 = _GetKeyboardText_Invoke_mC761F8D868709A539264BBA4AE2F31899C10558E(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		uint32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		uint32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVROverlay::HideKeyboard()
@@ -38562,6 +41478,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowMessageOverlay_mF56684
 	memset((&V_4), 0, sizeof(V_4));
 	intptr_t V_5;
 	memset((&V_5), 0, sizeof(V_5));
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
 	{
 		// IntPtr pchTextUtf8 = Utils.ToUtf8(pchText);
 		String_t* L_0 = ___pchText0;
@@ -38599,6 +41517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowMessageOverlay_mF56684
 		intptr_t L_19 = V_5;
 		NullCheck(L_13);
 		int32_t L_20 = _ShowMessageOverlay_Invoke_m488C8BEA95A3399DBE565BE5B92CFDFB5783DFAF(L_13, (intptr_t)L_14, (intptr_t)L_15, (intptr_t)L_16, (intptr_t)L_17, (intptr_t)L_18, (intptr_t)L_19, /*hidden argument*/NULL);
+		V_6 = L_20;
 		// Marshal.FreeHGlobal(pchTextUtf8);
 		intptr_t L_21 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -38619,7 +41538,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlay_ShowMessageOverlay_mF56684
 		intptr_t L_26 = V_5;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_26, /*hidden argument*/NULL);
 		// return result;
-		return L_20;
+		int32_t L_27 = V_6;
+		V_7 = L_27;
+		goto IL_007c;
+	}
+
+IL_007c:
+	{
+		// }
+		int32_t L_28 = V_7;
+		return L_28;
 	}
 }
 // System.Void Valve.VR.CVROverlay::CloseMessageOverlay()
@@ -38848,6 +41776,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlayView__ctor_mEC9248E7B0B0BEB8C9
 // Valve.VR.EVROverlayError Valve.VR.CVROverlayView::AcquireOverlayView(System.UInt64,Valve.VR.VRNativeDevice_t&,Valve.VR.VROverlayView_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlayView_AcquireOverlayView_m0BD1DF310B3E67D2714D343B5747E4296F2201A6 (CVROverlayView_t709051CFC0F14480A7FAECE7C92185406F94FA57 * __this, uint64_t ___ulOverlayHandle0, VRNativeDevice_t_t3B3B072BE55BE28FF84B5D9B4E33928FB4FD023F * ___pNativeDevice1, VROverlayView_t_t1BD14381C87E554247522018618B32379F19D977 * ___pOverlayView2, uint32_t ___unOverlayViewSize3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.AcquireOverlayView(ulOverlayHandle,ref pNativeDevice,ref pOverlayView,unOverlayViewSize);
 		IVROverlayView_tBEB8E48A89F2E7091C842E4DAE901CD8DA235F4C * L_0 = __this->get_address_of_FnTable_0();
@@ -38858,13 +41788,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlayView_AcquireOverlayView_m0B
 		uint32_t L_5 = ___unOverlayViewSize3;
 		NullCheck(L_1);
 		int32_t L_6 = _AcquireOverlayView_Invoke_m9AC87B184A2A762BB2EFFEC72F0726E1B602A6DC(L_1, L_2, (VRNativeDevice_t_t3B3B072BE55BE28FF84B5D9B4E33928FB4FD023F *)L_3, (VROverlayView_t_t1BD14381C87E554247522018618B32379F19D977 *)L_4, L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EVROverlayError Valve.VR.CVROverlayView::ReleaseOverlayView(Valve.VR.VROverlayView_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlayView_ReleaseOverlayView_mFE71C67034CEC7D6E99F77116CC44B3A599099A6 (CVROverlayView_t709051CFC0F14480A7FAECE7C92185406F94FA57 * __this, VROverlayView_t_t1BD14381C87E554247522018618B32379F19D977 * ___pOverlayView0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVROverlayError result = FnTable.ReleaseOverlayView(ref pOverlayView);
 		IVROverlayView_tBEB8E48A89F2E7091C842E4DAE901CD8DA235F4C * L_0 = __this->get_address_of_FnTable_0();
@@ -38872,8 +41814,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVROverlayView_ReleaseOverlayView_mFE
 		VROverlayView_t_t1BD14381C87E554247522018618B32379F19D977 * L_2 = ___pOverlayView0;
 		NullCheck(L_1);
 		int32_t L_3 = _ReleaseOverlayView_Invoke_m254AC33805919FC2128F552552B0C53CF8F80F8F(L_1, (VROverlayView_t_t1BD14381C87E554247522018618B32379F19D977 *)L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVROverlayView::PostOverlayEvent(System.UInt64,Valve.VR.VREvent_t&)
@@ -38894,6 +41846,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVROverlayView_PostOverlayEvent_m944280A
 // System.Boolean Valve.VR.CVROverlayView::IsViewingPermitted(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlayView_IsViewingPermitted_mA248F8AD358923A144DB3E7C6A8ABCA495AF6B4F (CVROverlayView_t709051CFC0F14480A7FAECE7C92185406F94FA57 * __this, uint64_t ___ulOverlayHandle0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsViewingPermitted(ulOverlayHandle);
 		IVROverlayView_tBEB8E48A89F2E7091C842E4DAE901CD8DA235F4C * L_0 = __this->get_address_of_FnTable_0();
@@ -38901,8 +41855,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVROverlayView_IsViewingPermitted_mA248F
 		uint64_t L_2 = ___ulOverlayHandle0;
 		NullCheck(L_1);
 		bool L_3 = _IsViewingPermitted_Invoke_m4ABED1B1CB33B001B78A5FCB31999AA38A690F21(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -38940,6 +41904,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRPaths__ctor_m13676A8B913C09838E8B1A6D
 // Valve.VR.ETrackedPropertyError Valve.VR.CVRPaths::ReadPathBatch(System.UInt64,Valve.VR.PathRead_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_ReadPathBatch_m8F8F2AAC109A9009DD9B9694C589561345EFA483 (CVRPaths_t6D1846C45A913178765F5005D6B51968438B59A3 * __this, uint64_t ___ulRootHandle0, PathRead_t_tAD51C26E2A81D3EC3831358838FC011EA955130C * ___pBatch1, uint32_t ___unBatchEntryCount2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackedPropertyError result = FnTable.ReadPathBatch(ulRootHandle,ref pBatch,unBatchEntryCount);
 		IVRPaths_tEF98155133673DC3D10300FA6DC3893C532D023B * L_0 = __this->get_address_of_FnTable_0();
@@ -38949,13 +41915,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_ReadPathBatch_m8F8F2AAC109A9
 		uint32_t L_4 = ___unBatchEntryCount2;
 		NullCheck(L_1);
 		int32_t L_5 = _ReadPathBatch_Invoke_m146855E2F8B838F2FB1AB0CC430F42D350F8961C(L_1, L_2, (PathRead_t_tAD51C26E2A81D3EC3831358838FC011EA955130C *)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.ETrackedPropertyError Valve.VR.CVRPaths::WritePathBatch(System.UInt64,Valve.VR.PathWrite_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_WritePathBatch_m630C5D4A234C0C20C058719BE1C238A73E164EC2 (CVRPaths_t6D1846C45A913178765F5005D6B51968438B59A3 * __this, uint64_t ___ulRootHandle0, PathWrite_t_tB43E04828741F772CE3CB42B33F4492134073BA3 * ___pBatch1, uint32_t ___unBatchEntryCount2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackedPropertyError result = FnTable.WritePathBatch(ulRootHandle,ref pBatch,unBatchEntryCount);
 		IVRPaths_tEF98155133673DC3D10300FA6DC3893C532D023B * L_0 = __this->get_address_of_FnTable_0();
@@ -38965,8 +41943,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_WritePathBatch_m630C5D4A234C
 		uint32_t L_4 = ___unBatchEntryCount2;
 		NullCheck(L_1);
 		int32_t L_5 = _WritePathBatch_Invoke_mCB59330CD2381007DFB11FE397B911D730BF9087(L_1, L_2, (PathWrite_t_tB43E04828741F772CE3CB42B33F4492134073BA3 *)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.ETrackedPropertyError Valve.VR.CVRPaths::StringToHandle(System.UInt64&,System.String)
@@ -38980,6 +41968,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_StringToHandle_mEEB3688E5A25
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// pHandle = 0;
 		uint64_t* L_0 = ___pHandle0;
@@ -38996,17 +41986,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_StringToHandle_mEEB3688E5A25
 		intptr_t L_6 = V_0;
 		NullCheck(L_4);
 		int32_t L_7 = _StringToHandle_Invoke_m8B60A7BEFA373EFF390D827D4366AAF5B8842DB6(L_4, (uint64_t*)L_5, (intptr_t)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchPathUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_002a;
+	}
+
+IL_002a:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.ETrackedPropertyError Valve.VR.CVRPaths::HandleToString(System.UInt64,System.String,System.UInt32,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_HandleToString_mA66ADADECF0BEFB9C55F5EFE0F6205C8B2C309EC (CVRPaths_t6D1846C45A913178765F5005D6B51968438B59A3 * __this, uint64_t ___pHandle0, String_t* ___pchBuffer1, uint32_t ___unBufferSize2, uint32_t* ___punBufferSizeUsed3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punBufferSizeUsed = 0;
 		uint32_t* L_0 = ___punBufferSizeUsed3;
@@ -39020,8 +42022,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRPaths_HandleToString_mA66ADADECF0B
 		uint32_t* L_6 = ___punBufferSizeUsed3;
 		NullCheck(L_2);
 		int32_t L_7 = _HandleToString_Invoke_m0776597E8232DCD4B68B6E38106A165E288107B4(L_2, L_3, L_4, L_5, (uint32_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 #ifdef __clang__
@@ -39059,6 +42071,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRProperties__ctor_mB1D5567CFEA03E3DE55
 // Valve.VR.ETrackedPropertyError Valve.VR.CVRProperties::ReadPropertyBatch(System.UInt64,Valve.VR.PropertyRead_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRProperties_ReadPropertyBatch_mC5D26EAFA21269701CD99B3F74D8AA72BFC413D9 (CVRProperties_tFB0D8797F4C96346A5C709D3F74BE81EEF7050A8 * __this, uint64_t ___ulContainerHandle0, PropertyRead_t_t6256BFC1F0170A4A47E9C58CDFFB0DA91F194D66 * ___pBatch1, uint32_t ___unBatchEntryCount2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackedPropertyError result = FnTable.ReadPropertyBatch(ulContainerHandle,ref pBatch,unBatchEntryCount);
 		IVRProperties_t2FA7208FBF8B7ACBC787F10937EBDB2858886715 * L_0 = __this->get_address_of_FnTable_0();
@@ -39068,13 +42082,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRProperties_ReadPropertyBatch_mC5D2
 		uint32_t L_4 = ___unBatchEntryCount2;
 		NullCheck(L_1);
 		int32_t L_5 = _ReadPropertyBatch_Invoke_m5E7FEA43956CD7AA8C224E1189DE64E3B4CDDE7B(L_1, L_2, (PropertyRead_t_t6256BFC1F0170A4A47E9C58CDFFB0DA91F194D66 *)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.ETrackedPropertyError Valve.VR.CVRProperties::WritePropertyBatch(System.UInt64,Valve.VR.PropertyWrite_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRProperties_WritePropertyBatch_mA83B529161F068EFA336C88B5A9BD65A906A7795 (CVRProperties_tFB0D8797F4C96346A5C709D3F74BE81EEF7050A8 * __this, uint64_t ___ulContainerHandle0, PropertyWrite_t_t315CF2039B635A23EC83F93C868DE3C472090051 * ___pBatch1, uint32_t ___unBatchEntryCount2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackedPropertyError result = FnTable.WritePropertyBatch(ulContainerHandle,ref pBatch,unBatchEntryCount);
 		IVRProperties_t2FA7208FBF8B7ACBC787F10937EBDB2858886715 * L_0 = __this->get_address_of_FnTable_0();
@@ -39084,8 +42110,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRProperties_WritePropertyBatch_mA83
 		uint32_t L_4 = ___unBatchEntryCount2;
 		NullCheck(L_1);
 		int32_t L_5 = _WritePropertyBatch_Invoke_mEB7D6E543E9A0C3F200F169BC9969949F7CC3B4E(L_1, L_2, (PropertyWrite_t_t315CF2039B635A23EC83F93C868DE3C472090051 *)L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.String Valve.VR.CVRProperties::GetPropErrorNameFromEnum(Valve.VR.ETrackedPropertyError)
@@ -39097,6 +42133,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRProperties_GetPropErrorNameFromE
 		il2cpp_codegen_initialize_method (CVRProperties_GetPropErrorNameFromEnum_m600853AC49A7248C4658D3BC1D8D9A01FDB86A2A_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetPropErrorNameFromEnum(error);
 		IVRProperties_t2FA7208FBF8B7ACBC787F10937EBDB2858886715 * L_0 = __this->get_address_of_FnTable_0();
@@ -39104,15 +42143,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRProperties_GetPropErrorNameFromE
 		int32_t L_2 = ___error0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetPropErrorNameFromEnum_Invoke_m431B7302DC65F6863EBF9DA198BF65258163B273(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.UInt64 Valve.VR.CVRProperties::TrackedDeviceToPropertyContainer(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRProperties_TrackedDeviceToPropertyContainer_mE147605766B75A7E55DF43CC459D097222204F40 (CVRProperties_tFB0D8797F4C96346A5C709D3F74BE81EEF7050A8 * __this, uint32_t ___nDevice0, const RuntimeMethod* method)
 {
+	uint64_t V_0 = 0;
+	uint64_t V_1 = 0;
 	{
 		// ulong result = FnTable.TrackedDeviceToPropertyContainer(nDevice);
 		IVRProperties_t2FA7208FBF8B7ACBC787F10937EBDB2858886715 * L_0 = __this->get_address_of_FnTable_0();
@@ -39120,8 +42171,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRProperties_TrackedDeviceToPropert
 		uint32_t L_2 = ___nDevice0;
 		NullCheck(L_1);
 		uint64_t L_3 = _TrackedDeviceToPropertyContainer_Invoke_m66CD9ECE46DC7F2270459461CBA5F0BF77896D0A(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		uint64_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		uint64_t L_5 = V_1;
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -39175,6 +42236,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadRenderModel_Async
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39188,12 +42251,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadRenderModel_Async
 		intptr_t* L_5 = ___ppRenderModel1;
 		NullCheck(L_3);
 		int32_t L_6 = _LoadRenderModel_Async_Invoke_mFEE7C5EF97C282AC731B50035DCDF5759DEE8737(L_3, (intptr_t)L_4, (intptr_t*)L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_7 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_7, /*hidden argument*/NULL);
 		// return result;
-		return L_6;
+		int32_t L_8 = V_1;
+		V_2 = L_8;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		// }
+		int32_t L_9 = V_2;
+		return L_9;
 	}
 }
 // System.Void Valve.VR.CVRRenderModels::FreeRenderModel(System.IntPtr)
@@ -39213,6 +42286,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeRenderModel_m775D110
 // Valve.VR.EVRRenderModelError Valve.VR.CVRRenderModels::LoadTexture_Async(System.Int32,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTexture_Async_mCCBC33D113F7FD978AD7B44CBBA2393EADC23720 (CVRRenderModels_t8C55E667107D2EDE6048262AEEDCA7BFEC8E8A61 * __this, int32_t ___textureId0, intptr_t* ___ppTexture1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRRenderModelError result = FnTable.LoadTexture_Async(textureId,ref ppTexture);
 		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_0 = __this->get_address_of_FnTable_0();
@@ -39221,8 +42296,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTexture_Async_mCC
 		intptr_t* L_3 = ___ppTexture1;
 		NullCheck(L_1);
 		int32_t L_4 = _LoadTexture_Async_Invoke_m9F256F73347775431DFA1B17B20EC0F0CCF7E9E2(L_1, L_2, (intptr_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVRRenderModels::FreeTexture(System.IntPtr)
@@ -39242,6 +42327,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeTexture_mEC3C83692F3
 // Valve.VR.EVRRenderModelError Valve.VR.CVRRenderModels::LoadTextureD3D11_Async(System.Int32,System.IntPtr,System.IntPtr&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTextureD3D11_Async_mB2271BCB4BEF69BEB88EEDC55563A52222FDCBFD (CVRRenderModels_t8C55E667107D2EDE6048262AEEDCA7BFEC8E8A61 * __this, int32_t ___textureId0, intptr_t ___pD3D11Device1, intptr_t* ___ppD3D11Texture2D2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRRenderModelError result = FnTable.LoadTextureD3D11_Async(textureId,pD3D11Device,ref ppD3D11Texture2D);
 		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_0 = __this->get_address_of_FnTable_0();
@@ -39251,13 +42338,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadTextureD3D11_Asyn
 		intptr_t* L_4 = ___ppD3D11Texture2D2;
 		NullCheck(L_1);
 		int32_t L_5 = _LoadTextureD3D11_Async_Invoke_m76D74F9705980C9EC95BB813CE98DD75588C6195(L_1, L_2, (intptr_t)L_3, (intptr_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRRenderModelError Valve.VR.CVRRenderModels::LoadIntoTextureD3D11_Async(System.Int32,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadIntoTextureD3D11_Async_m8A7DA48CC24F189F25A61743FCFFF50713FD55AC (CVRRenderModels_t8C55E667107D2EDE6048262AEEDCA7BFEC8E8A61 * __this, int32_t ___textureId0, intptr_t ___pDstTexture1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRRenderModelError result = FnTable.LoadIntoTextureD3D11_Async(textureId,pDstTexture);
 		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_0 = __this->get_address_of_FnTable_0();
@@ -39266,8 +42365,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRRenderModels_LoadIntoTextureD3D11_
 		intptr_t L_3 = ___pDstTexture1;
 		NullCheck(L_1);
 		int32_t L_4 = _LoadIntoTextureD3D11_Async_Invoke_m382B168A1A3013A1B74F4FF1CA309E4BCC60BA9D(L_1, L_2, (intptr_t)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVRRenderModels::FreeTextureD3D11(System.IntPtr)
@@ -39287,6 +42396,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRRenderModels_FreeTextureD3D11_mFBF04F
 // System.UInt32 Valve.VR.CVRRenderModels::GetRenderModelName(System.UInt32,System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelName_mF2B9D8068BABCE4DC964C7FD84D1C6E1A2B53224 (CVRRenderModels_t8C55E667107D2EDE6048262AEEDCA7BFEC8E8A61 * __this, uint32_t ___unRenderModelIndex0, StringBuilder_t * ___pchRenderModelName1, uint32_t ___unRenderModelNameLen2, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetRenderModelName(unRenderModelIndex,pchRenderModelName,unRenderModelNameLen);
 		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_0 = __this->get_address_of_FnTable_0();
@@ -39296,21 +42407,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelName_m
 		uint32_t L_4 = ___unRenderModelNameLen2;
 		NullCheck(L_1);
 		uint32_t L_5 = _GetRenderModelName_Invoke_m5AC4B7B238FA0FFC615F9DF890FFB4D1270BFF71(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		uint32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		uint32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.UInt32 Valve.VR.CVRRenderModels::GetRenderModelCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelCount_m2D2724EB27D3C652C7747CCE8F2F57DA24A46F06 (CVRRenderModels_t8C55E667107D2EDE6048262AEEDCA7BFEC8E8A61 * __this, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetRenderModelCount();
 		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_0 = __this->get_address_of_FnTable_0();
 		_GetRenderModelCount_tE4E21A4FE36A0D7FC1092C9151AC8AE0E9F0E17C * L_1 = L_0->get_GetRenderModelCount_8();
 		NullCheck(L_1);
 		uint32_t L_2 = _GetRenderModelCount_Invoke_m96A1F24AC8C18257D17AFC6CE5BE4E40AA7AB558(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		uint32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		uint32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.UInt32 Valve.VR.CVRRenderModels::GetComponentCount(System.String)
@@ -39324,6 +42457,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentCount_m5
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39336,12 +42471,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentCount_m5
 		intptr_t L_4 = V_0;
 		NullCheck(L_3);
 		uint32_t L_5 = _GetComponentCount_Invoke_mBAA30657F5DD96716DAA1C9C8D9A0139BBA3ADBC(L_3, (intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_6 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_6, /*hidden argument*/NULL);
 		// return result;
-		return L_5;
+		uint32_t L_7 = V_1;
+		V_2 = L_7;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		uint32_t L_8 = V_2;
+		return L_8;
 	}
 }
 // System.UInt32 Valve.VR.CVRRenderModels::GetComponentName(System.String,System.UInt32,System.Text.StringBuilder,System.UInt32)
@@ -39355,6 +42500,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentName_m39
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39370,12 +42517,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentName_m39
 		uint32_t L_7 = ___unComponentNameLen3;
 		NullCheck(L_3);
 		uint32_t L_8 = _GetComponentName_Invoke_m190A8F02215B688CF96F8D660E3987E71967E800(L_3, (intptr_t)L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		uint32_t L_10 = V_1;
+		V_2 = L_10;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		uint32_t L_11 = V_2;
+		return L_11;
 	}
 }
 // System.UInt64 Valve.VR.CVRRenderModels::GetComponentButtonMask(System.String,System.String)
@@ -39391,6 +42548,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRRenderModels_GetComponentButtonMa
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	uint64_t V_2 = 0;
+	uint64_t V_3 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39408,6 +42567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRRenderModels_GetComponentButtonMa
 		intptr_t L_7 = V_1;
 		NullCheck(L_5);
 		uint64_t L_8 = _GetComponentButtonMask_Invoke_m87D4790D31477ABE5F0780AA71B7BFAEEB64FE2A(L_5, (intptr_t)L_6, (intptr_t)L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -39416,7 +42576,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRRenderModels_GetComponentButtonMa
 		intptr_t L_10 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_10, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		uint64_t L_11 = V_2;
+		V_3 = L_11;
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		// }
+		uint64_t L_12 = V_3;
+		return L_12;
 	}
 }
 // System.UInt32 Valve.VR.CVRRenderModels::GetComponentRenderModelName(System.String,System.String,System.Text.StringBuilder,System.UInt32)
@@ -39432,6 +42601,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentRenderMo
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	uint32_t V_2 = 0;
+	uint32_t V_3 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39451,6 +42622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentRenderMo
 		uint32_t L_9 = ___unComponentRenderModelNameLen3;
 		NullCheck(L_5);
 		uint32_t L_10 = _GetComponentRenderModelName_Invoke_mDCEEFE3ECE81E989AB5739A1A4AFDD4CE0FB5440(L_5, (intptr_t)L_6, (intptr_t)L_7, L_8, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -39459,7 +42631,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetComponentRenderMo
 		intptr_t L_12 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_12, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		uint32_t L_13 = V_2;
+		V_3 = L_13;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		// }
+		uint32_t L_14 = V_3;
+		return L_14;
 	}
 }
 // System.Boolean Valve.VR.CVRRenderModels::GetComponentStateForDevicePath(System.String,System.String,System.UInt64,Valve.VR.RenderModel_ControllerMode_State_t&,Valve.VR.RenderModel_ComponentState_t&)
@@ -39475,6 +42656,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentStateForDevi
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39495,6 +42678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentStateForDevi
 		RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F * L_10 = ___pComponentState4;
 		NullCheck(L_5);
 		bool L_11 = _GetComponentStateForDevicePath_Invoke_mB184D2217D15E4FE24AE9205E2F58A8C3AD92C99(L_5, (intptr_t)L_6, (intptr_t)L_7, L_8, (RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 *)L_9, (RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F *)L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_12 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -39503,7 +42687,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentStateForDevi
 		intptr_t L_13 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_13, /*hidden argument*/NULL);
 		// return result;
-		return L_11;
+		bool L_14 = V_2;
+		V_3 = L_14;
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		// }
+		bool L_15 = V_3;
+		return L_15;
 	}
 }
 // System.Boolean Valve.VR.CVRRenderModels::GetComponentState(System.String,System.String,Valve.VR.VRControllerState_t&,Valve.VR.RenderModel_ControllerMode_State_t&,Valve.VR.RenderModel_ComponentState_t&)
@@ -39519,10 +42712,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentState_mAD3DF
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	GetComponentStateUnion_t67E6739D2DDC4DEA175B943149634BC954F625F6  V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209  V_3;
-	memset((&V_3), 0, sizeof(V_3));
+	bool V_2 = false;
+	bool V_3 = false;
+	GetComponentStateUnion_t67E6739D2DDC4DEA175B943149634BC954F625F6  V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209  V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	bool V_6 = false;
+	bool V_7 = false;
+	int32_t G_B3_0 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39540,68 +42738,92 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_GetComponentState_mAD3DF
 		int32_t L_5 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_4, /*hidden argument*/NULL);
 		if ((((int32_t)L_5) == ((int32_t)6)))
 		{
-			goto IL_0028;
+			goto IL_002b;
 		}
 	}
 	{
 		OperatingSystem_tBB05846D5AA6960FFEB42C59E5FE359255C2BE83 * L_6 = Environment_get_OSVersion_mD6E99E279170E00D17F7D29F242EF65434812233(/*hidden argument*/NULL);
 		NullCheck(L_6);
 		int32_t L_7 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_6, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_7) == ((uint32_t)4))))
+		G_B3_0 = ((((int32_t)L_7) == ((int32_t)4))? 1 : 0);
+		goto IL_002c;
+	}
+
+IL_002b:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_002c:
+	{
+		V_3 = (bool)G_B3_0;
+		bool L_8 = V_3;
+		if (!L_8)
 		{
-			goto IL_006b;
+			goto IL_007d;
 		}
 	}
-
-IL_0028:
 	{
 		// VRControllerState_t_Packed state_packed = new VRControllerState_t_Packed(pControllerState);
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_8 = ___pControllerState2;
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801  L_9 = (*(VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_8);
-		VRControllerState_t_Packed__ctor_m4C7E537EEFF2A693CFE45726EB51833373E5B22C((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), L_9, /*hidden argument*/NULL);
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_9 = ___pControllerState2;
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801  L_10 = (*(VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_9);
+		VRControllerState_t_Packed__ctor_m4C7E537EEFF2A693CFE45726EB51833373E5B22C((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_5), L_10, /*hidden argument*/NULL);
 		// u.pGetComponentStatePacked = null;
-		(&V_2)->set_pGetComponentStatePacked_1((_GetComponentStatePacked_t1418DEC62B700F0A63BDABE4472407CFB7588073 *)NULL);
+		(&V_4)->set_pGetComponentStatePacked_1((_GetComponentStatePacked_t1418DEC62B700F0A63BDABE4472407CFB7588073 *)NULL);
 		// u.pGetComponentState = FnTable.GetComponentState;
-		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_10 = __this->get_address_of_FnTable_0();
-		_GetComponentState_tB72EE5F969E44D5ADBB400AC3D49C9DB27AF74A7 * L_11 = L_10->get_GetComponentState_14();
-		(&V_2)->set_pGetComponentState_0(L_11);
+		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_11 = __this->get_address_of_FnTable_0();
+		_GetComponentState_tB72EE5F969E44D5ADBB400AC3D49C9DB27AF74A7 * L_12 = L_11->get_GetComponentState_14();
+		(&V_4)->set_pGetComponentState_0(L_12);
 		// bool packed_result = u.pGetComponentStatePacked(pchRenderModelNameUtf8,pchComponentNameUtf8,ref state_packed,ref pState,ref pComponentState);
-		GetComponentStateUnion_t67E6739D2DDC4DEA175B943149634BC954F625F6  L_12 = V_2;
-		_GetComponentStatePacked_t1418DEC62B700F0A63BDABE4472407CFB7588073 * L_13 = L_12.get_pGetComponentStatePacked_1();
-		intptr_t L_14 = V_0;
-		intptr_t L_15 = V_1;
-		RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 * L_16 = ___pState3;
-		RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F * L_17 = ___pComponentState4;
-		NullCheck(L_13);
-		bool L_18 = _GetComponentStatePacked_Invoke_mF1F3D8A006C98B47EC295563F7B7C0F096BCC001(L_13, (intptr_t)L_14, (intptr_t)L_15, (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), (RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 *)L_16, (RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F *)L_17, /*hidden argument*/NULL);
+		GetComponentStateUnion_t67E6739D2DDC4DEA175B943149634BC954F625F6  L_13 = V_4;
+		_GetComponentStatePacked_t1418DEC62B700F0A63BDABE4472407CFB7588073 * L_14 = L_13.get_pGetComponentStatePacked_1();
+		intptr_t L_15 = V_0;
+		intptr_t L_16 = V_1;
+		RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 * L_17 = ___pState3;
+		RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F * L_18 = ___pComponentState4;
+		NullCheck(L_14);
+		bool L_19 = _GetComponentStatePacked_Invoke_mF1F3D8A006C98B47EC295563F7B7C0F096BCC001(L_14, (intptr_t)L_15, (intptr_t)L_16, (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_5), (RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 *)L_17, (RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F *)L_18, /*hidden argument*/NULL);
+		V_6 = L_19;
 		// state_packed.Unpack(ref pControllerState);
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_19 = ___pControllerState2;
-		VRControllerState_t_Packed_Unpack_m5E26211997CC7A8C836E3A014B728B3D8F4E050B((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_19, /*hidden argument*/NULL);
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_20 = ___pControllerState2;
+		VRControllerState_t_Packed_Unpack_m5E26211997CC7A8C836E3A014B728B3D8F4E050B((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_5), (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_20, /*hidden argument*/NULL);
 		// return packed_result;
-		return L_18;
+		bool L_21 = V_6;
+		V_7 = L_21;
+		goto IL_00a8;
 	}
 
-IL_006b:
+IL_007d:
 	{
 		// bool result = FnTable.GetComponentState(pchRenderModelNameUtf8,pchComponentNameUtf8,ref pControllerState,ref pState,ref pComponentState);
-		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_20 = __this->get_address_of_FnTable_0();
-		_GetComponentState_tB72EE5F969E44D5ADBB400AC3D49C9DB27AF74A7 * L_21 = L_20->get_GetComponentState_14();
-		intptr_t L_22 = V_0;
-		intptr_t L_23 = V_1;
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_24 = ___pControllerState2;
-		RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 * L_25 = ___pState3;
-		RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F * L_26 = ___pComponentState4;
-		NullCheck(L_21);
-		bool L_27 = _GetComponentState_Invoke_m8750D276155EEB444BFF6B8FABB56E4A4B7D4000(L_21, (intptr_t)L_22, (intptr_t)L_23, (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_24, (RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 *)L_25, (RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F *)L_26, /*hidden argument*/NULL);
+		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_22 = __this->get_address_of_FnTable_0();
+		_GetComponentState_tB72EE5F969E44D5ADBB400AC3D49C9DB27AF74A7 * L_23 = L_22->get_GetComponentState_14();
+		intptr_t L_24 = V_0;
+		intptr_t L_25 = V_1;
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_26 = ___pControllerState2;
+		RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 * L_27 = ___pState3;
+		RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F * L_28 = ___pComponentState4;
+		NullCheck(L_23);
+		bool L_29 = _GetComponentState_Invoke_m8750D276155EEB444BFF6B8FABB56E4A4B7D4000(L_23, (intptr_t)L_24, (intptr_t)L_25, (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_26, (RenderModel_ControllerMode_State_t_t8890F646EEBC2DFEF1261C68A200E17F87A65EF0 *)L_27, (RenderModel_ComponentState_t_t18E276222CDEDC486D2E3F87B069F02218110A9F *)L_28, /*hidden argument*/NULL);
+		V_2 = L_29;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
-		intptr_t L_28 = V_0;
+		intptr_t L_30 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_28, /*hidden argument*/NULL);
+		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_30, /*hidden argument*/NULL);
 		// Marshal.FreeHGlobal(pchComponentNameUtf8);
-		intptr_t L_29 = V_1;
-		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_29, /*hidden argument*/NULL);
+		intptr_t L_31 = V_1;
+		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_31, /*hidden argument*/NULL);
 		// return result;
-		return L_27;
+		bool L_32 = V_2;
+		V_7 = L_32;
+		goto IL_00a8;
+	}
+
+IL_00a8:
+	{
+		// }
+		bool L_33 = V_7;
+		return L_33;
 	}
 }
 // System.Boolean Valve.VR.CVRRenderModels::RenderModelHasComponent(System.String,System.String)
@@ -39617,6 +42839,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_RenderModelHasComponent_
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39634,6 +42858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_RenderModelHasComponent_
 		intptr_t L_7 = V_1;
 		NullCheck(L_5);
 		bool L_8 = _RenderModelHasComponent_Invoke_m1BF04DC50F7BACC116546AF62CD8B253A806A47C(L_5, (intptr_t)L_6, (intptr_t)L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -39642,7 +42867,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRRenderModels_RenderModelHasComponent_
 		intptr_t L_10 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_10, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		bool L_11 = V_2;
+		V_3 = L_11;
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		// }
+		bool L_12 = V_3;
+		return L_12;
 	}
 }
 // System.UInt32 Valve.VR.CVRRenderModels::GetRenderModelThumbnailURL(System.String,System.Text.StringBuilder,System.UInt32,Valve.VR.EVRRenderModelError&)
@@ -39656,6 +42890,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelThumbn
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39671,12 +42907,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelThumbn
 		int32_t* L_7 = ___peError3;
 		NullCheck(L_3);
 		uint32_t L_8 = _GetRenderModelThumbnailURL_Invoke_mC3B7041EFD53A2D461460D8DF317EE0837A60722(L_3, (intptr_t)L_4, L_5, L_6, (int32_t*)L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		uint32_t L_10 = V_1;
+		V_2 = L_10;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		uint32_t L_11 = V_2;
+		return L_11;
 	}
 }
 // System.UInt32 Valve.VR.CVRRenderModels::GetRenderModelOriginalPath(System.String,System.Text.StringBuilder,System.UInt32,Valve.VR.EVRRenderModelError&)
@@ -39690,6 +42936,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelOrigin
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchRenderModelNameUtf8 = Utils.ToUtf8(pchRenderModelName);
 		String_t* L_0 = ___pchRenderModelName0;
@@ -39705,12 +42953,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRRenderModels_GetRenderModelOrigin
 		int32_t* L_7 = ___peError3;
 		NullCheck(L_3);
 		uint32_t L_8 = _GetRenderModelOriginalPath_Invoke_m55078883A2431057619E4A0D69DC8D0645D116FD(L_3, (intptr_t)L_4, L_5, L_6, (int32_t*)L_7, /*hidden argument*/NULL);
+		V_1 = L_8;
 		// Marshal.FreeHGlobal(pchRenderModelNameUtf8);
 		intptr_t L_9 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_9, /*hidden argument*/NULL);
 		// return result;
-		return L_8;
+		uint32_t L_10 = V_1;
+		V_2 = L_10;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		uint32_t L_11 = V_2;
+		return L_11;
 	}
 }
 // System.String Valve.VR.CVRRenderModels::GetRenderModelErrorNameFromEnum(Valve.VR.EVRRenderModelError)
@@ -39722,6 +42980,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRRenderModels_GetRenderModelError
 		il2cpp_codegen_initialize_method (CVRRenderModels_GetRenderModelErrorNameFromEnum_m8EF80179A05C6E9776AA5E75DD877119874652EA_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetRenderModelErrorNameFromEnum(error);
 		IVRRenderModels_tDAEF3C0AA9025CF29E5A17C2A627AF9E428EFA62 * L_0 = __this->get_address_of_FnTable_0();
@@ -39729,10 +42990,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRRenderModels_GetRenderModelError
 		int32_t L_2 = ___error0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetRenderModelErrorNameFromEnum_Invoke_mCF8D1C85CB94C13024081410259D503AB6B4F1AD(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 #ifdef __clang__
@@ -39960,6 +43231,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_LoadSharedResource_m081
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	uint32_t V_1 = 0;
+	uint32_t V_2 = 0;
 	{
 		// IntPtr pchResourceNameUtf8 = Utils.ToUtf8(pchResourceName);
 		String_t* L_0 = ___pchResourceName0;
@@ -39974,12 +43247,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_LoadSharedResource_m081
 		uint32_t L_6 = ___unBufferLen2;
 		NullCheck(L_3);
 		uint32_t L_7 = _LoadSharedResource_Invoke_m32528F7EB1FE319BC1680F28AB8DD9C1CC56D7D7(L_3, (intptr_t)L_4, L_5, L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchResourceNameUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		uint32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		// }
+		uint32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // System.UInt32 Valve.VR.CVRResources::GetResourceFullPath(System.String,System.String,System.Text.StringBuilder,System.UInt32)
@@ -39995,6 +43278,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_GetResourceFullPath_m3B
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	uint32_t V_2 = 0;
+	uint32_t V_3 = 0;
 	{
 		// IntPtr pchResourceNameUtf8 = Utils.ToUtf8(pchResourceName);
 		String_t* L_0 = ___pchResourceName0;
@@ -40014,6 +43299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_GetResourceFullPath_m3B
 		uint32_t L_9 = ___unBufferLen3;
 		NullCheck(L_5);
 		uint32_t L_10 = _GetResourceFullPath_Invoke_m15AF8B0BF9860A56EF115172DE0DDCD0510D5A2A(L_5, (intptr_t)L_6, (intptr_t)L_7, L_8, L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
 		// Marshal.FreeHGlobal(pchResourceNameUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40022,7 +43308,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRResources_GetResourceFullPath_m3B
 		intptr_t L_12 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_12, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		uint32_t L_13 = V_2;
+		V_3 = L_13;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		// }
+		uint32_t L_14 = V_3;
+		return L_14;
 	}
 }
 #ifdef __clang__
@@ -40070,6 +43365,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_RequestScreenshot_mDD3
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// pOutScreenshotHandle = 0;
 		uint32_t* L_0 = ___pOutScreenshotHandle0;
@@ -40092,6 +43389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_RequestScreenshot_mDD3
 		intptr_t L_10 = V_1;
 		NullCheck(L_6);
 		int32_t L_11 = _RequestScreenshot_Invoke_m2C690B0D5CC9E0E869027B35982BD4AD0BF3E7C2(L_6, (uint32_t*)L_7, L_8, (intptr_t)L_9, (intptr_t)L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
 		// Marshal.FreeHGlobal(pchPreviewFilenameUtf8);
 		intptr_t L_12 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40100,12 +43398,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_RequestScreenshot_mDD3
 		intptr_t L_13 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_13, /*hidden argument*/NULL);
 		// return result;
-		return L_11;
+		int32_t L_14 = V_2;
+		V_3 = L_14;
+		goto IL_003a;
+	}
+
+IL_003a:
+	{
+		// }
+		int32_t L_15 = V_3;
+		return L_15;
 	}
 }
 // Valve.VR.EVRScreenshotError Valve.VR.CVRScreenshots::HookScreenshot(Valve.VR.EVRScreenshotType[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_HookScreenshot_m3BD811B1426A812F027AE3F40DB8036965572DDC (CVRScreenshots_t01C039B349C4F546E015B6329D6E4D870C5BBA53 * __this, EVRScreenshotTypeU5BU5D_tC8F460E0D0A02F917046E720D8584E72DBEA8ADC* ___pSupportedTypes0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRScreenshotError result = FnTable.HookScreenshot(pSupportedTypes,(int) pSupportedTypes.Length);
 		IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0 * L_0 = __this->get_address_of_FnTable_0();
@@ -40115,13 +43424,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_HookScreenshot_m3BD811
 		NullCheck(L_3);
 		NullCheck(L_1);
 		int32_t L_4 = _HookScreenshot_Invoke_m5452E4B67275B915130C9A77FB6C150F601C1E76(L_1, L_2, (((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)))), /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRScreenshotType Valve.VR.CVRScreenshots::GetScreenshotPropertyType(System.UInt32,Valve.VR.EVRScreenshotError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_GetScreenshotPropertyType_mA58DD36582673515ADEEE7C49BBE7F192BB68E0C (CVRScreenshots_t01C039B349C4F546E015B6329D6E4D870C5BBA53 * __this, uint32_t ___screenshotHandle0, int32_t* ___pError1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRScreenshotType result = FnTable.GetScreenshotPropertyType(screenshotHandle,ref pError);
 		IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0 * L_0 = __this->get_address_of_FnTable_0();
@@ -40130,13 +43451,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_GetScreenshotPropertyT
 		int32_t* L_3 = ___pError1;
 		NullCheck(L_1);
 		int32_t L_4 = _GetScreenshotPropertyType_Invoke_mB571C8A39F0F1C4C160EDEBDA75D491E00699F2B(L_1, L_2, (int32_t*)L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.UInt32 Valve.VR.CVRScreenshots::GetScreenshotPropertyFilename(System.UInt32,Valve.VR.EVRScreenshotPropertyFilenames,System.Text.StringBuilder,System.UInt32,Valve.VR.EVRScreenshotError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRScreenshots_GetScreenshotPropertyFilename_m78EBC59A770064BAA068B688AB47771056DE8E04 (CVRScreenshots_t01C039B349C4F546E015B6329D6E4D870C5BBA53 * __this, uint32_t ___screenshotHandle0, int32_t ___filenameType1, StringBuilder_t * ___pchFilename2, uint32_t ___cchFilename3, int32_t* ___pError4, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetScreenshotPropertyFilename(screenshotHandle,filenameType,pchFilename,cchFilename,ref pError);
 		IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0 * L_0 = __this->get_address_of_FnTable_0();
@@ -40148,13 +43481,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRScreenshots_GetScreenshotProperty
 		int32_t* L_6 = ___pError4;
 		NullCheck(L_1);
 		uint32_t L_7 = _GetScreenshotPropertyFilename_Invoke_mF10A3F5B8881692BCEF9538B796576C85BE8F583(L_1, L_2, L_3, L_4, L_5, (int32_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		uint32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		uint32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRScreenshotError Valve.VR.CVRScreenshots::UpdateScreenshotProgress(System.UInt32,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_UpdateScreenshotProgress_m483AC53A33B8A6C05ED621CC56205E011F6BCB2E (CVRScreenshots_t01C039B349C4F546E015B6329D6E4D870C5BBA53 * __this, uint32_t ___screenshotHandle0, float ___flProgress1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRScreenshotError result = FnTable.UpdateScreenshotProgress(screenshotHandle,flProgress);
 		IVRScreenshots_t268C2E5E3DECDC5A821A87C48B8DF4000BF3CCC0 * L_0 = __this->get_address_of_FnTable_0();
@@ -40163,8 +43508,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_UpdateScreenshotProgre
 		float L_3 = ___flProgress1;
 		NullCheck(L_1);
 		int32_t L_4 = _UpdateScreenshotProgress_Invoke_m6C64AE079B37F9E8F1DA3E06BF5107776308D719(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRScreenshotError Valve.VR.CVRScreenshots::TakeStereoScreenshot(System.UInt32&,System.String,System.String)
@@ -40180,6 +43535,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_TakeStereoScreenshot_m
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// pOutScreenshotHandle = 0;
 		uint32_t* L_0 = ___pOutScreenshotHandle0;
@@ -40201,6 +43558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_TakeStereoScreenshot_m
 		intptr_t L_9 = V_1;
 		NullCheck(L_6);
 		int32_t L_10 = _TakeStereoScreenshot_Invoke_mC0D27D2FFEFE70AE86AFD89DE83E5A4C6E8CD06B(L_6, (uint32_t*)L_7, (intptr_t)L_8, (intptr_t)L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
 		// Marshal.FreeHGlobal(pchPreviewFilenameUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40209,7 +43567,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_TakeStereoScreenshot_m
 		intptr_t L_12 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_12, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		int32_t L_13 = V_2;
+		V_3 = L_13;
+		goto IL_0038;
+	}
+
+IL_0038:
+	{
+		// }
+		int32_t L_14 = V_3;
+		return L_14;
 	}
 }
 // Valve.VR.EVRScreenshotError Valve.VR.CVRScreenshots::SubmitScreenshot(System.UInt32,Valve.VR.EVRScreenshotType,System.String,System.String)
@@ -40225,6 +43592,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_SubmitScreenshot_mD8A3
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchSourcePreviewFilenameUtf8 = Utils.ToUtf8(pchSourcePreviewFilename);
 		String_t* L_0 = ___pchSourcePreviewFilename2;
@@ -40244,6 +43613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_SubmitScreenshot_mD8A3
 		intptr_t L_9 = V_1;
 		NullCheck(L_5);
 		int32_t L_10 = _SubmitScreenshot_Invoke_mF4A83870356D66FE7E24F6ABEC40B9C2889C3BAC(L_5, L_6, L_7, (intptr_t)L_8, (intptr_t)L_9, /*hidden argument*/NULL);
+		V_2 = L_10;
 		// Marshal.FreeHGlobal(pchSourcePreviewFilenameUtf8);
 		intptr_t L_11 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40252,7 +43622,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRScreenshots_SubmitScreenshot_mD8A3
 		intptr_t L_12 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_12, /*hidden argument*/NULL);
 		// return result;
-		return L_10;
+		int32_t L_13 = V_2;
+		V_3 = L_13;
+		goto IL_0037;
+	}
+
+IL_0037:
+	{
+		// }
+		int32_t L_14 = V_3;
+		return L_14;
 	}
 }
 #ifdef __clang__
@@ -40304,6 +43683,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSettings_GetSettingsErrorNameFro
 		il2cpp_codegen_initialize_method (CVRSettings_GetSettingsErrorNameFromEnum_m769A32F7EE33255DD46FB3F4F163241A47271C55_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetSettingsErrorNameFromEnum(eError);
 		IVRSettings_tC5B912D9A6EA889DD7B355D78DF98A57C3D89F6F * L_0 = __this->get_address_of_FnTable_0();
@@ -40311,10 +43693,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSettings_GetSettingsErrorNameFro
 		int32_t L_2 = ___eError0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetSettingsErrorNameFromEnum_Invoke_mCFFEF7057D8724DD7DE35777F49457F2B9F58896(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVRSettings::SetBool(System.String,System.String,System.Boolean,Valve.VR.EVRSettingsError&)
@@ -40511,6 +43903,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_GetBool_m5AF6CA59E8F9C14B6B7
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	bool V_3 = false;
 	{
 		// IntPtr pchSectionUtf8 = Utils.ToUtf8(pchSection);
 		String_t* L_0 = ___pchSection0;
@@ -40529,6 +43923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_GetBool_m5AF6CA59E8F9C14B6B7
 		int32_t* L_8 = ___peError2;
 		NullCheck(L_5);
 		bool L_9 = _GetBool_Invoke_mFCE4BAE5F4C615BE3770A79587D761AC45A7754F(L_5, (intptr_t)L_6, (intptr_t)L_7, (int32_t*)L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
 		// Marshal.FreeHGlobal(pchSectionUtf8);
 		intptr_t L_10 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40537,7 +43932,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSettings_GetBool_m5AF6CA59E8F9C14B6B7
 		intptr_t L_11 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_11, /*hidden argument*/NULL);
 		// return result;
-		return L_9;
+		bool L_12 = V_2;
+		V_3 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		// }
+		bool L_13 = V_3;
+		return L_13;
 	}
 }
 // System.Int32 Valve.VR.CVRSettings::GetInt32(System.String,System.String,Valve.VR.EVRSettingsError&)
@@ -40553,6 +43957,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSettings_GetInt32_m9C78C34611E2391
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
 	{
 		// IntPtr pchSectionUtf8 = Utils.ToUtf8(pchSection);
 		String_t* L_0 = ___pchSection0;
@@ -40571,6 +43977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSettings_GetInt32_m9C78C34611E2391
 		int32_t* L_8 = ___peError2;
 		NullCheck(L_5);
 		int32_t L_9 = _GetInt32_Invoke_mF563D717F24C660C63FD77BA128994E83054865F(L_5, (intptr_t)L_6, (intptr_t)L_7, (int32_t*)L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
 		// Marshal.FreeHGlobal(pchSectionUtf8);
 		intptr_t L_10 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40579,7 +43986,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSettings_GetInt32_m9C78C34611E2391
 		intptr_t L_11 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_11, /*hidden argument*/NULL);
 		// return result;
-		return L_9;
+		int32_t L_12 = V_2;
+		V_3 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		// }
+		int32_t L_13 = V_3;
+		return L_13;
 	}
 }
 // System.Single Valve.VR.CVRSettings::GetFloat(System.String,System.String,Valve.VR.EVRSettingsError&)
@@ -40595,6 +44011,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSettings_GetFloat_m9FEF2DEC942AB29BA
 	memset((&V_0), 0, sizeof(V_0));
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
 	{
 		// IntPtr pchSectionUtf8 = Utils.ToUtf8(pchSection);
 		String_t* L_0 = ___pchSection0;
@@ -40613,6 +44031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSettings_GetFloat_m9FEF2DEC942AB29BA
 		int32_t* L_8 = ___peError2;
 		NullCheck(L_5);
 		float L_9 = _GetFloat_Invoke_mC89CB83FEFBB85445642757AA4DEB90A956271D9(L_5, (intptr_t)L_6, (intptr_t)L_7, (int32_t*)L_8, /*hidden argument*/NULL);
+		V_2 = L_9;
 		// Marshal.FreeHGlobal(pchSectionUtf8);
 		intptr_t L_10 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
@@ -40621,7 +44040,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSettings_GetFloat_m9FEF2DEC942AB29BA
 		intptr_t L_11 = V_1;
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_11, /*hidden argument*/NULL);
 		// return result;
-		return L_9;
+		float L_12 = V_2;
+		V_3 = L_12;
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		// }
+		float L_13 = V_3;
+		return L_13;
 	}
 }
 // System.Void Valve.VR.CVRSettings::GetString(System.String,System.String,System.Text.StringBuilder,System.UInt32,Valve.VR.EVRSettingsError&)
@@ -40785,6 +44213,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 	}
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
 	{
 		// IntPtr pchDescriptorUtf8 = Utils.ToUtf8(pchDescriptor);
 		String_t* L_0 = ___pchDescriptor0;
@@ -40801,17 +44231,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 		uint32_t* L_6 = ___pHandleOut1;
 		NullCheck(L_4);
 		int32_t L_7 = _CreateSpatialAnchorFromDescriptor_Invoke_m5DDC3657E80212209E67B94CB9D70F18FB54C0E7(L_4, (intptr_t)L_5, (uint32_t*)L_6, /*hidden argument*/NULL);
+		V_1 = L_7;
 		// Marshal.FreeHGlobal(pchDescriptorUtf8);
 		intptr_t L_8 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
 		Marshal_FreeHGlobal_mF098DF00F5341FDE4747A6F2004D5A0C9B03ED85((intptr_t)L_8, /*hidden argument*/NULL);
 		// return result;
-		return L_7;
+		int32_t L_9 = V_1;
+		V_2 = L_9;
+		goto IL_0029;
+	}
+
+IL_0029:
+	{
+		// }
+		int32_t L_10 = V_2;
+		return L_10;
 	}
 }
 // Valve.VR.EVRSpatialAnchorError Valve.VR.CVRSpatialAnchors::CreateSpatialAnchorFromPose(System.UInt32,Valve.VR.ETrackingUniverseOrigin,Valve.VR.SpatialAnchorPose_t&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchorFromPose_mE176ECB3BC3591EB722E20B229DC9261B93F37A8 (CVRSpatialAnchors_tFC0F2DE807826610EEEC8FE325F8F49D512C49D0 * __this, uint32_t ___unDeviceIndex0, int32_t ___eOrigin1, SpatialAnchorPose_t_tBA96430DA36C8C7433B479A7985805B29F002A71 * ___pPose2, uint32_t* ___pHandleOut3, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pHandleOut = 0;
 		uint32_t* L_0 = ___pHandleOut3;
@@ -40825,13 +44267,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_CreateSpatialAnchor
 		uint32_t* L_6 = ___pHandleOut3;
 		NullCheck(L_2);
 		int32_t L_7 = _CreateSpatialAnchorFromPose_Invoke_mA75421128291788D1911E0744E9A53CE4B2ACFA5(L_2, L_3, L_4, (SpatialAnchorPose_t_tBA96430DA36C8C7433B479A7985805B29F002A71 *)L_5, (uint32_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRSpatialAnchorError Valve.VR.CVRSpatialAnchors::GetSpatialAnchorPose(System.UInt32,Valve.VR.ETrackingUniverseOrigin,Valve.VR.SpatialAnchorPose_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorPose_m9D777FE706CE40AF20165C32E8034FD22FDC1DE6 (CVRSpatialAnchors_tFC0F2DE807826610EEEC8FE325F8F49D512C49D0 * __this, uint32_t ___unHandle0, int32_t ___eOrigin1, SpatialAnchorPose_t_tBA96430DA36C8C7433B479A7985805B29F002A71 * ___pPoseOut2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRSpatialAnchorError result = FnTable.GetSpatialAnchorPose(unHandle,eOrigin,ref pPoseOut);
 		IVRSpatialAnchors_tB4C27145B941D34DD448E7CC7B4C5C4B8B073E86 * L_0 = __this->get_address_of_FnTable_0();
@@ -40841,13 +44295,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorPos
 		SpatialAnchorPose_t_tBA96430DA36C8C7433B479A7985805B29F002A71 * L_4 = ___pPoseOut2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetSpatialAnchorPose_Invoke_mCCAAB00996F62E64BB184D1065A48A099F45F415(L_1, L_2, L_3, (SpatialAnchorPose_t_tBA96430DA36C8C7433B479A7985805B29F002A71 *)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRSpatialAnchorError Valve.VR.CVRSpatialAnchors::GetSpatialAnchorDescriptor(System.UInt32,System.Text.StringBuilder,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorDescriptor_mBB0028CB8A9BABEEECEE9086F1728EBE2EBEA756 (CVRSpatialAnchors_tFC0F2DE807826610EEEC8FE325F8F49D512C49D0 * __this, uint32_t ___unHandle0, StringBuilder_t * ___pchDescriptorOut1, uint32_t* ___punDescriptorBufferLenInOut2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// punDescriptorBufferLenInOut = 0;
 		uint32_t* L_0 = ___punDescriptorBufferLenInOut2;
@@ -40860,8 +44326,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSpatialAnchors_GetSpatialAnchorDes
 		uint32_t* L_5 = ___punDescriptorBufferLenInOut2;
 		NullCheck(L_2);
 		int32_t L_6 = _GetSpatialAnchorDescriptor_Invoke_m2F26924E1E1757F650BAE76CC0EA2A19E1DA6EF2(L_2, L_3, L_4, (uint32_t*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		int32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_8 = V_1;
+		return L_8;
 	}
 }
 #ifdef __clang__
@@ -40920,6 +44396,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetRecommendedRenderTargetSize
 // Valve.VR.HmdMatrix44_t Valve.VR.CVRSystem::GetProjectionMatrix(Valve.VR.EVREye,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB  CVRSystem_GetProjectionMatrix_mB7B3A824DA75A0A65B601EE7A67AB7FD481C06F5 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___eEye0, float ___fNearZ1, float ___fFarZ2, const RuntimeMethod* method)
 {
+	HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HmdMatrix44_t result = FnTable.GetProjectionMatrix(eEye,fNearZ,fFarZ);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -40929,8 +44409,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix44_t_t33F15A25B9C600224A95080F466368
 		float L_4 = ___fFarZ2;
 		NullCheck(L_1);
 		HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB  L_5 = _GetProjectionMatrix_Invoke_mA3473A34495462D991BBA436BBA67A97C4027CB3(L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB  L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB  L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Void Valve.VR.CVRSystem::GetProjectionRaw(Valve.VR.EVREye,System.Single&,System.Single&,System.Single&,System.Single&)
@@ -40966,6 +44456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetProjectionRaw_mD908C7774AE7
 // System.Boolean Valve.VR.CVRSystem::ComputeDistortion(Valve.VR.EVREye,System.Single,System.Single,Valve.VR.DistortionCoordinates_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ComputeDistortion_m5DCD40E3D24D289CA5EFC9A8BC6EE41D1D68CD02 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___eEye0, float ___fU1, float ___fV2, DistortionCoordinates_t_tFAD55ECC46EE77529264C17154326544A1B20F7F * ___pDistortionCoordinates3, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.ComputeDistortion(eEye,fU,fV,ref pDistortionCoordinates);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -40976,13 +44468,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ComputeDistortion_m5DCD40E3D24
 		DistortionCoordinates_t_tFAD55ECC46EE77529264C17154326544A1B20F7F * L_5 = ___pDistortionCoordinates3;
 		NullCheck(L_1);
 		bool L_6 = _ComputeDistortion_Invoke_m35790368795AD03D0862AFDF51BABD6E60CC1EC2(L_1, L_2, L_3, L_4, (DistortionCoordinates_t_tFAD55ECC46EE77529264C17154326544A1B20F7F *)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		bool L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		bool L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.HmdMatrix34_t Valve.VR.CVRSystem::GetEyeToHeadTransform(Valve.VR.EVREye)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  CVRSystem_GetEyeToHeadTransform_m10D120B57AB846DA497E8B1C4F7E85069B4F36C7 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___eEye0, const RuntimeMethod* method)
 {
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HmdMatrix34_t result = FnTable.GetEyeToHeadTransform(eEye);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -40990,13 +44496,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1B
 		int32_t L_2 = ___eEye0;
 		NullCheck(L_1);
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_3 = _GetEyeToHeadTransform_Invoke_m3C91496C55669F2ECD65A754458E5C116792B0CF(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::GetTimeSinceLastVsync(System.Single&,System.UInt64&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetTimeSinceLastVsync_mCD036FF58EEC59EC78C6FF45D9909236B031EA63 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, float* ___pfSecondsSinceLastVsync0, uint64_t* ___pulFrameCounter1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// pfSecondsSinceLastVsync = 0;
 		float* L_0 = ___pfSecondsSinceLastVsync0;
@@ -41011,21 +44529,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetTimeSinceLastVsync_mCD036FF
 		uint64_t* L_5 = ___pulFrameCounter1;
 		NullCheck(L_3);
 		bool L_6 = _GetTimeSinceLastVsync_Invoke_mA0B29C3F6EAAA6723DF1EF73B733666BB9C94E6F(L_3, (float*)L_4, (uint64_t*)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		bool L_7 = V_0;
+		V_1 = L_7;
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		// }
+		bool L_8 = V_1;
+		return L_8;
 	}
 }
 // System.Int32 Valve.VR.CVRSystem::GetD3D9AdapterIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetD3D9AdapterIndex_m3DF959E80399FB93978C340E4863D8FE074215A8 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// int result = FnTable.GetD3D9AdapterIndex();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_GetD3D9AdapterIndex_t18F9EC7F7B98C54B3606CB6BE4B607FBEE661AC6 * L_1 = L_0->get_GetD3D9AdapterIndex_6();
 		NullCheck(L_1);
 		int32_t L_2 = _GetD3D9AdapterIndex_Invoke_m220DE83F58701B69FB24DF92855A7EBFD0455C37(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Void Valve.VR.CVRSystem::GetDXGIOutputInfo(System.Int32&)
@@ -41067,19 +44607,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetOutputDevice_m6DADB5A6CEAB8
 // System.Boolean Valve.VR.CVRSystem::IsDisplayOnDesktop()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsDisplayOnDesktop_m71D4E42E84DC0C64F885A003FA10C0190F3D9AA3 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsDisplayOnDesktop();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_IsDisplayOnDesktop_tA6479FD6D8ED70E083DA5842189B7CFEAD3BB5F1 * L_1 = L_0->get_IsDisplayOnDesktop_9();
 		NullCheck(L_1);
 		bool L_2 = _IsDisplayOnDesktop_Invoke_mB3315D4C3D43C2EE36A476E954B10C12E63D8B7F(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::SetDisplayVisibility(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_SetDisplayVisibility_m8A947F76CA57EA246D216134E63652B365A052A3 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, bool ___bIsVisibleOnDesktop0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.SetDisplayVisibility(bIsVisibleOnDesktop);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41087,8 +44641,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_SetDisplayVisibility_m8A947F76
 		bool L_2 = ___bIsVisibleOnDesktop0;
 		NullCheck(L_1);
 		bool L_3 = _SetDisplayVisibility_Invoke_m704B1EE72C8335A4DF2EF99E0DE48E0E2D56F43E(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRSystem::GetDeviceToAbsoluteTrackingPose(Valve.VR.ETrackingUniverseOrigin,System.Single,Valve.VR.TrackedDevicePose_t[])
@@ -41112,32 +44676,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_GetDeviceToAbsoluteTrackingPos
 // Valve.VR.HmdMatrix34_t Valve.VR.CVRSystem::GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  CVRSystem_GetSeatedZeroPoseToStandingAbsoluteTrackingPose_m6E561D79A2C3333163D12C2CB88D549E1DB76B80 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HmdMatrix34_t result = FnTable.GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_GetSeatedZeroPoseToStandingAbsoluteTrackingPose_tB4A24E0927CB433610E80188B0868EB4FD129185 * L_1 = L_0->get_GetSeatedZeroPoseToStandingAbsoluteTrackingPose_12();
 		NullCheck(L_1);
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_2 = _GetSeatedZeroPoseToStandingAbsoluteTrackingPose_Invoke_m026A0EF5B969D2762FFB3135EE623A4FE53A27A8(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.HmdMatrix34_t Valve.VR.CVRSystem::GetRawZeroPoseToStandingAbsoluteTrackingPose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  CVRSystem_GetRawZeroPoseToStandingAbsoluteTrackingPose_m2B6E0B9E919268763FDC4C273BB27B20D59A74A4 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HmdMatrix34_t result = FnTable.GetRawZeroPoseToStandingAbsoluteTrackingPose();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_GetRawZeroPoseToStandingAbsoluteTrackingPose_t14CE6A8D7BBA354F7FCB3A6CDAF026A952F8F630 * L_1 = L_0->get_GetRawZeroPoseToStandingAbsoluteTrackingPose_13();
 		NullCheck(L_1);
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_2 = _GetRawZeroPoseToStandingAbsoluteTrackingPose_Invoke_m0DA91EFCC4A7585FD15EFEF31D990CC51BF92266(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_4 = V_1;
+		return L_4;
 	}
 }
 // System.UInt32 Valve.VR.CVRSystem::GetSortedTrackedDeviceIndicesOfClass(Valve.VR.ETrackedDeviceClass,System.UInt32[],System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetSortedTrackedDeviceIndicesOfClass_m379493B847C0981B52A3A3FD43CD0B43390F7625 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___eTrackedDeviceClass0, UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB* ___punTrackedDeviceIndexArray1, uint32_t ___unRelativeToTrackedDeviceIndex2, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetSortedTrackedDeviceIndicesOfClass(eTrackedDeviceClass,punTrackedDeviceIndexArray,(uint) punTrackedDeviceIndexArray.Length,unRelativeToTrackedDeviceIndex);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41149,13 +44743,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetSortedTrackedDeviceIndi
 		uint32_t L_5 = ___unRelativeToTrackedDeviceIndex2;
 		NullCheck(L_1);
 		uint32_t L_6 = _GetSortedTrackedDeviceIndicesOfClass_Invoke_m1E20EDF76B2ED78A9C3D589F425C8D723C6E1514(L_1, L_2, L_3, (((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))), L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		uint32_t L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		uint32_t L_8 = V_1;
+		return L_8;
 	}
 }
 // Valve.VR.EDeviceActivityLevel Valve.VR.CVRSystem::GetTrackedDeviceActivityLevel(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceActivityLevel_mD827DA0051DE2D9C310C6C0FF0A08C27F814C161 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceId0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EDeviceActivityLevel result = FnTable.GetTrackedDeviceActivityLevel(unDeviceId);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41163,8 +44769,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceActivityLev
 		uint32_t L_2 = ___unDeviceId0;
 		NullCheck(L_1);
 		int32_t L_3 = _GetTrackedDeviceActivityLevel_Invoke_m683A3170910FE54C8D1BA0BC80E528DEE7194711(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRSystem::ApplyTransform(Valve.VR.TrackedDevicePose_t&,Valve.VR.TrackedDevicePose_t&,Valve.VR.HmdMatrix34_t&)
@@ -41186,6 +44802,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_ApplyTransform_m0625B8B52B1485
 // System.UInt32 Valve.VR.CVRSystem::GetTrackedDeviceIndexForControllerRole(Valve.VR.ETrackedControllerRole)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetTrackedDeviceIndexForControllerRole_m2CAB92347C7A88AA11D361668C26D3C68229B492 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___unDeviceType0, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetTrackedDeviceIndexForControllerRole(unDeviceType);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41193,13 +44811,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetTrackedDeviceIndexForCo
 		int32_t L_2 = ___unDeviceType0;
 		NullCheck(L_1);
 		uint32_t L_3 = _GetTrackedDeviceIndexForControllerRole_Invoke_mA042B8BBCE2D32E7F89C469B8FF8F40E0201DE8B(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		uint32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		uint32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.ETrackedControllerRole Valve.VR.CVRSystem::GetControllerRoleForTrackedDeviceIndex(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetControllerRoleForTrackedDeviceIndex_mFF0C26F6A3F1390347D60404C395933FDA3E4507 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackedControllerRole result = FnTable.GetControllerRoleForTrackedDeviceIndex(unDeviceIndex);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41207,13 +44837,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetControllerRoleForTracked
 		uint32_t L_2 = ___unDeviceIndex0;
 		NullCheck(L_1);
 		int32_t L_3 = _GetControllerRoleForTrackedDeviceIndex_Invoke_m44601E6681E54B44B538106E19FD5663B1F54805(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.ETrackedDeviceClass Valve.VR.CVRSystem::GetTrackedDeviceClass(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceClass_m3CB19F397A1AB529582A926008C34D01C74B88B0 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackedDeviceClass result = FnTable.GetTrackedDeviceClass(unDeviceIndex);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41221,13 +44863,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetTrackedDeviceClass_m3CB1
 		uint32_t L_2 = ___unDeviceIndex0;
 		NullCheck(L_1);
 		int32_t L_3 = _GetTrackedDeviceClass_Invoke_m0587912FDDE081A4652A530151739A9A9D7B8BA1(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::IsTrackedDeviceConnected(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsTrackedDeviceConnected_mB9095E5661CA97E23DC57417040FFFD653F1501B (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsTrackedDeviceConnected(unDeviceIndex);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41235,13 +44889,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsTrackedDeviceConnected_mB909
 		uint32_t L_2 = ___unDeviceIndex0;
 		NullCheck(L_1);
 		bool L_3 = _IsTrackedDeviceConnected_Invoke_mBDAC04B1DCC4ACBA5B7FA4CEE78C9EDD9F33426C(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		bool L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		bool L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::GetBoolTrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetBoolTrackedDeviceProperty_m112152D9CABA8534A94296FFE52FEF266C2D5D90 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, int32_t* ___pError2, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.GetBoolTrackedDeviceProperty(unDeviceIndex,prop,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41251,13 +44917,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetBoolTrackedDeviceProperty_m
 		int32_t* L_4 = ___pError2;
 		NullCheck(L_1);
 		bool L_5 = _GetBoolTrackedDeviceProperty_Invoke_mC3155BC4A7531A2BCD1B47AAF3382875206EC470(L_1, L_2, L_3, (int32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		bool L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		bool L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Single Valve.VR.CVRSystem::GetFloatTrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSystem_GetFloatTrackedDeviceProperty_m81B1B008BAE896DF6494B820C54A91A151747D93 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, int32_t* ___pError2, const RuntimeMethod* method)
 {
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
 	{
 		// float result = FnTable.GetFloatTrackedDeviceProperty(unDeviceIndex,prop,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41267,13 +44945,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CVRSystem_GetFloatTrackedDeviceProperty
 		int32_t* L_4 = ___pError2;
 		NullCheck(L_1);
 		float L_5 = _GetFloatTrackedDeviceProperty_Invoke_mD413AEAF14A9E7CD7C2D3286EC2A218A387930C8(L_1, L_2, L_3, (int32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		float L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		float L_7 = V_1;
+		return L_7;
 	}
 }
 // System.Int32 Valve.VR.CVRSystem::GetInt32TrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetInt32TrackedDeviceProperty_mDD55E1AC64C65025DC163F29A8855BF36F022A9C (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, int32_t* ___pError2, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// int result = FnTable.GetInt32TrackedDeviceProperty(unDeviceIndex,prop,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41283,13 +44973,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_GetInt32TrackedDeviceProper
 		int32_t* L_4 = ___pError2;
 		NullCheck(L_1);
 		int32_t L_5 = _GetInt32TrackedDeviceProperty_Invoke_mF458AFF9D93C9662FBE87A1AF8BC492B29DCBF13(L_1, L_2, L_3, (int32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // System.UInt64 Valve.VR.CVRSystem::GetUint64TrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRSystem_GetUint64TrackedDeviceProperty_m80E3DC504F5D41339C9C91C7C705E984777B4329 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, int32_t* ___pError2, const RuntimeMethod* method)
 {
+	uint64_t V_0 = 0;
+	uint64_t V_1 = 0;
 	{
 		// ulong result = FnTable.GetUint64TrackedDeviceProperty(unDeviceIndex,prop,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41299,13 +45001,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CVRSystem_GetUint64TrackedDeviceProp
 		int32_t* L_4 = ___pError2;
 		NullCheck(L_1);
 		uint64_t L_5 = _GetUint64TrackedDeviceProperty_Invoke_m6B266DD8A4BB59844C6835CC6C2035BC919C031E(L_1, L_2, L_3, (int32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		uint64_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		uint64_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.HmdMatrix34_t Valve.VR.CVRSystem::GetMatrix34TrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  CVRSystem_GetMatrix34TrackedDeviceProperty_mB2D260ABA1A381FB196F4DA07CB45AC462EC39F0 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, int32_t* ___pError2, const RuntimeMethod* method)
 {
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HmdMatrix34_t result = FnTable.GetMatrix34TrackedDeviceProperty(unDeviceIndex,prop,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41315,13 +45031,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1B
 		int32_t* L_4 = ___pError2;
 		NullCheck(L_1);
 		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_5 = _GetMatrix34TrackedDeviceProperty_Invoke_mF54462882130A74DE4917DC614D9281FA469901F(L_1, L_2, L_3, (int32_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_6 = V_0;
+		V_1 = L_6;
+		goto IL_0019;
+	}
+
+IL_0019:
+	{
+		// }
+		HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305  L_7 = V_1;
+		return L_7;
 	}
 }
 // System.UInt32 Valve.VR.CVRSystem::GetArrayTrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,System.UInt32,System.IntPtr,System.UInt32,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetArrayTrackedDeviceProperty_m4691DE76548A0B8913F6C8A5A62F32BA00D51BFA (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, uint32_t ___propType2, intptr_t ___pBuffer3, uint32_t ___unBufferSize4, int32_t* ___pError5, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetArrayTrackedDeviceProperty(unDeviceIndex,prop,propType,pBuffer,unBufferSize,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41334,13 +45062,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetArrayTrackedDevicePrope
 		int32_t* L_7 = ___pError5;
 		NullCheck(L_1);
 		uint32_t L_8 = _GetArrayTrackedDeviceProperty_Invoke_m3B15B4E73C15C7B5EC35A68A9001F121A347F5E3(L_1, L_2, L_3, L_4, (intptr_t)L_5, L_6, (int32_t*)L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		uint32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		uint32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // System.UInt32 Valve.VR.CVRSystem::GetStringTrackedDeviceProperty(System.UInt32,Valve.VR.ETrackedDeviceProperty,System.Text.StringBuilder,System.UInt32,Valve.VR.ETrackedPropertyError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetStringTrackedDeviceProperty_mAFD2CDC924AEBD1194DF3A6BB7A892E4FA903FFF (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, int32_t ___prop1, StringBuilder_t * ___pchValue2, uint32_t ___unBufferSize3, int32_t* ___pError4, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetStringTrackedDeviceProperty(unDeviceIndex,prop,pchValue,unBufferSize,ref pError);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41352,8 +45092,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetStringTrackedDeviceProp
 		int32_t* L_6 = ___pError4;
 		NullCheck(L_1);
 		uint32_t L_7 = _GetStringTrackedDeviceProperty_Invoke_mF1B06DD986713F2F59E6CBC27AF0F5439C1F393F(L_1, L_2, L_3, L_4, L_5, (int32_t*)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		uint32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		uint32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // System.String Valve.VR.CVRSystem::GetPropErrorNameFromEnum(Valve.VR.ETrackedPropertyError)
@@ -41365,6 +45115,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetPropErrorNameFromEnum_
 		il2cpp_codegen_initialize_method (CVRSystem_GetPropErrorNameFromEnum_mEF7DBC9C70ECAAE22B5E6BDC25AD91282B5A0A67_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetPropErrorNameFromEnum(error);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41372,10 +45125,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetPropErrorNameFromEnum_
 		int32_t L_2 = ___error0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetPropErrorNameFromEnum_Invoke_m980B18E65A1DB2822A29B9894FF46BA1BC18195E(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::PollNextEvent(Valve.VR.VREvent_t&,System.UInt32)
@@ -41387,10 +45150,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEvent_mACBB2908F5E2D38
 		il2cpp_codegen_initialize_method (CVRSystem_PollNextEvent_mACBB2908F5E2D38B09A2CE266B5FF577CFADFDDD_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	PollNextEventUnion_t9289F686C4C4721CD8FA2D0DAC7E30B7A65524C5  V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F  V_1;
-	memset((&V_1), 0, sizeof(V_1));
+	bool V_0 = false;
+	bool V_1 = false;
+	PollNextEventUnion_t9289F686C4C4721CD8FA2D0DAC7E30B7A65524C5  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F  V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B3_0 = 0;
 	{
 		// if ((System.Environment.OSVersion.Platform == System.PlatformID.MacOSX) ||
 		//         (System.Environment.OSVersion.Platform == System.PlatformID.Unix))
@@ -41399,62 +45167,88 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEvent_mACBB2908F5E2D38
 		int32_t L_1 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)6)))
 		{
-			goto IL_001a;
+			goto IL_001d;
 		}
 	}
 	{
 		OperatingSystem_tBB05846D5AA6960FFEB42C59E5FE359255C2BE83 * L_2 = Environment_get_OSVersion_mD6E99E279170E00D17F7D29F242EF65434812233(/*hidden argument*/NULL);
 		NullCheck(L_2);
 		int32_t L_3 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_2, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)4))))
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)4))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001e:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0061;
+			goto IL_0072;
 		}
 	}
-
-IL_001a:
 	{
 		// VREvent_t_Packed event_packed = new VREvent_t_Packed();
-		il2cpp_codegen_initobj((&V_1), sizeof(VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F ));
+		il2cpp_codegen_initobj((&V_3), sizeof(VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F ));
 		// u.pPollNextEventPacked = null;
-		(&V_0)->set_pPollNextEventPacked_1((_PollNextEventPacked_tF8BF2C15564F4C4F21BE1B980EBD2690E29539CA *)NULL);
+		(&V_2)->set_pPollNextEventPacked_1((_PollNextEventPacked_tF8BF2C15564F4C4F21BE1B980EBD2690E29539CA *)NULL);
 		// u.pPollNextEvent = FnTable.PollNextEvent;
-		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_4 = __this->get_address_of_FnTable_0();
-		_PollNextEvent_tC00306C648BB487B4115482F2CE7DB03832822B4 * L_5 = L_4->get_PollNextEvent_29();
-		(&V_0)->set_pPollNextEvent_0(L_5);
+		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_5 = __this->get_address_of_FnTable_0();
+		_PollNextEvent_tC00306C648BB487B4115482F2CE7DB03832822B4 * L_6 = L_5->get_PollNextEvent_29();
+		(&V_2)->set_pPollNextEvent_0(L_6);
 		// bool packed_result = u.pPollNextEventPacked(ref event_packed,(uint)System.Runtime.InteropServices.Marshal.SizeOf(typeof(VREvent_t_Packed)));
-		PollNextEventUnion_t9289F686C4C4721CD8FA2D0DAC7E30B7A65524C5  L_6 = V_0;
-		_PollNextEventPacked_tF8BF2C15564F4C4F21BE1B980EBD2690E29539CA * L_7 = L_6.get_pPollNextEventPacked_1();
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_8 = { reinterpret_cast<intptr_t> (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F_0_0_0_var) };
+		PollNextEventUnion_t9289F686C4C4721CD8FA2D0DAC7E30B7A65524C5  L_7 = V_2;
+		_PollNextEventPacked_tF8BF2C15564F4C4F21BE1B980EBD2690E29539CA * L_8 = L_7.get_pPollNextEventPacked_1();
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_9 = { reinterpret_cast<intptr_t> (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_9 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_8, /*hidden argument*/NULL);
+		Type_t * L_10 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_9, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		int32_t L_10 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_9, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		bool L_11 = _PollNextEventPacked_Invoke_m41902BAA2C7CC610DA208EFF587F60F4583AACEE(L_7, (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_1), L_10, /*hidden argument*/NULL);
+		int32_t L_11 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_10, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		bool L_12 = _PollNextEventPacked_Invoke_m41902BAA2C7CC610DA208EFF587F60F4583AACEE(L_8, (VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_3), L_11, /*hidden argument*/NULL);
+		V_4 = L_12;
 		// event_packed.Unpack(ref pEvent);
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_12 = ___pEvent0;
-		VREvent_t_Packed_Unpack_m8B24D002A51C983643B1E6862A6452D4ECF42C57((VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_1), (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_12, /*hidden argument*/NULL);
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_13 = ___pEvent0;
+		VREvent_t_Packed_Unpack_m8B24D002A51C983643B1E6862A6452D4ECF42C57((VREvent_t_Packed_t764509D9A4750CBB9F02DD0D592578165254C52F *)(&V_3), (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_13, /*hidden argument*/NULL);
 		// return packed_result;
-		return L_11;
+		bool L_14 = V_4;
+		V_5 = L_14;
+		goto IL_008a;
 	}
 
-IL_0061:
+IL_0072:
 	{
 		// bool result = FnTable.PollNextEvent(ref pEvent,uncbVREvent);
-		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_13 = __this->get_address_of_FnTable_0();
-		_PollNextEvent_tC00306C648BB487B4115482F2CE7DB03832822B4 * L_14 = L_13->get_PollNextEvent_29();
-		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_15 = ___pEvent0;
-		uint32_t L_16 = ___uncbVREvent1;
-		NullCheck(L_14);
-		bool L_17 = _PollNextEvent_Invoke_mFD634F982EAF818777CF7A055B7237817B544628(L_14, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_15, L_16, /*hidden argument*/NULL);
+		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_15 = __this->get_address_of_FnTable_0();
+		_PollNextEvent_tC00306C648BB487B4115482F2CE7DB03832822B4 * L_16 = L_15->get_PollNextEvent_29();
+		VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * L_17 = ___pEvent0;
+		uint32_t L_18 = ___uncbVREvent1;
+		NullCheck(L_16);
+		bool L_19 = _PollNextEvent_Invoke_mFD634F982EAF818777CF7A055B7237817B544628(L_16, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_17, L_18, /*hidden argument*/NULL);
+		V_0 = L_19;
 		// return result;
-		return L_17;
+		bool L_20 = V_0;
+		V_5 = L_20;
+		goto IL_008a;
+	}
+
+IL_008a:
+	{
+		// }
+		bool L_21 = V_5;
+		return L_21;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::PollNextEventWithPose(Valve.VR.ETrackingUniverseOrigin,Valve.VR.VREvent_t&,System.UInt32,Valve.VR.TrackedDevicePose_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEventWithPose_m4154693792D2FCE2A8A4977D9BE7671EAD4B9651 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___eOrigin0, VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 * ___pEvent1, uint32_t ___uncbVREvent2, TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * ___pTrackedDevicePose3, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.PollNextEventWithPose(eOrigin,ref pEvent,uncbVREvent,ref pTrackedDevicePose);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41465,8 +45259,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_PollNextEventWithPose_m4154693
 		TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * L_5 = ___pTrackedDevicePose3;
 		NullCheck(L_1);
 		bool L_6 = _PollNextEventWithPose_Invoke_mFA2D48526CE35A3B80537719159D11244942D43B(L_1, L_2, (VREvent_t_t4ADC418C98437E42A65BD0D4BF82E864A10D6AE0 *)L_3, L_4, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
 		// return result;
-		return L_6;
+		bool L_7 = V_0;
+		V_1 = L_7;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		bool L_8 = V_1;
+		return L_8;
 	}
 }
 // System.String Valve.VR.CVRSystem::GetEventTypeNameFromEnum(Valve.VR.EVREventType)
@@ -41478,6 +45282,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetEventTypeNameFromEnum_
 		il2cpp_codegen_initialize_method (CVRSystem_GetEventTypeNameFromEnum_m149AEF9CB0D23333E57C5C4398ED3CAD4D2A1854_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetEventTypeNameFromEnum(eType);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41485,15 +45292,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetEventTypeNameFromEnum_
 		int32_t L_2 = ___eType0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetEventTypeNameFromEnum_Invoke_m9C6C0E78BCE61FE8B4B5983FFF1BD34CE19DC211(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.HiddenAreaMesh_t Valve.VR.CVRSystem::GetHiddenAreaMesh(Valve.VR.EVREye,Valve.VR.EHiddenAreaMeshType)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B13645B1506F0D  CVRSystem_GetHiddenAreaMesh_m237BFB1EEF5F5400F8F0AE6B3AF89CD43B3899E9 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, int32_t ___eEye0, int32_t ___type1, const RuntimeMethod* method)
 {
+	HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B13645B1506F0D  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B13645B1506F0D  V_1;
+	memset((&V_1), 0, sizeof(V_1));
 	{
 		// HiddenAreaMesh_t result = FnTable.GetHiddenAreaMesh(eEye,type);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41502,8 +45323,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B
 		int32_t L_3 = ___type1;
 		NullCheck(L_1);
 		HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B13645B1506F0D  L_4 = _GetHiddenAreaMesh_Invoke_mCA44C9DD262375D26525DC3CD0EFF0B4399C93B4(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B13645B1506F0D  L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		HiddenAreaMesh_t_tC37A18F4C6401DFFF09758D378B13645B1506F0D  L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::GetControllerState(System.UInt32,Valve.VR.VRControllerState_t&,System.UInt32)
@@ -41515,10 +45346,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerState_mDA2AFEF909
 		il2cpp_codegen_initialize_method (CVRSystem_GetControllerState_mDA2AFEF909256FFE8469E1E5621EF54C17385833_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	GetControllerStateUnion_t76122931FB96F464176A051C7BE3B407DCCE12E4  V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209  V_1;
-	memset((&V_1), 0, sizeof(V_1));
+	bool V_0 = false;
+	bool V_1 = false;
+	GetControllerStateUnion_t76122931FB96F464176A051C7BE3B407DCCE12E4  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209  V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B3_0 = 0;
 	{
 		// if ((System.Environment.OSVersion.Platform == System.PlatformID.MacOSX) ||
 		//         (System.Environment.OSVersion.Platform == System.PlatformID.Unix))
@@ -41527,61 +45363,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerState_mDA2AFEF909
 		int32_t L_1 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)6)))
 		{
-			goto IL_001a;
+			goto IL_001d;
 		}
 	}
 	{
 		OperatingSystem_tBB05846D5AA6960FFEB42C59E5FE359255C2BE83 * L_2 = Environment_get_OSVersion_mD6E99E279170E00D17F7D29F242EF65434812233(/*hidden argument*/NULL);
 		NullCheck(L_2);
 		int32_t L_3 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_2, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)4))))
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)4))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001e:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_0067;
+			goto IL_0078;
 		}
 	}
-
-IL_001a:
 	{
 		// VRControllerState_t_Packed state_packed = new VRControllerState_t_Packed(pControllerState);
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_4 = ___pControllerState1;
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801  L_5 = (*(VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_4);
-		VRControllerState_t_Packed__ctor_m4C7E537EEFF2A693CFE45726EB51833373E5B22C((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_1), L_5, /*hidden argument*/NULL);
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_5 = ___pControllerState1;
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801  L_6 = (*(VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_5);
+		VRControllerState_t_Packed__ctor_m4C7E537EEFF2A693CFE45726EB51833373E5B22C((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), L_6, /*hidden argument*/NULL);
 		// u.pGetControllerStatePacked = null;
-		(&V_0)->set_pGetControllerStatePacked_1((_GetControllerStatePacked_t748B218A1F94A25E40BE59D86928DB3F9E5E8444 *)NULL);
+		(&V_2)->set_pGetControllerStatePacked_1((_GetControllerStatePacked_t748B218A1F94A25E40BE59D86928DB3F9E5E8444 *)NULL);
 		// u.pGetControllerState = FnTable.GetControllerState;
-		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_6 = __this->get_address_of_FnTable_0();
-		_GetControllerState_tEE9808AEBAE0321DAED8410A8501F5796CE7D7BE * L_7 = L_6->get_GetControllerState_33();
-		(&V_0)->set_pGetControllerState_0(L_7);
+		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_7 = __this->get_address_of_FnTable_0();
+		_GetControllerState_tEE9808AEBAE0321DAED8410A8501F5796CE7D7BE * L_8 = L_7->get_GetControllerState_33();
+		(&V_2)->set_pGetControllerState_0(L_8);
 		// bool packed_result = u.pGetControllerStatePacked(unControllerDeviceIndex,ref state_packed,(uint)System.Runtime.InteropServices.Marshal.SizeOf(typeof(VRControllerState_t_Packed)));
-		GetControllerStateUnion_t76122931FB96F464176A051C7BE3B407DCCE12E4  L_8 = V_0;
-		_GetControllerStatePacked_t748B218A1F94A25E40BE59D86928DB3F9E5E8444 * L_9 = L_8.get_pGetControllerStatePacked_1();
-		uint32_t L_10 = ___unControllerDeviceIndex0;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_11 = { reinterpret_cast<intptr_t> (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209_0_0_0_var) };
+		GetControllerStateUnion_t76122931FB96F464176A051C7BE3B407DCCE12E4  L_9 = V_2;
+		_GetControllerStatePacked_t748B218A1F94A25E40BE59D86928DB3F9E5E8444 * L_10 = L_9.get_pGetControllerStatePacked_1();
+		uint32_t L_11 = ___unControllerDeviceIndex0;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_12 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_11, /*hidden argument*/NULL);
+		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_12, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		int32_t L_13 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_12, /*hidden argument*/NULL);
-		NullCheck(L_9);
-		bool L_14 = _GetControllerStatePacked_Invoke_mE4EFB27F0E4412883AD456BB27C65A7FCB164715(L_9, L_10, (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_1), L_13, /*hidden argument*/NULL);
+		int32_t L_14 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_13, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		bool L_15 = _GetControllerStatePacked_Invoke_mE4EFB27F0E4412883AD456BB27C65A7FCB164715(L_10, L_11, (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), L_14, /*hidden argument*/NULL);
+		V_4 = L_15;
 		// state_packed.Unpack(ref pControllerState);
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_15 = ___pControllerState1;
-		VRControllerState_t_Packed_Unpack_m5E26211997CC7A8C836E3A014B728B3D8F4E050B((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_1), (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_15, /*hidden argument*/NULL);
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_16 = ___pControllerState1;
+		VRControllerState_t_Packed_Unpack_m5E26211997CC7A8C836E3A014B728B3D8F4E050B((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_16, /*hidden argument*/NULL);
 		// return packed_result;
-		return L_14;
+		bool L_17 = V_4;
+		V_5 = L_17;
+		goto IL_0091;
 	}
 
-IL_0067:
+IL_0078:
 	{
 		// bool result = FnTable.GetControllerState(unControllerDeviceIndex,ref pControllerState,unControllerStateSize);
-		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_16 = __this->get_address_of_FnTable_0();
-		_GetControllerState_tEE9808AEBAE0321DAED8410A8501F5796CE7D7BE * L_17 = L_16->get_GetControllerState_33();
-		uint32_t L_18 = ___unControllerDeviceIndex0;
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_19 = ___pControllerState1;
-		uint32_t L_20 = ___unControllerStateSize2;
-		NullCheck(L_17);
-		bool L_21 = _GetControllerState_Invoke_mC49A05EE34529E9000B1DB13A44955FF58FCACB0(L_17, L_18, (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_19, L_20, /*hidden argument*/NULL);
+		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_18 = __this->get_address_of_FnTable_0();
+		_GetControllerState_tEE9808AEBAE0321DAED8410A8501F5796CE7D7BE * L_19 = L_18->get_GetControllerState_33();
+		uint32_t L_20 = ___unControllerDeviceIndex0;
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_21 = ___pControllerState1;
+		uint32_t L_22 = ___unControllerStateSize2;
+		NullCheck(L_19);
+		bool L_23 = _GetControllerState_Invoke_mC49A05EE34529E9000B1DB13A44955FF58FCACB0(L_19, L_20, (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_21, L_22, /*hidden argument*/NULL);
+		V_0 = L_23;
 		// return result;
-		return L_21;
+		bool L_24 = V_0;
+		V_5 = L_24;
+		goto IL_0091;
+	}
+
+IL_0091:
+	{
+		// }
+		bool L_25 = V_5;
+		return L_25;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::GetControllerStateWithPose(Valve.VR.ETrackingUniverseOrigin,System.UInt32,Valve.VR.VRControllerState_t&,System.UInt32,Valve.VR.TrackedDevicePose_t&)
@@ -41593,10 +45453,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerStateWithPose_mC9
 		il2cpp_codegen_initialize_method (CVRSystem_GetControllerStateWithPose_mC90DC7645959FFEA1A4D377CA7EF61DF6DEE17C2_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	GetControllerStateWithPoseUnion_t734A56A70EB55E68275F7825A1B3A35B8328A1B8  V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209  V_1;
-	memset((&V_1), 0, sizeof(V_1));
+	bool V_0 = false;
+	bool V_1 = false;
+	GetControllerStateWithPoseUnion_t734A56A70EB55E68275F7825A1B3A35B8328A1B8  V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209  V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	bool V_5 = false;
+	int32_t G_B3_0 = 0;
 	{
 		// if ((System.Environment.OSVersion.Platform == System.PlatformID.MacOSX) ||
 		//         (System.Environment.OSVersion.Platform == System.PlatformID.Unix))
@@ -41605,65 +45470,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_GetControllerStateWithPose_mC9
 		int32_t L_1 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_0, /*hidden argument*/NULL);
 		if ((((int32_t)L_1) == ((int32_t)6)))
 		{
-			goto IL_001a;
+			goto IL_001d;
 		}
 	}
 	{
 		OperatingSystem_tBB05846D5AA6960FFEB42C59E5FE359255C2BE83 * L_2 = Environment_get_OSVersion_mD6E99E279170E00D17F7D29F242EF65434812233(/*hidden argument*/NULL);
 		NullCheck(L_2);
 		int32_t L_3 = OperatingSystem_get_Platform_m36635DD0A3D5442E515AB8D2EA3C7092348A5181_inline(L_2, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_3) == ((uint32_t)4))))
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)4))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001e:
+	{
+		V_1 = (bool)G_B3_0;
+		bool L_4 = V_1;
+		if (!L_4)
 		{
-			goto IL_006a;
+			goto IL_007b;
 		}
 	}
-
-IL_001a:
 	{
 		// VRControllerState_t_Packed state_packed = new VRControllerState_t_Packed(pControllerState);
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_4 = ___pControllerState2;
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801  L_5 = (*(VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_4);
-		VRControllerState_t_Packed__ctor_m4C7E537EEFF2A693CFE45726EB51833373E5B22C((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_1), L_5, /*hidden argument*/NULL);
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_5 = ___pControllerState2;
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801  L_6 = (*(VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_5);
+		VRControllerState_t_Packed__ctor_m4C7E537EEFF2A693CFE45726EB51833373E5B22C((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), L_6, /*hidden argument*/NULL);
 		// u.pGetControllerStateWithPosePacked = null;
-		(&V_0)->set_pGetControllerStateWithPosePacked_1((_GetControllerStateWithPosePacked_t3AFB14BF65679D680A27FBD627082216BBB6AA68 *)NULL);
+		(&V_2)->set_pGetControllerStateWithPosePacked_1((_GetControllerStateWithPosePacked_t3AFB14BF65679D680A27FBD627082216BBB6AA68 *)NULL);
 		// u.pGetControllerStateWithPose = FnTable.GetControllerStateWithPose;
-		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_6 = __this->get_address_of_FnTable_0();
-		_GetControllerStateWithPose_tE5B63B1E9C0176E5345D1739E35432634E3F72FA * L_7 = L_6->get_GetControllerStateWithPose_34();
-		(&V_0)->set_pGetControllerStateWithPose_0(L_7);
+		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_7 = __this->get_address_of_FnTable_0();
+		_GetControllerStateWithPose_tE5B63B1E9C0176E5345D1739E35432634E3F72FA * L_8 = L_7->get_GetControllerStateWithPose_34();
+		(&V_2)->set_pGetControllerStateWithPose_0(L_8);
 		// bool packed_result = u.pGetControllerStateWithPosePacked(eOrigin,unControllerDeviceIndex,ref state_packed,(uint)System.Runtime.InteropServices.Marshal.SizeOf(typeof(VRControllerState_t_Packed)),ref pTrackedDevicePose);
-		GetControllerStateWithPoseUnion_t734A56A70EB55E68275F7825A1B3A35B8328A1B8  L_8 = V_0;
-		_GetControllerStateWithPosePacked_t3AFB14BF65679D680A27FBD627082216BBB6AA68 * L_9 = L_8.get_pGetControllerStateWithPosePacked_1();
-		int32_t L_10 = ___eOrigin0;
-		uint32_t L_11 = ___unControllerDeviceIndex1;
-		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_12 = { reinterpret_cast<intptr_t> (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209_0_0_0_var) };
+		GetControllerStateWithPoseUnion_t734A56A70EB55E68275F7825A1B3A35B8328A1B8  L_9 = V_2;
+		_GetControllerStateWithPosePacked_t3AFB14BF65679D680A27FBD627082216BBB6AA68 * L_10 = L_9.get_pGetControllerStateWithPosePacked_1();
+		int32_t L_11 = ___eOrigin0;
+		uint32_t L_12 = ___unControllerDeviceIndex1;
+		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_13 = { reinterpret_cast<intptr_t> (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209_0_0_0_var) };
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_13 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_12, /*hidden argument*/NULL);
+		Type_t * L_14 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_13, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		int32_t L_14 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_13, /*hidden argument*/NULL);
-		TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * L_15 = ___pTrackedDevicePose4;
-		NullCheck(L_9);
-		bool L_16 = _GetControllerStateWithPosePacked_Invoke_m9510049B12FC9039A9D535C25640AAA22150247F(L_9, L_10, L_11, (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_1), L_14, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_15, /*hidden argument*/NULL);
+		int32_t L_15 = Marshal_SizeOf_m4F7DA827FA7A720395E6FDD2ABE78D4B00D43130(L_14, /*hidden argument*/NULL);
+		TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * L_16 = ___pTrackedDevicePose4;
+		NullCheck(L_10);
+		bool L_17 = _GetControllerStateWithPosePacked_Invoke_m9510049B12FC9039A9D535C25640AAA22150247F(L_10, L_11, L_12, (VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), L_15, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_16, /*hidden argument*/NULL);
+		V_4 = L_17;
 		// state_packed.Unpack(ref pControllerState);
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_17 = ___pControllerState2;
-		VRControllerState_t_Packed_Unpack_m5E26211997CC7A8C836E3A014B728B3D8F4E050B((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_1), (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_17, /*hidden argument*/NULL);
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_18 = ___pControllerState2;
+		VRControllerState_t_Packed_Unpack_m5E26211997CC7A8C836E3A014B728B3D8F4E050B((VRControllerState_t_Packed_tB1FCAEA2DA8BC1299291EF6996A014B958601209 *)(&V_3), (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_18, /*hidden argument*/NULL);
 		// return packed_result;
-		return L_16;
+		bool L_19 = V_4;
+		V_5 = L_19;
+		goto IL_0098;
 	}
 
-IL_006a:
+IL_007b:
 	{
 		// bool result = FnTable.GetControllerStateWithPose(eOrigin,unControllerDeviceIndex,ref pControllerState,unControllerStateSize,ref pTrackedDevicePose);
-		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_18 = __this->get_address_of_FnTable_0();
-		_GetControllerStateWithPose_tE5B63B1E9C0176E5345D1739E35432634E3F72FA * L_19 = L_18->get_GetControllerStateWithPose_34();
-		int32_t L_20 = ___eOrigin0;
-		uint32_t L_21 = ___unControllerDeviceIndex1;
-		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_22 = ___pControllerState2;
-		uint32_t L_23 = ___unControllerStateSize3;
-		TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * L_24 = ___pTrackedDevicePose4;
-		NullCheck(L_19);
-		bool L_25 = _GetControllerStateWithPose_Invoke_m99A27D778ED22062C7D0DEC171FEB67D8266C6AA(L_19, L_20, L_21, (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_22, L_23, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_24, /*hidden argument*/NULL);
+		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_20 = __this->get_address_of_FnTable_0();
+		_GetControllerStateWithPose_tE5B63B1E9C0176E5345D1739E35432634E3F72FA * L_21 = L_20->get_GetControllerStateWithPose_34();
+		int32_t L_22 = ___eOrigin0;
+		uint32_t L_23 = ___unControllerDeviceIndex1;
+		VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 * L_24 = ___pControllerState2;
+		uint32_t L_25 = ___unControllerStateSize3;
+		TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 * L_26 = ___pTrackedDevicePose4;
+		NullCheck(L_21);
+		bool L_27 = _GetControllerStateWithPose_Invoke_m99A27D778ED22062C7D0DEC171FEB67D8266C6AA(L_21, L_22, L_23, (VRControllerState_t_t9E27875ADC2580AA931006B6BD0993E169A68801 *)L_24, L_25, (TrackedDevicePose_t_t42B7DC644F0F2CC1B416722EE2D63CB077F24383 *)L_26, /*hidden argument*/NULL);
+		V_0 = L_27;
 		// return result;
-		return L_25;
+		bool L_28 = V_0;
+		V_5 = L_28;
+		goto IL_0098;
+	}
+
+IL_0098:
+	{
+		// }
+		bool L_29 = V_5;
+		return L_29;
 	}
 }
 // System.Void Valve.VR.CVRSystem::TriggerHapticPulse(System.UInt32,System.UInt32,System.UInt16)
@@ -41691,6 +45580,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetButtonIdNameFromEnum_m
 		il2cpp_codegen_initialize_method (CVRSystem_GetButtonIdNameFromEnum_m91AFD0BA1B1D4924976665EBBC32B7B5EFF3C6D6_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetButtonIdNameFromEnum(eButtonId);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41698,10 +45590,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetButtonIdNameFromEnum_m
 		int32_t L_2 = ___eButtonId0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetButtonIdNameFromEnum_Invoke_mC7ED445AEE6182ADC096E831AFEE58D8D971C388(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.String Valve.VR.CVRSystem::GetControllerAxisTypeNameFromEnum(Valve.VR.EVRControllerAxisType)
@@ -41713,6 +45615,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetControllerAxisTypeName
 		il2cpp_codegen_initialize_method (CVRSystem_GetControllerAxisTypeNameFromEnum_m9AF6D07221A049A8BE25E7198D18F63A50EEF82F_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetControllerAxisTypeNameFromEnum(eAxisType);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41720,67 +45625,127 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetControllerAxisTypeName
 		int32_t L_2 = ___eAxisType0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetControllerAxisTypeNameFromEnum_Invoke_m19B53878CDBC2EC1453B96D8AC2C4C108B05DC3F(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::IsInputAvailable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsInputAvailable_m349A68FFC17E94060449F034A962B3079F08950B (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsInputAvailable();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_IsInputAvailable_tBFA0636AE067C91D69CAB54E139FF2A5608D55A9 * L_1 = L_0->get_IsInputAvailable_38();
 		NullCheck(L_1);
 		bool L_2 = _IsInputAvailable_Invoke_m7769F5851380F3ACCB4C7AE2AECBADC629A0936F(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::IsSteamVRDrawingControllers()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_IsSteamVRDrawingControllers_m7730BC71DC9758E492BCAF3C890A1BD508A4DA53 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.IsSteamVRDrawingControllers();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_IsSteamVRDrawingControllers_tAF2151392D92B075F8E6E63724633AEB2D8D450B * L_1 = L_0->get_IsSteamVRDrawingControllers_39();
 		NullCheck(L_1);
 		bool L_2 = _IsSteamVRDrawingControllers_Invoke_m28E102456F36A2F65ED39D851A54DCDB197D9CCC(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::ShouldApplicationPause()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ShouldApplicationPause_mEE91DC4DF7173A2D23C77D421998D0E54018691E (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.ShouldApplicationPause();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_ShouldApplicationPause_t67077821660BF5E48F8E68AC6492E1AEFAEE54A9 * L_1 = L_0->get_ShouldApplicationPause_40();
 		NullCheck(L_1);
 		bool L_2 = _ShouldApplicationPause_Invoke_m63926482AE112BB12E15E0DE10520C346D3D5BFE(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // System.Boolean Valve.VR.CVRSystem::ShouldApplicationReduceRenderingWork()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CVRSystem_ShouldApplicationReduceRenderingWork_m2C880F71D0B71A8396C35E3F2F12B7ABE787D72C (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	bool V_1 = false;
 	{
 		// bool result = FnTable.ShouldApplicationReduceRenderingWork();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_ShouldApplicationReduceRenderingWork_t242CF833B102E1AD552541A0552FEB51A14B48BA * L_1 = L_0->get_ShouldApplicationReduceRenderingWork_41();
 		NullCheck(L_1);
 		bool L_2 = _ShouldApplicationReduceRenderingWork_Invoke_m4FEA3FD5DD2CA174AD795BABB981F26916B35920(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		bool L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		bool L_4 = V_1;
+		return L_4;
 	}
 }
 // Valve.VR.EVRFirmwareError Valve.VR.CVRSystem::PerformFirmwareUpdate(System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_PerformFirmwareUpdate_m516FBEF9F231E5E8468A01F06FDBE9D81A0D5C2B (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, uint32_t ___unDeviceIndex0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRFirmwareError result = FnTable.PerformFirmwareUpdate(unDeviceIndex);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41788,8 +45753,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRSystem_PerformFirmwareUpdate_m516F
 		uint32_t L_2 = ___unDeviceIndex0;
 		NullCheck(L_1);
 		int32_t L_3 = _PerformFirmwareUpdate_Invoke_m733FE67049584B7B937D9C18B3200BCBE357F810(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // System.Void Valve.VR.CVRSystem::AcknowledgeQuit_Exiting()
@@ -41808,6 +45783,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRSystem_AcknowledgeQuit_Exiting_mBAC62
 // System.UInt32 Valve.VR.CVRSystem::GetAppContainerFilePaths(System.Text.StringBuilder,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetAppContainerFilePaths_mAC7C0BC6F6190DBB4CEAB8A12BA3A94848B4A7D8 (CVRSystem_t1030A1811964E8FA2273D18C6E87C90ABF85624A * __this, StringBuilder_t * ___pchBuffer0, uint32_t ___unBufferSize1, const RuntimeMethod* method)
 {
+	uint32_t V_0 = 0;
+	uint32_t V_1 = 0;
 	{
 		// uint result = FnTable.GetAppContainerFilePaths(pchBuffer,unBufferSize);
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
@@ -41816,8 +45793,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t CVRSystem_GetAppContainerFilePaths_m
 		uint32_t L_3 = ___unBufferSize1;
 		NullCheck(L_1);
 		uint32_t L_4 = _GetAppContainerFilePaths_Invoke_m16F47AECFE97FA04DBEA7FE97DC27B962FE68536(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		uint32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		uint32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.String Valve.VR.CVRSystem::GetRuntimeVersion()
@@ -41829,16 +45816,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRSystem_GetRuntimeVersion_mFCA49F
 		il2cpp_codegen_initialize_method (CVRSystem_GetRuntimeVersion_mFCA49FD5047848C823001C2CEEF99A972B72E51C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetRuntimeVersion();
 		IVRSystem_t86F687C9D91B7977D38B3555AE60D7AB33FC148F * L_0 = __this->get_address_of_FnTable_0();
 		_GetRuntimeVersion_t66879C5824E3F5D5659759FB949521C4C9928CCE * L_1 = L_0->get_GetRuntimeVersion_45();
 		NullCheck(L_1);
 		intptr_t L_2 = _GetRuntimeVersion_Invoke_m22EDE141333A7E1F04D241F9FE68441F222DE585(L_1, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_2;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_3 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_3 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_2, /*hidden argument*/NULL);
-		return L_3;
+		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		String_t* L_5 = V_1;
+		return L_5;
 	}
 }
 #ifdef __clang__
@@ -42434,6 +46434,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRTrackedCamera_GetCameraErrorName
 		il2cpp_codegen_initialize_method (CVRTrackedCamera_GetCameraErrorNameFromEnum_m4AE05163B3470C0803894B7CC114677FC87E7371_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
 	{
 		// IntPtr result = FnTable.GetCameraErrorNameFromEnum(eCameraError);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42441,15 +46444,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CVRTrackedCamera_GetCameraErrorName
 		int32_t L_2 = ___eCameraError0;
 		NullCheck(L_1);
 		intptr_t L_3 = _GetCameraErrorNameFromEnum_Invoke_mF4710BFBF79821E706B42AEDB908FF057B8B9D9D(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = (intptr_t)L_3;
 		// return Marshal.PtrToStringAnsi(result);
+		intptr_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(Marshal_tC795CE9CC2FFBA41EDB1AC1C0FEC04607DFA8A40_il2cpp_TypeInfo_var);
-		String_t* L_4 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_3, /*hidden argument*/NULL);
-		return L_4;
+		String_t* L_5 = Marshal_PtrToStringAnsi_mA5D5D1AA7C0EB6A96F92454A8AF9C266E2DF5DA5((intptr_t)L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		String_t* L_6 = V_1;
+		return L_6;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::HasCamera(System.UInt32,System.Boolean&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_HasCamera_mE40DB09F1DC3B431EBCFFD26272CC02CF27FB86B (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint32_t ___nDeviceIndex0, bool* ___pHasCamera1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pHasCamera = false;
 		bool* L_0 = ___pHasCamera1;
@@ -42461,13 +46476,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_HasCamera_mE40DB09F1
 		bool* L_4 = ___pHasCamera1;
 		NullCheck(L_2);
 		int32_t L_5 = _HasCamera_Invoke_m35365232480ACA0FDE6F0CC1020971E7A54835DB(L_2, L_3, (bool*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetCameraFrameSize(System.UInt32,Valve.VR.EVRTrackedCameraFrameType,System.UInt32&,System.UInt32&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraFrameSize_m5A89A48AEDCD10FC892EAA4F0E13BBDCF43F332D (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint32_t ___nDeviceIndex0, int32_t ___eFrameType1, uint32_t* ___pnWidth2, uint32_t* ___pnHeight3, uint32_t* ___pnFrameBufferSize4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pnWidth = 0;
 		uint32_t* L_0 = ___pnWidth2;
@@ -42488,13 +46515,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraFrameSize_m
 		uint32_t* L_9 = ___pnFrameBufferSize4;
 		NullCheck(L_4);
 		int32_t L_10 = _GetCameraFrameSize_Invoke_mB167273ACF8323D2E75EBB451C54338AB781508E(L_4, L_5, L_6, (uint32_t*)L_7, (uint32_t*)L_8, (uint32_t*)L_9, /*hidden argument*/NULL);
+		V_0 = L_10;
 		// return result;
-		return L_10;
+		int32_t L_11 = V_0;
+		V_1 = L_11;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		// }
+		int32_t L_12 = V_1;
+		return L_12;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetCameraIntrinsics(System.UInt32,System.UInt32,Valve.VR.EVRTrackedCameraFrameType,Valve.VR.HmdVector2_t&,Valve.VR.HmdVector2_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraIntrinsics_m89D0A811486B76748CE42F30137C2B4CD5530B52 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint32_t ___nDeviceIndex0, uint32_t ___nCameraIndex1, int32_t ___eFrameType2, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pFocalLength3, HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * ___pCenter4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRTrackedCameraError result = FnTable.GetCameraIntrinsics(nDeviceIndex,nCameraIndex,eFrameType,ref pFocalLength,ref pCenter);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42506,13 +46545,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraIntrinsics_
 		HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A * L_6 = ___pCenter4;
 		NullCheck(L_1);
 		int32_t L_7 = _GetCameraIntrinsics_Invoke_m6792C911D5C33FE070D1310F8844CA6AD3D64793(L_1, L_2, L_3, L_4, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_5, (HmdVector2_t_tE35214CD24332F170A116B6A5474C8F9711A4E9A *)L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
 		// return result;
-		return L_7;
+		int32_t L_8 = V_0;
+		V_1 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		// }
+		int32_t L_9 = V_1;
+		return L_9;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetCameraProjection(System.UInt32,System.UInt32,Valve.VR.EVRTrackedCameraFrameType,System.Single,System.Single,Valve.VR.HmdMatrix44_t&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraProjection_m050AFEA4E2B23C5A267454C1A6CAD5F554A76E75 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint32_t ___nDeviceIndex0, uint32_t ___nCameraIndex1, int32_t ___eFrameType2, float ___flZNear3, float ___flZFar4, HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB * ___pProjection5, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRTrackedCameraError result = FnTable.GetCameraProjection(nDeviceIndex,nCameraIndex,eFrameType,flZNear,flZFar,ref pProjection);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42525,13 +46576,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraProjection_
 		HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB * L_7 = ___pProjection5;
 		NullCheck(L_1);
 		int32_t L_8 = _GetCameraProjection_Invoke_m14E4B7EC37C3DCF5C91799C480F919C452477D54(L_1, L_2, L_3, L_4, L_5, L_6, (HmdMatrix44_t_t33F15A25B9C600224A95080F4663684B5ED6F8EB *)L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::AcquireVideoStreamingService(System.UInt32,System.UInt64&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_AcquireVideoStreamingService_m7BEF4E0A2EFDAE3B530BC1F9026D051BC217FF76 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint32_t ___nDeviceIndex0, uint64_t* ___pHandle1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pHandle = 0;
 		uint64_t* L_0 = ___pHandle1;
@@ -42543,13 +46606,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_AcquireVideoStreamin
 		uint64_t* L_4 = ___pHandle1;
 		NullCheck(L_2);
 		int32_t L_5 = _AcquireVideoStreamingService_Invoke_mD91959AAA9A35E3C383BB45375E591F16E5688C8(L_2, L_3, (uint64_t*)L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
 		// return result;
-		return L_5;
+		int32_t L_6 = V_0;
+		V_1 = L_6;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		int32_t L_7 = V_1;
+		return L_7;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::ReleaseVideoStreamingService(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamingService_m159BECBB58862A1C52CF427A667B661FF4B2E48D (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint64_t ___hTrackedCamera0, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRTrackedCameraError result = FnTable.ReleaseVideoStreamingService(hTrackedCamera);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42557,13 +46632,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamin
 		uint64_t L_2 = ___hTrackedCamera0;
 		NullCheck(L_1);
 		int32_t L_3 = _ReleaseVideoStreamingService_Invoke_mF19390EF96E48BB9BEF1C7091127A37FC0A3308F(L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
 		// return result;
-		return L_3;
+		int32_t L_4 = V_0;
+		V_1 = L_4;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		// }
+		int32_t L_5 = V_1;
+		return L_5;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetVideoStreamFrameBuffer(System.UInt64,Valve.VR.EVRTrackedCameraFrameType,System.IntPtr,System.UInt32,Valve.VR.CameraVideoStreamFrameHeader_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamFrameBuffer_mDA47EBDB3C4E1DA1F45AA2014D0B33E6CBA3E9B2 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint64_t ___hTrackedCamera0, int32_t ___eFrameType1, intptr_t ___pFrameBuffer2, uint32_t ___nFrameBufferSize3, CameraVideoStreamFrameHeader_t_tC4AD05D62A35757293DE92028D37BDD955EE31F3 * ___pFrameHeader4, uint32_t ___nFrameHeaderSize5, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRTrackedCameraError result = FnTable.GetVideoStreamFrameBuffer(hTrackedCamera,eFrameType,pFrameBuffer,nFrameBufferSize,ref pFrameHeader,nFrameHeaderSize);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42576,13 +46663,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamFrameB
 		uint32_t L_7 = ___nFrameHeaderSize5;
 		NullCheck(L_1);
 		int32_t L_8 = _GetVideoStreamFrameBuffer_Invoke_mB1F758E65F7FD6B7E02D20316B60E724E961B98F(L_1, L_2, L_3, (intptr_t)L_4, L_5, (CameraVideoStreamFrameHeader_t_tC4AD05D62A35757293DE92028D37BDD955EE31F3 *)L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetVideoStreamTextureSize(System.UInt32,Valve.VR.EVRTrackedCameraFrameType,Valve.VR.VRTextureBounds_t&,System.UInt32&,System.UInt32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextureSize_m3DB0F2F83DC4CA88E86DA0375B8388DF4BA285D3 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint32_t ___nDeviceIndex0, int32_t ___eFrameType1, VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 * ___pTextureBounds2, uint32_t* ___pnWidth3, uint32_t* ___pnHeight4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pnWidth = 0;
 		uint32_t* L_0 = ___pnWidth3;
@@ -42600,13 +46699,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 		uint32_t* L_8 = ___pnHeight4;
 		NullCheck(L_3);
 		int32_t L_9 = _GetVideoStreamTextureSize_Invoke_mCE14C2952CFDCFC4AB1B45DCCC269C0A754B375C(L_3, L_4, L_5, (VRTextureBounds_t_t32D7B2506F3F1904926B3D447366878B50921745 *)L_6, (uint32_t*)L_7, (uint32_t*)L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
 		// return result;
-		return L_9;
+		int32_t L_10 = V_0;
+		V_1 = L_10;
+		goto IL_0025;
+	}
+
+IL_0025:
+	{
+		// }
+		int32_t L_11 = V_1;
+		return L_11;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetVideoStreamTextureD3D11(System.UInt64,Valve.VR.EVRTrackedCameraFrameType,System.IntPtr,System.IntPtr&,Valve.VR.CameraVideoStreamFrameHeader_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextureD3D11_mD44A0BD6B4ACBBF5BEFA6AEF674EB8A51900565F (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint64_t ___hTrackedCamera0, int32_t ___eFrameType1, intptr_t ___pD3D11DeviceOrResource2, intptr_t* ___ppD3D11ShaderResourceView3, CameraVideoStreamFrameHeader_t_tC4AD05D62A35757293DE92028D37BDD955EE31F3 * ___pFrameHeader4, uint32_t ___nFrameHeaderSize5, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRTrackedCameraError result = FnTable.GetVideoStreamTextureD3D11(hTrackedCamera,eFrameType,pD3D11DeviceOrResource,ref ppD3D11ShaderResourceView,ref pFrameHeader,nFrameHeaderSize);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42619,13 +46730,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 		uint32_t L_7 = ___nFrameHeaderSize5;
 		NullCheck(L_1);
 		int32_t L_8 = _GetVideoStreamTextureD3D11_Invoke_m83CAEB8E2DCB45B43AAC4029DDC042E7FAB34F33(L_1, L_2, L_3, (intptr_t)L_4, (intptr_t*)L_5, (CameraVideoStreamFrameHeader_t_tC4AD05D62A35757293DE92028D37BDD955EE31F3 *)L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::GetVideoStreamTextureGL(System.UInt64,Valve.VR.EVRTrackedCameraFrameType,System.UInt32&,Valve.VR.CameraVideoStreamFrameHeader_t&,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextureGL_m97B62F9240FE8C791BC6BB176CCBFA78C36D5E69 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint64_t ___hTrackedCamera0, int32_t ___eFrameType1, uint32_t* ___pglTextureId2, CameraVideoStreamFrameHeader_t_tC4AD05D62A35757293DE92028D37BDD955EE31F3 * ___pFrameHeader3, uint32_t ___nFrameHeaderSize4, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// pglTextureId = 0;
 		uint32_t* L_0 = ___pglTextureId2;
@@ -42640,13 +46763,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetVideoStreamTextur
 		uint32_t L_7 = ___nFrameHeaderSize4;
 		NullCheck(L_2);
 		int32_t L_8 = _GetVideoStreamTextureGL_Invoke_mD1B1116E6A3DC5C5FEDF6356C73F696EA4649253(L_2, L_3, L_4, (uint32_t*)L_5, (CameraVideoStreamFrameHeader_t_tC4AD05D62A35757293DE92028D37BDD955EE31F3 *)L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// return result;
-		return L_8;
+		int32_t L_9 = V_0;
+		V_1 = L_9;
+		goto IL_0020;
+	}
+
+IL_0020:
+	{
+		// }
+		int32_t L_10 = V_1;
+		return L_10;
 	}
 }
 // Valve.VR.EVRTrackedCameraError Valve.VR.CVRTrackedCamera::ReleaseVideoStreamTextureGL(System.UInt64,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamTextureGL_m99EB794C202E95ED6359E2EF1EFD6C637499F606 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, uint64_t ___hTrackedCamera0, uint32_t ___glTextureId1, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// EVRTrackedCameraError result = FnTable.ReleaseVideoStreamTextureGL(hTrackedCamera,glTextureId);
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
@@ -42655,8 +46790,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_ReleaseVideoStreamTe
 		uint32_t L_3 = ___glTextureId1;
 		NullCheck(L_1);
 		int32_t L_4 = _ReleaseVideoStreamTextureGL_Invoke_m369675A1F35E836F4234DF2E2660E7FDC4D81FCD(L_1, L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// return result;
-		return L_4;
+		int32_t L_5 = V_0;
+		V_1 = L_5;
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		// }
+		int32_t L_6 = V_1;
+		return L_6;
 	}
 }
 // System.Void Valve.VR.CVRTrackedCamera::SetCameraTrackingSpace(Valve.VR.ETrackingUniverseOrigin)
@@ -42676,14 +46821,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CVRTrackedCamera_SetCameraTrackingSpace_
 // Valve.VR.ETrackingUniverseOrigin Valve.VR.CVRTrackedCamera::GetCameraTrackingSpace()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraTrackingSpace_mA71DB8593A9883FC7EEA7A8224D160F5E275AC03 (CVRTrackedCamera_t0B28628BC7D9965B3BFCDD41F3DF90F91AF3643A * __this, const RuntimeMethod* method)
 {
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
 	{
 		// ETrackingUniverseOrigin result = FnTable.GetCameraTrackingSpace();
 		IVRTrackedCamera_tA0D5D1629EF0E0ADE188E5689A7C7E6A68D34DDF * L_0 = __this->get_address_of_FnTable_0();
 		_GetCameraTrackingSpace_t6E8C4636D4869614981BC2B4A26F574D8AC811A8 * L_1 = L_0->get_GetCameraTrackingSpace_13();
 		NullCheck(L_1);
 		int32_t L_2 = _GetCameraTrackingSpace_Invoke_m217201D9B5CBF8B68730C98F586D5C9819C18819(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
 		// return result;
-		return L_2;
+		int32_t L_3 = V_0;
+		V_1 = L_3;
+		goto IL_0016;
+	}
+
+IL_0016:
+	{
+		// }
+		int32_t L_4 = V_1;
+		return L_4;
 	}
 }
 #ifdef __clang__
@@ -43377,6 +47534,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CVRTrackedCamera_GetCameraTrackingSpa
 // UnityEngine.Vector3 Valve.VR.HmdMatrix34_t::GetPosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  HmdMatrix34_t_GetPosition_mAAB6339034207A72B318AC783E2244B07D962AB6 (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * __this, const RuntimeMethod* method)
 {
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_0;
+	memset((&V_0), 0, sizeof(V_0));
 	{
 		// return new Vector3(m3, m7, -m11);
 		float L_0 = __this->get_m3_3();
@@ -43385,7 +47544,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		Vector3__ctor_m08F61F548AA5836D8789843ACB4A81E4963D2EE1((&L_3), L_0, L_1, ((-L_2)), /*hidden argument*/NULL);
-		return L_3;
+		V_0 = L_3;
+		goto IL_001c;
+	}
+
+IL_001c:
+	{
+		// }
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_4 = V_0;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  HmdMatrix34_t_GetPosition_mAAB6339034207A72B318AC783E2244B07D962AB6_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
@@ -43397,57 +47564,80 @@ IL2CPP_EXTERN_C  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  HmdMatrix34_
 // System.Boolean Valve.VR.HmdMatrix34_t::IsRotationValid()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HmdMatrix34_t_IsRotationValid_m6A9C6BC2A4D1138D24A32663590300D319EEC6D9 (HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 * __this, const RuntimeMethod* method)
 {
+	bool V_0 = false;
+	int32_t G_B7_0 = 0;
+	int32_t G_B9_0 = 0;
 	{
 		// return ((m2 != 0 || m6 != 0 || m10 != 0) && (m1 != 0 || m5 != 0 || m9 != 0));
 		float L_0 = __this->get_m2_2();
 		if ((!(((float)L_0) == ((float)(0.0f)))))
 		{
-			goto IL_0027;
+			goto IL_0028;
 		}
 	}
 	{
 		float L_1 = __this->get_m6_6();
 		if ((!(((float)L_1) == ((float)(0.0f)))))
 		{
-			goto IL_0027;
+			goto IL_0028;
 		}
 	}
 	{
 		float L_2 = __this->get_m10_10();
 		if ((((float)L_2) == ((float)(0.0f))))
 		{
-			goto IL_0054;
+			goto IL_0057;
 		}
 	}
 
-IL_0027:
+IL_0028:
 	{
 		float L_3 = __this->get_m1_1();
 		if ((!(((float)L_3) == ((float)(0.0f)))))
 		{
-			goto IL_0052;
+			goto IL_0054;
 		}
 	}
 	{
 		float L_4 = __this->get_m5_5();
 		if ((!(((float)L_4) == ((float)(0.0f)))))
 		{
-			goto IL_0052;
+			goto IL_0054;
 		}
 	}
 	{
 		float L_5 = __this->get_m9_9();
-		return (bool)((((int32_t)((((float)L_5) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-	}
-
-IL_0052:
-	{
-		return (bool)1;
+		G_B7_0 = ((((int32_t)((((float)L_5) == ((float)(0.0f)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0055;
 	}
 
 IL_0054:
 	{
-		return (bool)0;
+		G_B7_0 = 1;
+	}
+
+IL_0055:
+	{
+		G_B9_0 = G_B7_0;
+		goto IL_0058;
+	}
+
+IL_0057:
+	{
+		G_B9_0 = 0;
+	}
+
+IL_0058:
+	{
+		V_0 = (bool)G_B9_0;
+		goto IL_005b;
+	}
+
+IL_005b:
+	{
+		// }
+		bool L_6 = V_0;
+		return L_6;
 	}
 }
 IL2CPP_EXTERN_C  bool HmdMatrix34_t_IsRotationValid_m6A9C6BC2A4D1138D24A32663590300D319EEC6D9_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
@@ -43465,77 +47655,91 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F
 		il2cpp_codegen_initialize_method (HmdMatrix34_t_GetRotation_mC38BF33EF009CC61DC1F5ABA90E548772DEEEF79_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	float V_0 = 0.0f;
+	bool V_0 = false;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  V_5;
+	memset((&V_5), 0, sizeof(V_5));
 	{
 		// if (IsRotationValid())
 		bool L_0 = HmdMatrix34_t_IsRotationValid_m6A9C6BC2A4D1138D24A32663590300D319EEC6D9((HmdMatrix34_t_tAD83D388E6173A848E1FE39121EE1BB9FE7F6305 *)__this, /*hidden argument*/NULL);
-		if (!L_0)
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
 		{
-			goto IL_0115;
+			goto IL_0121;
 		}
 	}
 	{
 		// float w = Mathf.Sqrt(Mathf.Max(0, 1 + m0 + m5 + m10)) / 2;
-		float L_1 = __this->get_m0_0();
-		float L_2 = __this->get_m5_5();
-		float L_3 = __this->get_m10_10();
+		float L_2 = __this->get_m0_0();
+		float L_3 = __this->get_m5_5();
+		float L_4 = __this->get_m10_10();
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_tFBDE6467D269BFE410605C7D806FD9991D4A89CB_il2cpp_TypeInfo_var);
-		float L_4 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)(1.0f), (float)L_1)), (float)L_2)), (float)L_3)), /*hidden argument*/NULL);
-		float L_5 = sqrtf(L_4);
-		V_0 = ((float)((float)L_5/(float)(2.0f)));
+		float L_5 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)(1.0f), (float)L_2)), (float)L_3)), (float)L_4)), /*hidden argument*/NULL);
+		float L_6 = sqrtf(L_5);
+		V_1 = ((float)((float)L_6/(float)(2.0f)));
 		// float x = Mathf.Sqrt(Mathf.Max(0, 1 + m0 - m5 - m10)) / 2;
-		float L_6 = __this->get_m0_0();
-		float L_7 = __this->get_m5_5();
-		float L_8 = __this->get_m10_10();
-		float L_9 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_add((float)(1.0f), (float)L_6)), (float)L_7)), (float)L_8)), /*hidden argument*/NULL);
-		float L_10 = sqrtf(L_9);
-		V_1 = ((float)((float)L_10/(float)(2.0f)));
+		float L_7 = __this->get_m0_0();
+		float L_8 = __this->get_m5_5();
+		float L_9 = __this->get_m10_10();
+		float L_10 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_add((float)(1.0f), (float)L_7)), (float)L_8)), (float)L_9)), /*hidden argument*/NULL);
+		float L_11 = sqrtf(L_10);
+		V_2 = ((float)((float)L_11/(float)(2.0f)));
 		// float y = Mathf.Sqrt(Mathf.Max(0, 1 - m0 + m5 - m10)) / 2;
-		float L_11 = __this->get_m0_0();
-		float L_12 = __this->get_m5_5();
-		float L_13 = __this->get_m10_10();
-		float L_14 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_11)), (float)L_12)), (float)L_13)), /*hidden argument*/NULL);
-		float L_15 = sqrtf(L_14);
-		V_2 = ((float)((float)L_15/(float)(2.0f)));
+		float L_12 = __this->get_m0_0();
+		float L_13 = __this->get_m5_5();
+		float L_14 = __this->get_m10_10();
+		float L_15 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_12)), (float)L_13)), (float)L_14)), /*hidden argument*/NULL);
+		float L_16 = sqrtf(L_15);
+		V_3 = ((float)((float)L_16/(float)(2.0f)));
 		// float z = Mathf.Sqrt(Mathf.Max(0, 1 - m0 - m5 + m10)) / 2;
-		float L_16 = __this->get_m0_0();
-		float L_17 = __this->get_m5_5();
-		float L_18 = __this->get_m10_10();
-		float L_19 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_16)), (float)L_17)), (float)L_18)), /*hidden argument*/NULL);
-		float L_20 = sqrtf(L_19);
-		V_3 = ((float)((float)L_20/(float)(2.0f)));
+		float L_17 = __this->get_m0_0();
+		float L_18 = __this->get_m5_5();
+		float L_19 = __this->get_m10_10();
+		float L_20 = Mathf_Max_m670AE0EC1B09ED1A56FF9606B0F954670319CB65((0.0f), ((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_subtract((float)((float)il2cpp_codegen_subtract((float)(1.0f), (float)L_17)), (float)L_18)), (float)L_19)), /*hidden argument*/NULL);
+		float L_21 = sqrtf(L_20);
+		V_4 = ((float)((float)L_21/(float)(2.0f)));
 		// _copysign(ref x, -m9 - -m6);
-		float L_21 = __this->get_m9_9();
-		float L_22 = __this->get_m6_6();
-		HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9((float*)(&V_1), ((float)il2cpp_codegen_subtract((float)((-L_21)), (float)((-L_22)))), /*hidden argument*/NULL);
+		float L_22 = __this->get_m9_9();
+		float L_23 = __this->get_m6_6();
+		HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9((float*)(&V_2), ((float)il2cpp_codegen_subtract((float)((-L_22)), (float)((-L_23)))), /*hidden argument*/NULL);
 		// _copysign(ref y, -m2 - -m8);
-		float L_23 = __this->get_m2_2();
-		float L_24 = __this->get_m8_8();
-		HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9((float*)(&V_2), ((float)il2cpp_codegen_subtract((float)((-L_23)), (float)((-L_24)))), /*hidden argument*/NULL);
+		float L_24 = __this->get_m2_2();
+		float L_25 = __this->get_m8_8();
+		HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9((float*)(&V_3), ((float)il2cpp_codegen_subtract((float)((-L_24)), (float)((-L_25)))), /*hidden argument*/NULL);
 		// _copysign(ref z, m4 - m1);
-		float L_25 = __this->get_m4_4();
-		float L_26 = __this->get_m1_1();
-		HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9((float*)(&V_3), ((float)il2cpp_codegen_subtract((float)L_25, (float)L_26)), /*hidden argument*/NULL);
+		float L_26 = __this->get_m4_4();
+		float L_27 = __this->get_m1_1();
+		HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9((float*)(&V_4), ((float)il2cpp_codegen_subtract((float)L_26, (float)L_27)), /*hidden argument*/NULL);
 		// return new Quaternion(x, y, z, w);
-		float L_27 = V_1;
 		float L_28 = V_2;
 		float L_29 = V_3;
-		float L_30 = V_0;
-		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_31;
-		memset((&L_31), 0, sizeof(L_31));
-		Quaternion__ctor_m7502F0C38E04C6DE24C965D1CAF278DDD02B9D61((&L_31), L_27, L_28, L_29, L_30, /*hidden argument*/NULL);
-		return L_31;
+		float L_30 = V_4;
+		float L_31 = V_1;
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		Quaternion__ctor_m7502F0C38E04C6DE24C965D1CAF278DDD02B9D61((&L_32), L_28, L_29, L_30, L_31, /*hidden argument*/NULL);
+		V_5 = L_32;
+		goto IL_012a;
 	}
 
-IL_0115:
+IL_0121:
 	{
 		// return Quaternion.identity;
 		IL2CPP_RUNTIME_CLASS_INIT(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_il2cpp_TypeInfo_var);
-		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_32 = Quaternion_get_identity_m548B37D80F2DEE60E41D1F09BF6889B557BE1A64(/*hidden argument*/NULL);
-		return L_32;
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_33 = Quaternion_get_identity_m548B37D80F2DEE60E41D1F09BF6889B557BE1A64(/*hidden argument*/NULL);
+		V_5 = L_33;
+		goto IL_012a;
+	}
+
+IL_012a:
+	{
+		// }
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_34 = V_5;
+		return L_34;
 	}
 }
 IL2CPP_EXTERN_C  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  HmdMatrix34_t_GetRotation_mC38BF33EF009CC61DC1F5ABA90E548772DEEEF79_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
@@ -43547,25 +47751,28 @@ IL2CPP_EXTERN_C  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  HmdMatrix
 // System.Void Valve.VR.HmdMatrix34_t::_copysign(System.Single&,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HmdMatrix34_t__copysign_mAC041F9983236ECF0FC919C78716D28AFD3AFAF9 (float* ___sizeval0, float ___signval1, const RuntimeMethod* method)
 {
+	bool V_0 = false;
 	{
 		// if (signval > 0 != sizeval > 0)
 		float L_0 = ___signval1;
 		float* L_1 = ___sizeval0;
 		float L_2 = *((float*)L_1);
-		if ((((int32_t)((((float)L_0) > ((float)(0.0f)))? 1 : 0)) == ((int32_t)((((float)L_2) > ((float)(0.0f)))? 1 : 0))))
+		V_0 = (bool)((((int32_t)((((int32_t)((((float)L_0) > ((float)(0.0f)))? 1 : 0)) == ((int32_t)((((float)L_2) > ((float)(0.0f)))? 1 : 0)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_0;
+		if (!L_3)
 		{
-			goto IL_0018;
+			goto IL_0020;
 		}
 	}
 	{
 		// sizeval = -sizeval;
-		float* L_3 = ___sizeval0;
 		float* L_4 = ___sizeval0;
-		float L_5 = *((float*)L_4);
-		*((float*)L_3) = (float)((-L_5));
+		float* L_5 = ___sizeval0;
+		float L_6 = *((float*)L_5);
+		*((float*)L_4) = (float)((-L_6));
 	}
 
-IL_0018:
+IL_0020:
 	{
 		// }
 		return;
@@ -47401,848 +51608,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _RemoveApplicationManifest_Beg
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _RemoveApplicationManifest_EndInvoke_mFC10638A90BE739DCC0DE10AA03C24D836DD0BFC (_RemoveApplicationManifest_tDCFA121260BE5BD6E511883221668E0CA1473481 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, intptr_t ___pchAppKey0, bool ___bAutoLaunch1, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, int32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___pchAppKey0, static_cast<int32_t>(___bAutoLaunch1));
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRApplications/_SetApplicationAutoLaunch::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _SetApplicationAutoLaunch__ctor_m25A6245499453A7486676CE64CF8CC6F13DCA4FA (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetApplicationAutoLaunch::Invoke(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetApplicationAutoLaunch_Invoke_mD5B05F8991DDC19A50F372714A02964D695A21A7 (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, intptr_t ___pchAppKey0, bool ___bAutoLaunch1, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (intptr_t, bool, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pchAppKey0, ___bAutoLaunch1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, intptr_t, bool, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___bAutoLaunch1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, bool >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___bAutoLaunch1);
-					else
-						result = GenericVirtFuncInvoker2< int32_t, intptr_t, bool >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___bAutoLaunch1);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< int32_t, intptr_t, bool >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchAppKey0, ___bAutoLaunch1);
-					else
-						result = VirtFuncInvoker2< int32_t, intptr_t, bool >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchAppKey0, ___bAutoLaunch1);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchAppKey0) - 1), ___bAutoLaunch1, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, intptr_t, bool, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___bAutoLaunch1, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRApplications/_SetApplicationAutoLaunch::BeginInvoke(System.IntPtr,System.Boolean,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _SetApplicationAutoLaunch_BeginInvoke_m8856CD75103C0FEA05EED1285F32F0C3939377A0 (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, intptr_t ___pchAppKey0, bool ___bAutoLaunch1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_SetApplicationAutoLaunch_BeginInvoke_m8856CD75103C0FEA05EED1285F32F0C3939377A0_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchAppKey0);
-	__d_args[1] = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &___bAutoLaunch1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetApplicationAutoLaunch::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetApplicationAutoLaunch_EndInvoke_m7AC225AB775B0199AADFFA4B8C8690AEAD16BD61 (_SetApplicationAutoLaunch_tA92F07AC7E1017664D410F2A9ED87DA03181D80B * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, intptr_t ___pchAppKey0, intptr_t ___pchMimeType1, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(intptr_t, intptr_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___pchAppKey0, ___pchMimeType1);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _SetDefaultApplicationForMimeType__ctor_mE681B033278112D305896DE653D4C1784B82C450 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::Invoke(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetDefaultApplicationForMimeType_Invoke_mB3F8425C5C75E41D7B135D8B494F2677A9BCEF62 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, intptr_t ___pchAppKey0, intptr_t ___pchMimeType1, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (intptr_t, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pchAppKey0, ___pchMimeType1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___pchMimeType1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___pchMimeType1);
-					else
-						result = GenericVirtFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(targetMethod, targetThis, ___pchAppKey0, ___pchMimeType1);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pchAppKey0, ___pchMimeType1);
-					else
-						result = VirtFuncInvoker2< int32_t, intptr_t, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pchAppKey0, ___pchMimeType1);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___pchAppKey0) - 1), ___pchMimeType1, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, intptr_t, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pchAppKey0, ___pchMimeType1, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _SetDefaultApplicationForMimeType_BeginInvoke_m2ACB9A204CB396649BD941A4A62D539F556F8585 (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, intptr_t ___pchAppKey0, intptr_t ___pchMimeType1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_SetDefaultApplicationForMimeType_BeginInvoke_m2ACB9A204CB396649BD941A4A62D539F556F8585_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchAppKey0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchMimeType1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// Valve.VR.EVRApplicationError Valve.VR.IVRApplications/_SetDefaultApplicationForMimeType::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _SetDefaultApplicationForMimeType_EndInvoke_m2BF07D8E169262C3C524DF72B846A8866D0195AE (_SetDefaultApplicationForMimeType_tFA1CEDCC35EE41583D8304755938428926309AF7 * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
-{
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// Conversion methods for marshalling of: Valve.VR.IVRBlockQueue
-IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_pinvoke(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke& marshaled)
-{
-	marshaled.___Create_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Create_0()));
-	marshaled.___Connect_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Connect_1()));
-	marshaled.___Destroy_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Destroy_2()));
-	marshaled.___AcquireWriteOnlyBlock_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireWriteOnlyBlock_3()));
-	marshaled.___ReleaseWriteOnlyBlock_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseWriteOnlyBlock_4()));
-	marshaled.___WaitAndAcquireReadOnlyBlock_5 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_WaitAndAcquireReadOnlyBlock_5()));
-	marshaled.___AcquireReadOnlyBlock_6 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireReadOnlyBlock_6()));
-	marshaled.___ReleaseReadOnlyBlock_7 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseReadOnlyBlock_7()));
-	marshaled.___QueueHasReader_8 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_QueueHasReader_8()));
-}
-IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_pinvoke_back(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke& marshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_pinvoke_FromNativeMethodDefinition_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.set_Create_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4>(marshaled.___Create_0, _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4_il2cpp_TypeInfo_var));
-	unmarshaled.set_Connect_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA>(marshaled.___Connect_1, _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA_il2cpp_TypeInfo_var));
-	unmarshaled.set_Destroy_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_Destroy_tB5407CB3629C54665CD01A019398E15C3907E959>(marshaled.___Destroy_2, _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959_il2cpp_TypeInfo_var));
-	unmarshaled.set_AcquireWriteOnlyBlock_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A>(marshaled.___AcquireWriteOnlyBlock_3, _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A_il2cpp_TypeInfo_var));
-	unmarshaled.set_ReleaseWriteOnlyBlock_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88>(marshaled.___ReleaseWriteOnlyBlock_4, _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88_il2cpp_TypeInfo_var));
-	unmarshaled.set_WaitAndAcquireReadOnlyBlock_5(il2cpp_codegen_marshal_function_ptr_to_delegate<_WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA>(marshaled.___WaitAndAcquireReadOnlyBlock_5, _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA_il2cpp_TypeInfo_var));
-	unmarshaled.set_AcquireReadOnlyBlock_6(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B>(marshaled.___AcquireReadOnlyBlock_6, _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B_il2cpp_TypeInfo_var));
-	unmarshaled.set_ReleaseReadOnlyBlock_7(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098>(marshaled.___ReleaseReadOnlyBlock_7, _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098_il2cpp_TypeInfo_var));
-	unmarshaled.set_QueueHasReader_8(il2cpp_codegen_marshal_function_ptr_to_delegate<_QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005>(marshaled.___QueueHasReader_8, _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005_il2cpp_TypeInfo_var));
-}
-// Conversion method for clean up from marshalling of: Valve.VR.IVRBlockQueue
-IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_pinvoke_cleanup(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_pinvoke& marshaled)
-{
-}
-// Conversion methods for marshalling of: Valve.VR.IVRBlockQueue
-IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_com(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com& marshaled)
-{
-	marshaled.___Create_0 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Create_0()));
-	marshaled.___Connect_1 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Connect_1()));
-	marshaled.___Destroy_2 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_Destroy_2()));
-	marshaled.___AcquireWriteOnlyBlock_3 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireWriteOnlyBlock_3()));
-	marshaled.___ReleaseWriteOnlyBlock_4 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseWriteOnlyBlock_4()));
-	marshaled.___WaitAndAcquireReadOnlyBlock_5 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_WaitAndAcquireReadOnlyBlock_5()));
-	marshaled.___AcquireReadOnlyBlock_6 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_AcquireReadOnlyBlock_6()));
-	marshaled.___ReleaseReadOnlyBlock_7 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_ReleaseReadOnlyBlock_7()));
-	marshaled.___QueueHasReader_8 = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(unmarshaled.get_QueueHasReader_8()));
-}
-IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_com_back(const IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com& marshaled, IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5& unmarshaled)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_com_FromNativeMethodDefinition_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	unmarshaled.set_Create_0(il2cpp_codegen_marshal_function_ptr_to_delegate<_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4>(marshaled.___Create_0, _Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4_il2cpp_TypeInfo_var));
-	unmarshaled.set_Connect_1(il2cpp_codegen_marshal_function_ptr_to_delegate<_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA>(marshaled.___Connect_1, _Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA_il2cpp_TypeInfo_var));
-	unmarshaled.set_Destroy_2(il2cpp_codegen_marshal_function_ptr_to_delegate<_Destroy_tB5407CB3629C54665CD01A019398E15C3907E959>(marshaled.___Destroy_2, _Destroy_tB5407CB3629C54665CD01A019398E15C3907E959_il2cpp_TypeInfo_var));
-	unmarshaled.set_AcquireWriteOnlyBlock_3(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A>(marshaled.___AcquireWriteOnlyBlock_3, _AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A_il2cpp_TypeInfo_var));
-	unmarshaled.set_ReleaseWriteOnlyBlock_4(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88>(marshaled.___ReleaseWriteOnlyBlock_4, _ReleaseWriteOnlyBlock_t1CAF73A8A7A60AAD77626F32496C906223CEBB88_il2cpp_TypeInfo_var));
-	unmarshaled.set_WaitAndAcquireReadOnlyBlock_5(il2cpp_codegen_marshal_function_ptr_to_delegate<_WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA>(marshaled.___WaitAndAcquireReadOnlyBlock_5, _WaitAndAcquireReadOnlyBlock_t64CE3016568F45121F72B2101873558718C1A4BA_il2cpp_TypeInfo_var));
-	unmarshaled.set_AcquireReadOnlyBlock_6(il2cpp_codegen_marshal_function_ptr_to_delegate<_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B>(marshaled.___AcquireReadOnlyBlock_6, _AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B_il2cpp_TypeInfo_var));
-	unmarshaled.set_ReleaseReadOnlyBlock_7(il2cpp_codegen_marshal_function_ptr_to_delegate<_ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098>(marshaled.___ReleaseReadOnlyBlock_7, _ReleaseReadOnlyBlock_t42037F6380DCA0CB540B4A188DACADEFFF97D098_il2cpp_TypeInfo_var));
-	unmarshaled.set_QueueHasReader_8(il2cpp_codegen_marshal_function_ptr_to_delegate<_QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005>(marshaled.___QueueHasReader_8, _QueueHasReader_t73DC73CE8F034E110318623C4EFEF21C0C3A9005_il2cpp_TypeInfo_var));
-}
-// Conversion method for clean up from marshalling of: Valve.VR.IVRBlockQueue
-IL2CPP_EXTERN_C void IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshal_com_cleanup(IVRBlockQueue_tB1B30C4C716B354FC3DBDCEC6A8B028DE1D2D0B5_marshaled_com& marshaled)
-{
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, uint64_t*, intptr_t*, int32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _AcquireReadOnlyBlock__ctor_mD8CB3CEAD1756FBF3179E061CAD17F4CB31C0848 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::Invoke(System.UInt64,System.UInt64&,System.IntPtr&,Valve.VR.EBlockQueueReadType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireReadOnlyBlock_Invoke_mDD155967A8827136E4C67BF25839733C4BBD33C4 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 4)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
-					else
-						result = GenericVirtFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
-					else
-						result = VirtFuncInvoker4< int32_t, uint64_t, uint64_t*, intptr_t*, int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___ulQueueHandle0) - 1), ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, int32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, ___eReadType3, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::BeginInvoke(System.UInt64,System.UInt64&,System.IntPtr&,Valve.VR.EBlockQueueReadType,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _AcquireReadOnlyBlock_BeginInvoke_mF960B466BF690083BB74EB6C9EF824C860A79666 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, int32_t ___eReadType3, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback4, RuntimeObject * ___object5, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_AcquireReadOnlyBlock_BeginInvoke_mF960B466BF690083BB74EB6C9EF824C860A79666_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[5] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulQueueHandle0);
-	__d_args[1] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulBlockHandle1);
-	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppvBuffer2);
-	__d_args[3] = Box(EBlockQueueReadType_tE0CEC62472DF76109CCEFC214108D6A30F1ED31D_il2cpp_TypeInfo_var, &___eReadType3);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback4, (RuntimeObject*)___object5);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireReadOnlyBlock::EndInvoke(System.UInt64&,System.IntPtr&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireReadOnlyBlock_EndInvoke_m5A56069EC7BE88C6D7801391EB194D62C54B5DA2 (_AcquireReadOnlyBlock_t377E9984CA20305B7FC1FB4762A11104B6B8AF8B * __this, uint64_t* ___pulBlockHandle0, intptr_t* ___ppvBuffer1, RuntimeObject* ___result2, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pulBlockHandle0,
-	___ppvBuffer1,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result2, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t, uint64_t*, intptr_t*);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _AcquireWriteOnlyBlock__ctor_m88B1DD049ABBB5C72CB832509945F12FA3FF6F02 (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::Invoke(System.UInt64,System.UInt64&,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireWriteOnlyBlock_Invoke_m6820570F432DC106027064DF66D3FF695126805C (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 3)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t, uint64_t*, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
-					else
-						result = GenericVirtFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(targetMethod, targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
-					else
-						result = VirtFuncInvoker3< int32_t, uint64_t, uint64_t*, intptr_t* >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, uint64_t*, intptr_t*, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___ulQueueHandle0) - 1), ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t, uint64_t*, intptr_t*, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___ulQueueHandle0, ___pulBlockHandle1, ___ppvBuffer2, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::BeginInvoke(System.UInt64,System.UInt64&,System.IntPtr&,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _AcquireWriteOnlyBlock_BeginInvoke_m881763719148D8AF0370AEFCB02D643424F55D8C (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t ___ulQueueHandle0, uint64_t* ___pulBlockHandle1, intptr_t* ___ppvBuffer2, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback3, RuntimeObject * ___object4, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_AcquireWriteOnlyBlock_BeginInvoke_m881763719148D8AF0370AEFCB02D643424F55D8C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[4] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &___ulQueueHandle0);
-	__d_args[1] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulBlockHandle1);
-	__d_args[2] = Box(IntPtr_t_il2cpp_TypeInfo_var, &*___ppvBuffer2);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback3, (RuntimeObject*)___object4);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_AcquireWriteOnlyBlock::EndInvoke(System.UInt64&,System.IntPtr&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _AcquireWriteOnlyBlock_EndInvoke_m9EB3E75792C7C436627B1FBBB180B148AC7CF852 (_AcquireWriteOnlyBlock_tC4BA08C5A6E61094BAEC0A4CD6B9E922F680362A * __this, uint64_t* ___pulBlockHandle0, intptr_t* ___ppvBuffer1, RuntimeObject* ___result2, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pulBlockHandle0,
-	___ppvBuffer1,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result2, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t*, intptr_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___pulQueueHandle0, ___pchPath1);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRBlockQueue/_Connect::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _Connect__ctor_m9D2E6E0EAF76C9DB161CAF1A1AD4B572EEA38788 (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Connect::Invoke(System.UInt64&,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Connect_Invoke_m528132D505FE88E2CFE0AD020F372196FFC4489F (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 2)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t*, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pulQueueHandle0, ___pchPath1, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1);
-					else
-						result = GenericVirtFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1);
-					else
-						result = VirtFuncInvoker2< int32_t, uint64_t*, intptr_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(___pulQueueHandle0) - 1), ___pchPath1, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRBlockQueue/_Connect::BeginInvoke(System.UInt64&,System.IntPtr,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _Connect_BeginInvoke_m106AA83026F05F992C14BEB0320400F2D6778133 (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback2, RuntimeObject * ___object3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_Connect_BeginInvoke_m106AA83026F05F992C14BEB0320400F2D6778133_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[3] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulQueueHandle0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchPath1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Connect::EndInvoke(System.UInt64&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Connect_EndInvoke_m312AA70EC3905A25D8A80C8418A5F81A87F407F5 (_Connect_tD25BA07BDC7D3C346A0C8C3A7925541892CA28DA * __this, uint64_t* ___pulQueueHandle0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pulQueueHandle0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
-	return *(int32_t*)UnBox ((RuntimeObject*)__result);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper__Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, uint32_t ___unBlockDataSize2, uint32_t ___unBlockHeaderSize3, uint32_t ___unBlockCount4, const RuntimeMethod* method)
-{
-	typedef int32_t (STDCALL *PInvokeFunc)(uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t);
-	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
-
-	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
-
-	return returnValue;
-}
-// System.Void Valve.VR.IVRBlockQueue/_Create::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void _Create__ctor_m016057D25D26C0AED396D255C2E40C5350B0507E (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
-	__this->set_method_3(___method1);
-	__this->set_m_target_2(___object0);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Create::Invoke(System.UInt64&,System.IntPtr,System.UInt32,System.UInt32,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Create_Invoke_m412FACAC89B0B86905CB76B411F04A70053BC8B3 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, uint32_t ___unBlockDataSize2, uint32_t ___unBlockHeaderSize3, uint32_t ___unBlockCount4, const RuntimeMethod* method)
-{
-	int32_t result = 0;
-	DelegateU5BU5D_tDFCDEE2A6322F96C0FE49AF47E9ADB8C4B294E86* delegateArrayToInvoke = __this->get_delegates_11();
-	Delegate_t** delegatesToInvoke;
-	il2cpp_array_size_t length;
-	if (delegateArrayToInvoke != NULL)
-	{
-		length = delegateArrayToInvoke->max_length;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
-	}
-	else
-	{
-		length = 1;
-		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
-	}
-
-	for (il2cpp_array_size_t i = 0; i < length; i++)
-	{
-		Delegate_t* currentDelegate = delegatesToInvoke[i];
-		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
-		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
-		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
-		if (!il2cpp_codegen_method_is_virtual(targetMethod))
-		{
-			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
-		}
-		bool ___methodIsStatic = MethodIsStatic(targetMethod);
-		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
-		if (___methodIsStatic)
-		{
-			if (___parameterCount == 5)
-			{
-				// open
-				typedef int32_t (*FunctionPointerType) (uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
-			}
-			else
-			{
-				// closed
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
-			}
-		}
-		else
-		{
-			// closed
-			if (targetThis != NULL && il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
-			{
-				if (il2cpp_codegen_method_is_generic_instance(targetMethod))
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = GenericInterfaceFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
-					else
-						result = GenericVirtFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(targetMethod, targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
-				}
-				else
-				{
-					if (il2cpp_codegen_method_is_interface_method(targetMethod))
-						result = InterfaceFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
-					else
-						result = VirtFuncInvoker5< int32_t, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4);
-				}
-			}
-			else
-			{
-				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
-				{
-					typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
-					result = ((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(___pulQueueHandle0) - 1), ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
-				}
-				typedef int32_t (*FunctionPointerType) (void*, uint64_t*, intptr_t, uint32_t, uint32_t, uint32_t, const RuntimeMethod*);
-				result = ((FunctionPointerType)targetMethodPointer)(targetThis, ___pulQueueHandle0, ___pchPath1, ___unBlockDataSize2, ___unBlockHeaderSize3, ___unBlockCount4, targetMethod);
-			}
-		}
-	}
-	return result;
-}
-// System.IAsyncResult Valve.VR.IVRBlockQueue/_Create::BeginInvoke(System.UInt64&,System.IntPtr,System.UInt32,System.UInt32,System.UInt32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* _Create_BeginInvoke_m8C0E561CDA0175B0F1EE11752923838C0907DD65 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, intptr_t ___pchPath1, uint32_t ___unBlockDataSize2, uint32_t ___unBlockHeaderSize3, uint32_t ___unBlockCount4, AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4 * ___callback5, RuntimeObject * ___object6, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (_Create_BeginInvoke_m8C0E561CDA0175B0F1EE11752923838C0907DD65_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	void *__d_args[6] = {0};
-	__d_args[0] = Box(UInt64_tA02DF3B59C8FC4A849BD207DA11038CC64E4CB4E_il2cpp_TypeInfo_var, &*___pulQueueHandle0);
-	__d_args[1] = Box(IntPtr_t_il2cpp_TypeInfo_var, &___pchPath1);
-	__d_args[2] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBlockDataSize2);
-	__d_args[3] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBlockHeaderSize3);
-	__d_args[4] = Box(UInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_il2cpp_TypeInfo_var, &___unBlockCount4);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback5, (RuntimeObject*)___object6);
-}
-// Valve.VR.EBlockQueueError Valve.VR.IVRBlockQueue/_Create::EndInvoke(System.UInt64&,System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t _Create_EndInvoke_m49C529DAA840DF515E5D0E45D480EFFD0F285C37 (_Create_tF43E0A06FA1E72E0A01F4916BC2AC3ED5DE31EF4 * __this, uint64_t* ___pulQueueHandle0, RuntimeObject* ___result1, const RuntimeMethod* method)
-{
-	void* ___out_args[] = {
-	___pulQueueHandle0,
-	};
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result1, ___out_args);
 	return *(int32_t*)UnBox ((RuntimeObject*)__result);
 }
 #ifdef __clang__

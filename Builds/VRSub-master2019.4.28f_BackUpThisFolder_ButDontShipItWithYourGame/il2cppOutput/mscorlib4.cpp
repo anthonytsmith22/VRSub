@@ -36727,6 +36727,24 @@ IL_001d:
 		return;
 	}
 }
+// System.Void System.Diagnostics.DebuggerDisplayAttribute::set_Name(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerDisplayAttribute_set_Name_mF4EDFE6F08C86D400A5992E116C965CDB749638A (DebuggerDisplayAttribute_t4217FA369BB3F9B415423539B4A08882480836A0 * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_name_0(L_0);
+		return;
+	}
+}
+// System.Void System.Diagnostics.DebuggerDisplayAttribute::set_Type(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerDisplayAttribute_set_Type_mFC51F59EC59812C4772C20C048D3B1B929BBA0DF (DebuggerDisplayAttribute_t4217FA369BB3F9B415423539B4A08882480836A0 * __this, String_t* ___value0, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_type_2(L_0);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

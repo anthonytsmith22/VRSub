@@ -17903,7 +17903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializationEvents_t6AA572B2BB9FEEB74C344E8B
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_0 = ((SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_StaticFields*)il2cpp_codegen_static_fields_for(SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_il2cpp_TypeInfo_var))->get_cache_0();
 		Type_t * L_1 = ___t0;
 		NullCheck(L_0);
-		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
+		RuntimeObject * L_2 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
 		SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F * L_3 = ((SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F *)CastclassClass((RuntimeObject*)L_2, SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F_il2cpp_TypeInfo_var));
 		V_0 = L_3;
 		if (L_3)
@@ -17915,7 +17915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializationEvents_t6AA572B2BB9FEEB74C344E8B
 		IL2CPP_RUNTIME_CLASS_INIT(SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_il2cpp_TypeInfo_var);
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_4 = ((SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_StaticFields*)il2cpp_codegen_static_fields_for(SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_il2cpp_TypeInfo_var))->get_cache_0();
 		NullCheck(L_4);
-		RuntimeObject * L_5 = VirtFuncInvoker0< RuntimeObject * >::Invoke(36 /* System.Object System.Collections.Hashtable::get_SyncRoot() */, L_4);
+		RuntimeObject * L_5 = VirtFuncInvoker0< RuntimeObject * >::Invoke(37 /* System.Object System.Collections.Hashtable::get_SyncRoot() */, L_4);
 		V_1 = L_5;
 		V_2 = (bool)0;
 	}
@@ -17930,7 +17930,7 @@ IL_0021:
 			Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_7 = ((SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_StaticFields*)il2cpp_codegen_static_fields_for(SerializationEventsCache_t5E2460F2F0B3535B3EB9A8F10F20287506492227_il2cpp_TypeInfo_var))->get_cache_0();
 			Type_t * L_8 = ___t0;
 			NullCheck(L_7);
-			RuntimeObject * L_9 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_7, L_8);
+			RuntimeObject * L_9 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_7, L_8);
 			SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F * L_10 = ((SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F *)CastclassClass((RuntimeObject*)L_9, SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F_il2cpp_TypeInfo_var));
 			V_0 = L_10;
 			if (L_10)
@@ -17950,7 +17950,7 @@ IL_003d:
 			Type_t * L_14 = ___t0;
 			SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F * L_15 = V_0;
 			NullCheck(L_13);
-			VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_13, L_14, L_15);
+			VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_13, L_14, L_15);
 		}
 
 IL_0050:
@@ -20010,7 +20010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializationObjectManager_RegisterObjec
 		Hashtable_t978F65B8006C8F5504B286526AEC6608FF983FC9 * L_5 = __this->get_m_objectSeenTable_0();
 		RuntimeObject * L_6 = ___obj0;
 		NullCheck(L_5);
-		RuntimeObject * L_7 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(27 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_5, L_6);
+		RuntimeObject * L_7 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_5, L_6);
 		if (L_7)
 		{
 			goto IL_0048;
@@ -20022,7 +20022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializationObjectManager_RegisterObjec
 		bool L_10 = ((bool)1);
 		RuntimeObject * L_11 = Box(Boolean_tB53F6830F670160873277339AA58F15CAED4399C_il2cpp_TypeInfo_var, &L_10);
 		NullCheck(L_8);
-		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(28 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_8, L_9, L_11);
+		VirtActionInvoker2< RuntimeObject *, RuntimeObject * >::Invoke(29 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_8, L_9, L_11);
 		SerializationEvents_t6AA572B2BB9FEEB74C344E8BCFA6090B174AEB8F * L_12 = V_0;
 		RuntimeObject * L_13 = ___obj0;
 		StreamingContext_t2CCDC54E0E8D078AF4A50E3A8B921B828A900034  L_14 = __this->get_m_context_2();

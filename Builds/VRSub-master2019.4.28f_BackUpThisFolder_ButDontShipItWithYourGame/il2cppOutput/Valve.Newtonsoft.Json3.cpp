@@ -262,7 +262,7 @@ struct IEqualityComparer_1_t84A1E76CEF8A66F732C15925C1E1DBC7446DB3A4;
 // System.Collections.Generic.IList`1<System.Object>
 struct IList_1_tE09735A322C3B17000EF4E4BC8026FEDEB7B0D9B;
 // System.Collections.Generic.IList`1<System.Reflection.MemberInfo>
-struct IList_1_t0A7844F36B8AC3C11DF5C8C112F0E6BD8DCC1A58;
+struct IList_1_t54C21103410489E58E3E42A495A77830B8DB2CE3;
 // System.Collections.Generic.IList`1<System.Reflection.PropertyInfo>
 struct IList_1_t224A0B42B99176853DE961AFCF6180B06E211A7F;
 // System.Collections.Generic.LinkedList`1<System.Text.RegularExpressions.CachedCodeEntry>
