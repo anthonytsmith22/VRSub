@@ -5,12 +5,14 @@ ScriptsOnlyBuild:
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     - Mirror.NetworkTransformChild
+    Mirror.Editor.dll:
+    - Mirror.NetworkBehaviourInspector
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
     - Mirror.NetworkManagerHUD
     - Mirror.NetworkStartPosition
-    - kcp2k.KcpTransport
+    - Mirror.TelepathyTransport
     SteamVR.dll:
     - Valve.VR.InteractionSystem.BodyCollider
     - Valve.VR.InteractionSystem.ControllerButtonHints
@@ -37,8 +39,6 @@ ScriptsOnlyBuild:
     - Valve.VR.SteamVR_Settings
     - Valve.VR.SteamVR_Skeleton_Pose
     - Valve.VR.SteamVR_Skeleton_Poser
-    Unity.InteractiveTutorials.Core.dll:
-    - Unity.InteractiveTutorials.AnalyticsHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Management.Editor.dll:
@@ -121,87 +121,87 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11428}
     - Class: 114
+      Script: {instanceID: 11460}
+    - Class: 114
       Script: {instanceID: 11464}
     - Class: 114
       Script: {instanceID: 11486}
     - Class: 114
       Script: {instanceID: 11584}
     - Class: 114
-      Script: {instanceID: 11750}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11752}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 11974}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 11976}
     - Class: 114
-      Script: {instanceID: 12046}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 12048}
     - Class: 114
-      Script: {instanceID: 12452}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12536}
+      Script: {instanceID: 12458}
     - Class: 114
-      Script: {instanceID: 12624}
+      Script: {instanceID: 12542}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12630}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 13088}
+      Script: {instanceID: 13050}
     - Class: 114
-      Script: {instanceID: 13234}
+      Script: {instanceID: 13096}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13242}
     - Class: 114
-      Script: {instanceID: 13632}
+      Script: {instanceID: 13360}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13640}
     - Class: 114
-      Script: {instanceID: 13966}
+      Script: {instanceID: 13756}
     - Class: 114
-      Script: {instanceID: 13970}
+      Script: {instanceID: 13976}
     - Class: 114
-      Script: {instanceID: 14092}
+      Script: {instanceID: 13980}
     - Class: 114
-      Script: {instanceID: 14096}
+      Script: {instanceID: 14102}
     - Class: 114
-      Script: {instanceID: 14122}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 14132}
     - Class: 114
-      Script: {instanceID: 14218}
+      Script: {instanceID: 14162}
     - Class: 114
-      Script: {instanceID: 14452}
+      Script: {instanceID: 14228}
     - Class: 114
-      Script: {instanceID: 14562}
+      Script: {instanceID: 14462}
     - Class: 114
-      Script: {instanceID: 14620}
+      Script: {instanceID: 14574}
     - Class: 114
-      Script: {instanceID: 14708}
+      Script: {instanceID: 14634}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14722}
     - Class: 114
-      Script: {instanceID: 15038}
+      Script: {instanceID: 14840}
     - Class: 114
-      Script: {instanceID: 15040}
+      Script: {instanceID: 15054}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 15056}
     - Class: 114
-      Script: {instanceID: 15072}
+      Script: {instanceID: 15058}
     - Class: 114
-      Script: {instanceID: 15206}
+      Script: {instanceID: 15088}
     - Class: 114
-      Script: {instanceID: 15246}
+      Script: {instanceID: 15222}
     - Class: 114
-      Script: {instanceID: 15344}
-    - Class: 114
-      Script: {instanceID: 19080}
+      Script: {instanceID: 15262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -393,6 +393,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror.Experimental
     className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: c6d39a9364906ed87d3e1d25df012918
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkPlayerController
   - hash:
       serializedVersion: 2
       Hash: e9f3da6fb043ba55c5686b2625010fb8
@@ -2037,13 +2043,7 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: c6d39a9364906ed87d3e1d25df012918
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NetworkPlayerController
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Anthony/MVPCapstoneDelivery/Builds/VRSub-master2019.4.28f.exe
+  playerPath: C:/Users/Anthony/MVPCapstoneDelivery/VRSub/Builds/VRSub-master2019.4.28f.exe

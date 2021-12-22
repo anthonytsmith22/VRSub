@@ -29,7 +29,8 @@ public class NetworkPlayerController : NetworkBehaviour
             NetworkHead.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
             NetworkLeftHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
             NetworkRightHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
-            
+            NetworkLeftHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
+            NetworkRightHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
         }    
     }
 
