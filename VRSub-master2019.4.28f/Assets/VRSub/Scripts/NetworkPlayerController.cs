@@ -26,9 +26,24 @@ public class NetworkPlayerController : NetworkBehaviour
 
         if(isLocalPlayer){
             //Disable network meshes 
-            NetworkHead.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
-            NetworkLeftHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
-            NetworkRightHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+            if(!GameManager.Instance.ToggleRender){
+                NetworkHead.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+                NetworkLeftHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+                NetworkRightHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+            }else{
+                Vector3 newScale = new Vector3(0.1f, 0.1f, 0.1f);
+                GameObject networkHeadSphere = NetworkHead.transform.GetChild(0).gameObject;
+                GameObject networkLeftHandSphere = NetworkLeftHand.transform.GetChild(0).gameObject;
+                GameObject networkRightHandSphere = NetworkRightHand.transform.GetChild(0).gameObject;
+
+                networkHeadSphere.transform.localScale = newScale;
+                networkLeftHandSphere.transform.localScale = newScale;
+                networkRightHandSphere.transform.localScale = newScale;
+
+                networkHeadSphere.GetComponent<MeshRenderer>().enabled  = true;
+                networkLeftHandSphere.GetComponent<MeshRenderer>().enabled = true;
+                networkRightHandSphere.GetComponent<MeshRenderer>().enabled = true;
+            }
             NetworkLeftHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
             NetworkRightHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
         }    
