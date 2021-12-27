@@ -45,6 +45,7 @@ public class NetworkPlayerController : NetworkBehaviour
             }
             NetworkLeftHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
             NetworkRightHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
+            NetworkHead.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
         }    
     }
 

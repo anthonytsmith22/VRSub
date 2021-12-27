@@ -41,7 +41,9 @@
      <Compile Include="Assets\VRSub\Scripts\GameManager.cs" />
      <Compile Include="Assets\VRSub\Scripts\InputController.cs" />
      <Compile Include="Assets\VRSub\Scripts\MenuController.cs" />
+     <Compile Include="Assets\VRSub\Scripts\Movement.cs" />
      <Compile Include="Assets\VRSub\Scripts\NetworkPlayerController.cs" />
+     <Compile Include="Assets\VRSub\Scripts\OutOfWorldReset.cs" />
      <Compile Include="Assets\VRSub\Scripts\RenderStatus.cs" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
      <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
