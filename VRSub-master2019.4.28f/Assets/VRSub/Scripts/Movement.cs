@@ -55,7 +55,9 @@ public class Movement : MonoBehaviour
     }
 
     private void Gravity(){
+        Controller.enabled = true;
         Controller.Move(gravity * Time.deltaTime);
+        Controller.enabled = false;
     }
 
     private bool CheckGrounded()
