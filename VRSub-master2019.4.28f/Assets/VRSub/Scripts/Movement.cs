@@ -33,7 +33,7 @@ public class Movement : MonoBehaviour
         }
         VRCamera = GameObject.Find("VRCamera").gameObject;
         Controller = GetComponent<CharacterController>();
-        steamvrMovement.AddOnAxisListener(Move, inputSource);
+        OnEnable();
         Controller.radius = 0.25f;
         Controller.enabled = false;
     }
@@ -65,5 +65,17 @@ public class Movement : MonoBehaviour
         //return Physics.Raycast(transform.position, Vector3.down, 0.01f, 1 << LayerMask.NameToLayer("Ground"));
         RaycastHit hit;
         return Physics.SphereCast(PlayerRig.transform.position + Controller.center, sphereRadius, Vector3.down, out hit, maxDistance, layerMask, QueryTriggerInteraction.UseGlobal);
+    }
+
+    private void OnDestroy(){
+        steamvrMovement.RemoveAllListeners(inputSource);
+    }
+
+    private void OnDisable(){
+        OnDestroy();
+    }
+
+    private void OnEnable(){
+        steamvrMovement.AddOnAxisListener(Move, inputSource);
     }
 }
