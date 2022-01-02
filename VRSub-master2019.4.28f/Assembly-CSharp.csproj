@@ -59,6 +59,7 @@
      <Compile Include="Assets\VRSub\Scripts\DebugNetworkPlayer.cs" />
      <Compile Include="Assets\VRSub\Scripts\GameManager.cs" />
      <Compile Include="Assets\VRSub\Scripts\GrabAuthority.cs" />
+     <Compile Include="Assets\VRSub\Scripts\GrabAuthorityInteractable.cs" />
      <Compile Include="Assets\VRSub\Scripts\InputController.cs" />
      <Compile Include="Assets\VRSub\Scripts\MenuController.cs" />
      <Compile Include="Assets\VRSub\Scripts\Movement.cs" />
