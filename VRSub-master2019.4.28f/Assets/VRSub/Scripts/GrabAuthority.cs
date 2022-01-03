@@ -10,8 +10,11 @@ public class GrabAuthority : NetworkBehaviour
 {
     [SerializeField] private GameObject PlayerRig;
     [SerializeField] private GameObject SteamVRObjects;
-    [SerializeField] private SteamVR_Action_Boolean GrabEvent;
-    [SerializeField] private SteamVR_Input_Sources InputSource;
+    // SteamVR input events and input sources
+    [SerializeField] private SteamVR_Action_Boolean GrabEventLeft;
+    [SerializeField] private SteamVR_Action_Boolean GrabEventRight;
+    [SerializeField] private SteamVR_Input_Sources InputSourceLeft;
+    [SerializeField] private SteamVR_Input_Sources InputSourceRight;
     
     // Client player rig hands
     [SerializeField] private GameObject leftHand;
@@ -21,11 +24,11 @@ public class GrabAuthority : NetworkBehaviour
     // Client player rig hand attached objects
     private GameObject leftAttachedObject;
     private GameObject rightAttachedObject;
+    private GrabAuthorityInteractable leftFocusAuthority;
+    private GrabAuthorityInteractable rightFocusAuthority;
     
     private NetworkIdentity playerIdentity;
     private NetworkConnection playerConnection;
-
-    private NetworkTransform Focus;
 
     private void Start(){
         if(PlayerRig == null){
@@ -66,20 +69,47 @@ public class GrabAuthority : NetworkBehaviour
         rightAttachedObject = rightHandController.currentAttachedObject;
     }
 
-    private void RequestAuthority(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
-        if(Focus.clientAuthority.Equals(true)){
-            Debug.Log("Has Client Authority");
-        }else{
-            Debug.Log("Does not have client authority");
+    private void RequestAuthorityLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
+        CheckAttachedObjects();
+        if(leftAttachedObject != null){
+            leftFocusAuthority = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
+            if(!leftFocusAuthority.inUse){
+                leftFocusAuthority.CmdGrantAuthority(playerIdentity);
+            }
+            else{
+                Debug.Log("Interactable already in-use by another network player.");
+            }
         }
     }
 
-    private void ReleaseAuthority(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
-        Focus.clientAuthority.Equals(false);
+    private void RequestAuthorityRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
+        CheckAttachedObjects();
+        if(rightAttachedObject != null){
+            rightFocusAuthority = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
+            if(!rightFocusAuthority.inUse){
+                rightFocusAuthority.CmdGrantAuthority(playerIdentity);
+            }
+            else{
+                Debug.Log("Interactable alreay in-use by another network player");
+            }
+        }
+    }
+
+    private void ReleaseAuthorityLeft(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
+        leftFocusAuthority.CmdRemoveAuthority();
+        leftFocusAuthority = null;
+        leftAttachedObject = null;
+    }
+
+    private void ReleaseAuthorityRight(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
+        rightFocusAuthority.CmdRemoveAuthority();
+        rightFocusAuthority = null;
+        rightAttachedObject = null;
     }
 
     private void OnDestroy(){
-        GrabEvent.RemoveAllListeners(InputSource);
+        GrabEventLeft.RemoveAllListeners(InputSourceLeft);
+        GrabEventRight.RemoveAllListeners(InputSourceRight);
     }
 
     private void OnDisable(){
@@ -87,11 +117,9 @@ public class GrabAuthority : NetworkBehaviour
     }
 
     private void OnEnable(){
-        GrabEvent.AddOnStateDownListener(RequestAuthority, InputSource);
-        GrabEvent.AddOnStateUpListener(ReleaseAuthority, InputSource);
-    }
-
-    // TODO 
-    // Properly implement CmdGrantAuthority in GrabAuthorityInteractable
-    // Handle checking, assigning and removing authority when grabbing/releasing interactable objects
+        GrabEventLeft.AddOnStateDownListener(RequestAuthorityLeft, InputSourceLeft);
+        GrabEventLeft.AddOnStateUpListener(ReleaseAuthorityLeft, InputSourceLeft);
+        GrabEventRight.AddOnStateDownListener(RequestAuthorityRight, InputSourceRight);
+        GrabEventRight.AddOnStateUpListener(ReleaseAuthorityRight, InputSourceRight);
+    }   
 }

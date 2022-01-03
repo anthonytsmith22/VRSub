@@ -8,28 +8,33 @@ public class GrabAuthorityInteractable : NetworkBehaviour
 {
     
     [SerializeField] protected NetworkIdentity authorized;
+    
+    public bool inUse;
     private NetworkIdentity identity;
 
     private void Start(){
         identity = GetComponent<NetworkIdentity>();
+        inUse = false;
     }
 
 
-    // [Command]
-    // protected void CmdGrantAuthority(NetworkIdentity connPlayer){
-    //     if(authorized == null){ 
-    //         identity.AssignClientAuthority(connPlayer.connectionToServer);
-    //         authorized = connPlayer;
-    //         Debug.Log("Authority granted to " + connPlayer);
-    //     }else{
-    //         Debug.Log("Authority already granted to other player.");
-    //     }
-    // }
+    [Command]
+    public void CmdGrantAuthority(NetworkIdentity connPlayer){
+        if(authorized == null){ 
+            identity.AssignClientAuthority(connPlayer.connectionToServer);
+            authorized = connPlayer;
+            inUse = true;
+            Debug.Log("Authority granted to " + connPlayer);
+        }else{
+            Debug.Log("Authority already granted to other player.");
+        }
+    }
 
     [Command]
-    protected void CmdRemoveAuthority(){
+    public void CmdRemoveAuthority(){
         identity.RemoveClientAuthority();
         authorized = null;
+        inUse = false;
         Debug.Log("Authority removed.");
     }
 
