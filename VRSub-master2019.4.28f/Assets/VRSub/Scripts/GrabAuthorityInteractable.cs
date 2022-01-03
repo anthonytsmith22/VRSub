@@ -7,10 +7,10 @@ using Mirror;
 public class GrabAuthorityInteractable : NetworkBehaviour
 {
     
-    [SerializeField] protected NetworkIdentity authorized;
+    public NetworkIdentity authorized;
     
     public bool inUse;
-    private NetworkIdentity identity;
+    [SerializeField] public NetworkIdentity identity;
 
     private void Start(){
         identity = GetComponent<NetworkIdentity>();
@@ -38,7 +38,7 @@ public class GrabAuthorityInteractable : NetworkBehaviour
         Debug.Log("Authority removed.");
     }
 
-    protected bool CheckAuthority(NetworkIdentity conn){
+    public bool CheckAuthority(NetworkIdentity conn){
         return conn.hasAuthority;
     }
 }

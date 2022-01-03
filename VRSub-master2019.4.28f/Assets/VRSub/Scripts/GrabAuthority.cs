@@ -31,6 +31,7 @@ public class GrabAuthority : NetworkBehaviour
     private NetworkConnection playerConnection;
 
     private void Start(){
+        if(!isLocalPlayer){ return; }
         if(PlayerRig == null){
             PlayerRig = GameObject.Find("PlayerRig");
         }
@@ -41,19 +42,24 @@ public class GrabAuthority : NetworkBehaviour
         if(playerConnection == null){
             Debug.LogWarning("NetworkConnection not found!");
         }   
-
         CheckHands();
     }
 
     private void Update(){
+        if(isLocalPlayer){
+            return;
+        }
         CheckHands();
+        CheckAttachedObjects();
     }
 
     private GameObject GetHand(string hand){
+        if(!isLocalPlayer){ return null; }
         return SteamVRObjects.transform.Find(hand).gameObject;
     }
 
     private void CheckHands(){
+        if(!isLocalPlayer){ return; }
         if(leftHand == null){
             leftHand = GetHand("LeftHand");
             leftHandController = leftHand.GetComponent<Valve.VR.InteractionSystem.Hand>();
@@ -65,58 +71,84 @@ public class GrabAuthority : NetworkBehaviour
     }
 
     private void CheckAttachedObjects(){
+        if(!isLocalPlayer){ return; }
         leftAttachedObject = leftHandController.currentAttachedObject;
         rightAttachedObject = rightHandController.currentAttachedObject;
     }
 
     private void RequestAuthorityLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
+        if(!isLocalPlayer){ return; }
         CheckAttachedObjects();
         if(leftAttachedObject != null){
             leftFocusAuthority = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!leftFocusAuthority.inUse){
                 leftFocusAuthority.CmdGrantAuthority(playerIdentity);
+                if(leftFocusAuthority.CheckAuthority(playerIdentity)){
+                    Debug.Log(playerIdentity + " given authority of " + leftFocusAuthority.identity);
+                }
+                else{
+                    Debug.LogWarning(playerIdentity + "not given authority of " + leftFocusAuthority.identity);
+                }
             }
             else{
-                Debug.Log("Interactable already in-use by another network player.");
+                Debug.LogWarning("Interactable already in-use by another network player " + leftFocusAuthority.authorized + ".");
             }
+        }
+        else{
+            Debug.LogWarning("No attached object found in left hand.");
         }
     }
 
     private void RequestAuthorityRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
+        if(!isLocalPlayer){ return; }
         CheckAttachedObjects();
         if(rightAttachedObject != null){
             rightFocusAuthority = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!rightFocusAuthority.inUse){
                 rightFocusAuthority.CmdGrantAuthority(playerIdentity);
+                if(rightFocusAuthority.CheckAuthority(playerIdentity)){
+                    Debug.Log(playerIdentity + " given authority of " + rightFocusAuthority.identity);
+                }
+                else{
+                    Debug.LogWarning(playerIdentity + "not given authority of " + rightFocusAuthority.identity);
+                }
             }
             else{
-                Debug.Log("Interactable alreay in-use by another network player");
+                Debug.LogWarning("Interactable already in-use by another network player " + rightFocusAuthority.authorized + ".");
             }
+        }
+        else{
+            Debug.LogWarning("No attached object found in left hand.");
         }
     }
 
     private void ReleaseAuthorityLeft(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
+        if(!isLocalPlayer){ return; }
         leftFocusAuthority.CmdRemoveAuthority();
         leftFocusAuthority = null;
         leftAttachedObject = null;
     }
 
     private void ReleaseAuthorityRight(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
+        if(!isLocalPlayer){ return; }
         rightFocusAuthority.CmdRemoveAuthority();
         rightFocusAuthority = null;
         rightAttachedObject = null;
     }
 
     private void OnDestroy(){
+        if(!isLocalPlayer){ return; }
         GrabEventLeft.RemoveAllListeners(InputSourceLeft);
         GrabEventRight.RemoveAllListeners(InputSourceRight);
     }
 
     private void OnDisable(){
+        if(!isLocalPlayer){ return; }
         OnDestroy();
     }
 
     private void OnEnable(){
+        if(!isLocalPlayer){ return; }
         GrabEventLeft.AddOnStateDownListener(RequestAuthorityLeft, InputSourceLeft);
         GrabEventLeft.AddOnStateUpListener(ReleaseAuthorityLeft, InputSourceLeft);
         GrabEventRight.AddOnStateDownListener(RequestAuthorityRight, InputSourceRight);

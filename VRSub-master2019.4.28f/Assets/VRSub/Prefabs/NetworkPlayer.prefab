@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 3964628436407092410}
   - component: {fileID: 2171303103694180930}
   - component: {fileID: 666155949194363847}
+  - component: {fileID: 3165518046636426782}
   m_Layer: 0
   m_Name: NetworkPlayer
   m_TagString: Untagged
@@ -531,6 +532,32 @@ MonoBehaviour:
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   target: {fileID: 337731653146304522}
+--- !u!114 &3165518046636426782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790256193614194026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1713f05fee1ffb54ba86a091e53c2d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PlayerRig: {fileID: 0}
+  SteamVRObjects: {fileID: 0}
+  GrabEventLeft:
+    actionPath: /actions/default/in/GrabGrip
+    needsReinit: 0
+  GrabEventRight:
+    actionPath: /actions/default/in/GrabGrip
+    needsReinit: 0
+  InputSourceLeft: 1
+  InputSourceRight: 2
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
 --- !u!1 &6776198559628956884
 GameObject:
   m_ObjectHideFlags: 0
