@@ -46,7 +46,6 @@ public class GrabAuthority : NetworkBehaviour
             return;
         }
         CheckHands();
-        CheckAttachedObjects();
     }
 
     private GameObject GetHand(string hand){
@@ -66,28 +65,41 @@ public class GrabAuthority : NetworkBehaviour
         }
     }
 
-    private void CheckAttachedObjects(){
+    private void CheckAttachedObjectLeft(){
         if(!isLocalPlayer){ return; }
         leftAttachedObject = leftHandController.currentAttachedObject;
+    }
+
+    private void CheckAttachedObjectRight(){
+        if(!isLocalPlayer){ return; }
         rightAttachedObject = rightHandController.currentAttachedObject;
     }
 
     private void RequestAuthorityLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
         if(!isLocalPlayer){ return; }
-        CheckAttachedObjects();
+        CheckAttachedObjectLeft();
         if(leftAttachedObject != null){
+            Debug.Log("Left attached object found");
             leftFocusAuthority = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
-            if(!leftFocusAuthority.inUse){
-                leftFocusAuthority.CmdGrantAuthority(playerIdentity);
-                if(leftFocusAuthority.CheckAuthority(playerIdentity)){
-                    Debug.Log(playerIdentity + " given authority of " + leftFocusAuthority.identity);
+            if(leftFocusAuthority != null){
+                Debug.Log("Left GrabAuthorityInteractable found.");
+                if(!leftFocusAuthority.inUse){
+                    Debug.Log("Intertable not in use.");
+                    leftFocusAuthority.CmdGrantAuthority(playerIdentity);
+                    Debug.Log("Getting client authority");
+                    if(leftFocusAuthority.CheckAuthority(playerIdentity)){
+                        Debug.Log(playerIdentity + " given authority of " + leftFocusAuthority.identity);
+                    }
+                    else{
+                        Debug.LogWarning(playerIdentity + "not given authority of " + leftFocusAuthority.identity);
+                    }
                 }
                 else{
-                    Debug.LogWarning(playerIdentity + "not given authority of " + leftFocusAuthority.identity);
+                    Debug.LogWarning("Interactable already in-use by another network player " + leftFocusAuthority.authorized + ".");
                 }
             }
             else{
-                Debug.LogWarning("Interactable already in-use by another network player " + leftFocusAuthority.authorized + ".");
+                Debug.LogWarning("No GrabAuthorityInteractable found in interactable.");
             }
         }
         else{
@@ -97,36 +109,45 @@ public class GrabAuthority : NetworkBehaviour
 
     private void RequestAuthorityRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
         if(!isLocalPlayer){ return; }
-        CheckAttachedObjects();
+        CheckAttachedObjectRight();
         if(rightAttachedObject != null){
+            Debug.Log("Right attached object found");
             rightFocusAuthority = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
-            if(!rightFocusAuthority.inUse){
-                rightFocusAuthority.CmdGrantAuthority(playerIdentity);
-                if(rightFocusAuthority.CheckAuthority(playerIdentity)){
-                    Debug.Log(playerIdentity + " given authority of " + rightFocusAuthority.identity);
+            if(rightFocusAuthority != null){
+                Debug.Log("Right GrabAuthorityInteractable found.");
+                if(!rightFocusAuthority.inUse){
+                    Debug.Log("Intertable not in use.");
+                    rightFocusAuthority.CmdGrantAuthority(playerIdentity);
+                    Debug.Log("Getting client authority");
+                    if(rightFocusAuthority.CheckAuthority(playerIdentity)){
+                        Debug.Log(playerIdentity + " given authority of " + rightFocusAuthority.identity);
+                    }
+                    else{
+                        Debug.LogWarning(playerIdentity + "not given authority of " + rightFocusAuthority.identity);
+                    }
                 }
                 else{
-                    Debug.LogWarning(playerIdentity + "not given authority of " + rightFocusAuthority.identity);
+                    Debug.LogWarning("Interactable already in-use by another network player " + rightFocusAuthority.authorized + ".");
                 }
             }
             else{
-                Debug.LogWarning("Interactable already in-use by another network player " + rightFocusAuthority.authorized + ".");
+                Debug.LogWarning("No GrabAuthorityInteractable found in interactable");
             }
-        }
+        }    
         else{
-            Debug.LogWarning("No attached object found in left hand.");
+            Debug.LogWarning("No attached object found in right hand.");
         }
     }
 
     private void ReleaseAuthorityLeft(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
-        if(!isLocalPlayer){ return; }
+        if(!isLocalPlayer || leftAttachedObject == null){ return; }
         leftFocusAuthority.CmdRemoveAuthority();
         leftFocusAuthority = null;
         leftAttachedObject = null;
     }
 
     private void ReleaseAuthorityRight(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
-        if(!isLocalPlayer){ return; }
+        if(!isLocalPlayer || rightAttachedObject == null){ return; }
         rightFocusAuthority.CmdRemoveAuthority();
         rightFocusAuthority = null;
         rightAttachedObject = null;
