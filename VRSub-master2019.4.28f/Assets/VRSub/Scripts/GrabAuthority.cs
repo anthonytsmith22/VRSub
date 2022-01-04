@@ -35,13 +35,9 @@ public class GrabAuthority : NetworkBehaviour
         if(PlayerRig == null){
             PlayerRig = GameObject.Find("PlayerRig");
         }
-        SteamVRObjects = PlayerRig.transform.Find("SteamVRObjects").gameObject;
+        SteamVRObjects = GameObject.Find("SteamVRObjects").gameObject;
         OnEnable();
-        playerIdentity = GetComponent<NetworkIdentity>();
-        playerConnection = GetComponent<NetworkConnection>();
-        if(playerConnection == null){
-            Debug.LogWarning("NetworkConnection not found!");
-        }   
+        playerIdentity = GetComponent<NetworkIdentity>();  
         CheckHands();
     }
 
