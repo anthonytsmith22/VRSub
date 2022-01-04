@@ -18,10 +18,11 @@ public class Movement : MonoBehaviour
     private Quaternion rotation;
 
     [SerializeField] private SteamVR_Action_Vector2 steamvrMovement;
-    [SerializeField] private SteamVR_Input_Sources inputSource;
+    [SerializeField] private SteamVR_Input_Sources inputSourceLeft;
+    [SerializeField] private SteamVR_Input_Sources inputSourceRight;
 
     private LayerMask layerMask;
-    private float sphereRadius = 0.5f;
+    private float sphereRadius = 0.25f;
     private float maxDistance = 0.45f;
     private void Awake(){
         gravity = new Vector3(0f, -9.8f, 0f);
@@ -33,31 +34,34 @@ public class Movement : MonoBehaviour
         }
         VRCamera = GameObject.Find("VRCamera").gameObject;
         Controller = GetComponent<CharacterController>();
+        Controller.enabled = true;
         OnEnable();
-        Controller.radius = 0.25f;
-        Controller.enabled = false;
+        IEnumerator coroutine = reduceCharacterControllerRadius(1.5f);
+        StartCoroutine(coroutine);
     }
 
     private void Update(){
-        Gravity();
+        if(!Controller.isGrounded){
+            Gravity();
+        }
     }
 
     private void Move(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
         Debug.Log("Moving");
-        Controller.enabled = true;
+        //Controller.enabled = true;
         // targetAngle = Mathf.Atan2(axis.x, axis.y) * Mathf.Rad2Deg + VRCamera.transform.eulerAngles.y;
         // rotation = Quaternion.Euler(0f, targetAngle, 0f);
         // PlayerRig.transform.rotation = rotation;
         movement = new Vector3(axis.x, 0f, axis.y);
         movement = VRCamera.transform.forward * movement.z + VRCamera.transform.right * movement.x;
         Controller.Move(movement * movementSpeed * Time.deltaTime);
-        Controller.enabled = false;
+        //Controller.enabled = false;
     }
 
     private void Gravity(){
-        Controller.enabled = true;
+       // Controller.enabled = true;
         Controller.Move(gravity * Time.deltaTime);
-        Controller.enabled = false;
+        //Controller.enabled = false;
     }
 
     private bool CheckGrounded()
@@ -68,7 +72,8 @@ public class Movement : MonoBehaviour
     }
 
     private void OnDestroy(){
-        steamvrMovement.RemoveAllListeners(inputSource);
+        steamvrMovement.RemoveAllListeners(inputSourceLeft);
+        steamvrMovement.RemoveAllListeners(inputSourceRight);
     }
 
     private void OnDisable(){
@@ -76,6 +81,12 @@ public class Movement : MonoBehaviour
     }
 
     private void OnEnable(){
-        steamvrMovement.AddOnAxisListener(Move, inputSource);
+        steamvrMovement.AddOnAxisListener(Move, inputSourceLeft);
+        steamvrMovement.AddOnAxisListener(Move, inputSourceRight);
+    }
+
+    private IEnumerator reduceCharacterControllerRadius(float waitTime){
+        yield return new WaitForSeconds(waitTime);
+        Controller.radius = sphereRadius;
     }
 }
