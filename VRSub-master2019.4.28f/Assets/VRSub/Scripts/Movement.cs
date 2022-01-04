@@ -7,25 +7,26 @@ using Valve.VR;
 public class Movement : MonoBehaviour
 {
     [SerializeField] private GameObject PlayerRig;
-    private CharacterController Controller;
-    private GameObject VRCamera;
-
-    // Character movement and rotation
-    private Vector3 movement;
-    [SerializeField] private float movementSpeed = 2.8f;
-    private Vector3 gravity;
-    private float targetAngle;
-    private Quaternion rotation;
+    [SerializeField] private CharacterController Controller;
+    
 
     [SerializeField] private SteamVR_Action_Vector2 steamvrMovement;
     [SerializeField] private SteamVR_Input_Sources inputSourceLeft;
     [SerializeField] private SteamVR_Input_Sources inputSourceRight;
+    [SerializeField] private bool Grounded;
+
+    private GameObject VRCamera;
+    private Vector3 movement;
+    [SerializeField] private float movementSpeed = 2.8f;
+    private Vector3 gravity;
 
     private LayerMask layerMask;
-    private float sphereRadius = 0.25f;
+    private float sphereRadius = 0.125f;
     private float maxDistance = 0.45f;
     private void Awake(){
         gravity = new Vector3(0f, -9.8f, 0f);
+        Controller = GetComponent<CharacterController>();
+        
     }
 
     private void Start(){
@@ -33,35 +34,41 @@ public class Movement : MonoBehaviour
             PlayerRig = GameObject.Find("PlayerRig");
         }
         VRCamera = GameObject.Find("VRCamera").gameObject;
-        Controller = GetComponent<CharacterController>();
         Controller.enabled = true;
         OnEnable();
-        IEnumerator coroutine = reduceCharacterControllerRadius(1.5f);
+        IEnumerator coroutine = reduceCharacterControllerRadius(1.0f);
         StartCoroutine(coroutine);
     }
 
     private void Update(){
-        if(!Controller.isGrounded){
+        IgnoreBodyCollider();
+        Grounded = CheckGrounded();
+        Grounded = Controller.isGrounded;
+        if(!Grounded){
             Gravity();
         }
     }
 
+    // Have bodyCollider's sphere collider component ignore CharacterController collider
+    private void IgnoreBodyCollider(){
+        GameObject SteamVRObject = GameObject.Find("SteamVRObjects");
+        CapsuleCollider bodyCollider = SteamVRObject.transform.Find("BodyCollider").gameObject.GetComponent<CapsuleCollider>();
+        if(bodyCollider == null){
+            Debug.Log("No capsule collider");
+        }
+        Physics.IgnoreCollision(Controller, bodyCollider);
+    }
+
     private void Move(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
         Debug.Log("Moving");
-        //Controller.enabled = true;
-        // targetAngle = Mathf.Atan2(axis.x, axis.y) * Mathf.Rad2Deg + VRCamera.transform.eulerAngles.y;
-        // rotation = Quaternion.Euler(0f, targetAngle, 0f);
-        // PlayerRig.transform.rotation = rotation;
         movement = new Vector3(axis.x, 0f, axis.y);
         movement = VRCamera.transform.forward * movement.z + VRCamera.transform.right * movement.x;
+        //Controller.SimpleMove(movement * movementSpeed);
         Controller.Move(movement * movementSpeed * Time.deltaTime);
-        //Controller.enabled = false;
     }
 
     private void Gravity(){
-       // Controller.enabled = true;
         Controller.Move(gravity * Time.deltaTime);
-        //Controller.enabled = false;
     }
 
     private bool CheckGrounded()
