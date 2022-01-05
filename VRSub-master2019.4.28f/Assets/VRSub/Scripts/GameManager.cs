@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool ToggleRender { get; private set; }
+    [SerializeField] ButtonController buttonController;
 
     #region Singleton
     private static GameManager instance;
@@ -21,9 +22,22 @@ public class GameManager : MonoBehaviour
 
     private void Start(){
         ToggleRender = true;
+        OnEnable();
     }
 
     public void ToggleMeshAliasRenderer(){
         ToggleRender = !ToggleRender;
+        VRSubEvents.Instance.ToggleRenderTrigger();
+    }
+
+    private void OnEnable(){
+        VRSubEvents.Instance.OnToggleRenderModeEnter += ToggleMeshAliasRenderer;
+    }
+    private void OnDisable(){
+        VRSubEvents.Instance.OnToggleRenderModeEnter -= ToggleMeshAliasRenderer;
+    }
+
+    private void OnDestroy(){
+        OnDisable();
     }
 }

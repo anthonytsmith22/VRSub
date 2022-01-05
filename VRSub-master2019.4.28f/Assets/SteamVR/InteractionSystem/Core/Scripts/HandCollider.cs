@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace Valve.VR.InteractionSystem
 {
+
+    // Change made to make methods public and virtual to override
     public class HandCollider : MonoBehaviour
     {
         private new Rigidbody rigidbody;
@@ -12,7 +14,7 @@ namespace Valve.VR.InteractionSystem
 
         public LayerMask collisionMask;
 
-        Collider[] colliders;
+        public Collider[] colliders;
 
 
         public FingerColliders fingerColliders;
@@ -74,13 +76,13 @@ namespace Valve.VR.InteractionSystem
         private static PhysicMaterial physicMaterial_lowfriction;
         private static PhysicMaterial physicMaterial_highfriction;
 
-        private void Awake()
+        public virtual void Awake()
         {
             rigidbody = GetComponent<Rigidbody>();
             rigidbody.maxAngularVelocity = 50;
         }
 
-        private void Start()
+        public virtual void Start()
         {
             colliders = GetComponentsInChildren<Collider>();
 
@@ -109,7 +111,7 @@ namespace Valve.VR.InteractionSystem
             scale = SteamVR_Utils.GetLossyScale(hand.transform);
         }
 
-        void SetPhysicMaterial(PhysicMaterial mat)
+        public virtual void SetPhysicMaterial(PhysicMaterial mat)
         {
             if (colliders == null) colliders = GetComponentsInChildren<Collider>();
             for (int i = 0; i < colliders.Length; i++)
@@ -120,12 +122,12 @@ namespace Valve.VR.InteractionSystem
 
         float scale;
 
-        public void SetCollisionDetectionEnabled(bool value)
+        public virtual void SetCollisionDetectionEnabled(bool value)
         {
             rigidbody.detectCollisions = value;
         }
 
-        public void MoveTo(Vector3 position, Quaternion rotation)
+        public virtual void MoveTo(Vector3 position, Quaternion rotation)
         {
             targetPosition = position;
             targetRotation = rotation;
@@ -135,7 +137,7 @@ namespace Valve.VR.InteractionSystem
             ExecuteFixedUpdate();
         }
 
-        public void TeleportTo(Vector3 position, Quaternion rotation)
+        public virtual void TeleportTo(Vector3 position, Quaternion rotation)
         {
             targetPosition = position;
             targetRotation = rotation;
@@ -152,12 +154,12 @@ namespace Valve.VR.InteractionSystem
             transform.rotation = rotation;
         }
 
-        public void Reset()
+        public virtual void Reset()
         {
             TeleportTo(targetPosition, targetRotation);
         }
 
-        public void SetCenterPoint(Vector3 newCenter)
+        public virtual void SetCenterPoint(Vector3 newCenter)
         {
             center = newCenter;
         }
@@ -173,7 +175,7 @@ namespace Valve.VR.InteractionSystem
         protected const float MaxAngularVelocityChange = 20f;
 
         public bool collidersInRadius;
-        protected void ExecuteFixedUpdate()
+        public virtual void ExecuteFixedUpdate()
         {
             collidersInRadius = Physics.CheckSphere(center, 0.2f, collisionMask);
             if (collidersInRadius == false)
@@ -208,7 +210,7 @@ namespace Valve.VR.InteractionSystem
 
 
 
-        protected bool GetTargetVelocities(out Vector3 velocityTarget, out Vector3 angularTarget)
+        public virtual bool GetTargetVelocities(out Vector3 velocityTarget, out Vector3 angularTarget)
         {
             bool realNumbers = false;
 
@@ -254,7 +256,7 @@ namespace Valve.VR.InteractionSystem
 
         const float minCollisionHapticsTime = 0.2f;
         private float lastCollisionHapticsTime;
-        private void OnCollisionEnter(Collision collision)
+        public virtual void OnCollisionEnter(Collision collision)
         {
             bool touchingDynamic = false;
             if (collision.rigidbody != null)

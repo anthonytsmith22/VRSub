@@ -21,31 +21,26 @@ public class NetworkPlayerController : NetworkBehaviour
     [SerializeField] private GameObject PlayerRig;
     private GameObject headlessPlayer;
     
+    private void Awake(){
+
+    }
     private void Start(){
         Debug.Log("Start of VR player");
 
         if(isLocalPlayer){
             Vector3 newScale = new Vector3(0.1f, 0.1f, 0.1f);
-            GameObject networkHeadSphere = NetworkHead.transform.GetChild(0).gameObject;
-            GameObject networkLeftHandSphere = NetworkLeftHand.transform.GetChild(0).gameObject;
-            GameObject networkRightHandSphere = NetworkRightHand.transform.GetChild(0).gameObject;
+            GameObject networkHeadAlias = NetworkHead.transform.GetChild(0).gameObject;
+            GameObject networkLeftHandAlias = NetworkLeftHand.transform.GetChild(0).gameObject;
+            GameObject networkRightHandAlias = NetworkRightHand.transform.GetChild(0).gameObject;
 
-            networkHeadSphere.transform.localScale = newScale;
-            networkLeftHandSphere.transform.localScale = newScale;
-            networkRightHandSphere.transform.localScale = newScale;
-            //Disable network meshes 
-            if(!GameManager.Instance.ToggleRender){
-                NetworkHead.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
-                NetworkLeftHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
-                NetworkRightHand.transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
-            }else{
-                networkHeadSphere.GetComponent<MeshRenderer>().enabled  = true;
-                networkLeftHandSphere.GetComponent<MeshRenderer>().enabled = true;
-                networkRightHandSphere.GetComponent<MeshRenderer>().enabled = true;
-            }
-            NetworkLeftHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
-            NetworkRightHand.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
-            NetworkHead.transform.GetChild(0).GetComponent<SphereCollider>().enabled = false;
+            networkHeadAlias.transform.localScale = newScale;
+            networkLeftHandAlias.transform.localScale = newScale;
+            networkRightHandAlias.transform.localScale = newScale;
+            //Disable or Enable network meshes based on GameManager.Instance.ToggleRender 
+            ToggleMeshAliasRender();
+            networkHeadAlias.GetComponent<SphereCollider>().enabled = false;
+            networkLeftHandAlias.GetComponent<SphereCollider>().enabled = false;
+            networkRightHandAlias.GetComponent<SphereCollider>().enabled = false;
         }    
     }
 
@@ -57,8 +52,31 @@ public class NetworkPlayerController : NetworkBehaviour
         //Else, update network transforms from local rig to network rig
         OnStartLocalPlayer();
         NetworkPlayerPositionSync();
+        OnEnable();
     }
 
+    private void OnEnable(){
+        VRSubEvents.Instance.OnToggleRenderTrigger += ToggleMeshAliasRender;
+    }
+
+    private void OnDisable(){
+        VRSubEvents.Instance.OnToggleRenderTrigger -= ToggleMeshAliasRender;
+    }
+
+    private void OnDestroy(){
+        OnDisable();
+    }
+
+    private void ToggleMeshAliasRender(){
+        if(!isLocalPlayer){ return; }
+        bool renderMode = GameManager.Instance.ToggleRender;
+        GameObject networkHeadAlias = NetworkHead.transform.GetChild(0).gameObject;
+        GameObject networkLeftHandAlias = NetworkLeftHand.transform.GetChild(0).gameObject;
+        GameObject networkRightHandAlias = NetworkRightHand.transform.GetChild(0).gameObject;
+        networkHeadAlias.GetComponent<MeshRenderer>().enabled = renderMode;
+        networkLeftHandAlias.GetComponent<MeshRenderer>().enabled = renderMode;
+        networkRightHandAlias.GetComponent<MeshRenderer>().enabled = renderMode;
+    }
 
     public override void OnStartLocalPlayer(){
         // If local rig objects not connected

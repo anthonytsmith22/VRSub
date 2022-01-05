@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ButtonController : MonoBehaviour
 {
@@ -15,10 +16,13 @@ public class ButtonController : MonoBehaviour
         }
         controller = Menu.GetComponent<MenuController>();
         if(controller == null){
-            Debug.LogWarning("Menu has not MenuController");
+            Debug.LogWarning("Menu has no MenuController");
         }
     }
     public void ToggleRenderAlias(){
-        GameManager.Instance.ToggleMeshAliasRenderer();
+        //GameManager.Instance.ToggleMeshAliasRenderer();
+        VRSubEvents.Instance.ToggleRenderModeEnter();
     }
+
+    
 }
