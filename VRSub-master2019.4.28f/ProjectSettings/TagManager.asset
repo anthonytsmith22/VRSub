@@ -5,9 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - OutOfWorld
-  - ClientHand
-  - NetworkHand
   - ClientController
+  - ClientLeftHand
+  - ClientRightHand
+  - NetworkLeftHand
+  - NetworkRightHand
   layers:
   - Default
   - TransparentFX
