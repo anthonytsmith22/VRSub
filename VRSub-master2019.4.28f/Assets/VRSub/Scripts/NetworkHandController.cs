@@ -10,6 +10,7 @@ public class NetworkHandController : NetworkBehaviour
     [SerializeField] private GameObject NetworkVRHand;
     private Valve.VR.InteractionSystem.HandCollider NetworkVRHandColliderController;
     private Collider[] NetworkVRHandColliders;
+    [SerializeField] private Valve.VR.InteractionSystem.HandPhysics HandPhysics;
     
     private GameObject ClientVRLeftHand;
     private VRSubHandCollider ClientVRLeftHandColliderController;
@@ -33,6 +34,7 @@ public class NetworkHandController : NetworkBehaviour
         DisableSameHandCollision();
     }
 
+    // Disable collisions between client vr hand and its corresponding hand at the start of GameObject's life
     private void DisableSameHandCollision(){
         int i, j;
         switch(Hand){
@@ -49,6 +51,9 @@ public class NetworkHandController : NetworkBehaviour
                         Physics.IgnoreCollision(NetworkVRHandColliders[i], ClientVRRightHandColliders[j]);
                     }
                 }
+                break;
+            default:
+                NetworkVRHandColliderController.SetCollisionDetectionEnabled(false);
                 break;
         }
     }
@@ -72,9 +77,9 @@ public class NetworkHandController : NetworkBehaviour
 
     private void OnCollisionEnter(Collision collision){
         if(isLocalPlayer){
+            int i, j;
             if(collision.gameObject.tag == "ClientLeftHand"){
                 if(ClientVRLeftHandColliders == null){ GetClientHands(true, false); }
-                int i, j;
                 for(i = 0; i < NetworkVRHandColliders.Length; i++){
                     for(j = 0; j < ClientVRLeftHandColliders.Length; j++){
                         Physics.IgnoreCollision(NetworkVRHandColliders[i], ClientVRLeftHandColliders[j]);
@@ -84,6 +89,11 @@ public class NetworkHandController : NetworkBehaviour
         }
 
     }
+
+    // Hand Physics Transfrom Network Update
+    private Matrix4x4 wristToRoot;
+    private Matrix4x4 rootToArmature;
+    private Matrix4x4 wristToArmature;
 
     public enum HandType{
         LeftHand,

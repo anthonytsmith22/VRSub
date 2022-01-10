@@ -20,6 +20,13 @@ public class NetworkPlayerController : NetworkBehaviour
     [SerializeField] private GameObject SteamVRObjects;
     [SerializeField] private GameObject PlayerRig;
     private GameObject headlessPlayer;
+
+    [SerializeField] private VRSubHandCollider LocalVRLeftHand;
+    [SerializeField] private VRSubHandCollider LocalVRRightHand;
+    private Collider[] LocalVRLeftHandColliders;
+    private Collider[] LocalVRRightHandColliders;
+    private Collider[] NetworkVRLeftHandColliders;
+    private Collider[] NetworkVRRightHandColliders;
     
     private void Awake(){
 

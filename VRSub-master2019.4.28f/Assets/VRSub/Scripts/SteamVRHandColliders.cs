@@ -1,18 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
 
 public class SteamVRHandColliders : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [SerializeField] GameObject SteamVRObjects;
+    private GameObject LeftHand;
+    private GameObject RightHand;
+    private Valve.VR.InteractionSystem.Hand LeftHandScript;
+    private Valve.VR.InteractionSystem.Hand RightHandScript;
+    
+
+    private void Start(){
+        if(SteamVRObjects == null){
+            SteamVRObjects = GameObject.Find("PlayerRig").transform.Find("SteamVRObjects").gameObject;
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void CheckHands(){
+        if(LeftHand == null || LeftHandScript == null){
+            LeftHand = SteamVRObjects.transform.Find("LeftHand").gameObject;
+            LeftHandScript = LeftHand.GetComponent<Valve.VR.InteractionSystem.Hand>();
+        }
+        if(RightHand == null || RightHandScript == null){
+            RightHand = SteamVRObjects.transform.Find("RightHand").gameObject;
+            RightHandScript = LeftHand.GetComponent<Valve.VR.InteractionSystem.Hand>();
+        }
     }
 }
