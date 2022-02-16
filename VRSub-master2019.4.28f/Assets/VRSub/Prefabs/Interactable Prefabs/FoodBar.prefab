@@ -586,6 +586,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodBarBottomCabinets
       objectReference: {fileID: 0}
+    - target: {fileID: 1930441984994346225, guid: 92b12788c0d091840b07560aeec86108,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689503050511397416, guid: 92b12788c0d091840b07560aeec86108,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5400076702686403440, guid: 92b12788c0d091840b07560aeec86108,
         type: 3}
       propertyPath: m_RootOrder
@@ -650,6 +660,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5449717663111011291, guid: 92b12788c0d091840b07560aeec86108,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6480505177339983814, guid: 92b12788c0d091840b07560aeec86108,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92b12788c0d091840b07560aeec86108, type: 3}
