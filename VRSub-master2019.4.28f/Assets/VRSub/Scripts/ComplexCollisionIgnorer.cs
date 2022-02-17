@@ -5,6 +5,7 @@ using UnityEngine;
 public class ComplexCollisionIgnorer : MonoBehaviour
 {
     [SerializeField] private List<GameObject> SourceObjects = new List<GameObject>();
+    [SerializeField] private List<Collider> SimpleSources = new List<Collider>();
     [SerializeField] private List<GameObject> TargetObjects = new List<GameObject>(); 
     private List<List<Collider>> SourceColliders = new List<List<Collider>>();
     private List<List<Collider>> TargetColliders = new List<List<Collider>>();
@@ -34,14 +35,26 @@ public class ComplexCollisionIgnorer : MonoBehaviour
         int numTargets = TargetColliders.Count;
         int numSourceColliders, numTargetColliders;;
         int i, j, k, l;
-        for(i = 0; i < numSources; i++){ // Go through sources
-            numSourceColliders = SourceColliders[i].Count;
-            for(j = 0; j < numSourceColliders; j++){ // Go through each collider in source
-                for(k = 0; k < numTargets; k++){ // Go through each target
-                    numTargetColliders = TargetColliders[k].Count;
-                    for(l = 0; l < numTargetColliders; l++){ // Go through each collider in target
-                        Physics.IgnoreCollision(SourceColliders[i][j], TargetColliders[k][l]);
-                        Debug.Log(SourceColliders[i][j].name + " " + TargetColliders[k][l].name);
+        if(SourceColliders.Count > 0){
+            for(i = 0; i < numSources; i++){ // Go through sources
+                numSourceColliders = SourceColliders[i].Count;
+                for(j = 0; j < numSourceColliders; j++){ // Go through each collider in source
+                    for(k = 0; k < numTargets; k++){ // Go through each target
+                        numTargetColliders = TargetColliders[k].Count;
+                        for(l = 0; l < numTargetColliders; l++){ // Go through each collider in target
+                            Physics.IgnoreCollision(SourceColliders[i][j], TargetColliders[k][l]);
+                            Debug.Log(SourceColliders[i][j].name + " " + TargetColliders[k][l].name);
+                        }
+                    }
+                }
+            }
+        }else{
+            numSources = SimpleSources.Count;
+            for(i = 0; i < numSources; i++){
+                for(j = 0; j < numTargets; j++){
+                    numTargetColliders = TargetColliders[j].Count;
+                    for(k = 0; k < numTargetColliders; k++){
+                        Physics.IgnoreCollision(SimpleSources[i], TargetColliders[j][k]);
                     }
                 }
             }
