@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 148052121252877247}
   - component: {fileID: 7295961734652281893}
   - component: {fileID: 383365541567184828}
+  - component: {fileID: 5259764704227112161}
   m_Layer: 0
   m_Name: RightDoor
   m_TagString: Untagged
@@ -137,6 +138,22 @@ MonoBehaviour:
   dbgPathLimit: 50
   debugText: {fileID: 0}
   outAngle: 0
+--- !u!54 &5259764704227112161
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324177763092872096}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!64 &7493130598576032606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -237,6 +254,7 @@ GameObject:
   - component: {fileID: 8865927934675432297}
   - component: {fileID: 5261775176523333690}
   - component: {fileID: 7492413185418127274}
+  - component: {fileID: 3803098868729447310}
   m_Layer: 0
   m_Name: LeftDoor
   m_TagString: Untagged
@@ -362,6 +380,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value: 0
+--- !u!54 &3803098868729447310
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7911196957632781705}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!64 &6057942605888623412
 MeshCollider:
   m_ObjectHideFlags: 0
