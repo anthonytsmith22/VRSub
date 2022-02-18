@@ -20,6 +20,11 @@ public class SimpleMovement : MonoBehaviour
     private void Update(){
         //CheckForGround();
     }
+
+    private void Start(){
+        SetMoveBounds(Container);
+    }
+
     private Vector3 movement;
     private void Move(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
         Debug.Log("Moving");
@@ -28,6 +33,8 @@ public class SimpleMovement : MonoBehaviour
         movement = movement.normalized;
         Vector3 position = Rig.position + movement * MovementSpeed * Time.deltaTime;
         position.y = 0f;
+        position.x = Mathf.Clamp(position.x, minX, maxX);
+        position.z = Mathf.Clamp(position.z, minZ, maxZ);
         Rig.position = position;
     }
 
@@ -52,4 +59,34 @@ public class SimpleMovement : MonoBehaviour
         Vector3 position = Rig.position + gravityVector * Time.deltaTime;
         Rig.position = position;
     }
+
+    [SerializeField] private Transform Container;
+    [SerializeField] private float minX;
+    [SerializeField] private float maxX;
+    [SerializeField] private float minZ;
+    [SerializeField] private float maxZ;
+    
+    private void OnTriggerEnter(Collider other){
+        Debug.Log("Check bounds");
+        if(other.tag.Equals("MoveArea")){
+            Container = other.GetComponent<Transform>();
+            SetMoveBounds(Container);
+        }
+    }
+
+    public void SetMoveBounds(Transform container){
+        Vector3 center = container.position;
+        float centerX = center.x;
+        float centerZ = center.z;
+
+        float scaleX = container.localScale.x;
+        float scaleZ = container.localScale.z;
+
+        minX = centerX - (scaleX/2);
+        maxX = centerX + (scaleX/2);
+
+        minZ = centerZ - (scaleZ/2);
+        maxZ = centerZ + (scaleZ/2);
+    }
+
 }

@@ -10,6 +10,7 @@ TagManager:
   - ClientRightHand
   - NetworkLeftHand
   - NetworkRightHand
+  - MoveArea
   layers:
   - Default
   - TransparentFX
