@@ -9,16 +9,22 @@ public class SimpleMovement : MonoBehaviour
     [SerializeField] private float MovementSpeed;
     [SerializeField] private SteamVR_Action_Vector2 steamvrMovement;
     [SerializeField] private SteamVR_Input_Sources inputSourceLeft;
+    [SerializeField] private SteamVR_Input_Sources inputSourceRight;
 
     [SerializeField] private GameObject VRCamera;
     [SerializeField] private Transform groundCheck;
+    private Transform RigPosition;
+    private LayerMask zoneMask;
     private void Awake(){
         steamvrMovement.AddOnAxisListener(Move, inputSourceLeft);
+        steamvrMovement.AddOnAxisListener(Rotate, inputSourceRight);
         groundMask = LayerMask.GetMask("Ground");
+        RigPosition = transform;
+        zoneMask = LayerMask.GetMask("MovementZone");
     }
 
     private void Update(){
-        //CheckForGround();
+        CheckZone();
     }
 
     private void Start(){
@@ -36,6 +42,16 @@ public class SimpleMovement : MonoBehaviour
         position.x = Mathf.Clamp(position.x, minX, maxX);
         position.z = Mathf.Clamp(position.z, minZ, maxZ);
         Rig.position = position;
+    }
+
+    private void Rotate(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
+        float angle = 90f * Time.deltaTime;
+        Vector3 rotation = new Vector3(0f, angle, 0f);
+        if(axis.x > 0){
+            Rig.Rotate(rotation);
+        }else{
+            Rig.Rotate(-rotation);
+        }
     }
 
     private LayerMask groundMask;
@@ -71,6 +87,16 @@ public class SimpleMovement : MonoBehaviour
         if(other.tag.Equals("MoveArea")){
             Container = other.GetComponent<Transform>();
             SetMoveBounds(Container);
+        }
+    }
+
+    private void CheckZone(){
+        RaycastHit hit;
+        Physics.SphereCast(RigPosition.position + new Vector3(0, 1.2f, 0), 0.5f, Vector3.down, out hit, 1.0f, zoneMask);
+        if(hit.collider != null){
+            Debug.Log("CheckBouds2");
+            Transform container = hit.collider.transform;
+            SetMoveBounds(container);
         }
     }
 
