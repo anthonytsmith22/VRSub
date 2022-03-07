@@ -100,8 +100,11 @@ namespace Valve.VR.InteractionSystem
             buttonDown = wasEngaged == false && isEngaged == true;
             buttonUp = wasEngaged == true && isEngaged == false;
 
-            if (buttonDown && onButtonDown != null)
+            if (buttonDown && onButtonDown != null){
                 onButtonDown.Invoke(lastHoveredHand);
+                Debug.Log("is htis working?");
+            }
+                
             if (buttonUp && onButtonUp != null)
                 onButtonUp.Invoke(lastHoveredHand);
             if (isEngaged && onButtonIsPressed != null)
