@@ -2020,6 +2020,75 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 862338155711011292, guid: c4226623a59abff41b7e52e2dcea7f6f, type: 3}
+--- !u!1001 &7196135176561246897
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973797714764214144, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366221781161300900, guid: e4605695cf67e704cb226b4d711260f0,
+        type: 3}
+      propertyPath: m_Name
+      value: trash can
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4605695cf67e704cb226b4d711260f0, type: 3}
 --- !u!1 &7807721098315907008 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 257302235825432847, guid: 00301bbe274d8d342892397fe482fad6,
