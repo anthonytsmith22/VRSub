@@ -33,7 +33,6 @@ public class SimpleMovement : MonoBehaviour
 
     private Vector3 movement;
     private void Move(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
-        Debug.Log("Moving");
         movement = new Vector3(axis.x, 0f, axis.y);
         movement = VRCamera.transform.forward * movement.z + VRCamera.transform.right * movement.x;
         movement = movement.normalized;
@@ -83,7 +82,6 @@ public class SimpleMovement : MonoBehaviour
     [SerializeField] private float maxZ;
     
     private void OnTriggerEnter(Collider other){
-        Debug.Log("Check bounds");
         if(other.tag.Equals("MoveArea")){
             Container = other.GetComponent<Transform>();
             SetMoveBounds(Container);
@@ -94,7 +92,6 @@ public class SimpleMovement : MonoBehaviour
         RaycastHit hit;
         Physics.SphereCast(RigPosition.position + new Vector3(0, 1.2f, 0), 0.5f, Vector3.down, out hit, 1.0f, zoneMask);
         if(hit.collider != null){
-            Debug.Log("CheckBouds2");
             Transform container = hit.collider.transform;
             SetMoveBounds(container);
         }

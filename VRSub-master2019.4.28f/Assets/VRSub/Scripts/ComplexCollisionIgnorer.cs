@@ -11,13 +11,9 @@ public class ComplexCollisionIgnorer : MonoBehaviour
     private List<List<Collider>> TargetColliders = new List<List<Collider>>();
 
     private void Awake(){
-        Debug.Log("Check 0");
         GetColliders(SourceObjects, SourceColliders);
-        Debug.Log("Check 1");
         GetColliders(TargetObjects, TargetColliders);
-        Debug.Log("Check 2");
         IgnoreComplexCollisions();
-        Debug.Log("Check 3");
     }
 
     private void GetColliders(List<GameObject> list, List<List<Collider>> target){        
@@ -25,7 +21,6 @@ public class ComplexCollisionIgnorer : MonoBehaviour
         int i;
         for(i = 0; i < numObjects; i++){
             Collider[] colliders = list[i].GetComponentsInChildren<Collider>();
-            Debug.Log(colliders.Length);
             target.Add(new List<Collider>(colliders));
         }
     }
@@ -43,7 +38,6 @@ public class ComplexCollisionIgnorer : MonoBehaviour
                         numTargetColliders = TargetColliders[k].Count;
                         for(l = 0; l < numTargetColliders; l++){ // Go through each collider in target
                             Physics.IgnoreCollision(SourceColliders[i][j], TargetColliders[k][l]);
-                            Debug.Log(SourceColliders[i][j].name + " " + TargetColliders[k][l].name);
                         }
                     }
                 }
