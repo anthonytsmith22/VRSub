@@ -11,6 +11,8 @@ TagManager:
   - NetworkLeftHand
   - NetworkRightHand
   - MoveArea
+  - Base
+  - Button
   layers:
   - Default
   - TransparentFX
