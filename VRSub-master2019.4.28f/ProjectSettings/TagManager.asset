@@ -13,6 +13,7 @@ TagManager:
   - MoveArea
   - Base
   - Button
+  - Interactable
   layers:
   - Default
   - TransparentFX
