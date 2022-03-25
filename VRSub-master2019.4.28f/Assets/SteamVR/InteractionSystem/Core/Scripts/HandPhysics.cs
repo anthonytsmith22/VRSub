@@ -33,7 +33,7 @@ namespace Valve.VR.InteractionSystem
         private bool collisionsEnabled = true;
 
 
-        private void Start()
+        private void Awake()
         {
             hand = GetComponent<Hand>();
             //spawn hand collider and link it to us
