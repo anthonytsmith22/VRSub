@@ -76,6 +76,7 @@ public class GrabAuthority : NetworkBehaviour
     }
 
     private void RequestAuthorityLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
+        Debug.Log("Test Grab Inter");
         if(!isLocalPlayer){ return; }
         CheckAttachedObjectLeft();
         if(leftAttachedObject != null){
@@ -108,6 +109,7 @@ public class GrabAuthority : NetworkBehaviour
     }
 
     private void RequestAuthorityRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
+        Debug.Log("Test Grab Inter");
         if(!isLocalPlayer){ return; }
         CheckAttachedObjectRight();
         if(rightAttachedObject != null){

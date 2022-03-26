@@ -301,6 +301,8 @@ MonoBehaviour:
   NetworkRightHand: {fileID: 2204990381655782147}
   SteamVRObjects: {fileID: 0}
   PlayerRig: {fileID: 0}
+  LocalVRLeftHand: {fileID: 0}
+  LocalVRRightHand: {fileID: 0}
 --- !u!114 &7793048271464227444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,7 +554,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/GrabGrip
     needsReinit: 0
   GrabEventRight:
-    actionPath: /actions/default/in/GrabGrip
+    actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   InputSourceLeft: 1
   InputSourceRight: 2
