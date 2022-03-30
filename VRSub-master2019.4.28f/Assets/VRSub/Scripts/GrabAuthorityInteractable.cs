@@ -17,22 +17,7 @@ public class GrabAuthorityInteractable : NetworkBehaviour
         inUse = false;
     }
 
-
-    [Command]
-    public void CmdGrantAuthority(NetworkIdentity connPlayer){
-        if(authorized == null){ 
-            identity.AssignClientAuthority(connPlayer.connectionToServer);
-            authorized = connPlayer;
-            inUse = true;
-            Debug.Log("Authority granted to " + connPlayer);
-        }else{
-            Debug.Log("Authority already granted to other player.");
-        }
-    }
-
-    [Command]
-    public void CmdRemoveAuthority(){
-        identity.RemoveClientAuthority();
+    public void RemoveAuthority(){
         authorized = null;
         inUse = false;
         Debug.Log("Authority removed.");

@@ -551,7 +551,7 @@ MonoBehaviour:
   PlayerRig: {fileID: 0}
   SteamVRObjects: {fileID: 0}
   GrabEventLeft:
-    actionPath: /actions/default/in/GrabGrip
+    actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   GrabEventRight:
     actionPath: /actions/default/in/GrabPinch

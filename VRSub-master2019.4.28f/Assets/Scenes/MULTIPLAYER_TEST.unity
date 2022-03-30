@@ -572,10 +572,10 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   serverTickRate: 30
-  offlineScene: Assets/Scenes/ProtoInteractionGalley.unity
-  onlineScene: Assets/Scenes/MULTIPLAYER_TEST.unity
+  offlineScene: 
+  onlineScene: 
   transport: {fileID: 196202774}
-  networkAddress: 26.81.187.108
+  networkAddress: localhost
   maxConnections: 4
   authenticator: {fileID: 0}
   playerPrefab: {fileID: 5790256193614194026, guid: 98fd656541bb4a742980162cb14eadf7,

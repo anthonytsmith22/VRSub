@@ -24,11 +24,10 @@ public class GrabAuthority : NetworkBehaviour
     // Client player rig hand attached objects
     private GameObject leftAttachedObject;
     private GameObject rightAttachedObject;
-    private GrabAuthorityInteractable leftFocusAuthority;
-    private GrabAuthorityInteractable rightFocusAuthority;
+    private GrabAuthorityInteractable leftAuthorityController;
+    private GrabAuthorityInteractable rightAuthorityController;
     
     private NetworkIdentity playerIdentity;
-    private NetworkConnection playerConnection;
 
     private void Start(){
         if(!isLocalPlayer){ return; }
@@ -36,8 +35,13 @@ public class GrabAuthority : NetworkBehaviour
             PlayerRig = GameObject.Find("PlayerRig");
         }
         SteamVRObjects = GameObject.Find("SteamVRObjects").gameObject;
-        OnEnable();
         playerIdentity = GetComponent<NetworkIdentity>();  
+
+        GrabEventLeft.AddOnStateDownListener(OnGrabLeft, InputSourceLeft);
+        GrabEventLeft.AddOnStateUpListener(OnReleaseLeft, InputSourceLeft);
+        GrabEventRight.AddOnStateDownListener(OnGrabRight, InputSourceRight);
+        GrabEventRight.AddOnStateUpListener(OnReleaseRight, InputSourceRight);
+
         CheckHands();
     }
 
@@ -68,90 +72,86 @@ public class GrabAuthority : NetworkBehaviour
     private void CheckAttachedObjectLeft(){
         if(!isLocalPlayer){ return; }
         leftAttachedObject = leftHandController.currentAttachedObject;
+        RequestAuthorityLeft();
     }
 
     private void CheckAttachedObjectRight(){
         if(!isLocalPlayer){ return; }
         rightAttachedObject = rightHandController.currentAttachedObject;
+        RequestAuthorityRight();
     }
 
-    private void RequestAuthorityLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
-        Debug.Log("Test Grab Inter");
-        if(!isLocalPlayer){ return; }
-        CheckAttachedObjectLeft();
+    public void OnGrabLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
+        Invoke("CheckAttachedObjectLeft", Time.deltaTime);
+    }
+
+    public void OnGrabRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
+        Invoke("CheckAttachedObjectRight", Time.deltaTime);
+    }
+
+    private void RequestAuthorityLeft(){
         if(leftAttachedObject != null){
-            Debug.Log("Left attached object found");
-            leftFocusAuthority = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
-            if(leftFocusAuthority != null){
-                Debug.Log("Left GrabAuthorityInteractable found.");
-                if(!leftFocusAuthority.inUse){
-                    Debug.Log("Intertable not in use.");
-                    leftFocusAuthority.CmdGrantAuthority(playerIdentity);
-                    Debug.Log("Getting client authority");
-                    if(leftFocusAuthority.CheckAuthority(playerIdentity)){
-                        Debug.Log(playerIdentity + " given authority of " + leftFocusAuthority.identity);
-                    }
-                    else{
-                        Debug.LogWarning(playerIdentity + "not given authority of " + leftFocusAuthority.identity);
-                    }
-                }
-                else{
-                    Debug.LogWarning("Interactable already in-use by another network player " + leftFocusAuthority.authorized + ".");
+            leftAuthorityController = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
+            if(!leftAuthorityController.inUse){
+                NetworkIdentity interactable = leftAuthorityController.GetComponent<NetworkIdentity>();
+                CmdGetAuthority(interactable);
+                if(interactable.hasAuthority){
+                    Debug.Log("Has Authority");
+                    rightAuthorityController.authorized = playerIdentity;
+                    rightAuthorityController.inUse = true;
                 }
             }
-            else{
-                Debug.LogWarning("No GrabAuthorityInteractable found in interactable.");
-            }
-        }
-        else{
-            Debug.LogWarning("No attached object found in left hand.");
         }
     }
 
-    private void RequestAuthorityRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
-        Debug.Log("Test Grab Inter");
-        if(!isLocalPlayer){ return; }
-        CheckAttachedObjectRight();
+    [Command]
+    public void CmdGetAuthority(NetworkIdentity interactable){
+        if(connectionToClient.isReady){
+            Debug.Log("Client ready.");
+            interactable.RemoveClientAuthority();
+            interactable.AssignClientAuthority(playerIdentity.connectionToClient);
+        }else{
+            Debug.Log("Client NOT ready!");
+            StartCoroutine(WaitForReady(interactable));
+        }
+        
+    }
+
+    private IEnumerator WaitForReady(NetworkIdentity interactable){
+        while(!connectionToClient.isReady){
+            yield return new WaitForSeconds(0.25f);
+        }
+        CmdGetAuthority(interactable);
+    }
+
+    private void RequestAuthorityRight(){
         if(rightAttachedObject != null){
-            Debug.Log("Right attached object found");
-            rightFocusAuthority = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
-            if(rightFocusAuthority != null){
-                Debug.Log("Right GrabAuthorityInteractable found.");
-                if(!rightFocusAuthority.inUse){
-                    Debug.Log("Intertable not in use.");
-                    rightFocusAuthority.CmdGrantAuthority(playerIdentity);
-                    Debug.Log("Getting client authority");
-                    if(rightFocusAuthority.CheckAuthority(playerIdentity)){
-                        Debug.Log(playerIdentity + " given authority of " + rightFocusAuthority.identity);
-                    }
-                    else{
-                        Debug.LogWarning(playerIdentity + "not given authority of " + rightFocusAuthority.identity);
-                    }
-                }
-                else{
-                    Debug.LogWarning("Interactable already in-use by another network player " + rightFocusAuthority.authorized + ".");
+            rightAuthorityController = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
+            if(!rightAuthorityController.inUse){
+                NetworkIdentity interactable = rightAuthorityController.GetComponent<NetworkIdentity>();
+                CmdGetAuthority(interactable);
+                if(interactable.hasAuthority){
+                    Debug.Log("Has Authority");
+                    rightAuthorityController.authorized = playerIdentity;
+                    rightAuthorityController.inUse = true;
+                }else{
+                    Debug.Log("Failed to get authority");
                 }
             }
-            else{
-                Debug.LogWarning("No GrabAuthorityInteractable found in interactable");
-            }
-        }    
-        else{
-            Debug.LogWarning("No attached object found in right hand.");
         }
     }
 
-    private void ReleaseAuthorityLeft(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
+    private void OnReleaseLeft(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
         if(!isLocalPlayer || leftAttachedObject == null){ return; }
-        leftFocusAuthority.CmdRemoveAuthority();
-        leftFocusAuthority = null;
+        leftAuthorityController.RemoveAuthority();
+        leftAuthorityController = null;
         leftAttachedObject = null;
     }
 
-    private void ReleaseAuthorityRight(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
+    private void OnReleaseRight(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
         if(!isLocalPlayer || rightAttachedObject == null){ return; }
-        rightFocusAuthority.CmdRemoveAuthority();
-        rightFocusAuthority = null;
+        rightAuthorityController.RemoveAuthority();
+        rightAuthorityController = null;
         rightAttachedObject = null;
     }
 
@@ -160,17 +160,4 @@ public class GrabAuthority : NetworkBehaviour
         GrabEventLeft.RemoveAllListeners(InputSourceLeft);
         GrabEventRight.RemoveAllListeners(InputSourceRight);
     }
-
-    private void OnDisable(){
-        if(!isLocalPlayer){ return; }
-        OnDestroy();
-    }
-
-    private void OnEnable(){
-        if(!isLocalPlayer){ return; }
-        GrabEventLeft.AddOnStateDownListener(RequestAuthorityLeft, InputSourceLeft);
-        GrabEventLeft.AddOnStateUpListener(ReleaseAuthorityLeft, InputSourceLeft);
-        GrabEventRight.AddOnStateDownListener(RequestAuthorityRight, InputSourceRight);
-        GrabEventRight.AddOnStateUpListener(ReleaseAuthorityRight, InputSourceRight);
-    }   
 }

@@ -59,12 +59,6 @@ public class ControllerMovement : MonoBehaviour
         characterController.radius = .2f;
     }
 
-    void Update(){
-        if(!characterController.isGrounded){
-            characterController.Move(new Vector3(0f, -9.8f, 0f) * Time.deltaTime);
-        }
-    }
-
     void LateUpdate(){
         // Set CharacterController transform.position.x and y to VRCamera.position.x and y
         Vector3 cameraPos = VRCameraTransform.localPosition;
@@ -74,10 +68,15 @@ public class ControllerMovement : MonoBehaviour
     }
 
     private void Move(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
+        Debug.Log("Move");
         Vector3 movement = new Vector3(axis.x, 0f, axis.y);
         movement = VRCameraTransform.forward * movement.z + VRCameraTransform.right * movement.x;
-        characterController.Move(movement * MovementSpeed * Time.deltaTime);
-        Debug.Log("Moving New");
+        if(!characterController.isGrounded){
+            movement.y = -9.8f;
+            characterController.Move(movement * MovementSpeed * Time.deltaTime);
+        }else{
+            characterController.Move(movement * MovementSpeed * Time.deltaTime);
+        }
     }
 
     private void Rotate(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
