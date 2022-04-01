@@ -22,8 +22,4 @@ public class GrabAuthorityInteractable : NetworkBehaviour
         inUse = false;
         Debug.Log("Authority removed.");
     }
-
-    public bool CheckAuthority(NetworkIdentity conn){
-        return conn.hasAuthority;
-    }
 }

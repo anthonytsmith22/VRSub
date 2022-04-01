@@ -93,7 +93,7 @@ public class GrabAuthority : NetworkBehaviour
         if(leftAttachedObject != null){
             leftAuthorityController = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!leftAuthorityController.inUse){
-                NetworkIdentity interactable = leftAuthorityController.GetComponent<NetworkIdentity>();
+                NetworkIdentity interactable = leftAuthorityController.identity;
                 CmdGetAuthority(interactable);
                 if(interactable.hasAuthority){
                     Debug.Log("Has Authority");
@@ -109,6 +109,7 @@ public class GrabAuthority : NetworkBehaviour
         if(connectionToClient.isReady){
             Debug.Log("Client ready.");
             interactable.RemoveClientAuthority();
+            // THIS IS THE PROBLEM
             interactable.AssignClientAuthority(playerIdentity.connectionToClient);
         }else{
             Debug.Log("Client NOT ready!");
@@ -128,7 +129,7 @@ public class GrabAuthority : NetworkBehaviour
         if(rightAttachedObject != null){
             rightAuthorityController = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!rightAuthorityController.inUse){
-                NetworkIdentity interactable = rightAuthorityController.GetComponent<NetworkIdentity>();
+                NetworkIdentity interactable = rightAuthorityController.identity;
                 CmdGetAuthority(interactable);
                 if(interactable.hasAuthority){
                     Debug.Log("Has Authority");
