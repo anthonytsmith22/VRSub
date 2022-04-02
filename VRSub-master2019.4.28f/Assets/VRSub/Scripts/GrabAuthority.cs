@@ -82,14 +82,17 @@ public class GrabAuthority : NetworkBehaviour
     }
 
     public void OnGrabLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
+        if(!isLocalPlayer){ return; }
         Invoke("CheckAttachedObjectLeft", Time.deltaTime);
     }
 
     public void OnGrabRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
+        if(!isLocalPlayer){ return; }
         Invoke("CheckAttachedObjectRight", Time.deltaTime);
     }
 
     private void RequestAuthorityLeft(){
+        if(!isLocalPlayer){ return; }
         if(leftAttachedObject != null){
             leftAuthorityController = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!leftAuthorityController.inUse){
@@ -106,6 +109,7 @@ public class GrabAuthority : NetworkBehaviour
 
     [Command]
     public void CmdGetAuthority(NetworkIdentity interactable){
+        if(!isLocalPlayer){ return; }
         if(connectionToClient.isReady){
             Debug.Log("Client ready.");
             interactable.RemoveClientAuthority();
