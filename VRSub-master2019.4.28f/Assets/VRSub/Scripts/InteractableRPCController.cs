@@ -93,8 +93,10 @@ public class InteractableRPCController : NetworkBehaviour
     //     GrabEventRight.RemoveAllListeners(InputSourceRight);
     // }
 
+    [SyncVar] public Transform localTransform;
+
     void Awake(){
-    
+        localTransform = transform;
     }
 
     Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
@@ -134,7 +136,7 @@ public class InteractableRPCController : NetworkBehaviour
         transform.eulerAngles = currrentFrameRotation;
     }
 
-    [Command]
+    [Command(requiresAuthority = false)]
     public void CmdUpdateTransform(){
         RpcUpdateTransform();
     }
