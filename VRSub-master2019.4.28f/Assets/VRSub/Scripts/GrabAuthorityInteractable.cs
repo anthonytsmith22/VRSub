@@ -22,4 +22,5 @@ public class GrabAuthorityInteractable : NetworkBehaviour
         inUse = false;
         Debug.Log("Authority removed.");
     }
+
 }

@@ -1558,6 +1558,7 @@ GameObject:
   - component: {fileID: 1056110853}
   - component: {fileID: 1056110852}
   - component: {fileID: 1056110851}
+  - component: {fileID: 1056110862}
   m_Layer: 12
   m_Name: Rod
   m_TagString: Interactable
@@ -1586,7 +1587,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056110849}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b51ceb23d8dfd854989eaa2ccc77e1e4, type: 3}
   m_Name: 
@@ -1819,6 +1820,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056110849}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1056110862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056110849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b7183d81f6dce4a80c5bfff50670a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
 --- !u!1 &1078772492
 GameObject:
   m_ObjectHideFlags: 0

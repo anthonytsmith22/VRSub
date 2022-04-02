@@ -82,21 +82,18 @@ public class GrabAuthority : NetworkBehaviour
     }
 
     public void OnGrabLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
-        if(!isLocalPlayer){ return; }
         Invoke("CheckAttachedObjectLeft", Time.deltaTime);
     }
 
     public void OnGrabRight(SteamVR_Action_Boolean fromActionRight, SteamVR_Input_Sources fromSourceRight){
-        if(!isLocalPlayer){ return; }
         Invoke("CheckAttachedObjectRight", Time.deltaTime);
     }
 
     private void RequestAuthorityLeft(){
-        if(!isLocalPlayer){ return; }
         if(leftAttachedObject != null){
             leftAuthorityController = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!leftAuthorityController.inUse){
-                NetworkIdentity interactable = leftAuthorityController.identity;
+                NetworkIdentity interactable = leftAuthorityController.GetComponent<NetworkIdentity>();
                 CmdGetAuthority(interactable);
                 if(interactable.hasAuthority){
                     Debug.Log("Has Authority");
@@ -109,7 +106,6 @@ public class GrabAuthority : NetworkBehaviour
 
     [Command]
     public void CmdGetAuthority(NetworkIdentity interactable){
-        if(!isLocalPlayer){ return; }
         if(connectionToClient.isReady){
             Debug.Log("Client ready.");
             interactable.RemoveClientAuthority();
@@ -133,7 +129,7 @@ public class GrabAuthority : NetworkBehaviour
         if(rightAttachedObject != null){
             rightAuthorityController = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
             if(!rightAuthorityController.inUse){
-                NetworkIdentity interactable = rightAuthorityController.identity;
+                NetworkIdentity interactable = rightAuthorityController.GetComponent<NetworkIdentity>();
                 CmdGetAuthority(interactable);
                 if(interactable.hasAuthority){
                     Debug.Log("Has Authority");
