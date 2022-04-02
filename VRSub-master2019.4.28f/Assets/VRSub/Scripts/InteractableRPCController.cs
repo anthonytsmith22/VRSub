@@ -116,7 +116,11 @@ public class InteractableRPCController : NetworkBehaviour
         if(Mathf.Abs((currentFramePosition - lastFramePosition).magnitude) >= marginForRPC || 
             Mathf.Abs((currrentFrameRotation - lastFrameRotation).magnitude) >= marginForRPC){
                 
-            RpcUpdateTransform();
+            if(isServer){
+                RpcUpdateTransform();
+            }else{
+                CmdUpdateTransform();
+            }
         }
 
         // Set lastFrame values to currentFrame values for next update call
@@ -128,6 +132,11 @@ public class InteractableRPCController : NetworkBehaviour
     public void RpcUpdateTransform(){
         transform.position = currentFramePosition;
         transform.eulerAngles = currrentFrameRotation;
+    }
+
+    [Command]
+    public void CmdUpdateTransform(){
+        RpcUpdateTransform();
     }
 
 }
