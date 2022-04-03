@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 2171303103694180930}
   - component: {fileID: 666155949194363847}
   - component: {fileID: 3165518046636426782}
+  - component: {fileID: 8954291162210778248}
   m_Layer: 0
   m_Name: NetworkPlayer
   m_TagString: Untagged
@@ -301,6 +302,8 @@ MonoBehaviour:
   NetworkRightHand: {fileID: 2204990381655782147}
   SteamVRObjects: {fileID: 0}
   PlayerRig: {fileID: 0}
+  LocalVRLeftHand: {fileID: 0}
+  LocalVRRightHand: {fileID: 0}
 --- !u!114 &7793048271464227444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,7 +542,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5790256193614194026}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1713f05fee1ffb54ba86a091e53c2d95, type: 3}
   m_Name: 
@@ -549,10 +552,36 @@ MonoBehaviour:
   PlayerRig: {fileID: 0}
   SteamVRObjects: {fileID: 0}
   GrabEventLeft:
-    actionPath: /actions/default/in/GrabGrip
+    actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   GrabEventRight:
-    actionPath: /actions/default/in/GrabGrip
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
+  InputSourceLeft: 1
+  InputSourceRight: 2
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+--- !u!114 &8954291162210778248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790256193614194026}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c896254175d3b0a4b8386af2636de97b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PlayerRig: {fileID: 0}
+  SteamVRObjects: {fileID: 0}
+  GrabEventLeft:
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
+  GrabEventRight:
+    actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
   InputSourceLeft: 1
   InputSourceRight: 2
@@ -569,7 +598,6 @@ GameObject:
   - component: {fileID: 3352700300852995230}
   - component: {fileID: 1661103255530757789}
   - component: {fileID: 4489599508121720180}
-  - component: {fileID: 5028540906157640285}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -638,19 +666,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &5028540906157640285
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6776198559628956884}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6882088422873387827
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,7 +708,6 @@ GameObject:
   - component: {fileID: 337731653146304522}
   - component: {fileID: 1539853536035418257}
   - component: {fileID: 1709545874203415719}
-  - component: {fileID: 6870989185539316352}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -762,16 +776,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &6870989185539316352
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7717544494373976498}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}

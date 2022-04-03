@@ -1,12 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System;
 using UnityEngine;
-using System.Collections.ObjectModel;
-using Valve.VR;
 using Mirror;
-
-public class GrabAuthority : NetworkBehaviour
+using Valve.VR;
+public class PlayerInteractableController : NetworkBehaviour
 {
     [SerializeField] private GameObject PlayerRig;
     [SerializeField] private GameObject SteamVRObjects;
@@ -22,11 +19,8 @@ public class GrabAuthority : NetworkBehaviour
     private Valve.VR.InteractionSystem.Hand rightHandController;
     [SerializeField] private GameObject rightHand;
     // Client player rig hand attached objects
-    private GameObject leftAttachedObject;
-    private GameObject rightAttachedObject;
-    private GrabAuthorityInteractable leftAuthorityController;
-    private GrabAuthorityInteractable rightAuthorityController;
-    
+    private Transform leftAttachedObject;
+    private Transform rightAttachedObject;
     private NetworkIdentity playerIdentity;
 
     private void Start(){
@@ -45,11 +39,40 @@ public class GrabAuthority : NetworkBehaviour
         CheckHands();
     }
 
-    private void Update(){
-        if(isLocalPlayer){
-            return;
+    void Update(){
+        if(isLocalPlayer && leftAttachedObject != null){
+            Vector3 currentPosition = leftAttachedObject.position;
+            Vector3 currentRotation = leftAttachedObject.eulerAngles;
+
+            if(isServer){
+                RpcUpdateTransform(currentPosition, currentRotation, leftAttachedObject);
+            }else{
+                CmdUpdateTransform(currentPosition, currentRotation, leftAttachedObject);
+            }
         }
-        CheckHands();
+
+        if(isLocalPlayer && rightAttachedObject != null){
+            Vector3 currentPosition = rightAttachedObject.position;
+            Vector3 currentRotation = rightAttachedObject.eulerAngles;
+
+            if(isServer){
+                RpcUpdateTransform(currentPosition, currentRotation, rightAttachedObject);
+            }else{
+                CmdUpdateTransform(currentPosition, currentRotation, rightAttachedObject);
+            }
+        }
+    }
+
+    [ClientRpc]
+    public void RpcUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
+        interactable.position = newPosition;
+        interactable.eulerAngles = newRotation;
+        Debug.Log("Updated Object Transform");
+    }
+
+    [Command(requiresAuthority = false)]
+    public void CmdUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
+        RpcUpdateTransform(newPosition, newRotation, interactable);
     }
 
     private GameObject GetHand(string hand){
@@ -71,14 +94,14 @@ public class GrabAuthority : NetworkBehaviour
 
     private void CheckAttachedObjectLeft(){
         if(!isLocalPlayer){ return; }
-        leftAttachedObject = leftHandController.currentAttachedObject;
-        RequestAuthorityLeft();
+        leftAttachedObject = leftHandController.currentAttachedObject.transform;
+
     }
 
     private void CheckAttachedObjectRight(){
         if(!isLocalPlayer){ return; }
-        rightAttachedObject = rightHandController.currentAttachedObject;
-        RequestAuthorityRight();
+        rightAttachedObject = rightHandController.currentAttachedObject.transform;
+
     }
 
     public void OnGrabLeft(SteamVR_Action_Boolean fromActionLeft, SteamVR_Input_Sources fromSourceLeft){
@@ -89,70 +112,13 @@ public class GrabAuthority : NetworkBehaviour
         Invoke("CheckAttachedObjectRight", Time.deltaTime);
     }
 
-    private void RequestAuthorityLeft(){
-        if(leftAttachedObject != null){
-            leftAuthorityController = leftAttachedObject.GetComponent<GrabAuthorityInteractable>();
-            if(!leftAuthorityController.inUse){
-                NetworkIdentity interactable = leftAuthorityController.GetComponent<NetworkIdentity>();
-                CmdGetAuthority(interactable);
-                if(interactable.hasAuthority){
-                    Debug.Log("Has Authority");
-                    rightAuthorityController.authorized = playerIdentity;
-                    rightAuthorityController.inUse = true;
-                }
-            }
-        }
-    }
-
-    [Command]
-    public void CmdGetAuthority(NetworkIdentity interactable){
-        if(connectionToClient.isReady){
-            Debug.Log("Client ready.");
-            interactable.RemoveClientAuthority();
-            // THIS IS THE PROBLEM
-            interactable.AssignClientAuthority(playerIdentity.connectionToClient);
-        }else{
-            Debug.Log("Client NOT ready!");
-            StartCoroutine(WaitForReady(interactable));
-        }
-        
-    }
-
-    private IEnumerator WaitForReady(NetworkIdentity interactable){
-        while(!connectionToClient.isReady){
-            yield return new WaitForSeconds(0.25f);
-        }
-        CmdGetAuthority(interactable);
-    }
-
-    private void RequestAuthorityRight(){
-        if(rightAttachedObject != null){
-            rightAuthorityController = rightAttachedObject.GetComponent<GrabAuthorityInteractable>();
-            if(!rightAuthorityController.inUse){
-                NetworkIdentity interactable = rightAuthorityController.GetComponent<NetworkIdentity>();
-                CmdGetAuthority(interactable);
-                if(interactable.hasAuthority){
-                    Debug.Log("Has Authority");
-                    rightAuthorityController.authorized = playerIdentity;
-                    rightAuthorityController.inUse = true;
-                }else{
-                    Debug.Log("Failed to get authority");
-                }
-            }
-        }
-    }
-
     private void OnReleaseLeft(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
         if(!isLocalPlayer || leftAttachedObject == null){ return; }
-        leftAuthorityController.RemoveAuthority();
-        leftAuthorityController = null;
         leftAttachedObject = null;
     }
 
     private void OnReleaseRight(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource){
         if(!isLocalPlayer || rightAttachedObject == null){ return; }
-        rightAuthorityController.RemoveAuthority();
-        rightAuthorityController = null;
         rightAttachedObject = null;
     }
 

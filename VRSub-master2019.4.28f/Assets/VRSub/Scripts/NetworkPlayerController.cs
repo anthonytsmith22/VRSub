@@ -89,8 +89,8 @@ public class NetworkPlayerController : NetworkBehaviour
         // If local rig objects not connected
         if(PlayerRig == null || SteamVRObjects == null){
             Debug.Log("PlayerRig or SteamVRObjects is null");
-            PlayerRig = GameObject.Find("PlayerRig");
-            SteamVRObjects = PlayerRig.transform.GetChild(0).gameObject.transform.Find("SteamVRObjects").gameObject;
+            PlayerRig = GameObject.Find("PlayerRig2");
+            SteamVRObjects = GameObject.Find("SteamVRObjects").gameObject;
         }
        
         if(localHead == null){

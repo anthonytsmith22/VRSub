@@ -49,7 +49,8 @@ MonoBehaviour:
   hand: {fileID: 0}
   collisionMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4096
+  colliders: []
   fingerColliders:
     thumbColliders:
     - {fileID: 1378901328726192973}
