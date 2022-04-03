@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 2171303103694180930}
   - component: {fileID: 666155949194363847}
   - component: {fileID: 3165518046636426782}
+  - component: {fileID: 8954291162210778248}
   m_Layer: 0
   m_Name: NetworkPlayer
   m_TagString: Untagged
@@ -544,6 +545,32 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1713f05fee1ffb54ba86a091e53c2d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PlayerRig: {fileID: 0}
+  SteamVRObjects: {fileID: 0}
+  GrabEventLeft:
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
+  GrabEventRight:
+    actionPath: /actions/default/in/GrabPinch
+    needsReinit: 0
+  InputSourceLeft: 1
+  InputSourceRight: 2
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+--- !u!114 &8954291162210778248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5790256193614194026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c896254175d3b0a4b8386af2636de97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncMode: 0
