@@ -23,8 +23,7 @@ public class InteractableRPCController : NetworkBehaviour
 
         // If gameObject has moved or been rotated by atleast the marginForRPC, 
         // then we will issue a ClientRPC to update the transform across all clients
-        if(Mathf.Abs((currentFramePosition - lastFramePosition).magnitude) >= marginForRPC || 
-            Mathf.Abs((currrentFrameRotation - lastFrameRotation).magnitude) >= marginForRPC){
+        if(currentFramePosition != lastFramePosition || currrentFrameRotation != lastFrameRotation){
                 
             if(isServer){
                 RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
