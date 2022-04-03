@@ -8,7 +8,7 @@ public class InteractableRPCController : NetworkBehaviour
 {
     
     Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
-    float marginForRPC = 0.01f;
+    float marginForRPC = 0.005f;
     
     void Start(){
         // Get initial GameObject position and rotation
@@ -21,15 +21,28 @@ public class InteractableRPCController : NetworkBehaviour
         currentFramePosition = transform.position;
         currrentFrameRotation = transform.eulerAngles;
 
-        // If interactable has moved or rotated, call ClientRpc to update transform
-        if(currentFramePosition != lastFramePosition || currrentFrameRotation != lastFrameRotation){                 
+        // If gameObject has moved or been rotated by atleast the marginForRPC, 
+        // then we will issue a ClientRPC to update the transform across all clients
+        if(Mathf.Abs((currentFramePosition - lastFramePosition).magnitude) >= marginForRPC || 
+            Mathf.Abs((currrentFrameRotation - lastFrameRotation).magnitude) >= marginForRPC){
+                
             if(isServer){
                 RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
             }else{
                 CmdUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
             }
-        }
             
+        }
+
+        // if(currentFramePosition != lastFramePosition || currrentFrameRotation != lastFrameRotation){ 
+                
+        //     if(isServer){
+        //         RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
+        //     }else{
+        //         CmdUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
+        //     }   
+        // }
+
         // Set lastFrame values to currentFrame values for next update call
         lastFramePosition = currentFramePosition;
         lastFrameRotation = currrentFrameRotation;
