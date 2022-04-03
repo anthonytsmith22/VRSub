@@ -6,16 +6,7 @@ using Valve.VR;
 
 public class InteractableRPCController : NetworkBehaviour
 {
-
-    [SyncVar] public Transform localTransform;
-
-    void Awake(){
-        localTransform = transform;
-        NetworkTransform net = GetComponent<NetworkTransform>();
-        NetworkIdentity iden = GetComponent<NetworkIdentity>();
-        
-    }
-
+    
     Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
     float marginForRPC = 0.005f;
     
@@ -42,7 +33,6 @@ public class InteractableRPCController : NetworkBehaviour
             }
             
         }
-        CmdOverrideUpdateTransform();
         // Set lastFrame values to currentFrame values for next update call
         lastFramePosition = currentFramePosition;
         lastFrameRotation = currrentFrameRotation;
@@ -58,12 +48,6 @@ public class InteractableRPCController : NetworkBehaviour
     [Command(requiresAuthority = false)]
     public void CmdUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
         RpcUpdateTransform(newPosition, newRotation, interactable);
-    }
-
-    [Command(requiresAuthority = false)]
-    public void CmdOverrideUpdateTransform(){
-        transform.position = currentFramePosition;
-        transform.eulerAngles = currrentFrameRotation;
     }
 
 }
