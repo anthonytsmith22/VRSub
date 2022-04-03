@@ -16,7 +16,7 @@ public class InteractableRPCController : NetworkBehaviour
         lastFrameRotation = transform.eulerAngles;
     }
 
-    void FixedUpdate(){
+    void Update(){
         // Get current GameObject position and rotation
         currentFramePosition = transform.position;
         currrentFrameRotation = transform.eulerAngles;
