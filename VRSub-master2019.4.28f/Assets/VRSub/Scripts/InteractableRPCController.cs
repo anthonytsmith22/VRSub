@@ -7,13 +7,13 @@ using Valve.VR;
 public class InteractableRPCController : NetworkBehaviour
 {
     
-    Vector3 lastSendPosition, lastSendRotation, currentFramePosition, currrentFrameRotation;
-    float marginForRPC = 0.001f;
+    Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
+    float marginForRPC = 0.005f;
     
     void Start(){
         // Get initial GameObject position and rotation
-        lastSendPosition = transform.position;
-        lastSendRotation = transform.eulerAngles;
+        lastFramePosition = transform.position;
+        lastFrameRotation = transform.eulerAngles;
     }
 
     void Update(){
@@ -23,24 +23,25 @@ public class InteractableRPCController : NetworkBehaviour
 
         // If gameObject has moved or been rotated by atleast the marginForRPC, 
         // then we will issue a ClientRPC to update the transform across all clients
-        if(Mathf.Abs((currentFramePosition - lastSendPosition).magnitude) >= marginForRPC || 
-            Mathf.Abs((currrentFrameRotation - lastSendRotation).magnitude) >= marginForRPC){
+        if(Mathf.Abs((currentFramePosition - lastFramePosition).magnitude) >= marginForRPC || 
+            Mathf.Abs((currrentFrameRotation - lastFrameRotation).magnitude) >= marginForRPC){
                 
             if(isServer){
                 RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
             }else{
                 CmdUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
-            }   
+            }
+            
         }
+        // Set lastFrame values to currentFrame values for next update call
+        lastFramePosition = currentFramePosition;
+        lastFrameRotation = currrentFrameRotation;
     }
 
     [ClientRpc]
     public void RpcUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
         interactable.position = newPosition;
         interactable.eulerAngles = newRotation;
-        // Set lastSend values to currentFrame values for next update call
-        lastSendPosition = currentFramePosition;
-        lastSendRotation = currrentFrameRotation;
     }
 
     [Command(requiresAuthority = false)]
