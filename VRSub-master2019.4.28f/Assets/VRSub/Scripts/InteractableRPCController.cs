@@ -7,55 +7,40 @@ using Valve.VR;
 public class InteractableRPCController : NetworkBehaviour
 {
     
-    Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
-    float marginForRPC = 0.005f;
+    Vector3 lastSendPosition, lastSendRotation, currentFramePosition, currrentFrameRotation;
+    float marginForRPC = 0.001f;
     
     void Start(){
         // Get initial GameObject position and rotation
-        lastFramePosition = transform.position;
-        lastFrameRotation = transform.eulerAngles;
+        lastSendPosition = transform.position;
+        lastSendRotation = transform.eulerAngles;
     }
 
-    double lastServerSendTime;
-    [Range(0, 1)] float sendInterval = 0.050f;
     void Update(){
+        // Get current GameObject position and rotation
+        currentFramePosition = transform.position;
+        currrentFrameRotation = transform.eulerAngles;
 
-        if (NetworkTime.localTime >= lastServerSendTime + sendInterval)
-        {
-            // Get current GameObject position and rotation
-            currentFramePosition = transform.position;
-            currrentFrameRotation = transform.eulerAngles;
-
-            // // If gameObject has moved or been rotated by atleast the marginForRPC, 
-            // // then we will issue a ClientRPC to update the transform across all clients
-            // if(Mathf.Abs((currentFramePosition - lastFramePosition).magnitude) >= marginForRPC || 
-            //     Mathf.Abs((currrentFrameRotation - lastFrameRotation).magnitude) >= marginForRPC){    
-                // if(isServer){
-                //     RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
-                // }else{
-                //     CmdUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
-                // } 
-            // }
-
-            // // Set lastFrame values to currentFrame values for next update call
-            // lastFramePosition = currentFramePosition;
-            // lastFrameRotation = currrentFrameRotation;
-
+        // If gameObject has moved or been rotated by atleast the marginForRPC, 
+        // then we will issue a ClientRPC to update the transform across all clients
+        if(Mathf.Abs((currentFramePosition - lastSendPosition).magnitude) >= marginForRPC || 
+            Mathf.Abs((currrentFrameRotation - lastSendRotation).magnitude) >= marginForRPC){
+                
             if(isServer){
                 RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
             }else{
                 CmdUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
-            } 
-
-            lastServerSendTime = NetworkTime.localTime;
+            }   
         }
-        
     }
 
     [ClientRpc]
     public void RpcUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
         interactable.position = newPosition;
         interactable.eulerAngles = newRotation;
+        // Set lastSend values to currentFrame values for next update call
+        lastSendPosition = currentFramePosition;
+        lastSendRotation = currrentFrameRotation;
     }
 
     [Command(requiresAuthority = false)]
