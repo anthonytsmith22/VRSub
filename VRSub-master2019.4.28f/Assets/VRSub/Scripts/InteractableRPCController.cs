@@ -12,14 +12,14 @@ public class InteractableRPCController : NetworkBehaviour
     
     void Start(){
         // Get initial GameObject position and rotation
-        lastFramePosition = transform.position;
-        lastFrameRotation = transform.eulerAngles;
+        lastFramePosition = transform.localPosition;
+        lastFrameRotation = transform.localEulerAngles;
     }
 
     void Update(){
         // Get current GameObject position and rotation
-        currentFramePosition = transform.position;
-        currrentFrameRotation = transform.eulerAngles;
+        currentFramePosition = transform.localPosition;
+        currrentFrameRotation = transform.localEulerAngles;
 
         // If gameObject has moved or been rotated by atleast the marginForRPC, 
         // then we will issue a ClientRPC to update the transform across all clients
