@@ -97,6 +97,9 @@ public class InteractableRPCController : NetworkBehaviour
 
     void Awake(){
         localTransform = transform;
+        NetworkTransform net = GetComponent<NetworkTransform>();
+        NetworkIdentity iden = GetComponent<NetworkIdentity>();
+        
     }
 
     Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
@@ -123,8 +126,9 @@ public class InteractableRPCController : NetworkBehaviour
             }else{
                 CmdUpdateTransform();
             }
+            
         }
-
+        CmdOverrideUpdateTransform();
         // Set lastFrame values to currentFrame values for next update call
         lastFramePosition = currentFramePosition;
         lastFrameRotation = currrentFrameRotation;
@@ -134,11 +138,18 @@ public class InteractableRPCController : NetworkBehaviour
     public void RpcUpdateTransform(){
         transform.position = currentFramePosition;
         transform.eulerAngles = currrentFrameRotation;
+        Debug.Log("Updated Object Transform");
     }
 
     [Command(requiresAuthority = false)]
     public void CmdUpdateTransform(){
         RpcUpdateTransform();
+    }
+
+    [Command(requiresAuthority = false)]
+    public void CmdOverrideUpdateTransform(){
+        transform.position = currentFramePosition;
+        transform.eulerAngles = currrentFrameRotation;
     }
 
 }
