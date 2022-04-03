@@ -36,9 +36,9 @@ public class InteractableRPCController : NetworkBehaviour
             Mathf.Abs((currrentFrameRotation - lastFrameRotation).magnitude) >= marginForRPC){
                 
             if(isServer){
-                RpcUpdateTransform();
+                RpcUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
             }else{
-                CmdUpdateTransform();
+                CmdUpdateTransform(currentFramePosition, currrentFrameRotation, transform);
             }
             
         }
@@ -49,15 +49,15 @@ public class InteractableRPCController : NetworkBehaviour
     }
 
     [ClientRpc]
-    public void RpcUpdateTransform(){
-        transform.position = currentFramePosition;
-        transform.eulerAngles = currrentFrameRotation;
+    public void RpcUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
+        interactable.position = newPosition;
+        interactable.eulerAngles = newRotation;
         Debug.Log("Updated Object Transform");
     }
 
     [Command(requiresAuthority = false)]
-    public void CmdUpdateTransform(){
-        RpcUpdateTransform();
+    public void CmdUpdateTransform(Vector3 newPosition, Vector3 newRotation, Transform interactable){
+        RpcUpdateTransform(newPosition, newRotation, interactable);
     }
 
     [Command(requiresAuthority = false)]
