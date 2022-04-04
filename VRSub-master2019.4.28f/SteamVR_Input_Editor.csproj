@@ -269,6 +269,9 @@
     <Reference Include="Valve.Newtonsoft.Json">
         <HintPath>C:/Users/Anthony/Documents/VRSub/VRSub/VRSub-master2019.4.28f/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+        <HintPath>C:/Users/Anthony/Documents/VRSub/VRSub/VRSub-master2019.4.28f/Library/PackageCache/com.unity.render-pipelines.core@7.6.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:/Users/Anthony/Documents/VRSub/VRSub/VRSub-master2019.4.28f/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
