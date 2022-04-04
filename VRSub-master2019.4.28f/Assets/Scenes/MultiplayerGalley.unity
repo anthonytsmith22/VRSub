@@ -2599,7 +2599,7 @@ PrefabInstance:
     - target: {fileID: 3664338039597682156, guid: 8108e28f49413a84b826784bf88bd2bd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.967
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3664338039597682156, guid: 8108e28f49413a84b826784bf88bd2bd,
         type: 3}
@@ -2645,6 +2645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerRig2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814114845321500413, guid: 8108e28f49413a84b826784bf88bd2bd,
+        type: 3}
+      propertyPath: MovementSpeed
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8108e28f49413a84b826784bf88bd2bd, type: 3}

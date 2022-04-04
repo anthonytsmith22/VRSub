@@ -348,6 +348,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deep Fryer
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: addb5a26d997fcd4d95899560df33906,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: addb5a26d997fcd4d95899560df33906, type: 3}
 --- !u!1 &4292973634026868954 stripped
@@ -428,6 +433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DeepFryerDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8263862a00112e54db1fca1cf1d02844,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8263862a00112e54db1fca1cf1d02844, type: 3}
