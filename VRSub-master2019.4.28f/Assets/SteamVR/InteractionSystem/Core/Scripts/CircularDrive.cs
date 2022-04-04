@@ -388,7 +388,7 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		// Updates the LinearMapping value from the angle
 		//-------------------------------------------------
-		private void UpdateLinearMapping()
+		public virtual void UpdateLinearMapping()
 		{
 			if ( limited )
 			{
@@ -433,7 +433,7 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		// Updates the Debug TextMesh with the linear mapping value and the angle
 		//-------------------------------------------------
-		private void UpdateAll()
+		public virtual void UpdateAll()
 		{
 			UpdateLinearMapping();
 			UpdateGameObject();
