@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR", "SteamVR.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepathy", "Telepathy.csproj", "{39391c2e-a574-92d4-649b-f7fd8e2a6a44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d7fe7aa8-8f9e-8ad1-3c76-47e44ddbc8fb}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Components", "Mirror.Components.csproj", "{494e2d53-4aff-3dea-e586-9106d80cb50d}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Examples", "Mirror.Examples.csproj", "{4c520df2-b2a6-4330-7026-40176230a53e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d7fe7aa8-8f9e-8ad1-3c76-47e44ddbc8fb}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "where-allocations", "where-allocations.csproj", "{ef663519-8298-2db3-b0e0-5307753a1aa2}"
 EndProject
@@ -48,12 +48,12 @@ Global
 		{add64d1c-34f8-7b21-e6fc-22c7b2af04fe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39391c2e-a574-92d4-649b-f7fd8e2a6a44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{39391c2e-a574-92d4-649b-f7fd8e2a6a44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{d7fe7aa8-8f9e-8ad1-3c76-47e44ddbc8fb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{d7fe7aa8-8f9e-8ad1-3c76-47e44ddbc8fb}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{494e2d53-4aff-3dea-e586-9106d80cb50d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{494e2d53-4aff-3dea-e586-9106d80cb50d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4c520df2-b2a6-4330-7026-40176230a53e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4c520df2-b2a6-4330-7026-40176230a53e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d7fe7aa8-8f9e-8ad1-3c76-47e44ddbc8fb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d7fe7aa8-8f9e-8ad1-3c76-47e44ddbc8fb}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ef663519-8298-2db3-b0e0-5307753a1aa2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ef663519-8298-2db3-b0e0-5307753a1aa2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4d52f4b3-dc05-5aa4-fa84-0655cac15b2d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
