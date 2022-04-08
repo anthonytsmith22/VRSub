@@ -80,7 +80,7 @@ public class ControllerMovement : MonoBehaviour
     }
 
     private void Rotate(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
-        transform.Rotate(0, axis.x * 45 * Time.deltaTime, 0);
+        transform.Rotate(0, axis.x * 90 * Time.deltaTime, 0);
     }
 
     void OnColliderEnter(Collision other){

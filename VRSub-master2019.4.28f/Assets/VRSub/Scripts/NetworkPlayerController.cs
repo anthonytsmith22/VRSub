@@ -76,13 +76,12 @@ public class NetworkPlayerController : NetworkBehaviour
 
     private void ToggleMeshAliasRender(){
         if(!isLocalPlayer){ return; }
-        bool renderMode = GameManager.Instance.ToggleRender;
         GameObject networkHeadAlias = NetworkHead.transform.GetChild(0).gameObject;
         GameObject networkLeftHandAlias = NetworkLeftHand.transform.GetChild(0).gameObject;
         GameObject networkRightHandAlias = NetworkRightHand.transform.GetChild(0).gameObject;
-        networkHeadAlias.GetComponent<MeshRenderer>().enabled = renderMode;
-        networkLeftHandAlias.GetComponent<MeshRenderer>().enabled = renderMode;
-        networkRightHandAlias.GetComponent<MeshRenderer>().enabled = renderMode;
+        networkHeadAlias.GetComponent<MeshRenderer>().enabled = false;
+        networkLeftHandAlias.GetComponent<MeshRenderer>().enabled = false;
+        networkRightHandAlias.GetComponent<MeshRenderer>().enabled = false;
     }
 
     public override void OnStartLocalPlayer(){
