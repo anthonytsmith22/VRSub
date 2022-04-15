@@ -16,13 +16,12 @@ public class NetworkPlayerController : NetworkBehaviour
     [SerializeField] private GameObject NetworkBodyCollider;
     [SerializeField] private GameObject NetworkLeftHand;
     [SerializeField] private GameObject NetworkRightHand;
+    [SerializeField] SkinnedMeshRenderer LeftHandMesh;
+    [SerializeField] SkinnedMeshRenderer RightHandHesh;
 
     [SerializeField] private GameObject SteamVRObjects;
     [SerializeField] private GameObject PlayerRig;
     private GameObject headlessPlayer;
-
-    [SerializeField] private VRSubHandCollider LocalVRLeftHand;
-    [SerializeField] private VRSubHandCollider LocalVRRightHand;
     private Collider[] LocalVRLeftHandColliders;
     private Collider[] LocalVRRightHandColliders;
     private Collider[] NetworkVRLeftHandColliders;
@@ -46,8 +45,8 @@ public class NetworkPlayerController : NetworkBehaviour
             //Disable or Enable network meshes based on GameManager.Instance.ToggleRender 
             ToggleMeshAliasRender();
             networkHeadAlias.GetComponent<SphereCollider>().enabled = false;
-            networkLeftHandAlias.GetComponent<SphereCollider>().enabled = false;
-            networkRightHandAlias.GetComponent<SphereCollider>().enabled = false;
+            LeftHandMesh.enabled = false;
+            RightHandHesh.enabled = false;
         }    
     }
 
@@ -59,19 +58,6 @@ public class NetworkPlayerController : NetworkBehaviour
         //Else, update network transforms from local rig to network rig
         OnStartLocalPlayer();
         NetworkPlayerPositionSync();
-        OnEnable();
-    }
-
-    private void OnEnable(){
-        VRSubEvents.Instance.OnToggleRenderTrigger += ToggleMeshAliasRender;
-    }
-
-    private void OnDisable(){
-        VRSubEvents.Instance.OnToggleRenderTrigger -= ToggleMeshAliasRender;
-    }
-
-    private void OnDestroy(){
-        OnDisable();
     }
 
     private void ToggleMeshAliasRender(){

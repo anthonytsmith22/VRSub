@@ -68,7 +68,6 @@ public class ControllerMovement : MonoBehaviour
     }
 
     private void Move(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta){
-        Debug.Log("Move");
         Vector3 movement = new Vector3(axis.x, 0f, axis.y);
         movement = VRCameraTransform.forward * movement.z + VRCameraTransform.right * movement.x;
         if(!characterController.isGrounded){

@@ -4,12 +4,11 @@ using UnityEngine;
 using Mirror;
 using Valve.VR;
 
-[RequireComponent(typeof(NetworkIdentity))]
 public class InteractableRPCController : NetworkBehaviour
 {
     
     Vector3 lastFramePosition, lastFrameRotation, currentFramePosition, currrentFrameRotation;
-    float marginForRPC = 0.005f;
+    int numChildTransforms;
     
     void Start(){
         // Get initial GameObject position and rotation
@@ -33,7 +32,7 @@ public class InteractableRPCController : NetworkBehaviour
             }
             
         }
-        // Set lastFrame values to currentFrame values for next update call
+
         lastFramePosition = currentFramePosition;
         lastFrameRotation = currrentFrameRotation;
     }

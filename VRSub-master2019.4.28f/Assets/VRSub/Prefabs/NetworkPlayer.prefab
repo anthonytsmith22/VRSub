@@ -237,7 +237,6 @@ GameObject:
   - component: {fileID: 3964628436407092410}
   - component: {fileID: 2171303103694180930}
   - component: {fileID: 666155949194363847}
-  - component: {fileID: 3165518046636426782}
   - component: {fileID: 8954291162210778248}
   m_Layer: 0
   m_Name: NetworkPlayer
@@ -332,6 +331,8 @@ MonoBehaviour:
   NetworkBodyCollider: {fileID: 4768544203543697193}
   NetworkLeftHand: {fileID: 6882088422873387827}
   NetworkRightHand: {fileID: 2204990381655782147}
+  LeftHandMesh: {fileID: 8678621474685778441}
+  RightHandHesh: {fileID: 8116171651694126653}
   SteamVRObjects: {fileID: 0}
   PlayerRig: {fileID: 0}
   LocalVRLeftHand: {fileID: 0}
@@ -567,32 +568,6 @@ MonoBehaviour:
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   target: {fileID: 337731653146304522}
---- !u!114 &3165518046636426782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5790256193614194026}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1713f05fee1ffb54ba86a091e53c2d95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  PlayerRig: {fileID: 0}
-  SteamVRObjects: {fileID: 0}
-  GrabEventLeft:
-    actionPath: /actions/default/in/GrabPinch
-    needsReinit: 0
-  GrabEventRight:
-    actionPath: /actions/default/in/GrabPinch
-    needsReinit: 0
-  InputSourceLeft: 1
-  InputSourceRight: 2
-  leftHand: {fileID: 0}
-  rightHand: {fileID: 0}
 --- !u!114 &8954291162210778248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -895,11 +870,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 641e9d2f5c6b4cb438161abef3be8300, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 641e9d2f5c6b4cb438161abef3be8300, type: 3}
 --- !u!4 &8116171651697473313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400060, guid: 641e9d2f5c6b4cb438161abef3be8300,
+    type: 3}
+  m_PrefabInstance: {fileID: 8116171651697339805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &8116171651694126653 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: 641e9d2f5c6b4cb438161abef3be8300,
     type: 3}
   m_PrefabInstance: {fileID: 8116171651697339805}
   m_PrefabAsset: {fileID: 0}
@@ -963,6 +948,12 @@ PrefabInstance:
 --- !u!4 &8678621474680990485 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400060, guid: 65d8eda911e0ba548a3674f65c43308b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8678621474680598953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &8678621474685778441 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13700000, guid: 65d8eda911e0ba548a3674f65c43308b,
     type: 3}
   m_PrefabInstance: {fileID: 8678621474680598953}
   m_PrefabAsset: {fileID: 0}
