@@ -4,6 +4,7 @@ using UnityEngine;
 using Mirror;
 using Valve.VR;
 
+[RequireComponent(typeof(NetworkIdentity))]
 public class InteractableRPCController : NetworkBehaviour
 {
     
