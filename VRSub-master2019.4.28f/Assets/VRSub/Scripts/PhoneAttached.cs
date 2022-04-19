@@ -16,7 +16,7 @@ public class PhoneAttached : MonoBehaviour
 
     private void Awake(){        
         defaultPosition = GameObject.FindGameObjectWithTag("Base").transform.position;
-        defaultRotation = new Vector3(-90f, 180f, 0f);
+        defaultRotation = new Vector3(-90f, 90f, 0f);
         rb = GetComponent<Rigidbody>();
         audio = GetComponent<AudioSource>();
         phone = this.gameObject;
