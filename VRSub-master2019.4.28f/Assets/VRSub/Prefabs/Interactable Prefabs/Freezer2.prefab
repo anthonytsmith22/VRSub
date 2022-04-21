@@ -622,7 +622,7 @@ MonoBehaviour:
   childCollider: {fileID: 0}
   linearMapping: {fileID: 4025473993287112583}
   hoverLock: 0
-  limited: 0
+  limited: 1
   frozenDistanceMinMaxThreshold: {x: 0.1, y: 0.2}
   onFrozenDistanceThreshold:
     m_PersistentCalls:

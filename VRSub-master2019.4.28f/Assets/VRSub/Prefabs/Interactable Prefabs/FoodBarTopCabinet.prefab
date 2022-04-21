@@ -102,7 +102,7 @@ MonoBehaviour:
   childCollider: {fileID: 0}
   linearMapping: {fileID: 6523837084925741516}
   hoverLock: 0
-  limited: 0
+  limited: 1
   frozenDistanceMinMaxThreshold: {x: 0.1, y: 0.2}
   onFrozenDistanceThreshold:
     m_PersistentCalls:
@@ -294,6 +294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: highlightOnHover
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112526320013557205, guid: 160418da94fc03046a5bf412be861bac,
+        type: 3}
+      propertyPath: limited
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6751567172961691400, guid: 160418da94fc03046a5bf412be861bac,
         type: 3}
