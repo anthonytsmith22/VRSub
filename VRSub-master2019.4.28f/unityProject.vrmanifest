@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vrsubmaster2019.4.28f.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Anthony\\MVPCapstoneDelivery\\VRSub\\VRSub-master2019.4.28f\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\kenny\\Desktop\\VRSub\\VRSub-master2019.4.28f\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "VRSub-master2019.4.28f [Testing]"
