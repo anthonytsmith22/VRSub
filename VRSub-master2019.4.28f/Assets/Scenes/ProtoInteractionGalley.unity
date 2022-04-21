@@ -3516,6 +3516,11 @@ PrefabInstance:
       propertyPath: m_ClearFlags
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3664338040147610683, guid: 8108e28f49413a84b826784bf88bd2bd,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 1347317070}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8108e28f49413a84b826784bf88bd2bd, type: 3}
 --- !u!1 &1347317068 stripped
@@ -3555,6 +3560,12 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!4 &1347317070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3664338040137665225, guid: 8108e28f49413a84b826784bf88bd2bd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1347317067}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1355642839 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4542011741922829555, guid: c0cd00463875ccc49849d8b04e82c316,
