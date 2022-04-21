@@ -115,7 +115,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!54 &2239434357193023706
@@ -271,7 +271,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!54 &2438763423678872123
@@ -344,8 +344,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactable: {fileID: 0}
---- !u!64 &8448389894954442547
-MeshCollider:
+--- !u!65 &7268165385896621749
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -354,12 +354,11 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6217379112278455705, guid: 1854d6bf097d4594c86c92601274170a, type: 3}
---- !u!64 &9107464063869663798
-MeshCollider:
+  serializedVersion: 2
+  m_Size: {x: 2.1137881, y: 2.100657, z: 1.9999998}
+  m_Center: {x: -0.0002709031, y: -2.2434046, z: -0.0000009536743}
+--- !u!65 &235335815359836043
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -368,10 +367,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5232504306354803865, guid: b2485527d9f54b74c971e7e6fcce9fc1, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.28320873, y: 0.53169364, z: 0.033323135}
+  m_Center: {x: -0.0008315146, y: -0.059174523, z: 0.012581552}
 --- !u!1001 &6624768091818775521
 PrefabInstance:
   m_ObjectHideFlags: 0

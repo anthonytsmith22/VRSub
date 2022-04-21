@@ -95,6 +95,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SourceObjects:
   - {fileID: 3483068468796856969}
+  SimpleSources: []
   TargetObjects:
   - {fileID: 128838660545429252}
   - {fileID: 739081733242461911}
@@ -148,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SourceObjects:
   - {fileID: 3483068468796856969}
+  SimpleSources: []
   TargetObjects:
   - {fileID: 4835630960301279264}
   - {fileID: 4990605769277967696}

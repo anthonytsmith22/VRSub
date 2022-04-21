@@ -1,7 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &8030422808431035963
-MeshCollider:
+--- !u!65 &4575943126568465425
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,10 +10,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7717168870517179796, guid: 4c14e6f125e0da74cbf8c21985f01c96, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.45719966, y: 0.5206996, z: 0.30479974}
+  m_Center: {x: 0, y: -0.000000029802319, z: 0.15239999}
 --- !u!1 &3710504023408406635
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +96,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!54 &6525557617316524384
@@ -285,7 +284,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!54 &1872770076025449930
@@ -358,8 +357,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactable: {fileID: 0}
---- !u!64 &7468319256404834815
-MeshCollider:
+--- !u!65 &7923453665401204312
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -368,10 +367,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4293751317952506913, guid: 0d5d4db94557c2441a2d289f505d9597, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2.0000002, y: 1.9999998, z: 6.9999986}
+  m_Center: {x: 0, y: 0, z: 3.5393698}
 --- !u!1001 &3030487574397923813
 PrefabInstance:
   m_ObjectHideFlags: 0

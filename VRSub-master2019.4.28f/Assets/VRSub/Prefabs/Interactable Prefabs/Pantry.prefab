@@ -276,6 +276,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2752528641482591553, guid: e3818563ed859514da859a8cc3556d6c,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3713681251264344234, guid: e3818563ed859514da859a8cc3556d6c,
         type: 3}
       propertyPath: limited
@@ -285,6 +290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: hoverLock
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4674083192086345675, guid: e3818563ed859514da859a8cc3556d6c,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5680451430763185638, guid: e3818563ed859514da859a8cc3556d6c,
         type: 3}
@@ -315,6 +325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PantryDoors
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026434766095376965, guid: e3818563ed859514da859a8cc3556d6c,
+        type: 3}
+      propertyPath: highlightOnHover
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3818563ed859514da859a8cc3556d6c, type: 3}

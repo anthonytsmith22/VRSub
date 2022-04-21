@@ -1,7 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &9056732794381907755
-MeshCollider:
+--- !u!65 &1616955820230063017
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,10 +10,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 5439737192064214556, guid: 0a128b719778f1244a17ec5f8fc51adc, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 7.3819227, y: 3.4271398, z: 4.212047}
+  m_Center: {x: -0.006214143, y: 0.04254817, z: -1.1060227}
 --- !u!1 &1767799225763836390
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +96,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &3644782085823966660
@@ -112,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f32883eed859804dbb0c5fedac91496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axisOfRotation: 0
+  axisOfRotation: 2
   childCollider: {fileID: 0}
   linearMapping: {fileID: 4572763366962070205}
   hoverLock: 0

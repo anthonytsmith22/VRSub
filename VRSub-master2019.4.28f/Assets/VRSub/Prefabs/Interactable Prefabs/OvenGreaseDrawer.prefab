@@ -1,7 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &4369005261626451472
-MeshCollider:
+--- !u!65 &6800119492932834912
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,10 +10,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4882626581768795585, guid: d1ef81a74ec9b434e996b8df4c418819, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.6096, y: 0.60959995, z: 0.60959995}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7312369037244931724
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,7 +109,7 @@ MonoBehaviour:
   snapAttachEaseInCompleted: 0
   skeletonPoser: {fileID: 0}
   handFollowTransform: 1
-  highlightOnHover: 1
+  highlightOnHover: 0
   hideHighlight: []
   hoverPriority: 0
 --- !u!114 &868126757944390441
@@ -131,8 +130,8 @@ MonoBehaviour:
   repositionGameObject: 1
   maintainMomemntum: 1
   momemtumDampenRate: 5
---- !u!64 &3910876529496461871
-MeshCollider:
+--- !u!65 &2616757785932553844
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -141,12 +140,11 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8540332261678085214, guid: d1ef81a74ec9b434e996b8df4c418819, type: 3}
---- !u!64 &7241890250865865681
-MeshCollider:
+  serializedVersion: 2
+  m_Size: {x: 0.6096, y: 5.1816, z: 5.4864}
+  m_Center: {x: 0, y: 0.76199996, z: -2.4384}
+--- !u!65 &2594680758500198508
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -155,10 +153,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5302112478801804317, guid: d1ef81a74ec9b434e996b8df4c418819, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.99060005, y: 0.8127999, z: 0.22859997}
+  m_Center: {x: 0.46990004, y: 0, z: 0}
 --- !u!1001 &8274847993719187630
 PrefabInstance:
   m_ObjectHideFlags: 0
