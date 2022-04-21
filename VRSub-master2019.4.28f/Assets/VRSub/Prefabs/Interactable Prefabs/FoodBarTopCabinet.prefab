@@ -107,12 +107,12 @@ MonoBehaviour:
   onFrozenDistanceThreshold:
     m_PersistentCalls:
       m_Calls: []
-  minAngle: -45
+  minAngle: 0
   freezeOnMin: 0
   onMinAngle:
     m_PersistentCalls:
       m_Calls: []
-  maxAngle: 45
+  maxAngle: 95
   freezeOnMax: 0
   onMaxAngle:
     m_PersistentCalls:
@@ -190,7 +190,7 @@ Transform:
   m_GameObject: {fileID: 8887943659059328487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.1907, z: 0}
-  m_LocalScale: {x: 1.015, y: 1.025, z: 1}
+  m_LocalScale: {x: 1.015, y: 1.025, z: 0.5}
   m_Children:
   - {fileID: 5182362393748055833}
   - {fileID: 2315337642937626593}
@@ -299,6 +299,16 @@ PrefabInstance:
         type: 3}
       propertyPath: limited
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112526320013557205, guid: 160418da94fc03046a5bf412be861bac,
+        type: 3}
+      propertyPath: maxAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112526320013557205, guid: 160418da94fc03046a5bf412be861bac,
+        type: 3}
+      propertyPath: minAngle
+      value: -95
       objectReference: {fileID: 0}
     - target: {fileID: 6751567172961691400, guid: 160418da94fc03046a5bf412be861bac,
         type: 3}
