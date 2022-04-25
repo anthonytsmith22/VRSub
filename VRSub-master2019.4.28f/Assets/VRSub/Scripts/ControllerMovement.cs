@@ -20,9 +20,13 @@ public class ControllerMovement : MonoBehaviour
     [SerializeField] float MovementSpeed;
 
     void Awake(){
+        // Ignore collisions with character controller and body collider from steamvrobjects
         characterController = GetComponent<CharacterController>();
         Physics.IgnoreCollision(characterController, BodyCollider);
 
+        // Setup event listeners for movement system
+        // Left controller for moving
+        // Right controller for rotating
         SteamVRMovement.AddOnAxisListener(Move, InputSourceLeft);
         SteamVRMovement.AddOnAxisListener(Rotate, InputSourceRight);
     }
@@ -31,16 +35,21 @@ public class ControllerMovement : MonoBehaviour
     [SerializeField] GameObject RightHandColliderController;
 
     void Start(){
+        // Have VR hand colliders ignore collisions witht the character controller
+        // Find HandColliderLeft and Right that gets spawned at the start of runtime
         LeftHandColliderController = GameObject.Find("HandColliderLeft(Clone)").gameObject;
         RightHandColliderController = GameObject.Find("HandColliderRight(Clone)").gameObject;
 
+        // Fetch the HandCollider components off both hand collider gameObjects
         Valve.VR.InteractionSystem.HandCollider leftHandColliders = LeftHandColliderController.GetComponent<Valve.VR.InteractionSystem.HandCollider>();
         Valve.VR.InteractionSystem.HandCollider rightHandColliders = RightHandColliderController.GetComponent<Valve.VR.InteractionSystem.HandCollider>();
 
+        // Set the Collision layermask for the colliders to only collide with Colliders with the tag "Interactable"
         LayerMask newMask = LayerMask.GetMask("Interactable");
         leftHandColliders.collisionMask = newMask;
-        rightHandColliders.collisionMask = newMask;
+        rightHandColliders.collisionMask = newMask; 
 
+        // Get all the colliders in both hands, iterate through setting them to ignore collisions with CharacterController
         Collider[] leftColliders = leftHandColliders.colliders;
         Collider[] rightColliders = rightHandColliders.colliders;
 
