@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//This file allows for audio files to be put in for each button on the Wallphone.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,13 +20,11 @@ public class PhoneAudio : MonoBehaviour
     public AudioClip buttonStar;    
     public AudioSource audio;
 
-    // Start is called before the first frame update
     void Start()
     {
         audio = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     public void playButton1() {
         audio.PlayOneShot(button1, 1F);        
     }

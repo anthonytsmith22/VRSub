@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//This file modifies the wallphone when unattaching/reattaching to base.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +13,6 @@ public class PhoneAttached : MonoBehaviour
     private Rigidbody rb;
     private GameObject phone;
     public AudioSource audio;
-    
     
 
     private void Awake(){        
@@ -31,14 +32,14 @@ public class PhoneAttached : MonoBehaviour
         audio.Stop();       
     }    
 
-    public void OnHandAttach() {
+    public void OnHandAttach() { //unattach phone from base
         rb.useGravity = true;        
         rb.constraints = RigidbodyConstraints.None;    
         
         playAudio();     
     }
 
-    public void OnHandDetach() {
+    public void OnHandDetach() { //reattach phone to base
         if (collidingWithBase) {        
             rb.useGravity = false;            
             transform.position = defaultPosition;
@@ -48,7 +49,7 @@ public class PhoneAttached : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other) {
+    private void OnCollisionEnter(Collision other) { //check for collision to trigger OnHandDetach
         if(other.transform.tag == ("Base")) {       
             collidingWithBase = true; 
             OnHandDetach();
@@ -58,7 +59,7 @@ public class PhoneAttached : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit(Collision other) {
+    private void OnCollisionExit(Collision other) { //check for collision to trigger OnHandAttach
         if(other.transform.tag == ("Base")) {
             collidingWithBase = false; 
             OnHandAttach();

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//This file syncs the handle movement with the lid so that the lid will move up as the handle is being moved up.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
@@ -22,7 +24,7 @@ public class Dishwasher : MonoBehaviour
         SyncLidWithHandle();
     }
 
-    private void SyncLidWithHandle(){
+    private void SyncLidWithHandle(){ 
         float newOffset = Mathf.Clamp(lidOffset * mappingValue, 0.0f, lidOffset);
         Vector3 newLidPos = new Vector3(startPos.x, startPos.y+newOffset, startPos.z);
         DishwasherLid.position = newLidPos;
